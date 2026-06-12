@@ -27,12 +27,12 @@ for (const t of targets) {
       .png()
       .toBuffer();
     img = sharp({
-      create: { width: t.size, height: t.size, channels: 4, background: '#ff86d0' },
+      create: { width: t.size, height: t.size, channels: 4, background: '#fffdf7' },
     }).composite([{ input: inner, gravity: 'centre' }]);
   } else {
     img = img.resize(t.size, t.size);
   }
-  if (t.flatten) img = img.flatten({ background: '#ff86d0' });
+  if (t.flatten) img = img.flatten({ background: '#fffdf7' });
   await img.png().toFile(resolve(iconsDir, t.name));
   console.log(`✓ ${t.name}`);
 }
