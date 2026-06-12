@@ -7,7 +7,7 @@ Minijuegos alegres y sin prisa para **español avanzado (C1/C2)** — una PWA pe
 
 | Juego | Cómo se juega |
 |---|---|
-| 🟩 **La Palabra** | Adivina la palabra de 5 letras en 6 intentos (estilo Wordle). Una palabra del día (nivel accesible, nunca rarezas) que alimenta tu racha 🔥 + práctica libre ilimitada. Al resolver: baile de letras, definición y traducción. |
+| 🟩 **La Palabra** | Adivina la palabra de 5 letras en 6 intentos (estilo Wordle). Una palabra del día (nivel accesible, nunca rarezas) que alimenta tu racha 🔥 + práctica libre ilimitada. Funciona con el teclado físico en el ordenador. Al resolver: baile de letras, definición y traducción. |
 | ❓ **Quiz** | Rondas de 10 preguntas de elección múltiple por tema (vocabulario, gramática, falsos amigos, modismos). Tras cada respuesta, una explicación grande; estrellas y confeti al final. |
 | 🃏 **Parejas** | Une cada palabra española con su traducción alemana (o, en difícil, con su significado en español). |
 | 🧩 **Grupos** | 16 palabras, 4 categorías ocultas (estilo Connections) — con trampas deliberadas y explicación didáctica al resolver. |
@@ -27,7 +27,8 @@ Estadísticas muestra tu memoria por tema.
 - **300 palabras** de 5 letras con definición y glosa alemana para La Palabra
 - **45 rompecabezas** de Grupos con explicaciones
 
-`npm run validate-content` comprueba esquemas, ids únicos y referencias cruzadas.
+`npm run validate-content` comprueba esquemas, ids únicos, referencias cruzadas, que el hueco
+de cada frase coincida con la respuesta y que la respuesta no se repita entre los distractores.
 Añadir contenido = añadir un JSON en `public/content/` y listarlo en `manifest.json`.
 
 ## Estructura del proyecto

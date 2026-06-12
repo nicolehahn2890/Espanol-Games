@@ -115,6 +115,22 @@ export function PalabraScreen() {
     [guesses, target],
   );
 
+  // teclado físico (escritorio)
+  useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.key === 'Enter') {
+        pressKey('ENTER');
+      } else if (e.key === 'Backspace') {
+        pressKey('BACK');
+      } else if (/^[a-zñA-ZÑ]$/.test(e.key)) {
+        pressKey(e.key.toUpperCase());
+      }
+    }
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  });
+
   const header = (
     <div className="screen-header">
       <Link className="back-btn" to="/">

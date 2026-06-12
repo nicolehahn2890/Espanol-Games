@@ -81,11 +81,9 @@ export function GruposScreen() {
     } else {
       const oneAway = isOneAway(puzzle, selection);
       setHint(oneAway ? '¡Casi! Te falta una.' : null);
-      setMistakes((m) => {
-        const next = m + 1;
-        if (next >= MAX_MISTAKES) finish(false, solvedGroups.length, next);
-        return next;
-      });
+      const nextMistakes = mistakes + 1;
+      setMistakes(nextMistakes);
+      if (nextMistakes >= MAX_MISTAKES) finish(false, solvedGroups.length, nextMistakes);
       sfx('wrong');
       screenShake(6, 0.2);
       setSelection([]);

@@ -47,13 +47,23 @@ for (const packName of manifest.packs) {
   }
 }
 
-// segunda pasada: referencias cruzadas
+// segunda pasada: referencias cruzadas y coherencia de los retos
 for (const packName of manifest.packs) {
   try {
     const pack = packSchema.parse(readJson(`${packName}.json`));
     for (const ch of pack.challenges ?? []) {
       if (ch.itemRef && !seen.has(ch.itemRef)) {
         console.error(`✗ ${packName}: ${ch.id} apunta a itemRef inexistente «${ch.itemRef}»`);
+        failed = true;
+      }
+      const answer = ch.answer.trim().toLowerCase();
+      if ((ch.distractors ?? []).some((d) => d.trim().toLowerCase() === answer)) {
+        console.error(`✗ ${packName}: ${ch.id} repite la respuesta entre los distractores`);
+        failed = true;
+      }
+      const gap = ch.sentence.match(/\{([^}]+)\}/)?.[1];
+      if (gap !== ch.answer) {
+        console.error(`✗ ${packName}: ${ch.id} el hueco «${gap}» no coincide con la respuesta`);
         failed = true;
       }
     }

@@ -71,6 +71,10 @@ export async function loadContent(): Promise<ContentIndex> {
     cached = indexPacks(packs);
     return cached;
   })();
+  // si la carga falla (p. ej. sin red en el primer arranque), permite reintentar
+  loading.catch(() => {
+    loading = null;
+  });
   return loading;
 }
 

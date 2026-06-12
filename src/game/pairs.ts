@@ -31,7 +31,7 @@ export function buildPairsBoard(
   if (difficulty === 'dificil') {
     const idioms = shuffle(rng, [...content.idioms.values()]);
     for (const idiom of idioms.slice(0, PAIRS_PER_BOARD)) {
-      pairs.push({ pairId: idiom.id, es: idiom.phrase, match: idiom.meaningEs });
+      pairs.push({ pairId: idiom.id, es: idiom.phrase, match: shorten(idiom.meaningEs) });
     }
   }
   if (pairs.length < PAIRS_PER_BOARD) {

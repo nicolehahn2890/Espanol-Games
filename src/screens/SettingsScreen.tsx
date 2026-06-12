@@ -98,7 +98,7 @@ export function SettingsScreen() {
         }}
       />
       {message && (
-        <p className="text-gold" style={{ fontSize: 14, marginTop: 12, color: 'var(--orange)' }}>
+        <p style={{ fontSize: 14, marginTop: 12, color: 'var(--orange)', fontWeight: 700 }}>
           {message}
         </p>
       )}
