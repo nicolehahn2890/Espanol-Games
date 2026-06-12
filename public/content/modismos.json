@@ -1,0 +1,608 @@
+{
+  "pack": "modismos",
+  "version": 1,
+  "idioms": [
+    {
+      "id": "i-0001",
+      "phrase": "estar en tela de juicio",
+      "meaningEs": "Estar algo sometido a duda o cuestionamiento; no darse por seguro o probado.",
+      "literalDe": "im Stoff des Urteils sein",
+      "example": "Desde que se filtraron los correos, la honestidad del consejero está en tela de juicio.",
+      "register": "culto"
+    },
+    {
+      "id": "i-0002",
+      "phrase": "no tener pelos en la lengua",
+      "meaningEs": "Decir lo que se piensa con total franqueza, sin suavizarlo ni callarse nada.",
+      "literalDe": "keine Haare auf der Zunge haben",
+      "example": "Pregúntale a Marta qué opina del proyecto: no tiene pelos en la lengua.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0003",
+      "phrase": "irse por las ramas",
+      "meaningEs": "Desviarse del asunto principal y perderse en detalles o digresiones.",
+      "literalDe": "auf die Äste abschweifen",
+      "example": "El conferenciante se fue por las ramas y no llegó a explicar lo prometido.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0004",
+      "phrase": "a duras penas",
+      "meaningEs": "Con gran dificultad o esfuerzo; apenas.",
+      "literalDe": "unter harten Mühen",
+      "example": "Con su sueldo llega a duras penas a fin de mes.",
+      "register": "neutro"
+    },
+    {
+      "id": "i-0005",
+      "phrase": "dar en el clavo",
+      "meaningEs": "Acertar plenamente con lo correcto o con la solución de algo.",
+      "literalDe": "den Nagel (auf den Kopf) treffen",
+      "example": "Con ese diagnóstico, la doctora dio en el clavo a la primera.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0006",
+      "phrase": "tomar el pelo",
+      "meaningEs": "Burlarse de alguien o engañarlo en broma.",
+      "literalDe": "jemandem das Haar nehmen",
+      "example": "¿Quinientos euros por ese trasto? ¡Me estás tomando el pelo!",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0007",
+      "phrase": "hacer la vista gorda",
+      "meaningEs": "Fingir que no se ve una falta o irregularidad para no tener que intervenir.",
+      "literalDe": "den dicken Blick machen",
+      "example": "El inspector hizo la vista gorda con las cajas que faltaban en el inventario.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0008",
+      "phrase": "de buenas a primeras",
+      "meaningEs": "De repente, sin previo aviso ni preparación.",
+      "literalDe": "von Guten zu Ersten",
+      "example": "De buenas a primeras anunció que dejaba el trabajo y se mudaba a Lisboa.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0009",
+      "phrase": "poner el grito en el cielo",
+      "meaningEs": "Protestar o escandalizarse de forma vehemente.",
+      "literalDe": "den Schrei in den Himmel setzen",
+      "example": "Los vecinos pusieron el grito en el cielo cuando supieron que talarían los plátanos de la avenida.",
+      "register": "neutro"
+    },
+    {
+      "id": "i-0010",
+      "phrase": "llevarse el gato al agua",
+      "meaningEs": "Salirse con la suya; imponerse en una disputa o negociación difícil.",
+      "literalDe": "die Katze zum Wasser tragen",
+      "example": "Las dos cadenas pujaban por los derechos, pero al final la más pequeña se llevó el gato al agua.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0011",
+      "phrase": "estar entre la espada y la pared",
+      "meaningEs": "Hallarse en una situación sin salida, obligado a elegir entre dos opciones igual de malas.",
+      "literalDe": "zwischen Schwert und Wand stehen",
+      "example": "O acepta el traslado o pierde el empleo: está entre la espada y la pared.",
+      "register": "neutro"
+    },
+    {
+      "id": "i-0012",
+      "phrase": "matar dos pájaros de un tiro",
+      "meaningEs": "Resolver dos asuntos con una sola acción.",
+      "literalDe": "zwei Vögel mit einem Schuss töten (dt.: zwei Fliegen mit einer Klappe)",
+      "example": "Si recoges el paquete cuando vayas al gimnasio, matas dos pájaros de un tiro.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0013",
+      "phrase": "no dar su brazo a torcer",
+      "meaningEs": "Negarse a ceder o a cambiar de opinión pese a las presiones.",
+      "literalDe": "sich den Arm nicht verdrehen lassen",
+      "example": "Le ofrecieron más dinero y mejores plazos, pero no dio su brazo a torcer.",
+      "register": "neutro"
+    },
+    {
+      "id": "i-0014",
+      "phrase": "quedarse de piedra",
+      "meaningEs": "Quedarse atónito o paralizado por la sorpresa.",
+      "literalDe": "zu Stein werden",
+      "example": "Me quedé de piedra cuando lo vi entrar del brazo de mi exjefa.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0015",
+      "phrase": "costar un ojo de la cara",
+      "meaningEs": "Ser algo carísimo.",
+      "literalDe": "ein Auge aus dem Gesicht kosten",
+      "example": "La reparación del tejado nos costó un ojo de la cara.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0016",
+      "phrase": "estar hasta las narices",
+      "meaningEs": "Estar harto de algo o de alguien; no aguantar más.",
+      "literalDe": "bis zu den Nasenlöchern (voll) sein (dt.: die Nase voll haben)",
+      "example": "Estoy hasta las narices de que me cambien el turno sin avisar.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0017",
+      "phrase": "tirar la toalla",
+      "meaningEs": "Rendirse; abandonar un empeño por considerarlo perdido.",
+      "literalDe": "das Handtuch werfen",
+      "example": "Después de cuatro intentos fallidos de oposición, decidió tirar la toalla.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0018",
+      "phrase": "ir al grano",
+      "meaningEs": "Tratar lo esencial de un asunto sin rodeos ni preámbulos.",
+      "literalDe": "zum Korn gehen (dt.: zur Sache kommen)",
+      "example": "Tenemos diez minutos, así que ve al grano: ¿cuánto va a costar?",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0019",
+      "phrase": "a regañadientes",
+      "meaningEs": "De mala gana, con disgusto y resistencia.",
+      "literalDe": "zähneknirschend",
+      "example": "Firmó el acuerdo a regañadientes, presionado por sus socios.",
+      "register": "neutro"
+    },
+    {
+      "id": "i-0020",
+      "phrase": "ponerse las pilas",
+      "meaningEs": "Espabilar y empezar a esforzarse en serio.",
+      "literalDe": "sich die Batterien einlegen",
+      "example": "Si quieres aprobar en junio, ya puedes ponerte las pilas.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0021",
+      "phrase": "estar en las nubes",
+      "meaningEs": "Estar distraído, ajeno a lo que sucede alrededor.",
+      "literalDe": "in den Wolken sein",
+      "example": "Perdona, ¿qué decías? Estaba en las nubes.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0022",
+      "phrase": "echar leña al fuego",
+      "meaningEs": "Agravar un conflicto con palabras o acciones que lo avivan.",
+      "literalDe": "Holz ins Feuer werfen (dt.: Öl ins Feuer gießen)",
+      "example": "En vez de mediar, su comentario solo sirvió para echar leña al fuego.",
+      "register": "neutro"
+    },
+    {
+      "id": "i-0023",
+      "phrase": "no tener ni pies ni cabeza",
+      "meaningEs": "Carecer algo por completo de lógica o sentido.",
+      "literalDe": "weder Füße noch Kopf haben (dt.: weder Hand noch Fuß)",
+      "example": "El plan que propuso no tiene ni pies ni cabeza: es imposible de financiar.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0024",
+      "phrase": "dormirse en los laureles",
+      "meaningEs": "Confiarse tras un éxito y dejar de esforzarse.",
+      "literalDe": "auf den Lorbeeren einschlafen (dt.: sich auf den Lorbeeren ausruhen)",
+      "example": "Ganaron la liga, pero se durmieron en los laureles y al año siguiente bajaron a segunda.",
+      "register": "neutro"
+    },
+    {
+      "id": "i-0025",
+      "phrase": "pillar con las manos en la masa",
+      "meaningEs": "Sorprender a alguien en el momento justo de cometer una falta o delito.",
+      "literalDe": "mit den Händen im Teig erwischen (dt.: auf frischer Tat)",
+      "example": "La cámara de seguridad lo pilló con las manos en la masa, vaciando la caja.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0026",
+      "phrase": "ahogarse en un vaso de agua",
+      "meaningEs": "Agobiarse en exceso por un problema insignificante.",
+      "literalDe": "in einem Glas Wasser ertrinken",
+      "example": "No te ahogues en un vaso de agua: el informe se rehace en una tarde.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0027",
+      "phrase": "arrimar el hombro",
+      "meaningEs": "Colaborar y ayudar en un esfuerzo común.",
+      "literalDe": "die Schulter heranrücken (dt.: mit anpacken)",
+      "example": "Si todos arrimamos el hombro, tendremos la cosecha recogida antes de la tormenta.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0028",
+      "phrase": "cargar con el muerto",
+      "meaningEs": "Asumir la culpa o la tarea desagradable que corresponde a otros.",
+      "literalDe": "den Toten tragen",
+      "example": "El error fue del departamento entero, pero como siempre me tocó a mí cargar con el muerto.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0029",
+      "phrase": "hablar por los codos",
+      "meaningEs": "Hablar muchísimo, sin parar.",
+      "literalDe": "durch die Ellbogen reden",
+      "example": "El taxista hablaba por los codos; me contó su vida entera en veinte minutos.",
+      "register": "coloquial"
+    },
+    {
+      "id": "i-0030",
+      "phrase": "buscarle tres pies al gato",
+      "meaningEs": "Empeñarse en encontrar complicaciones donde no las hay.",
+      "literalDe": "der Katze drei Beine suchen",
+      "example": "La cláusula está clarísima; no le busques tres pies al gato.",
+      "register": "coloquial"
+    }
+  ],
+  "challenges": [
+    {
+      "id": "c-0290",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 3,
+      "sentence": "Tras el escándalo de los sobresueldos, la imparcialidad del tribunal quedó en {tela} de juicio.",
+      "answer": "tela",
+      "distractors": ["trama", "paño", "hilo"],
+      "explanation": "La expresión fija es «estar/quedar en tela de juicio»: estar sometido a duda o cuestionamiento. Ningún otro tejido sirve: la locución no admite variación.",
+      "itemRef": "i-0001",
+      "source": "curado"
+    },
+    {
+      "id": "c-0291",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Cuando decimos que una periodista «no tiene pelos en la lengua», queremos decir que {dice lo que piensa sin rodeos}.",
+      "answer": "dice lo que piensa sin rodeos",
+      "distractors": ["pronuncia con dificultad", "guarda silencio por prudencia", "habla demasiado deprisa"],
+      "explanation": "«No tener pelos en la lengua» significa hablar con total franqueza, sin callarse nada. No alude ni a la pronunciación ni a la velocidad al hablar.",
+      "itemRef": "i-0002",
+      "source": "curado"
+    },
+    {
+      "id": "c-0292",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Contesta a lo que te he preguntado y deja de irte por las {ramas}.",
+      "answer": "ramas",
+      "distractors": ["hojas", "nubes", "raíces"],
+      "explanation": "«Irse por las ramas» es desviarse del asunto principal. La imagen es la del que trepa por las ramas en lugar de ir al tronco; «estar en las nubes» existe, pero significa estar distraído.",
+      "itemRef": "i-0003",
+      "source": "curado"
+    },
+    {
+      "id": "c-0293",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Si terminó la maratón «a duras penas», la terminó {con muchísima dificultad}.",
+      "answer": "con muchísima dificultad",
+      "distractors": ["sin esfuerzo alguno", "en un tiempo récord", "triste y arrepentido"],
+      "explanation": "«A duras penas» significa con gran dificultad, apenas. No tiene relación con la pena en el sentido de tristeza ni con la rapidez.",
+      "itemRef": "i-0004",
+      "source": "curado"
+    },
+    {
+      "id": "c-0294",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Con ese regalo diste en el {clavo}: era exactamente lo que ella quería.",
+      "answer": "clavo",
+      "distractors": ["punto", "martillo", "tornillo"],
+      "explanation": "«Dar en el clavo» es acertar plenamente, como el alemán «den Nagel auf den Kopf treffen». Ni el punto, ni el martillo ni el tornillo forman parte de la locución.",
+      "itemRef": "i-0005",
+      "source": "curado"
+    },
+    {
+      "id": "c-0295",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Si tus amigos «te están tomando el pelo», en realidad te están {gastando una broma}.",
+      "answer": "gastando una broma",
+      "distractors": ["cortando el pelo", "haciendo un cumplido", "cobrando de más"],
+      "explanation": "«Tomar el pelo a alguien» es burlarse de él o engañarlo en broma. Nada que ver con la peluquería ni con los precios (aunque a veces se use ante un precio abusivo, el sentido sigue siendo el de burla).",
+      "itemRef": "i-0006",
+      "source": "curado"
+    },
+    {
+      "id": "c-0296",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "El árbitro hizo la vista {gorda} y no señaló el penalti.",
+      "answer": "gorda",
+      "distractors": ["ciega", "corta", "larga"],
+      "explanation": "La locución fija es «hacer la vista gorda»: fingir no ver una falta. «Vista ciega» o «vista corta» no existen como modismos con este sentido.",
+      "itemRef": "i-0007",
+      "source": "curado"
+    },
+    {
+      "id": "c-0297",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 3,
+      "sentence": "«De buenas a primeras» significa {de repente, sin previo aviso}.",
+      "answer": "de repente, sin previo aviso",
+      "distractors": ["con muy buena intención", "a primera hora de la mañana", "de forma lenta y gradual"],
+      "explanation": "«De buenas a primeras» expresa que algo ocurre de golpe, sin preparación ni aviso. No se refiere ni a la bondad ni a la hora del día.",
+      "itemRef": "i-0008",
+      "source": "curado"
+    },
+    {
+      "id": "c-0298",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Cuando anunciaron la subida de las tasas, los estudiantes pusieron el {grito} en el cielo.",
+      "answer": "grito",
+      "distractors": ["puño", "ojo", "alma"],
+      "explanation": "«Poner el grito en el cielo» es protestar o escandalizarse vehementemente. Las demás combinaciones no existen como locución.",
+      "itemRef": "i-0009",
+      "source": "curado"
+    },
+    {
+      "id": "c-0299",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 3,
+      "sentence": "Si en la negociación fue el sindicato quien «se llevó el gato al agua», fue el sindicato quien {se salió con la suya}.",
+      "answer": "se salió con la suya",
+      "distractors": ["acabó perdiendo", "hizo el trabajo más ingrato", "evitó pronunciarse"],
+      "explanation": "«Llevarse el gato al agua» significa imponerse o vencer en una disputa reñida, lograr lo que se pretendía. Es lo contrario de perder o de quedarse al margen.",
+      "itemRef": "i-0010",
+      "source": "curado"
+    },
+    {
+      "id": "c-0300",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "O denuncio a mi socio o pierdo la empresa: estoy entre la espada y la {pared}.",
+      "answer": "pared",
+      "distractors": ["muralla", "puerta", "daga"],
+      "explanation": "La locución fija es «estar entre la espada y la pared»: verse obligado a elegir entre dos opciones igual de malas, sin escapatoria.",
+      "itemRef": "i-0011",
+      "source": "curado"
+    },
+    {
+      "id": "c-0301",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Si al ir al banco aprovechas para recoger el traje de la tintorería, «matas dos pájaros de un tiro», es decir, {resuelves dos cosas de una sola vez}.",
+      "answer": "resuelves dos cosas de una sola vez",
+      "distractors": ["haces algo muy arriesgado", "pierdes la mañana entera", "actúas con crueldad innecesaria"],
+      "explanation": "«Matar dos pájaros de un tiro» equivale al alemán «zwei Fliegen mit einer Klappe schlagen»: lograr dos objetivos con una sola acción.",
+      "itemRef": "i-0012",
+      "source": "curado"
+    },
+    {
+      "id": "c-0302",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Le presentamos mil argumentos, pero no dio su {brazo} a torcer.",
+      "answer": "brazo",
+      "distractors": ["codo", "puño", "cuello"],
+      "explanation": "«No dar su brazo a torcer» es negarse a ceder o a cambiar de opinión. La locución solo funciona con «brazo».",
+      "itemRef": "i-0013",
+      "source": "curado"
+    },
+    {
+      "id": "c-0303",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Si al oír la noticia «se quedó de piedra», es que {se quedó atónito}.",
+      "answer": "se quedó atónito",
+      "distractors": ["se puso furioso", "se quedó helado de frío", "se mantuvo firme en su postura"],
+      "explanation": "«Quedarse de piedra» describe la parálisis momentánea que causa una gran sorpresa. No expresa ira ni firmeza, y el frío no pinta nada aquí.",
+      "itemRef": "i-0014",
+      "source": "curado"
+    },
+    {
+      "id": "c-0304",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Es un hotel precioso, pero una noche allí cuesta un {ojo} de la cara.",
+      "answer": "ojo",
+      "distractors": ["diente", "dedo", "pelo"],
+      "explanation": "«Costar un ojo de la cara» significa ser carísimo (también existe «costar un riñón»). Con dientes, dedos o pelos no hay locución.",
+      "itemRef": "i-0015",
+      "source": "curado"
+    },
+    {
+      "id": "c-0305",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Si dice que «está hasta las narices» de las reuniones, es que {está completamente harta de ellas}.",
+      "answer": "está completamente harta de ellas",
+      "distractors": ["está resfriada", "las disfruta muchísimo", "apenas puede respirar en ellas"],
+      "explanation": "«Estar hasta las narices» equivale al alemán «die Nase voll haben»: estar harto, no aguantar más. No describe ningún estado físico real.",
+      "itemRef": "i-0016",
+      "source": "curado"
+    },
+    {
+      "id": "c-0306",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Tras el tercer suspenso estuvo a punto de tirar la {toalla}, pero decidió presentarse una vez más.",
+      "answer": "toalla",
+      "distractors": ["manta", "camiseta", "esponja"],
+      "explanation": "«Tirar la toalla» (como en el boxeo y como el alemán «das Handtuch werfen») es rendirse, abandonar un empeño.",
+      "itemRef": "i-0017",
+      "source": "curado"
+    },
+    {
+      "id": "c-0307",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Cuando alguien te pide que «vayas al grano», te está pidiendo que {digas lo esencial sin rodeos}.",
+      "answer": "digas lo esencial sin rodeos",
+      "distractors": ["hables más despacio", "bajes el tono de voz", "des todos los detalles posibles"],
+      "explanation": "«Ir al grano» (zur Sache kommen) es centrarse en lo esencial sin preámbulos. Es justo lo contrario de extenderse en detalles o de irse por las ramas.",
+      "itemRef": "i-0018",
+      "source": "curado"
+    },
+    {
+      "id": "c-0308",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 3,
+      "sentence": "Al final aceptó la propuesta, aunque a {regañadientes} y dejando claro su desacuerdo.",
+      "answer": "regañadientes",
+      "distractors": ["rajatabla", "sabiendas", "hurtadillas"],
+      "explanation": "«A regañadientes» significa de mala gana, con resistencia (zähneknirschend). «A rajatabla» es con rigor absoluto, «a sabiendas» es con pleno conocimiento y «a hurtadillas» es a escondidas.",
+      "itemRef": "i-0019",
+      "source": "curado"
+    },
+    {
+      "id": "c-0309",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Si el entrenador les dice que «se pongan las pilas», les está exigiendo que {espabilen y se esfuercen más}.",
+      "answer": "espabilen y se esfuercen más",
+      "distractors": ["compren material nuevo", "descansen unos días", "se cambien de ropa rápido"],
+      "explanation": "«Ponerse las pilas» es espabilar, ponerse a trabajar con energía y seriedad. Las pilas son metafóricas: nadie compra baterías.",
+      "itemRef": "i-0020",
+      "source": "curado"
+    },
+    {
+      "id": "c-0310",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "No se enteró de nada en la reunión porque estaba en las {nubes}.",
+      "answer": "nubes",
+      "distractors": ["ramas", "estrellas", "alturas"],
+      "explanation": "«Estar en las nubes» es estar distraído, ausente. «Irse por las ramas» existe, pero significa divagar al hablar, no estar despistado.",
+      "itemRef": "i-0021",
+      "source": "curado"
+    },
+    {
+      "id": "c-0311",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Sacar el tema de la herencia en plena discusión familiar fue «echar leña al fuego», o sea, {avivar aún más el conflicto}.",
+      "answer": "avivar aún más el conflicto",
+      "distractors": ["caldear agradablemente el ambiente", "ayudar a reconciliar a todos", "cambiar de tema con tacto"],
+      "explanation": "«Echar leña al fuego» (Öl ins Feuer gießen) es agravar una disputa con palabras o actos que la intensifican. Es lo contrario de mediar o apaciguar.",
+      "itemRef": "i-0022",
+      "source": "curado"
+    },
+    {
+      "id": "c-0312",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "El argumento de la película no tiene ni {pies} ni cabeza.",
+      "answer": "pies",
+      "distractors": ["manos", "ojos", "brazos"],
+      "explanation": "«No tener ni pies ni cabeza» significa carecer por completo de lógica. Ojo a la interferencia: el alemán dice «weder Hand noch Fuß», pero el español fija «pies y cabeza».",
+      "itemRef": "i-0023",
+      "source": "curado"
+    },
+    {
+      "id": "c-0313",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Advertir a un campeón de que «no se duerma en los laureles» es pedirle que {no se confíe tras el éxito}.",
+      "answer": "no se confíe tras el éxito",
+      "distractors": ["duerma más horas", "celebre la victoria como es debido", "abandone la competición a tiempo"],
+      "explanation": "«Dormirse en los laureles» (sich auf den Lorbeeren ausruhen) es dejar de esforzarse por confiarse tras un triunfo. La advertencia pide mantener el nivel de exigencia.",
+      "itemRef": "i-0024",
+      "source": "curado"
+    },
+    {
+      "id": "c-0314",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "El cajero llevaba meses sisando hasta que lo pillaron con las manos en la {masa}.",
+      "answer": "masa",
+      "distractors": ["caja", "bolsa", "harina"],
+      "explanation": "«Pillar a alguien con las manos en la masa» es sorprenderlo en plena falta, in fraganti (auf frischer Tat). Aunque robara de la caja, la locución fija exige «masa».",
+      "itemRef": "i-0025",
+      "source": "curado"
+    },
+    {
+      "id": "c-0315",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Decirle a alguien que «no se ahogue en un vaso de agua» es pedirle que {no se agobie por un problema menor}.",
+      "answer": "no se agobie por un problema menor",
+      "distractors": ["beba con más cuidado", "aprenda a nadar de una vez", "no se meta en asuntos ajenos"],
+      "explanation": "«Ahogarse en un vaso de agua» es angustiarse de forma desproporcionada ante una dificultad insignificante. El agua y el vaso son pura metáfora.",
+      "itemRef": "i-0026",
+      "source": "curado"
+    },
+    {
+      "id": "c-0316",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Si todos arrimamos el {hombro}, terminaremos la mudanza en una sola tarde.",
+      "answer": "hombro",
+      "distractors": ["brazo", "codo", "cuerpo"],
+      "explanation": "«Arrimar el hombro» es colaborar en un esfuerzo común (mit anpacken). «Empinar el codo» existe, pero significa beber alcohol en exceso: cuidado con mezclarlas.",
+      "itemRef": "i-0027",
+      "source": "curado"
+    },
+    {
+      "id": "c-0317",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 3,
+      "sentence": "Si en la oficina siempre «le toca cargar con el muerto», es que siempre {le endosan la culpa o la tarea ingrata}.",
+      "answer": "le endosan la culpa o la tarea ingrata",
+      "distractors": ["trabaja en el turno de noche", "lleva las cajas más pesadas", "organiza las despedidas"],
+      "explanation": "«Cargar con el muerto» es asumir la culpa o la tarea desagradable que corresponde a otros. No hay difuntos ni pesos reales de por medio.",
+      "itemRef": "i-0028",
+      "source": "curado"
+    },
+    {
+      "id": "c-0318",
+      "type": "cloze-choice",
+      "domain": "modismos",
+      "difficulty": 2,
+      "sentence": "Mi vecina habla por los {codos}: tarda media hora en contarte que ha comprado el pan.",
+      "answer": "codos",
+      "distractors": ["labios", "dientes", "hombros"],
+      "explanation": "«Hablar por los codos» es hablar muchísimo, sin parar. La locución, con su imagen absurda, solo admite «codos».",
+      "itemRef": "i-0029",
+      "source": "curado"
+    },
+    {
+      "id": "c-0319",
+      "type": "nuance-choice",
+      "domain": "modismos",
+      "difficulty": 3,
+      "sentence": "«No le busques tres pies al gato» significa {no compliques lo que es sencillo}.",
+      "answer": "no compliques lo que es sencillo",
+      "distractors": ["no molestes a los animales", "no persigas causas perdidas", "no pidas favores imposibles"],
+      "explanation": "«Buscarle tres pies al gato» es empeñarse en hallar complicaciones o problemas donde no los hay. El gato, con sus cuatro patas, queda al margen.",
+      "itemRef": "i-0030",
+      "source": "curado"
+    }
+  ]
+}

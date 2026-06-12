@@ -1,0 +1,70 @@
+{
+  "pack": "grammar-topics",
+  "version": 1,
+  "grammarTopics": [
+    {
+      "id": "g-0001",
+      "title": "Indicativo o subjuntivo: cuando ambos modos caben",
+      "level": "C1",
+      "summaryEs": "En muchos contextos el español admite los dos modos y la elección cambia el significado, no la gramaticalidad. Con «aunque», «quizá», «tal vez» o «mientras», el indicativo aserta el contenido y el subjuntivo lo deja en suspenso o lo presenta como virtual. En las relativas, el indicativo señala un antecedente concreto y conocido, y el subjuntivo, uno inespecífico o aún por encontrar. Las temporales («cuando», «en cuanto», «apenas») llevan subjuntivo solo cuando miran al futuro. Dominar estos contrastes es lo que distingue al hablante avanzado del que aplica reglas mecánicas.",
+      "domain": "subjuntivo",
+      "challengeIds": ["c-0001", "c-0002", "c-0003", "c-0004", "c-0005", "c-0006", "c-0007", "c-0008", "c-0009", "c-0010", "c-0018", "c-0020", "c-0021", "c-0023", "c-0024", "c-0025", "c-0026", "c-0029", "c-0031", "c-0032", "c-0033", "c-0034", "c-0038"]
+    },
+    {
+      "id": "g-0002",
+      "title": "El subjuntivo del registro culto: irreales, «como si» y la forma en -ra",
+      "level": "C2",
+      "summaryEs": "El subjuntivo de pasado vertebra las construcciones irreales del español culto: condicionales de segundo y tercer tipo, deseos imposibles con «ojalá» y comparaciones contrafactuales con «como si» o «ni que». A ello se suman usos marcados de registro: «como» condicional de amenaza, los relativos en «-quiera» y la forma en -ra con valor de pluscuamperfecto de indicativo en la prosa periodística («el discurso que pronunciara en 1998»), valor que la variante en -se no admite. Conviene además recordar que «el hecho de que» y las causales negadas con «no porque» presentan la información como presupuesta, no asertada.",
+      "domain": "subjuntivo",
+      "challengeIds": ["c-0011", "c-0012", "c-0013", "c-0014", "c-0015", "c-0016", "c-0017", "c-0019", "c-0022", "c-0027", "c-0028", "c-0030", "c-0035", "c-0036", "c-0037", "c-0039", "c-0040"]
+    },
+    {
+      "id": "g-0003",
+      "title": "Indefinido frente a imperfecto: cambios de significado",
+      "level": "C1",
+      "summaryEs": "Con verbos de estado y modales, la oposición indefinido/imperfecto no es de corrección sino de sentido: «supe» es enterarse y «sabía», un saber previo; «pude» implica logro y «podía», mera capacidad; «no quiso» es negarse y «no quería», falta de ganas; «conocí» es el primer encuentro y «conocía», la familiaridad. El imperfecto pinta además el fondo descriptivo de la narración y los hábitos, mientras que el indefinido hace avanzar la acción y cierra los periodos delimitados («fue carpintero toda su vida»). A esto se suman valores especiales del imperfecto: cortesía («quería preguntarle») y planificación («el concierto era hoy»).",
+      "domain": "pasados",
+      "challengeIds": ["c-0041", "c-0042", "c-0043", "c-0044", "c-0051", "c-0052", "c-0053", "c-0054", "c-0055", "c-0057", "c-0058", "c-0059", "c-0060", "c-0061", "c-0062", "c-0063", "c-0065"]
+    },
+    {
+      "id": "g-0004",
+      "title": "Recursos narrativos del pasado: pluscuamperfecto, pretérito anterior e imperfecto narrativo",
+      "level": "C2",
+      "summaryEs": "La narración culta dispone de un arsenal de pasados que el hablante avanzado debe reconocer y producir. El pluscuamperfecto ordena los hechos hacia atrás desde un punto del relato («la función ya había empezado»). El pretérito anterior («apenas hubo terminado»), hoy exclusivamente literario, marca anterioridad inmediata tras «apenas», «en cuanto» o «una vez que». El imperfecto narrativo presenta un hecho puntual con efecto estilístico («dos días después, el poeta moría»), y la perífrasis «iba a + infinitivo» expresa la inminencia o la intención frustrada, frente a «fui a», que afirma el desplazamiento realizado.",
+      "domain": "pasados",
+      "challengeIds": ["c-0045", "c-0046", "c-0047", "c-0048", "c-0049", "c-0050", "c-0056", "c-0064"]
+    },
+    {
+      "id": "g-0005",
+      "title": "Conectores contraargumentativos y concesivos del discurso",
+      "level": "C1",
+      "summaryEs": "Los contraargumentativos no son intercambiables: «sin embargo» y «no obstante» cancelan una expectativa derivada de lo anterior, mientras que «en cambio» exige dos términos contrastados en paralelo. «Ahora bien» introduce una restricción a lo concedido, «aun así» y «con todo» admiten los obstáculos antes de contradecirlos, y «antes bien» corrige una negación previa sustituyéndola por lo contrario. En la concesión escalar, «si bien» pertenece a la prosa formal y «por más que» o «por mucho que» gradúan la intensidad del esfuerzo inútil, con indicativo si el hecho se constata y subjuntivo si se presenta como virtual.",
+      "domain": "conectores",
+      "challengeIds": ["c-0066", "c-0068", "c-0069", "c-0070", "c-0074", "c-0075", "c-0079", "c-0080", "c-0081", "c-0082", "c-0083", "c-0085"]
+    },
+    {
+      "id": "g-0006",
+      "title": "Conectores consecutivos y el régimen de «de ahí que»",
+      "level": "C2",
+      "summaryEs": "Los consecutivos se escalonan por registro: «conque» es coloquial y frecuente ante órdenes; «así pues», «por consiguiente» y «por ende» pertenecen a la prosa formal y argumentativa. «De ahí que» ocupa un lugar aparte: presenta la consecuencia como información ya inferible y por ello rige siempre subjuntivo, incluso con hechos históricos comprobados. Conviene dominar también el «no obstante» preposicional del lenguaje jurídico («no obstante lo dispuesto»), construcción que «sin embargo» no admite.",
+      "domain": "conectores",
+      "challengeIds": ["c-0067", "c-0071", "c-0072", "c-0073", "c-0076", "c-0077", "c-0078", "c-0084"]
+    },
+    {
+      "id": "g-0007",
+      "title": "Registro coloquial frente a registro culto: elegir la palabra justa",
+      "level": "C1",
+      "summaryEs": "En español, casi cada noción dispone de variantes marcadas por registro: «darse cuenta / percatarse», «morir / fallecer / palmarla», «trabajar / currar / laborar», «niños / críos / infantes», «dinero / pasta / pecunia». La corrección no basta: usar «percatarse» en una charla de bar o «palmarla» en una esquela es un error pragmático tan grave como uno gramatical. La clave está en leer las señales del contexto —vocativos, fraseología, tema y situación— y mantener la coherencia de tono a lo largo de todo el enunciado.",
+      "domain": "registro",
+      "challengeIds": ["c-0086", "c-0087", "c-0088", "c-0090", "c-0094", "c-0095", "c-0096", "c-0097"]
+    },
+    {
+      "id": "g-0008",
+      "title": "Fórmulas del lenguaje administrativo, jurídico y literario",
+      "level": "C2",
+      "summaryEs": "Los registros especializados se reconocen por sus fórmulas fijas y su léxico propio. El administrativo y el jurídico prefieren tecnicismos y verbos soporte: «subsanar defectos», «efectuar el embarque», «desestimar un recurso», «adjunto le remito», «le ruego disculpe». El literario, por su parte, recurre a un léxico elevado o arcaizante: «acontecer» por «pasar», «morar» por «vivir», «rostro» por «cara». Reproducir estas fórmulas con naturalidad —y evitar que un coloquialismo las contamine— es una de las marcas más claras del dominio C2.",
+      "domain": "registro",
+      "challengeIds": ["c-0089", "c-0091", "c-0092", "c-0093", "c-0098", "c-0099", "c-0100"]
+    }
+  ]
+}

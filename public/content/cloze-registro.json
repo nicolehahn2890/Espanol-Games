@@ -1,0 +1,171 @@
+{
+  "pack": "cloze-registro",
+  "version": 1,
+  "challenges": [
+    {
+      "id": "c-0086",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 1,
+      "sentence": "Tía, no me {di cuenta} de que era su cumple hasta que vi las fotos en el grupo.",
+      "answer": "di cuenta",
+      "distractors": ["percaté", "apercibí"],
+      "explanation": "El tono coloquial («tía», «cumple», «el grupo») pide la expresión neutra «darse cuenta»; «percatarse» y «apercibirse» pertenecen al registro culto y resultarían afectados aquí.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0087",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 1,
+      "sentence": "La esquela anunciaba que el académico había {fallecido} en la madrugada del martes, rodeado de los suyos.",
+      "answer": "fallecido",
+      "distractors": ["palmado", "espichado"],
+      "explanation": "En el registro formal y eufemístico de una esquela se emplea «fallecer»; «palmarla» y «espicharla» son coloquialismos impensables en ese contexto.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0088",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 2,
+      "sentence": "El pobre Paco {la palmó} el año pasado, con lo majo que era, y el bar ya no es lo mismo.",
+      "answer": "la palmó",
+      "distractors": ["falleció", "expiró"],
+      "explanation": "En la conversación coloquial y afectiva de bar («el pobre Paco», «majo») encaja «palmarla»; «fallecer» o «expirar» sonarían a parte médico o necrológica.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0089",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 2,
+      "sentence": "El cronista real dejó constancia minuciosa de cuanto {aconteció} durante el largo asedio de la ciudad.",
+      "answer": "aconteció",
+      "distractors": ["pasó", "se montó"],
+      "explanation": "El tono literario-arcaizante («cronista real», «cuanto», «asedio») reclama «acontecer»; «pasar» rebajaría el registro y «montarse» es marcadamente coloquial.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0090",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 1,
+      "sentence": "Estoy hasta arriba, en serio: llevo {currando} doce horas seguidas y todavía me queda lo peor.",
+      "answer": "currando",
+      "distractors": ["laborando", "desempeñando mis funciones"],
+      "explanation": "El desahogo coloquial («hasta arriba», «en serio») casa con «currar»; «laborar» y «desempeñar funciones» son fórmulas cultas o administrativas fuera de lugar.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0091",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 1,
+      "sentence": "Adjunto le {remito} la documentación solicitada, quedando a su disposición para cualquier aclaración.",
+      "answer": "remito",
+      "distractors": ["mando", "paso"],
+      "explanation": "La fórmula epistolar formal «adjunto le remito» es la consagrada en la correspondencia administrativa; «mandar» y, sobre todo, «pasar» rebajan el registro.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0092",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 2,
+      "sentence": "Se ruega a los señores pasajeros del vuelo IB3142 que {efectúen} el embarque por la puerta B14.",
+      "answer": "efectúen",
+      "distractors": ["hagan", "apañen"],
+      "explanation": "El lenguaje de megafonía aeroportuaria recurre al verbo soporte culto «efectuar»; «hacer el embarque» suena descuidado en ese molde formal y «apañar» es coloquial.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0093",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 2,
+      "sentence": "Se concede al interesado un plazo de diez días hábiles para {subsanar} los defectos advertidos en la solicitud.",
+      "answer": "subsanar",
+      "distractors": ["apañar", "arreglar"],
+      "explanation": "«Subsanar» es el tecnicismo propio del lenguaje administrativo; «arreglar» es neutro-doméstico y «apañar» directamente coloquial, ambos impropios de una resolución oficial.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0094",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 2,
+      "sentence": "Los {críos} de la vecina se pasaron toda la tarde dando la lata en el portal con la pelota.",
+      "answer": "críos",
+      "distractors": ["infantes", "vástagos"],
+      "explanation": "En una queja vecinal coloquial («dando la lata») lo natural es «críos»; «infantes» y «vástagos» pertenecen al registro culto o irónico-literario.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0095",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 1,
+      "sentence": "Un velo de tristeza le cubría el {rostro} mientras contemplaba, inmóvil, el mar de octubre.",
+      "answer": "rostro",
+      "distractors": ["careto", "morro"],
+      "explanation": "La prosa lírica («velo de tristeza», «contemplaba») exige «rostro»; «careto» y «morro» son vulgarismos que destrozarían el tono literario.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0096",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 2,
+      "sentence": "No le menciones lo del coche, que se {cabrea} enseguida y luego no hay quien lo aguante en toda la tarde.",
+      "answer": "cabrea",
+      "distractors": ["encoleriza", "irrita sobremanera"],
+      "explanation": "La advertencia entre amigos pide el coloquial «cabrearse»; «encolerizarse» o «irritarse sobremanera» son giros cultos que nadie usaría en esa charla.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0097",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 2,
+      "sentence": "Entre el alquiler y las facturas no me llega la {pasta} ni para acabar el mes, te lo juro.",
+      "answer": "pasta",
+      "distractors": ["pecunia", "liquidez"],
+      "explanation": "La queja coloquial («te lo juro») se construye con «pasta»; «pecunia» es jocoso-culto y «liquidez» tecnicismo financiero, ambos disonantes aquí.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0098",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 2,
+      "sentence": "Le {ruego} disculpe las molestias ocasionadas por el retraso en la tramitación de su expediente.",
+      "answer": "ruego",
+      "distractors": ["pido", "suplico"],
+      "explanation": "«Le ruego (que) disculpe» es la fórmula fija de cortesía administrativa; «pido» rompe la fórmula y rebaja el tono, y «suplico» resulta exagerado y obsequioso.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0099",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 3,
+      "sentence": "La Sala {desestimó} el recurso de apelación por carecer manifiestamente de fundamento.",
+      "answer": "desestimó",
+      "distractors": ["pasó de", "mandó a paseo"],
+      "explanation": "«Desestimar» es el verbo técnico-jurídico para rechazar un recurso; las alternativas coloquiales son inconcebibles en una resolución judicial.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0100",
+      "type": "nuance-choice",
+      "domain": "registro",
+      "difficulty": 3,
+      "sentence": "Los monjes que {moraban} en el cenobio copiaban manuscritos a la luz de las velas hasta bien entrada la noche.",
+      "answer": "moraban",
+      "distractors": ["paraban", "estaban apalancados"],
+      "explanation": "El léxico arcaizante («cenobio», «manuscritos») pide «morar», verbo literario para 'habitar'; «parar» (= alojarse) y «estar apalancado» son coloquialismos contemporáneos.",
+      "source": "curado"
+    }
+  ]
+}

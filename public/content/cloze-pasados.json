@@ -1,0 +1,268 @@
+{
+  "pack": "cloze-pasados",
+  "version": 1,
+  "challenges": [
+    {
+      "id": "c-0041",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 1,
+      "sentence": "Cuando la {conocí} (conocer) en aquel congreso de Lyon, ya estaba casada y dirigía su propio bufete.",
+      "answer": "conocí",
+      "explanation": "«Conocer» en indefinido señala el ingreso puntual en la relación (= la vi por primera vez); el imperfecto «conocía» indicaría un estado previo de conocimiento.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0042",
+      "type": "nuance-choice",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "Lo {supe} en cuanto le vi la cara al entrar: algo grave había pasado.",
+      "answer": "supe",
+      "distractors": ["sabía", "había sabido"],
+      "explanation": "«Saber» en indefinido significa 'enterarse', el acceso puntual a la información; «sabía» denotaría un conocimiento ya poseído de antemano, incompatible con «en cuanto le vi la cara».",
+      "source": "curado"
+    },
+    {
+      "id": "c-0043",
+      "type": "nuance-choice",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "Le ofrecieron un traslado a Bruselas con mejor sueldo, pero no {quiso} aceptarlo.",
+      "answer": "quiso",
+      "distractors": ["quería", "ha querido"],
+      "explanation": "«No quiso» en indefinido expresa una negativa efectiva (= se negó); «no quería» describiría solo la falta de ganas, sin decirnos si al final aceptó o no.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0044",
+      "type": "nuance-choice",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "Empujé con todas mis fuerzas y por fin {pude} abrir la puerta atascada del desván.",
+      "answer": "pude",
+      "distractors": ["podía", "podría"],
+      "explanation": "«Pude» en indefinido implica logro efectivo (= lo conseguí); «podía» señalaría una capacidad de fondo sin afirmar el resultado, lo que choca con «por fin».",
+      "source": "curado"
+    },
+    {
+      "id": "c-0045",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 1,
+      "sentence": "Cuando llegamos al teatro, la función ya {había empezado} (empezar) y tuvimos que esperar al entreacto.",
+      "answer": "había empezado",
+      "explanation": "El pluscuamperfecto sitúa un evento como anterior a otro punto del pasado («cuando llegamos»), anterioridad subrayada aquí por «ya».",
+      "source": "curado"
+    },
+    {
+      "id": "c-0046",
+      "type": "cloze-choice",
+      "domain": "pasados",
+      "difficulty": 3,
+      "sentence": "Apenas {hubo terminado} de hablar, la sala estalló en una ovación cerrada.",
+      "answer": "hubo terminado",
+      "distractors": ["hubiera terminado", "ha terminado"],
+      "explanation": "El pretérito anterior, hoy exclusivamente literario, expresa anterioridad inmediata tras nexos como «apenas», «en cuanto» o «no bien»; el subjuntivo y el perfecto compuesto no caben en esta narración.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0047",
+      "type": "nuance-choice",
+      "domain": "pasados",
+      "difficulty": 3,
+      "sentence": "Dos días después de conceder aquella última entrevista, el poeta {moría} en su casa de Moguer.",
+      "answer": "moría",
+      "distractors": ["muriera", "ha muerto"],
+      "explanation": "Es el imperfecto narrativo, propio de la prosa periodística y biográfica: presenta un hecho puntual con efecto estilístico de cámara lenta; equivale a «murió».",
+      "source": "curado"
+    },
+    {
+      "id": "c-0048",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 1,
+      "sentence": "Justo cuando {iba} (ir) a llamarte para contártelo, sonó el teléfono: eras tú.",
+      "answer": "iba",
+      "explanation": "La perífrasis «iba a + infinitivo» en imperfecto expresa una acción inminente o una intención interrumpida; «fui a llamarte» implicaría que la llamada llegó a iniciarse.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0049",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 1,
+      "sentence": "De niño {solía} (soler) pasar los veranos en el pueblo de mis abuelos, entre huertas y bicicletas.",
+      "answer": "solía",
+      "explanation": "«Soler» expresa hábito y en pasado se usa en imperfecto; carece de indefinido en este valor, pues un hábito no se concibe como hecho puntual y cerrado.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0050",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "—¿Qué deseaba? —{Quería} (querer) preguntarle si la oferta de la semana pasada sigue en pie.",
+      "answer": "Quería",
+      "acceptedAlt": ["quería"],
+      "explanation": "Es el imperfecto de cortesía: el hablante desplaza al pasado una petición presente para atenuarla; «quiero» resultaría más brusco en este intercambio formal.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0051",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "Ya {conocía} (conocer) Sevilla de un viaje anterior, así que me tocó hacer de guía para todo el grupo.",
+      "answer": "conocía",
+      "explanation": "Aquí «conocer» designa un estado de conocimiento previo y vigente («ya», «de un viaje anterior»), no un primer encuentro: imperfecto.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0052",
+      "type": "nuance-choice",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "Ayer {tuve} por fin noticias suyas, después de meses de silencio absoluto.",
+      "answer": "tuve",
+      "distractors": ["tenía", "había tenido"],
+      "explanation": "«Tener» en indefinido adquiere valor incoativo (= recibí, me llegaron); el imperfecto «tenía» describiría una posesión continuada, incoherente con «por fin» y «ayer».",
+      "source": "curado"
+    },
+    {
+      "id": "c-0053",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 1,
+      "sentence": "Llovía a cántaros y las calles {estaban} (estar) desiertas cuando salimos del cine de madrugada.",
+      "answer": "estaban",
+      "explanation": "El imperfecto pinta el telón de fondo descriptivo de la narración (lluvia, calles vacías), sobre el cual el indefinido «salimos» hace avanzar la acción.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0054",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 1,
+      "sentence": "Me {duchaba} (ducharse) tranquilamente cuando, de pronto, se fue la luz en todo el edificio.",
+      "answer": "duchaba",
+      "explanation": "Acción en curso interrumpida por un hecho puntual: el imperfecto presenta el proceso abierto y el indefinido («se fue») lo corta.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0055",
+      "type": "nuance-choice",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "{Iba} a ver a mi abuela con un ramo de flores, pero a mitad de camino me llamaron del hospital.",
+      "answer": "Iba",
+      "distractors": ["Fui", "He ido"],
+      "explanation": "«Iba a ver» presenta la visita como intención o trayecto en curso que queda frustrado («pero...»); «fui a ver» afirmaría que la visita se realizó.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0056",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 1,
+      "sentence": "Hasta aquel día nunca {había visto} (ver) nada parecido: la plaza entera cubierta de ceniza.",
+      "answer": "había visto",
+      "explanation": "Con «hasta aquel día» y «nunca», la experiencia se mide desde un punto del pasado hacia atrás: pluscuamperfecto de indicativo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0057",
+      "type": "nuance-choice",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "Mi abuelo {fue} carpintero toda su vida, desde los catorce años hasta la jubilación.",
+      "answer": "fue",
+      "distractors": ["era", "había sido"],
+      "explanation": "Aunque «ser» favorezca el imperfecto, un periodo expresamente delimitado y concluido («toda su vida, desde... hasta...») exige indefinido: la etapa se presenta cerrada y global.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0058",
+      "type": "nuance-choice",
+      "domain": "pasados",
+      "difficulty": 1,
+      "sentence": "La fiesta de despedida {fue} todo un éxito: no quedó ni una silla vacía.",
+      "answer": "fue",
+      "distractors": ["era", "estaba siendo"],
+      "explanation": "El evento se valora globalmente una vez concluido, como un todo cerrado: indefinido; «era» lo dejaría abierto, como descripción de fondo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0059",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 1,
+      "sentence": "Charlábamos tranquilamente en la terraza cuando, de repente, alguien {gritó} (gritar) desde la calle.",
+      "answer": "gritó",
+      "explanation": "«De repente» introduce el hecho puntual que irrumpe en la escena de fondo: indefinido frente al imperfecto descriptivo «charlábamos».",
+      "source": "curado"
+    },
+    {
+      "id": "c-0060",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "Me {costó} (costar) años entender lo que de verdad había pasado aquel verano en la casa del lago.",
+      "answer": "costó",
+      "explanation": "Aunque el proceso duró años, se presenta como un hecho completado y cuantificado en bloque («años»): la duración delimitada pide indefinido, no imperfecto.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0061",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "Aquella mañana el sol {brillaba} (brillar) con una intensidad extraña, casi amenazante, sobre los tejados.",
+      "answer": "brillaba",
+      "explanation": "Imperfecto descriptivo de apertura narrativa: instala la escena y crea expectativa sin hacer avanzar la acción, recurso típico del arranque de relato.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0062",
+      "type": "nuance-choice",
+      "domain": "pasados",
+      "difficulty": 3,
+      "sentence": "{Quise} avisarte hasta tres veces aquella noche, pero las tres me colgaste el teléfono.",
+      "answer": "Quise",
+      "distractors": ["Quería", "He querido"],
+      "explanation": "«Quise» en indefinido adquiere valor de conato (= intenté y fracasé), reforzado por «hasta tres veces»; «quería» expresaría solo el deseo, sin los intentos efectivos.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0063",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "Anoche apenas {pude} (poder) pegar ojo con el ruido de la obra del piso de arriba.",
+      "answer": "pude",
+      "explanation": "La noche es un periodo cerrado y se constata el resultado global (apenas dormí): indefinido; «podía» dejaría la incapacidad como mero trasfondo sin desenlace.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0064",
+      "type": "cloze-typed",
+      "domain": "pasados",
+      "difficulty": 3,
+      "sentence": "Una vez que {hubo firmado} (firmar) los documentos ante los testigos, el notario procedió a sellarlos.",
+      "answer": "hubo firmado",
+      "explanation": "Pretérito anterior, propio de la prosa formal y literaria: marca la anterioridad inmediata de la firma respecto del sellado tras el nexo «una vez que».",
+      "source": "curado"
+    },
+    {
+      "id": "c-0065",
+      "type": "nuance-choice",
+      "domain": "pasados",
+      "difficulty": 2,
+      "sentence": "El concierto {era} hoy a las nueve, pero lo han cancelado por la tormenta.",
+      "answer": "era",
+      "distractors": ["fue", "ha sido"],
+      "explanation": "Imperfecto de planificación: «era» indica lo que estaba previsto o programado y que ya no se cumplirá; «fue» implicaría que el concierto llegó a celebrarse.",
+      "source": "curado"
+    }
+  ]
+}

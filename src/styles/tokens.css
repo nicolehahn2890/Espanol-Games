@@ -1,0 +1,48 @@
+:root {
+  /* Tinta profunda */
+  --bg-0: #15131f;
+  --bg-1: #1e1a2e;
+  --surface: #262236;
+  --surface-2: #2e2942;
+  --border: #3d3654;
+  --border-bright: #564c78;
+
+  /* Acentos */
+  --gold: #f2b441;
+  --gold-soft: #f8d488;
+  --gold-glow: rgba(242, 180, 65, 0.35);
+  --teal: #3dd6c3;
+  --teal-glow: rgba(61, 214, 195, 0.35);
+  --ember: #e5484d;
+  --ember-glow: rgba(229, 72, 77, 0.4);
+
+  /* Texto */
+  --text: #efeaf7;
+  --text-dim: #a79fc2;
+  --text-faint: #6f6790;
+
+  /* Rarezas */
+  --rarity-comun: #9e97b8;
+  --rarity-rara: #3dd6c3;
+  --rarity-epica: #b07cf0;
+  --rarity-legendaria: #f2b441;
+
+  /* Tipografía */
+  --font-display: 'Fraunces Variable', Georgia, serif;
+  --font-ui: 'Inter Variable', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Espaciado y forma */
+  --radius-s: 8px;
+  --radius-m: 14px;
+  --radius-l: 22px;
+  --shadow-card: 0 6px 24px rgba(0, 0, 0, 0.45);
+  --glow-gold: 0 0 24px var(--gold-glow);
+  --glow-teal: 0 0 24px var(--teal-glow);
+
+  /* Zonas seguras (iPhone) */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}

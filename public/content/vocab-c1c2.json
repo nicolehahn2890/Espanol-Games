@@ -1,0 +1,1500 @@
+{
+  "pack": "vocab-c1c2",
+  "version": 1,
+  "vocab": [
+    {
+      "id": "v-0001",
+      "lemma": "desasosiego",
+      "pos": "sust",
+      "definitionEs": "Falta de tranquilidad; inquietud interior que impide estar en calma.",
+      "glossDe": "innere Unruhe",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Un desasosiego creciente se apoderó de ella mientras esperaba los resultados del análisis.",
+        "La novela transmite el desasosiego de toda una generación sin futuro."
+      ]
+    },
+    {
+      "id": "v-0002",
+      "lemma": "escudriñar",
+      "pos": "verbo",
+      "definitionEs": "Examinar algo con suma atención, intentando descubrir lo que esconde.",
+      "glossDe": "genau mustern, durchforschen",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El inspector escudriñó cada rincón del despacho en busca de huellas.",
+        "Se pasó la tarde escudriñando los archivos del juzgado."
+      ]
+    },
+    {
+      "id": "v-0003",
+      "lemma": "atisbar",
+      "pos": "verbo",
+      "definitionEs": "Ver algo de manera fugaz o imprecisa; percibir los primeros indicios de algo.",
+      "glossDe": "erspähen, erahnen",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Entre la niebla apenas se atisbaba la silueta del faro.",
+        "Los economistas ya atisban señales de recuperación."
+      ]
+    },
+    {
+      "id": "v-0004",
+      "lemma": "pormenor",
+      "pos": "sust",
+      "definitionEs": "Detalle o circunstancia menuda de un asunto; cada uno de sus aspectos concretos.",
+      "glossDe": "Einzelheit, Detail",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El abogado me explicó los pormenores del contrato antes de firmarlo.",
+        "No quiso entrar en los pormenores de la ruptura."
+      ]
+    },
+    {
+      "id": "v-0005",
+      "lemma": "recelo",
+      "pos": "sust",
+      "definitionEs": "Desconfianza o temor de que algo o alguien esconda malas intenciones.",
+      "glossDe": "Misstrauen, Argwohn",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Los vecinos miraban con recelo al recién llegado.",
+        "La propuesta fue acogida con recelo por los sindicatos."
+      ]
+    },
+    {
+      "id": "v-0006",
+      "lemma": "soslayar",
+      "pos": "verbo",
+      "definitionEs": "Evitar una dificultad o un asunto incómodo pasando por encima de él o esquivándolo.",
+      "glossDe": "umgehen, ausweichen",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El ministro soslayó las preguntas sobre la financiación del partido.",
+        "No podemos seguir soslayando el problema de la vivienda."
+      ]
+    },
+    {
+      "id": "v-0007",
+      "lemma": "paliar",
+      "pos": "verbo",
+      "definitionEs": "Mitigar o atenuar un daño o sufrimiento sin eliminarlo del todo.",
+      "glossDe": "lindern, abmildern",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El Gobierno aprobó ayudas para paliar los efectos de la sequía.",
+        "Estos fármacos solo palian el dolor, no curan la enfermedad."
+      ]
+    },
+    {
+      "id": "v-0008",
+      "lemma": "vislumbrar",
+      "pos": "verbo",
+      "definitionEs": "Ver algo de forma tenue o confusa; intuir una posibilidad todavía lejana.",
+      "glossDe": "schemenhaft erkennen, erahnen",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Al fondo del valle se vislumbraban las luces del pueblo.",
+        "Por fin se vislumbra una salida a la crisis."
+      ]
+    },
+    {
+      "id": "v-0009",
+      "lemma": "terco",
+      "pos": "adj",
+      "definitionEs": "Que se mantiene obstinadamente en una idea o actitud, sin atender a razones.",
+      "glossDe": "stur, dickköpfig",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Es tan terco que no admitirá su error ni con pruebas delante.",
+        "Terca como una mula, siguió adelante con el proyecto."
+      ]
+    },
+    {
+      "id": "v-0010",
+      "lemma": "huraño",
+      "pos": "adj",
+      "definitionEs": "Que rehúye el trato con la gente y se muestra arisco o esquivo.",
+      "glossDe": "menschenscheu, verschlossen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "De niño era huraño y prefería leer a jugar con los demás.",
+        "El viejo pescador, huraño y silencioso, apenas saludaba a nadie."
+      ]
+    },
+    {
+      "id": "v-0011",
+      "lemma": "parsimonia",
+      "pos": "sust",
+      "definitionEs": "Lentitud y calma exageradas al hacer algo; también moderación extrema en el gasto.",
+      "glossDe": "Gemächlichkeit, übertriebene Ruhe",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El camarero recogía las mesas con una parsimonia exasperante.",
+        "Abrió el sobre con parsimonia, como si quisiera alargar el suspense."
+      ]
+    },
+    {
+      "id": "v-0012",
+      "lemma": "desdén",
+      "pos": "sust",
+      "definitionEs": "Indiferencia despectiva hacia alguien o algo que se considera inferior.",
+      "glossDe": "Geringschätzung, Verachtung",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Respondió con desdén, sin apenas mirarlo.",
+        "Trataba con desdén cualquier opinión que no fuera la suya."
+      ]
+    },
+    {
+      "id": "v-0013",
+      "lemma": "zozobra",
+      "pos": "sust",
+      "definitionEs": "Angustia e incertidumbre ante un peligro o una mala noticia que se teme.",
+      "glossDe": "bange Unruhe, Beklommenheit",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Vivieron semanas de zozobra hasta que apareció el barco desaparecido.",
+        "La carta del banco lo sumió en una profunda zozobra."
+      ]
+    },
+    {
+      "id": "v-0014",
+      "lemma": "ufano",
+      "pos": "adj",
+      "definitionEs": "Satisfecho y orgulloso de sí mismo, a veces con un punto de presunción.",
+      "glossDe": "selbstzufrieden, stolz",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Paseaba ufano con su trofeo bajo el brazo.",
+        "Ufana de su éxito, no advirtió la envidia que despertaba."
+      ]
+    },
+    {
+      "id": "v-0015",
+      "lemma": "enardecer",
+      "pos": "verbo",
+      "definitionEs": "Excitar o avivar con intensidad los ánimos o las pasiones.",
+      "glossDe": "anstacheln, entflammen",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El discurso enardeció a la multitud, que coreaba su nombre.",
+        "Aquellas palabras no hicieron sino enardecer los ánimos."
+      ]
+    },
+    {
+      "id": "v-0016",
+      "lemma": "escarmentar",
+      "pos": "verbo",
+      "definitionEs": "Aprender de un error o castigo y evitar reincidir; dar una lección a alguien.",
+      "glossDe": "aus Schaden klug werden; eine Lehre erteilen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Después de la multa escarmentó y no volvió a aparcar en doble fila.",
+        "Ni con tres suspensos escarmienta: sigue sin abrir un libro."
+      ]
+    },
+    {
+      "id": "v-0017",
+      "lemma": "menoscabar",
+      "pos": "verbo",
+      "definitionEs": "Disminuir el valor, el prestigio o la integridad de algo o alguien.",
+      "glossDe": "beeinträchtigen, schmälern",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El escándalo menoscabó gravemente su reputación.",
+        "La sentencia considera que la medida menoscaba derechos fundamentales."
+      ]
+    },
+    {
+      "id": "v-0018",
+      "lemma": "paulatino",
+      "pos": "adj",
+      "definitionEs": "Que se produce de manera lenta y gradual.",
+      "glossDe": "allmählich, schrittweise",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Se observa un deterioro paulatino de los servicios públicos.",
+        "La vuelta a la normalidad será paulatina, no inmediata."
+      ]
+    },
+    {
+      "id": "v-0019",
+      "lemma": "apremiante",
+      "pos": "adj",
+      "definitionEs": "Que exige una solución o respuesta urgente e inaplazable.",
+      "glossDe": "dringend, drängend",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "La falta de agua potable es la necesidad más apremiante de la zona.",
+        "Recibió una llamada apremiante de la dirección."
+      ]
+    },
+    {
+      "id": "v-0020",
+      "lemma": "desvelar",
+      "pos": "verbo",
+      "definitionEs": "Revelar algo oculto o secreto; también quitar el sueño a alguien.",
+      "glossDe": "enthüllen; um den Schlaf bringen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "La investigación desveló una trama de corrupción municipal.",
+        "El café de después de cenar me desvela."
+      ]
+    },
+    {
+      "id": "v-0021",
+      "lemma": "acatar",
+      "pos": "verbo",
+      "definitionEs": "Aceptar y cumplir una norma, orden o decisión de una autoridad.",
+      "glossDe": "befolgen, sich fügen",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El club acatará la sanción, aunque la considera injusta.",
+        "Todos los ciudadanos deben acatar la ley."
+      ]
+    },
+    {
+      "id": "v-0022",
+      "lemma": "añoranza",
+      "pos": "sust",
+      "definitionEs": "Tristeza nostálgica por la ausencia de algo o alguien querido, o de un tiempo pasado.",
+      "glossDe": "Sehnsucht, Wehmut",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Hablaba de su pueblo con una añoranza que conmovía.",
+        "La añoranza de la infancia recorre toda su obra."
+      ]
+    },
+    {
+      "id": "v-0023",
+      "lemma": "socavar",
+      "pos": "verbo",
+      "definitionEs": "Debilitar algo poco a poco por la base, en sentido material o figurado.",
+      "glossDe": "untergraben, aushöhlen",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Las filtraciones a la prensa socavaron la confianza dentro del equipo.",
+        "La desinformación socava los cimientos de la democracia."
+      ]
+    },
+    {
+      "id": "v-0024",
+      "lemma": "escueto",
+      "pos": "adj",
+      "definitionEs": "Breve y sin adornos; reducido a lo estrictamente necesario.",
+      "glossDe": "knapp, schmucklos",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El comunicado fue escueto: tres líneas sin explicaciones.",
+        "Respondió con un escueto «no me consta»."
+      ]
+    },
+    {
+      "id": "v-0025",
+      "lemma": "encomiable",
+      "pos": "adj",
+      "definitionEs": "Digno de elogio o alabanza.",
+      "glossDe": "lobenswert",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Los voluntarios realizaron una labor encomiable durante las inundaciones.",
+        "Su esfuerzo es encomiable, aunque el resultado sea discutible."
+      ]
+    },
+    {
+      "id": "v-0026",
+      "lemma": "rezagarse",
+      "pos": "verbo",
+      "definitionEs": "Quedarse atrás respecto de los demás en una marcha, proceso o competición.",
+      "glossDe": "zurückbleiben, ins Hintertreffen geraten",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Algunos excursionistas se rezagaron y perdieron de vista al grupo.",
+        "La empresa se ha rezagado frente a sus competidores asiáticos."
+      ]
+    },
+    {
+      "id": "v-0027",
+      "lemma": "desidia",
+      "pos": "sust",
+      "definitionEs": "Negligencia y falta de cuidado o interés en lo que se debería hacer.",
+      "glossDe": "Nachlässigkeit, Trägheit",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El edificio se cae a pedazos por la desidia de la administración.",
+        "Su desidia en los estudios acabó pasándole factura."
+      ]
+    },
+    {
+      "id": "v-0028",
+      "lemma": "percance",
+      "pos": "sust",
+      "definitionEs": "Contratiempo o accidente leve que entorpece el desarrollo normal de algo.",
+      "glossDe": "Missgeschick, Zwischenfall",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Llegamos tarde por un percance con el coche de alquiler.",
+        "Salvo algún percance menor, el rodaje transcurrió sin problemas."
+      ]
+    },
+    {
+      "id": "v-0029",
+      "lemma": "sigiloso",
+      "pos": "adj",
+      "definitionEs": "Que actúa o se mueve en silencio y con disimulo para no ser advertido.",
+      "glossDe": "heimlich, lautlos",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "El gato avanzaba sigiloso hacia el pájaro.",
+        "Con pasos sigilosos, salió de la habitación sin despertarla."
+      ]
+    },
+    {
+      "id": "v-0030",
+      "lemma": "avezado",
+      "pos": "adj",
+      "definitionEs": "Experimentado y curtido en una actividad por la práctica prolongada.",
+      "glossDe": "erfahren, versiert",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Ni el lector más avezado adivinará el final de esta novela.",
+        "Es una negociadora avezada que no se deja intimidar."
+      ]
+    },
+    {
+      "id": "v-0031",
+      "lemma": "recabar",
+      "pos": "verbo",
+      "definitionEs": "Conseguir o reunir datos, apoyos o fondos mediante peticiones o gestiones.",
+      "glossDe": "einholen, beschaffen (Daten, Unterstützung)",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "La comisión recabó información de todos los departamentos implicados.",
+        "Salieron a la calle para recabar firmas contra el cierre del hospital."
+      ]
+    },
+    {
+      "id": "v-0032",
+      "lemma": "sopesar",
+      "pos": "verbo",
+      "definitionEs": "Considerar con detenimiento las ventajas y los inconvenientes de algo antes de decidir.",
+      "glossDe": "abwägen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Antes de aceptar la oferta, sopesó los pros y los contras.",
+        "El juez debe sopesar todas las pruebas presentadas."
+      ]
+    },
+    {
+      "id": "v-0033",
+      "lemma": "desparpajo",
+      "pos": "sust",
+      "definitionEs": "Desenvoltura y soltura al hablar o actuar, sin timidez ni apuro.",
+      "glossDe": "Unbekümmertheit, freches Selbstbewusstsein",
+      "register": "coloquial",
+      "domain": "vocab-c1",
+      "examples": [
+        "La niña contestó a los periodistas con un desparpajo asombroso.",
+        "Se movía por el plató con el desparpajo de un veterano."
+      ]
+    },
+    {
+      "id": "v-0034",
+      "lemma": "atinar",
+      "pos": "verbo",
+      "definitionEs": "Acertar o dar con lo correcto, a menudo tras dudar o tantear.",
+      "glossDe": "richtig treffen, es richtig erraten",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "No atinó a decir nada coherente de los nervios que tenía.",
+        "Atinaste con el regalo: le encantó."
+      ]
+    },
+    {
+      "id": "v-0035",
+      "lemma": "idóneo",
+      "pos": "adj",
+      "definitionEs": "Perfectamente adecuado o apropiado para un fin determinado.",
+      "glossDe": "geeignet, ideal passend",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Este clima es idóneo para el cultivo de la vid.",
+        "Buscan al candidato idóneo para dirigir la filial."
+      ]
+    },
+    {
+      "id": "v-0036",
+      "lemma": "abigarrado",
+      "pos": "adj",
+      "definitionEs": "Compuesto de elementos muy diversos y mal combinados; de colores chillones y heterogéneos.",
+      "glossDe": "kunterbunt, zusammengewürfelt",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "Un público abigarrado llenaba la plaza: turistas, vendedores, músicos y curiosos.",
+        "La fachada lucía un mosaico abigarrado de azulejos de todos los colores."
+      ]
+    },
+    {
+      "id": "v-0037",
+      "lemma": "pundonor",
+      "pos": "sust",
+      "definitionEs": "Sentimiento de dignidad y amor propio que impulsa a cumplir con el deber y quedar bien.",
+      "glossDe": "Ehrgefühl, Stolz auf die eigene Leistung",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "Jugó lesionado por puro pundonor.",
+        "Su pundonor profesional le impedía entregar un trabajo mediocre."
+      ]
+    },
+    {
+      "id": "v-0038",
+      "lemma": "zalamero",
+      "pos": "adj",
+      "definitionEs": "Que hace halagos y carantoñas empalagosas, generalmente con interés.",
+      "glossDe": "schmeichlerisch, süßholzraspelnd",
+      "register": "coloquial",
+      "domain": "vocab-c2",
+      "examples": [
+        "No te fíes de ese vendedor tan zalamero.",
+        "Se puso zalamero porque quería que le prestara el coche."
+      ]
+    },
+    {
+      "id": "v-0039",
+      "lemma": "cicatero",
+      "pos": "adj",
+      "definitionEs": "Mezquino y tacaño, que escatima hasta lo insignificante.",
+      "glossDe": "knauserig, kleinlich",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "No seas cicatero y deja una propina decente.",
+        "El presupuesto de cultura volvió a ser cicatero."
+      ]
+    },
+    {
+      "id": "v-0040",
+      "lemma": "baladí",
+      "pos": "adj",
+      "definitionEs": "De poca importancia; trivial e insustancial.",
+      "glossDe": "belanglos, unbedeutend",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "Discutieron durante horas por una cuestión baladí.",
+        "No es un asunto baladí: hay millones de euros en juego."
+      ]
+    },
+    {
+      "id": "v-0041",
+      "lemma": "inefable",
+      "pos": "adj",
+      "definitionEs": "Que no puede expresarse con palabras por su intensidad o carácter extraordinario.",
+      "glossDe": "unsagbar, unbeschreiblich",
+      "register": "literario",
+      "domain": "vocab-c2",
+      "examples": [
+        "Sintió una alegría inefable al ver a su hija sana y salva.",
+        "El místico intentaba describir una experiencia inefable."
+      ]
+    },
+    {
+      "id": "v-0042",
+      "lemma": "soliviantar",
+      "pos": "verbo",
+      "definitionEs": "Inquietar o irritar a alguien hasta inducirlo a la rebeldía o la protesta.",
+      "glossDe": "aufwiegeln, in Rage bringen",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "El anuncio de los despidos soliviantó a la plantilla.",
+        "Sus declaraciones soliviantaron a media profesión."
+      ]
+    },
+    {
+      "id": "v-0043",
+      "lemma": "alharaca",
+      "pos": "sust",
+      "definitionEs": "Demostración exagerada y ruidosa de un sentimiento, desproporcionada respecto de su causa.",
+      "glossDe": "übertriebenes Getue, Theater",
+      "register": "coloquial",
+      "domain": "vocab-c2",
+      "examples": [
+        "Recibió la noticia sin alharacas, con una sonrisa discreta.",
+        "Tanta alharaca para un rasguño de nada."
+      ]
+    },
+    {
+      "id": "v-0044",
+      "lemma": "dilucidar",
+      "pos": "verbo",
+      "definitionEs": "Aclarar y explicar un asunto confuso o controvertido hasta dejarlo nítido.",
+      "glossDe": "klären, aufhellen",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "La autopsia permitirá dilucidar las causas de la muerte.",
+        "Queda por dilucidar quién autorizó el pago."
+      ]
+    },
+    {
+      "id": "v-0045",
+      "lemma": "otear",
+      "pos": "verbo",
+      "definitionEs": "Mirar desde un lugar alto hacia la lejanía, explorando el horizonte.",
+      "glossDe": "Ausschau halten, in die Ferne spähen",
+      "register": "literario",
+      "domain": "vocab-c2",
+      "examples": [
+        "Desde la atalaya, el vigía oteaba el horizonte en busca de velas enemigas.",
+        "Subió a la colina para otear el valle."
+      ]
+    },
+    {
+      "id": "v-0046",
+      "lemma": "impertérrito",
+      "pos": "adj",
+      "definitionEs": "Que no se altera ni intimida ante el peligro o las dificultades.",
+      "glossDe": "unerschütterlich, ungerührt",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "Escuchó la sentencia impertérrito, sin mover un músculo.",
+        "Siguió hablando impertérrita pese a los abucheos."
+      ]
+    },
+    {
+      "id": "v-0047",
+      "lemma": "circunloquio",
+      "pos": "sust",
+      "definitionEs": "Rodeo de palabras para expresar algo que podría decirse de forma más directa.",
+      "glossDe": "Umschweif, umständliche Ausdrucksweise",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "Déjate de circunloquios y dime qué ha pasado.",
+        "El informe, lleno de circunloquios, evitaba señalar culpables."
+      ]
+    },
+    {
+      "id": "v-0048",
+      "lemma": "exabrupto",
+      "pos": "sust",
+      "definitionEs": "Dicho brusco e inesperado, dicho con violencia o descortesía.",
+      "glossDe": "barscher Ausbruch, grobe Bemerkung",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "El entrenador pidió disculpas por su exabrupto ante las cámaras.",
+        "La reunión acabó entre exabruptos y portazos."
+      ]
+    },
+    {
+      "id": "v-0049",
+      "lemma": "displicencia",
+      "pos": "sust",
+      "definitionEs": "Actitud de desagrado o indiferencia desdeñosa en el trato o en la ejecución de algo.",
+      "glossDe": "herablassende Gleichgültigkeit",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "El camarero nos atendió con displicencia, como si le molestáramos.",
+        "Trató el asunto con una displicencia que rozaba el insulto."
+      ]
+    },
+    {
+      "id": "v-0050",
+      "lemma": "fruición",
+      "pos": "sust",
+      "definitionEs": "Placer intenso con que se disfruta o se hace algo.",
+      "glossDe": "Genuss, Wonne",
+      "register": "literario",
+      "domain": "vocab-c2",
+      "examples": [
+        "Leía con fruición las cartas de su abuela.",
+        "Saboreó el primer café de la mañana con auténtica fruición."
+      ]
+    },
+    {
+      "id": "v-0051",
+      "lemma": "atávico",
+      "pos": "adj",
+      "definitionEs": "Que procede de generaciones remotas y pervive como herencia ancestral, a menudo irracional.",
+      "glossDe": "atavistisch, urtümlich ererbt",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "Sentía un miedo atávico a la oscuridad del bosque.",
+        "El rito conserva un simbolismo atávico de origen pagano."
+      ]
+    },
+    {
+      "id": "v-0052",
+      "lemma": "cercenar",
+      "pos": "verbo",
+      "definitionEs": "Cortar de raíz una parte de algo; recortar o limitar derechos o libertades.",
+      "glossDe": "abschneiden, beschneiden (auch Rechte)",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "La nueva ley cercena la libertad de prensa.",
+        "La máquina le cercenó dos dedos de la mano."
+      ]
+    },
+    {
+      "id": "v-0053",
+      "lemma": "conminar",
+      "pos": "verbo",
+      "definitionEs": "Exigir a alguien, bajo amenaza de sanción, que haga algo.",
+      "glossDe": "(unter Androhung) auffordern",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "El juez conminó a la empresa a readmitir a los despedidos.",
+        "Lo conminaron a abandonar el local en cinco minutos."
+      ]
+    },
+    {
+      "id": "v-0054",
+      "lemma": "proclive",
+      "pos": "adj",
+      "definitionEs": "Inclinado o propenso a algo, especialmente a lo que se considera negativo.",
+      "glossDe": "geneigt, anfällig (zu etwas)",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "Es un público proclive al entusiasmo fácil.",
+        "Siempre fue proclive a dramatizar los contratiempos."
+      ]
+    },
+    {
+      "id": "v-0055",
+      "lemma": "acendrado",
+      "pos": "adj",
+      "definitionEs": "Puro y sin mancha; depurado hasta la perfección, dicho de cualidades o sentimientos.",
+      "glossDe": "lauter, geläutert, makellos",
+      "register": "literario",
+      "domain": "vocab-c2",
+      "examples": [
+        "Profesaba un acendrado amor por su tierra.",
+        "Era un hombre de acendrada honradez."
+      ]
+    },
+    {
+      "id": "v-0056",
+      "lemma": "inopinado",
+      "pos": "adj",
+      "definitionEs": "Que sucede sin haber sido pensado ni esperado.",
+      "glossDe": "unvermutet, überraschend",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "Su inopinada dimisión dejó al partido sin rumbo.",
+        "Un encuentro inopinado en el tren cambió el curso de su vida."
+      ]
+    },
+    {
+      "id": "v-0057",
+      "lemma": "marasmo",
+      "pos": "sust",
+      "definitionEs": "Paralización o inmovilidad total de una actividad; apatía profunda.",
+      "glossDe": "Stillstand, Lähmung",
+      "register": "culto",
+      "domain": "vocab-c2",
+      "examples": [
+        "El sector de la construcción salió por fin del marasmo de la crisis.",
+        "Tras el fracaso electoral, el partido cayó en un marasmo del que tardó años en recuperarse."
+      ]
+    },
+    {
+      "id": "v-0058",
+      "lemma": "retahíla",
+      "pos": "sust",
+      "definitionEs": "Serie larga y seguida de cosas, especialmente de palabras, quejas o reproches.",
+      "glossDe": "endlose Aufzählung, Litanei",
+      "register": "coloquial",
+      "domain": "vocab-c2",
+      "examples": [
+        "Me soltó una retahíla de excusas que no se creía ni él.",
+        "El contestador estaba lleno de una retahíla de mensajes furiosos."
+      ]
+    },
+    {
+      "id": "v-0059",
+      "lemma": "embelesar",
+      "pos": "verbo",
+      "definitionEs": "Cautivar por completo los sentidos o la atención de alguien, causándole un placer absorto.",
+      "glossDe": "verzaubern, hingerissen machen",
+      "register": "literario",
+      "domain": "vocab-c2",
+      "examples": [
+        "La voz de la soprano embelesó al público.",
+        "Se quedaba embelesado mirando el mar durante horas."
+      ]
+    },
+    {
+      "id": "v-0060",
+      "lemma": "a la sazón",
+      "pos": "adv",
+      "definitionEs": "En aquel tiempo, en el momento del que se habla.",
+      "glossDe": "damals, zu jener Zeit",
+      "register": "literario",
+      "domain": "vocab-c2",
+      "examples": [
+        "Conoció a Lorca en 1932, cuando este era a la sazón el poeta más celebrado de España.",
+        "Su padre, a la sazón alcalde del pueblo, inauguró la biblioteca."
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "c-0200",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Desde que recibió aquella carta anónima, un {desasosiego} constante le impedía dormir.",
+      "answer": "desasosiego",
+      "explanation": "Pista: sustantivo que designa la falta de tranquilidad, la inquietud interior que impide estar en calma.",
+      "itemRef": "v-0001",
+      "source": "curado"
+    },
+    {
+      "id": "c-0201",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "El detective {escudriñó} cada centímetro de la escena del crimen con una lupa.",
+      "answer": "escudriñó",
+      "distractors": ["ojeó", "vislumbró", "contempló"],
+      "explanation": "«Escudriñar» implica examinar con suma atención y minuciosidad. «Ojear» es mirar por encima, «vislumbrar» es ver de forma imprecisa y «contemplar» carece del matiz inquisitivo.",
+      "itemRef": "v-0002",
+      "source": "curado"
+    },
+    {
+      "id": "c-0202",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Por la rendija de la puerta apenas pude {atisbar} una sombra que se movía.",
+      "answer": "atisbar",
+      "explanation": "Pista: verbo que significa ver algo de manera fugaz o imprecisa, o percibir los primeros indicios de algo.",
+      "itemRef": "v-0003",
+      "source": "curado"
+    },
+    {
+      "id": "c-0203",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "El notario nos detalló todos los {pormenores} de la herencia, cláusula por cláusula.",
+      "answer": "pormenores",
+      "distractors": ["resúmenes", "bosquejos", "esbozos"],
+      "explanation": "Los «pormenores» son los detalles menudos de un asunto. «Resúmenes», «bosquejos» y «esbozos» indican justo lo contrario: una visión general y poco detallada.",
+      "itemRef": "v-0004",
+      "source": "curado"
+    },
+    {
+      "id": "c-0204",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Tras tantas promesas incumplidas, los votantes observan con {recelo} cualquier anuncio del Gobierno.",
+      "answer": "recelo",
+      "acceptedAlt": ["desconfianza"],
+      "explanation": "Pista: sustantivo que expresa desconfianza o temor de que algo o alguien esconda malas intenciones.",
+      "itemRef": "v-0005",
+      "source": "curado"
+    },
+    {
+      "id": "c-0205",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "La portavoz prefirió {soslayar} la pregunta incómoda y cambió de tema.",
+      "answer": "soslayar",
+      "distractors": ["abordar", "zanjar", "recalcar"],
+      "explanation": "«Soslayar» es esquivar un asunto incómodo. «Abordar» es enfrentarlo, «zanjar» es resolverlo de forma definitiva y «recalcar» es insistir en él.",
+      "itemRef": "v-0006",
+      "source": "curado"
+    },
+    {
+      "id": "c-0206",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Se repartieron mantas y comida caliente para {paliar} los efectos de la ola de frío.",
+      "answer": "paliar",
+      "acceptedAlt": ["mitigar", "atenuar"],
+      "explanation": "Pista: verbo que significa mitigar o atenuar un daño o sufrimiento sin eliminarlo del todo.",
+      "itemRef": "v-0007",
+      "source": "curado"
+    },
+    {
+      "id": "c-0207",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Tras meses de negociación, por fin se {vislumbra} un acuerdo entre las partes.",
+      "answer": "vislumbra",
+      "distractors": ["escudriña", "otea", "divisa"],
+      "explanation": "«Vislumbrar» encaja con lo abstracto e incipiente: intuir una posibilidad lejana. «Escudriñar» y «otear» exigen una mirada activa, y «divisar» se aplica a lo que se ve con claridad a distancia.",
+      "itemRef": "v-0008",
+      "source": "curado"
+    },
+    {
+      "id": "c-0208",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Por muy buenos argumentos que le des, es tan {terco} que no cambiará de opinión.",
+      "answer": "terco",
+      "acceptedAlt": ["testarudo", "obstinado", "cabezota"],
+      "explanation": "Pista: adjetivo que describe a quien se mantiene obstinadamente en una idea sin atender a razones.",
+      "itemRef": "v-0009",
+      "source": "curado"
+    },
+    {
+      "id": "c-0209",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "El escritor, {huraño} y solitario, llevaba décadas sin conceder una entrevista.",
+      "answer": "huraño",
+      "distractors": ["ufano", "zalamero", "campechano"],
+      "explanation": "«Huraño» describe a quien rehúye el trato con la gente. «Ufano» es satisfecho de sí mismo, «zalamero» es empalagosamente halagador y «campechano» es justo lo contrario: cercano y llano.",
+      "itemRef": "v-0010",
+      "source": "curado"
+    },
+    {
+      "id": "c-0210",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "El funcionario selló los documentos con tal {parsimonia} que la cola daba la vuelta al edificio.",
+      "answer": "parsimonia",
+      "explanation": "Pista: sustantivo que denota una lentitud y calma exageradas al hacer algo.",
+      "itemRef": "v-0011",
+      "source": "curado"
+    },
+    {
+      "id": "c-0211",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "La crítica acogió con {desdén} su primera novela, que hoy se considera una obra maestra.",
+      "answer": "desdén",
+      "distractors": ["esmero", "recato", "asombro"],
+      "explanation": "El «desdén» es la indiferencia despectiva hacia lo que se considera inferior. «Esmero» es cuidado, «recato» es pudor y «asombro» es sorpresa: ninguno expresa menosprecio.",
+      "itemRef": "v-0012",
+      "source": "curado"
+    },
+    {
+      "id": "c-0212",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 3,
+      "sentence": "Las familias de los mineros atrapados vivieron tres días de {zozobra} hasta el rescate.",
+      "answer": "zozobra",
+      "acceptedAlt": ["angustia"],
+      "explanation": "Pista: sustantivo culto que designa la angustia y la incertidumbre ante un peligro o una mala noticia que se teme.",
+      "itemRef": "v-0013",
+      "source": "curado"
+    },
+    {
+      "id": "c-0213",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Salió {ufano} de la entrevista, convencido de que el puesto ya era suyo.",
+      "answer": "ufano",
+      "distractors": ["compungido", "huraño", "abatido"],
+      "explanation": "«Ufano» significa satisfecho y orgulloso de sí mismo. «Compungido» y «abatido» expresan tristeza, y «huraño» se refiere al carácter esquivo, no a la satisfacción.",
+      "itemRef": "v-0014",
+      "source": "curado"
+    },
+    {
+      "id": "c-0214",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 3,
+      "sentence": "Lejos de calmar la protesta, las palabras del alcalde no hicieron más que {enardecer} a los manifestantes.",
+      "answer": "enardecer",
+      "explanation": "Pista: verbo que significa excitar o avivar con intensidad los ánimos o las pasiones.",
+      "itemRef": "v-0015",
+      "source": "curado"
+    },
+    {
+      "id": "c-0215",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Pensé que con la primera multa {escarmentaría}, pero al mes siguiente volvió a conducir sin carné.",
+      "answer": "escarmentaría",
+      "distractors": ["recapacitaría", "claudicaría", "reincidiría"],
+      "explanation": "«Escarmentar» es aprender de un castigo o error para no repetirlo. «Recapacitar» es solo reflexionar, «claudicar» es rendirse y «reincidir» significa lo contrario: volver a caer.",
+      "itemRef": "v-0016",
+      "source": "curado"
+    },
+    {
+      "id": "c-0216",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 3,
+      "sentence": "La oposición acusa al decreto de {menoscabar} la independencia judicial.",
+      "answer": "menoscabar",
+      "acceptedAlt": ["socavar", "mermar"],
+      "explanation": "Pista: verbo culto que significa disminuir el valor, el prestigio o la integridad de algo o alguien.",
+      "itemRef": "v-0017",
+      "source": "curado"
+    },
+    {
+      "id": "c-0217",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "La retirada de las tropas será {paulatina}: dos batallones cada mes hasta final de año.",
+      "answer": "paulatina",
+      "distractors": ["fulminante", "inopinada", "vertiginosa"],
+      "explanation": "«Paulatino» significa lento y gradual, como indica el ritmo mensual descrito. «Fulminante» y «vertiginoso» implican rapidez, e «inopinado» significa inesperado.",
+      "itemRef": "v-0018",
+      "source": "curado"
+    },
+    {
+      "id": "c-0218",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Reparar el tejado antes de las lluvias es la tarea más {apremiante} que tenemos.",
+      "answer": "apremiante",
+      "acceptedAlt": ["urgente", "perentoria"],
+      "explanation": "Pista: adjetivo que califica lo que exige una solución urgente e inaplazable.",
+      "itemRef": "v-0019",
+      "source": "curado"
+    },
+    {
+      "id": "c-0219",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Una serie de documentos filtrados permitió {desvelar} el verdadero alcance del fraude.",
+      "answer": "desvelar",
+      "distractors": ["solapar", "encubrir", "barruntar"],
+      "explanation": "«Desvelar» es revelar lo oculto. «Solapar» y «encubrir» significan lo contrario (ocultar), y «barruntar» es solo presentir algo sin pruebas.",
+      "itemRef": "v-0020",
+      "source": "curado"
+    },
+    {
+      "id": "c-0220",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "El club anunció que, pese a discrepar, va a {acatar} la decisión del comité de competición.",
+      "answer": "acatar",
+      "acceptedAlt": ["cumplir"],
+      "explanation": "Pista: verbo que significa aceptar y cumplir una norma u orden de una autoridad, aunque no se comparta.",
+      "itemRef": "v-0021",
+      "source": "curado"
+    },
+    {
+      "id": "c-0221",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Después de veinte años en Alemania, la {añoranza} de su tierra seguía intacta.",
+      "answer": "añoranza",
+      "distractors": ["desidia", "inquina", "saña"],
+      "explanation": "La «añoranza» es la tristeza nostálgica por lo ausente. «Desidia» es negligencia, e «inquina» y «saña» expresan hostilidad, no nostalgia.",
+      "itemRef": "v-0022",
+      "source": "curado"
+    },
+    {
+      "id": "c-0222",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 3,
+      "sentence": "Los rumores constantes acabaron por {socavar} la autoridad del director.",
+      "answer": "socavar",
+      "acceptedAlt": ["minar", "menoscabar"],
+      "explanation": "Pista: verbo que significa debilitar algo poco a poco por la base, en sentido material o figurado.",
+      "itemRef": "v-0023",
+      "source": "curado"
+    },
+    {
+      "id": "c-0223",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "El parte médico fue {escueto}: «evolución favorable», sin más detalles.",
+      "answer": "escueto",
+      "distractors": ["farragoso", "ampuloso", "prolijo"],
+      "explanation": "«Escueto» es breve y sin adornos. «Farragoso», «ampuloso» y «prolijo» describen justamente textos largos, recargados o excesivamente detallados.",
+      "itemRef": "v-0024",
+      "source": "curado"
+    },
+    {
+      "id": "c-0224",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "La labor de los bomberos durante el incendio fue {encomiable}: trabajaron sin descanso durante tres días.",
+      "answer": "encomiable",
+      "acceptedAlt": ["loable", "admirable"],
+      "explanation": "Pista: adjetivo culto que significa digno de elogio o alabanza.",
+      "itemRef": "v-0025",
+      "source": "curado"
+    },
+    {
+      "id": "c-0225",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Europa corre el riesgo de {rezagarse} en la carrera de la inteligencia artificial.",
+      "answer": "rezagarse",
+      "distractors": ["adelantarse", "encumbrarse", "desmarcarse"],
+      "explanation": "«Rezagarse» es quedarse atrás respecto de los demás. «Adelantarse» y «encumbrarse» indican lo contrario, y «desmarcarse» es distanciarse de una postura, no perder terreno.",
+      "itemRef": "v-0026",
+      "source": "curado"
+    },
+    {
+      "id": "c-0226",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 3,
+      "sentence": "El claustro del monasterio se arruinó por la {desidia} de las autoridades, que nunca aprobaron su restauración.",
+      "answer": "desidia",
+      "acceptedAlt": ["negligencia", "dejadez"],
+      "explanation": "Pista: sustantivo que designa la negligencia y la falta de cuidado o interés en lo que se debería hacer.",
+      "itemRef": "v-0027",
+      "source": "curado"
+    },
+    {
+      "id": "c-0227",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Salvo un pequeño {percance} con el equipaje, el viaje fue perfecto.",
+      "answer": "percance",
+      "distractors": ["cataclismo", "estrago", "infortunio"],
+      "explanation": "Un «percance» es un contratiempo leve, acorde con «pequeño». «Cataclismo» y «estrago» implican gran destrucción, e «infortunio» suena demasiado grave y literario para un problema de equipaje.",
+      "itemRef": "v-0028",
+      "source": "curado"
+    },
+    {
+      "id": "c-0228",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "El ladrón, {sigiloso} como un gato, cruzó el pasillo sin que crujiera una sola tabla.",
+      "answer": "sigiloso",
+      "explanation": "Pista: adjetivo que describe a quien se mueve en silencio y con disimulo para no ser advertido.",
+      "itemRef": "v-0029",
+      "source": "curado"
+    },
+    {
+      "id": "c-0229",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 3,
+      "sentence": "Solo un montañero {avezado} debería intentar esa ruta en invierno.",
+      "answer": "avezado",
+      "distractors": ["bisoño", "novel", "lego"],
+      "explanation": "«Avezado» significa experimentado y curtido por la práctica. «Bisoño», «novel» y «lego» designan precisamente al principiante o al profano.",
+      "itemRef": "v-0030",
+      "source": "curado"
+    },
+    {
+      "id": "c-0230",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 3,
+      "sentence": "Antes de redactar el informe, el auditor tuvo que {recabar} datos de las cinco sucursales.",
+      "answer": "recabar",
+      "acceptedAlt": ["reunir", "recopilar"],
+      "explanation": "Pista: verbo culto que significa conseguir o reunir datos, apoyos o fondos mediante peticiones o gestiones.",
+      "itemRef": "v-0031",
+      "source": "curado"
+    },
+    {
+      "id": "c-0231",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Tómate unos días para {sopesar} la oferta antes de dar una respuesta definitiva.",
+      "answer": "sopesar",
+      "distractors": ["acatar", "improvisar", "desestimar"],
+      "explanation": "«Sopesar» es considerar con detenimiento ventajas e inconvenientes. «Acatar» es obedecer, «improvisar» excluye la reflexión y «desestimar» es rechazar sin más.",
+      "itemRef": "v-0032",
+      "source": "curado"
+    },
+    {
+      "id": "c-0232",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 3,
+      "sentence": "Con apenas dieciséis años, la actriz respondió a la prensa con un {desparpajo} que dejó a todos boquiabiertos.",
+      "answer": "desparpajo",
+      "acceptedAlt": ["desenvoltura", "soltura"],
+      "explanation": "Pista: sustantivo coloquial que designa la desenvoltura y soltura al hablar o actuar, sin timidez ni apuro.",
+      "itemRef": "v-0033",
+      "source": "curado"
+    },
+    {
+      "id": "c-0233",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Estaba tan aturdido que no {atinó} a marcar el número de emergencias.",
+      "answer": "atinó",
+      "distractors": ["osó", "fingió", "rehusó"],
+      "explanation": "«No atinar a + infinitivo» expresa no conseguir hacer algo por torpeza o nervios. «Osar» es atreverse, «fingir» es simular y «rehusar» es negarse: ninguno encaja con el aturdimiento.",
+      "itemRef": "v-0034",
+      "source": "curado"
+    },
+    {
+      "id": "c-0234",
+      "type": "cloze-typed",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Esta sala, amplia y bien insonorizada, es {idónea} para los ensayos de la orquesta.",
+      "answer": "idónea",
+      "acceptedAlt": ["perfecta", "ideal"],
+      "explanation": "Pista: adjetivo que significa perfectamente adecuado o apropiado para un fin determinado.",
+      "itemRef": "v-0035",
+      "source": "curado"
+    },
+    {
+      "id": "c-0235",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "El zoco era un espectáculo {abigarrado} de especias, telas, gritos y colores imposibles.",
+      "answer": "abigarrado",
+      "distractors": ["sobrio", "diáfano", "anodino"],
+      "explanation": "«Abigarrado» describe una mezcla heterogénea y chillona de elementos. «Sobrio» y «diáfano» sugieren contención y claridad, y «anodino» significa insulso, sin interés.",
+      "itemRef": "v-0036",
+      "source": "curado"
+    },
+    {
+      "id": "c-0236",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Con el partido ya perdido, el capitán siguió luchando cada balón por puro {pundonor}.",
+      "answer": "pundonor",
+      "acceptedAlt": ["amor propio"],
+      "explanation": "Pista: sustantivo que designa el sentimiento de dignidad y amor propio que impulsa a cumplir con el deber.",
+      "itemRef": "v-0037",
+      "source": "curado"
+    },
+    {
+      "id": "c-0237",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Se puso {zalamero} de repente; seguro que viene a pedirte dinero.",
+      "answer": "zalamero",
+      "distractors": ["arisco", "displicente", "taciturno"],
+      "explanation": "«Zalamero» es quien halaga de forma empalagosa e interesada. «Arisco», «displicente» y «taciturno» describen actitudes frías o distantes, incompatibles con el halago.",
+      "itemRef": "v-0038",
+      "source": "curado"
+    },
+    {
+      "id": "c-0238",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Es millonario, pero tan {cicatero} que regatea hasta el precio del pan.",
+      "answer": "cicatero",
+      "acceptedAlt": ["tacaño", "roñoso", "agarrado"],
+      "explanation": "Pista: adjetivo que califica al mezquino y tacaño, al que escatima hasta lo insignificante.",
+      "itemRef": "v-0039",
+      "source": "curado"
+    },
+    {
+      "id": "c-0239",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "No perdamos la mañana en cuestiones {baladíes}; vayamos al fondo del asunto.",
+      "answer": "baladíes",
+      "distractors": ["acuciantes", "peliagudas", "cruciales"],
+      "explanation": "«Baladí» significa trivial, de poca importancia. «Acuciante», «peliagudo» y «crucial» indican precisamente asuntos urgentes, difíciles o decisivos.",
+      "itemRef": "v-0040",
+      "source": "curado"
+    },
+    {
+      "id": "c-0240",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Al abrazar a su nieto recién nacido sintió una dicha {inefable}, imposible de poner en palabras.",
+      "answer": "inefable",
+      "acceptedAlt": ["indescriptible", "indecible"],
+      "explanation": "Pista: adjetivo literario que califica lo que no puede expresarse con palabras por su intensidad.",
+      "itemRef": "v-0041",
+      "source": "curado"
+    },
+    {
+      "id": "c-0241",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "El recorte salarial {soliviantó} a los trabajadores, que convocaron huelga indefinida.",
+      "answer": "soliviantó",
+      "distractors": ["apaciguó", "embelesó", "amilanó"],
+      "explanation": "«Soliviantar» es irritar a alguien hasta inducirlo a la protesta. «Apaciguar» calma, «embelesar» cautiva y «amilanar» acobarda: ninguno desemboca en una huelga.",
+      "itemRef": "v-0042",
+      "source": "curado"
+    },
+    {
+      "id": "c-0242",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Encajó el premio sin {alharacas}: dio las gracias, sonrió y volvió a su asiento.",
+      "answer": "alharacas",
+      "acceptedAlt": ["aspavientos"],
+      "explanation": "Pista: sustantivo coloquial (a menudo en plural) que designa las demostraciones exageradas y ruidosas de un sentimiento.",
+      "itemRef": "v-0043",
+      "source": "curado"
+    },
+    {
+      "id": "c-0243",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "La comisión de investigación intentará {dilucidar} si hubo trato de favor en la adjudicación.",
+      "answer": "dilucidar",
+      "distractors": ["enmarañar", "soslayar", "barruntar"],
+      "explanation": "«Dilucidar» es aclarar un asunto confuso hasta dejarlo nítido. «Enmarañar» lo complica, «soslayar» lo esquiva y «barruntar» es solo intuirlo.",
+      "itemRef": "v-0044",
+      "source": "curado"
+    },
+    {
+      "id": "c-0244",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "El pastor subía cada mañana al cerro para {otear} el horizonte y vigilar el rebaño.",
+      "answer": "otear",
+      "explanation": "Pista: verbo literario que significa mirar desde un lugar alto hacia la lejanía, explorando el horizonte.",
+      "itemRef": "v-0045",
+      "source": "curado"
+    },
+    {
+      "id": "c-0245",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Mientras la sala entera lo abucheaba, el ponente continuó {impertérrito} con su exposición.",
+      "answer": "impertérrito",
+      "distractors": ["azorado", "compungido", "amedrentado"],
+      "explanation": "«Impertérrito» es quien no se altera ante nada. «Azorado» (turbado), «compungido» (apenado) y «amedrentado» (atemorizado) describen justamente reacciones de alteración.",
+      "itemRef": "v-0046",
+      "source": "curado"
+    },
+    {
+      "id": "c-0246",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Sin tanto {circunloquio}, doctor: dígame de una vez si es grave o no.",
+      "answer": "circunloquio",
+      "acceptedAlt": ["rodeo"],
+      "explanation": "Pista: sustantivo culto que designa el rodeo de palabras para expresar algo que podría decirse de forma más directa.",
+      "itemRef": "v-0047",
+      "source": "curado"
+    },
+    {
+      "id": "c-0247",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "El diputado tuvo que disculparse por el {exabrupto} que soltó en plena sesión parlamentaria.",
+      "answer": "exabrupto",
+      "distractors": ["panegírico", "circunloquio", "parabién"],
+      "explanation": "Un «exabrupto» es una salida de tono brusca y descortés. Un «panegírico» es un elogio, un «circunloquio» un rodeo verbal y un «parabién» una felicitación.",
+      "itemRef": "v-0048",
+      "source": "curado"
+    },
+    {
+      "id": "c-0248",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Corrigió los exámenes con {displicencia}, sin molestarse siquiera en anotar los errores.",
+      "answer": "displicencia",
+      "acceptedAlt": ["desgana", "desdén"],
+      "explanation": "Pista: sustantivo culto que designa la actitud de desagrado o indiferencia desdeñosa en el trato o al hacer algo.",
+      "itemRef": "v-0049",
+      "source": "curado"
+    },
+    {
+      "id": "c-0249",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Releyó con {fruición} los pasajes subrayados de su novela favorita.",
+      "answer": "fruición",
+      "distractors": ["desgana", "zozobra", "premura"],
+      "explanation": "«Fruición» es el placer intenso con que se disfruta algo. «Desgana» es falta de interés, «zozobra» angustia y «premura» prisa: ninguna acompaña a una relectura placentera.",
+      "itemRef": "v-0050",
+      "source": "curado"
+    },
+    {
+      "id": "c-0250",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Al oír el trueno sintió ese terror {atávico} que ninguna educación racionalista logra extirpar.",
+      "answer": "atávico",
+      "acceptedAlt": ["ancestral"],
+      "explanation": "Pista: adjetivo que califica lo que procede de generaciones remotas y pervive como herencia ancestral e irracional.",
+      "itemRef": "v-0051",
+      "source": "curado"
+    },
+    {
+      "id": "c-0251",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Los juristas advierten de que la reforma {cercena} garantías procesales básicas.",
+      "answer": "cercena",
+      "distractors": ["apuntala", "consagra", "blinda"],
+      "explanation": "«Cercenar» es recortar o suprimir de raíz, aquí derechos. «Apuntalar», «consagrar» y «blindar» significan lo contrario: reforzar o proteger.",
+      "itemRef": "v-0052",
+      "source": "curado"
+    },
+    {
+      "id": "c-0252",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "El tribunal decidió {conminar} al ayuntamiento a demoler las obras ilegales en el plazo de un mes.",
+      "answer": "conminar",
+      "explanation": "Pista: verbo culto que significa exigir a alguien, bajo amenaza de sanción, que haga algo. Rige la preposición «a».",
+      "itemRef": "v-0053",
+      "source": "curado"
+    },
+    {
+      "id": "c-0253",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Es un autor {proclive} a la melancolía: hasta sus comedias acaban en elegía.",
+      "answer": "proclive",
+      "distractors": ["reacio", "ajeno", "inmune"],
+      "explanation": "«Proclive a» significa inclinado o propenso a algo. «Reacio a», «ajeno a» e «inmune a» expresan justamente resistencia o distancia respecto de ello.",
+      "itemRef": "v-0054",
+      "source": "curado"
+    },
+    {
+      "id": "c-0254",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Era conocido por su {acendrada} lealtad a los amigos, que jamás flaqueó ni en los peores años.",
+      "answer": "acendrada",
+      "explanation": "Pista: adjetivo literario que califica una cualidad o sentimiento puro, sin mancha, depurado hasta la perfección.",
+      "itemRef": "v-0055",
+      "source": "curado"
+    },
+    {
+      "id": "c-0255",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "La {inopinada} visita del inspector pilló a toda la oficina desprevenida.",
+      "answer": "inopinada",
+      "distractors": ["anunciada", "consabida", "paulatina"],
+      "explanation": "«Inopinado» es lo que sucede sin haber sido esperado, de ahí que pillara a todos desprevenidos. «Anunciada» y «consabida» implican previsión, y «paulatina» se refiere al ritmo, no a la sorpresa.",
+      "itemRef": "v-0056",
+      "source": "curado"
+    },
+    {
+      "id": "c-0256",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "Tras décadas de {marasmo} económico, la región empieza por fin a atraer inversiones.",
+      "answer": "marasmo",
+      "acceptedAlt": ["estancamiento", "parálisis"],
+      "explanation": "Pista: sustantivo culto que designa la paralización o inmovilidad total de una actividad; apatía profunda.",
+      "itemRef": "v-0057",
+      "source": "curado"
+    },
+    {
+      "id": "c-0257",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "En cuanto descolgué el teléfono, mi madre me soltó una {retahíla} de reproches sin tomar aire.",
+      "answer": "retahíla",
+      "distractors": ["pizca", "ráfaga", "pincelada"],
+      "explanation": "Una «retahíla» es una serie larga y seguida, típicamente de quejas o reproches. «Pizca» y «pincelada» indican cantidad mínima, y «ráfaga» es breve por definición.",
+      "itemRef": "v-0058",
+      "source": "curado"
+    },
+    {
+      "id": "c-0258",
+      "type": "cloze-typed",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "El cuentacuentos logró {embelesar} a los niños, que lo escuchaban inmóviles y con la boca abierta.",
+      "answer": "embelesar",
+      "acceptedAlt": ["cautivar", "hechizar"],
+      "explanation": "Pista: verbo literario que significa cautivar por completo los sentidos o la atención de alguien.",
+      "itemRef": "v-0059",
+      "source": "curado"
+    },
+    {
+      "id": "c-0259",
+      "type": "cloze-choice",
+      "domain": "vocab-c2",
+      "difficulty": 3,
+      "sentence": "En 1898 conoció a Galdós, {a la sazón} el novelista más leído del país.",
+      "answer": "a la sazón",
+      "distractors": ["a duras penas", "a la postre", "a lo sumo"],
+      "explanation": "«A la sazón» significa «en aquel tiempo, en el momento del que se habla». «A duras penas» es con dificultad, «a la postre» es al final y «a lo sumo» es como máximo.",
+      "itemRef": "v-0060",
+      "source": "curado"
+    }
+  ]
+}

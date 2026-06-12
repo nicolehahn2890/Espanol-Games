@@ -1,0 +1,225 @@
+{
+  "pack": "cloze-conectores",
+  "version": 1,
+  "challenges": [
+    {
+      "id": "c-0066",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 1,
+      "sentence": "Los resultados del trimestre fueron mediocres; {no obstante}, la junta decidió renovar el contrato del director.",
+      "answer": "no obstante",
+      "distractors": ["por consiguiente", "es decir"],
+      "explanation": "La renovación contraría la expectativa creada por los malos resultados: hace falta un conector contraargumentativo; «por consiguiente» marcaría justo la consecuencia esperable.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0067",
+      "type": "cloze-typed",
+      "domain": "conectores",
+      "difficulty": 2,
+      "sentence": "El presupuesto se redujo a la mitad de un año para otro; de ahí que el proyecto {quedara} (quedar) aparcado indefinidamente.",
+      "answer": "quedara",
+      "acceptedAlt": ["quedase"],
+      "explanation": "«De ahí que» introduce una consecuencia ya presupuesta por el contexto y rige siempre subjuntivo; en pasado, imperfecto de subjuntivo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0068",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 2,
+      "sentence": "{Si bien} la propuesta resulta atractiva sobre el papel, plantea serios problemas de financiación.",
+      "answer": "Si bien",
+      "distractors": ["Por ende", "Conque"],
+      "explanation": "«Si bien» es el concesivo del registro formal escrito: admite parcialmente la propuesta antes de objetarla; los otros dos son consecutivos y romperían la lógica del periodo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0069",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 2,
+      "sentence": "Estoy dispuesto a negociar los plazos y la forma de pago; {ahora bien}, no aceptaré rebajas en lo esencial del acuerdo.",
+      "answer": "ahora bien",
+      "distractors": ["por consiguiente", "asimismo"],
+      "explanation": "«Ahora bien» introduce una restricción o salvedad que limita el alcance de lo concedido antes; «asimismo» sumaría información y «por consiguiente» extraería una consecuencia.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0070",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 1,
+      "sentence": "Su hermano es un manirroto incorregible; ella, {en cambio}, no gasta un céntimo sin pensárselo dos veces.",
+      "answer": "en cambio",
+      "distractors": ["por ende", "así pues"],
+      "explanation": "Se contraponen dos términos paralelos (él frente a ella): «en cambio» marca ese contraste simétrico; los consecutivos no establecen contraste alguno.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0071",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 2,
+      "sentence": "Ya has descansado bastante, {conque} espabila y ponte a estudiar de una vez.",
+      "answer": "conque",
+      "distractors": ["no obstante", "si bien"],
+      "explanation": "«Conque» es el consecutivo del registro coloquial, frecuente ante órdenes o reproches; los concesivos invertirían la relación lógica de la frase.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0072",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 1,
+      "sentence": "La demanda cayó en picado durante el invierno y, {por ende}, los precios acabaron desplomándose.",
+      "answer": "por ende",
+      "distractors": ["aun así", "ahora bien"],
+      "explanation": "La caída de precios es consecuencia directa de la caída de la demanda: conector consecutivo culto; «aun así» y «ahora bien» introducirían un giro adversativo inexistente aquí.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0073",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 1,
+      "sentence": "Nadie presentó alegaciones dentro del plazo; {así pues}, el acta quedó aprobada por unanimidad.",
+      "answer": "así pues",
+      "distractors": ["en cambio", "por más que"],
+      "explanation": "La aprobación se deduce de la ausencia de alegaciones: «así pues» marca esa consecuencia razonada, propia de la prosa formal.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0074",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 1,
+      "sentence": "Sabía que apenas tenía posibilidades frente a los otros candidatos; {aun así}, presentó su candidatura.",
+      "answer": "aun así",
+      "distractors": ["por consiguiente", "de ahí que"],
+      "explanation": "«Aun así» (= a pesar de eso) introduce un hecho que se produce contra lo esperable; los consecutivos dirían que presentarse era la consecuencia lógica de no tener opciones.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0075",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 2,
+      "sentence": "{Por más que} lo intento una y otra vez, no consigo descifrar su letra de médico.",
+      "answer": "Por más que",
+      "distractors": ["Por ende", "Así pues"],
+      "explanation": "«Por más que» es concesivo de intensidad: el esfuerzo repetido no logra su efecto; con indicativo («intento») se presenta ese esfuerzo como real y constatado.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0076",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 2,
+      "sentence": "El contrato carece de la firma de una de las partes; {por consiguiente}, es nulo de pleno derecho.",
+      "answer": "por consiguiente",
+      "distractors": ["sin embargo", "en cambio"],
+      "explanation": "La nulidad se sigue lógicamente del defecto de forma: consecutivo formal, habitual en la prosa jurídica; los adversativos invertirían el razonamiento.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0077",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 3,
+      "sentence": "{No obstante} lo dispuesto en el artículo anterior, el juez podrá acordar otra cosa en interés del menor.",
+      "answer": "No obstante",
+      "distractors": ["Sin embargo", "Aun así"],
+      "explanation": "Solo «no obstante» funciona además como preposición con complemento nominal (= a pesar de), uso típico del lenguaje jurídico-administrativo; «sin embargo» y «aun así» no admiten complemento.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0078",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 2,
+      "sentence": "Nunca llegó a fiarse del todo de sus socios; {de ahí que} no les confiara jamás la contraseña de la caja.",
+      "answer": "de ahí que",
+      "distractors": ["por más que", "si bien"],
+      "explanation": "La desconfianza explica la reserva: «de ahí que» presenta esa consecuencia como evidente y, nótese, rige subjuntivo («confiara»); los concesivos no encajan con ese modo ni con la lógica causal.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0079",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 3,
+      "sentence": "El plan presentaba lagunas evidentes y más de un cabo suelto; {con todo}, decidieron seguir adelante.",
+      "answer": "con todo",
+      "distractors": ["por ende", "de ahí que"],
+      "explanation": "«Con todo» (= a pesar de todo ello) es un concesivo culto que recapitula los obstáculos mencionados antes de contradecir la expectativa; los consecutivos harían de las lagunas la causa de continuar.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0080",
+      "type": "cloze-typed",
+      "domain": "conectores",
+      "difficulty": 2,
+      "sentence": "Por más que se {empeñe} (empeñarse) en negarlo ante la prensa, todas las pruebas apuntan en su contra.",
+      "answer": "empeñe",
+      "explanation": "«Por más que» con subjuntivo presenta el empeño como virtual o irrelevante para la conclusión: el hablante descarta de antemano su eficacia argumentativa.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0081",
+      "type": "nuance-choice",
+      "domain": "conectores",
+      "difficulty": 3,
+      "sentence": "Pensábamos que el examen sería un puro trámite; {sin embargo}, suspendió más de media clase.",
+      "answer": "sin embargo",
+      "distractors": ["en cambio", "por ende"],
+      "explanation": "«Sin embargo» cancela una expectativa derivada del enunciado anterior (contraargumentación); «en cambio» exige dos términos contrastados en paralelo, que aquí no existen.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0082",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 2,
+      "sentence": "Yo solo veo cine clásico en versión original; mi pareja, {en cambio}, no se pierde un solo estreno comercial.",
+      "answer": "en cambio",
+      "distractors": ["por consiguiente", "conque"],
+      "explanation": "Contraste simétrico entre dos sujetos con gustos opuestos: terreno propio de «en cambio»; los consecutivos presentarían los estrenos como efecto de mi afición al cine clásico.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0083",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 3,
+      "sentence": "No se desanimó con aquel rechazo; {antes bien}, redobló sus esfuerzos y volvió a presentarse al año siguiente.",
+      "answer": "antes bien",
+      "distractors": ["en cambio", "por ende"],
+      "explanation": "«Antes bien» es un conector culto que corrige una negación previa sustituyéndola por lo contrario (no X; antes bien, Y); «en cambio» contrasta, pero no rectifica.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0084",
+      "type": "cloze-typed",
+      "domain": "conectores",
+      "difficulty": 3,
+      "sentence": "La sequía arruinó dos cosechas seguidas; de ahí que media comarca {emigrara} (emigrar) a la capital en apenas un lustro.",
+      "answer": "emigrara",
+      "acceptedAlt": ["emigrase"],
+      "explanation": "«De ahí que» rige subjuntivo incluso cuando la consecuencia es un hecho histórico comprobado: el conector la presenta como información ya inferible, no asertada.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0085",
+      "type": "cloze-choice",
+      "domain": "conectores",
+      "difficulty": 2,
+      "sentence": "La novela es deslumbrante en lo formal; {ahora bien}, su trama deja bastante que desear.",
+      "answer": "ahora bien",
+      "distractors": ["así pues", "por consiguiente"],
+      "explanation": "Tras el elogio, se introduce una objeción que lo matiza: «ahora bien» marca ese giro restrictivo; los consecutivos presentarían la debilidad de la trama como conclusión del elogio.",
+      "source": "curado"
+    }
+  ]
+}

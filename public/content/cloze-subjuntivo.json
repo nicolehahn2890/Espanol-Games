@@ -1,0 +1,433 @@
+{
+  "pack": "cloze-subjuntivo",
+  "version": 1,
+  "challenges": [
+    {
+      "id": "c-0001",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "No creía que el asunto {tuviera} (tener) tanta importancia como aseguraban los periódicos.",
+      "answer": "tuviera",
+      "acceptedAlt": ["tuviese"],
+      "explanation": "Un verbo de opinión negado en pasado («no creía que») exige imperfecto de subjuntivo por concordancia temporal: la negación suspende la aserción del contenido.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0002",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "No sé si lo que cuentas es cierto, pero aunque lo {sea} (ser), no pienso cambiar de opinión.",
+      "answer": "sea",
+      "explanation": "Con «aunque», el subjuntivo marca que el hablante no afirma el contenido concesivo: aquí la verdad del hecho queda explícitamente en suspenso («no sé si es cierto»).",
+      "source": "curado"
+    },
+    {
+      "id": "c-0003",
+      "type": "nuance-choice",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Aunque {era} plenamente consciente del riesgo, firmó el contrato sin pestañear.",
+      "answer": "era",
+      "distractors": ["fuera", "sea"],
+      "explanation": "El hablante presenta la conciencia del riesgo como un hecho constatado y lo afirma: «aunque» con información asertada rige indicativo; «fuera» lo presentaría como no asumido por el hablante.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0004",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "El hecho de que nadie {protestara} (protestar) en la asamblea no significa que todos estuvieran de acuerdo.",
+      "answer": "protestara",
+      "acceptedAlt": ["protestase"],
+      "explanation": "Con «el hecho de que» en posición de sujeto, la información se presenta como tema presupuesto sobre el que se opina, no como aserción nueva: de ahí el subjuntivo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0005",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "Busco un traductor que {domine} (dominar) tanto el alemán jurídico como el español notarial; de momento no he dado con ninguno.",
+      "answer": "domine",
+      "explanation": "El antecedente es inespecífico: el hablante no tiene en mente a un traductor concreto («no he dado con ninguno»), por lo que la relativa va en subjuntivo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0006",
+      "type": "nuance-choice",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Por fin di con un traductor que {domina} el alemán jurídico; trabajamos juntos desde enero.",
+      "answer": "domina",
+      "distractors": ["domine", "dominara"],
+      "explanation": "El antecedente es específico y existente (la persona ya fue encontrada y se trabaja con ella), de modo que la relativa exige indicativo; «domine» implicaría que aún se busca.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0007",
+      "type": "nuance-choice",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Quizá {venga} mañana a la inauguración, aunque conociéndolo lo dudo mucho.",
+      "answer": "venga",
+      "distractors": ["viene", "vendrá"],
+      "explanation": "Con «quizá» antepuesto caben ambos modos, pero el subjuntivo subraya la duda; el refuerzo «lo dudo mucho» hace incoherente el indicativo, que presentaría el hecho como probable.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0008",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "Cuando {llegues} (llegar) al portal, avísame y bajo a abrirte.",
+      "answer": "llegues",
+      "explanation": "Las subordinadas temporales con «cuando» referidas al futuro rigen presente de subjuntivo: el hecho aún no se ha producido y no puede afirmarse.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0009",
+      "type": "nuance-choice",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Cuando {llegaba} a casa después del turno de noche, siempre se quitaba los zapatos antes de entrar.",
+      "answer": "llegaba",
+      "distractors": ["llegara", "llegue"],
+      "explanation": "Aquí «cuando» introduce un hábito real del pasado («siempre»), no un hecho futuro: corresponde el imperfecto de indicativo; «llegara» apuntaría a un futuro respecto de un pasado.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0010",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "En cuanto {termine} (terminar) la reunión del consejo, te llamo sin falta.",
+      "answer": "termine",
+      "explanation": "«En cuanto» con referencia al futuro funciona como las demás temporales: el evento no realizado se expresa en presente de subjuntivo, nunca en futuro de indicativo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0011",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "Si {tuviera} (tener) más tiempo libre, retomaría las clases de piano que dejé hace años.",
+      "answer": "tuviera",
+      "acceptedAlt": ["tuviese"],
+      "explanation": "Condicional irreal de presente (segundo tipo): la prótasis va en imperfecto de subjuntivo y la apódosis en condicional simple.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0012",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Si me lo {hubieras advertido} (advertir) a tiempo, jamás habría firmado aquel contrato ruinoso.",
+      "answer": "hubieras advertido",
+      "acceptedAlt": ["hubieses advertido"],
+      "explanation": "Condicional irreal de pasado (tercer tipo): la prótasis exige pluscuamperfecto de subjuntivo; el hecho ya no puede cumplirse.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0013",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Ojalá {hubiéramos reservado} (reservar) con antelación; ahora no queda ni una entrada.",
+      "answer": "hubiéramos reservado",
+      "acceptedAlt": ["hubiésemos reservado"],
+      "explanation": "«Ojalá» con pluscuamperfecto de subjuntivo expresa un deseo irrealizable referido al pasado: lo no hecho ya no tiene remedio.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0014",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "Me miró como si no me {conociera} (conocer) de nada, y eso que fuimos vecinos diez años.",
+      "answer": "conociera",
+      "acceptedAlt": ["conociese"],
+      "explanation": "«Como si» introduce una comparación contrafactual y rige siempre imperfecto o pluscuamperfecto de subjuntivo: la situación evocada es irreal.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0015",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Hablaba del accidente con todo lujo de detalles, como si lo {hubiera presenciado} (presenciar) en persona.",
+      "answer": "hubiera presenciado",
+      "acceptedAlt": ["hubiese presenciado"],
+      "explanation": "Con «como si», el pluscuamperfecto de subjuntivo sitúa la irrealidad en un momento anterior: no presenció el accidente, pero habla como quien lo hizo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0016",
+      "type": "nuance-choice",
+      "domain": "subjuntivo",
+      "difficulty": 3,
+      "sentence": "El palacete, que {construyera} un discípulo de Gaudí a finales del XIX, fue declarado Bien de Interés Cultural.",
+      "answer": "construyera",
+      "distractors": ["construyese", "haya construido"],
+      "explanation": "En la prosa periodística y literaria, la forma en -ra conserva su valor etimológico de pluscuamperfecto de indicativo (= «había construido»); la variante en -se no admite este uso.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0017",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 3,
+      "sentence": "Quien {ose} (osar) contradecirle en público se expone a una represalia inmediata.",
+      "answer": "ose",
+      "explanation": "Relativa libre con antecedente inespecífico y valor genérico-condicional («cualquiera que»): rige subjuntivo, reforzado aquí por el tono culto-literario de «osar».",
+      "source": "curado"
+    },
+    {
+      "id": "c-0018",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "Por más que {insistas} (insistir), no pienso adelantarte el final de la novela.",
+      "answer": "insistas",
+      "explanation": "«Por más que» con referencia a una insistencia futura o virtual rige subjuntivo: el hablante no afirma que la insistencia vaya a producirse, solo la descarta como argumento.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0019",
+      "type": "cloze-choice",
+      "domain": "subjuntivo",
+      "difficulty": 3,
+      "sentence": "Por más que {insistió} durante toda la cena, no logró sonsacarle ni una palabra sobre el testamento.",
+      "answer": "insistió",
+      "distractors": ["insista", "haya insistido"],
+      "explanation": "La insistencia se presenta como un hecho pasado y constatado dentro de una narración: indicativo. Las formas de presente o perfecto de subjuntivo rompen la concordancia temporal.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0020",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "No es que no me {apetezca} (apetecer) ir a la cena, es que estoy agotada después del viaje.",
+      "answer": "apetezca",
+      "explanation": "«No es que» niega una explicación posible sin afirmarla ni desmentirla del todo, por lo que el contenido va en subjuntivo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0021",
+      "type": "cloze-choice",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Que yo {sepa}, nadie ha reclamado todavía el premio de la lotería de Navidad.",
+      "answer": "sepa",
+      "distractors": ["sé", "sabré"],
+      "explanation": "La fórmula restrictiva «que yo sepa» (= hasta donde alcanza mi conocimiento) está lexicalizada con subjuntivo: el hablante limita el alcance de su aserción.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0022",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "El abogado abandonó la sala antes de que el juez {pronunciara} (pronunciar) la sentencia.",
+      "answer": "pronunciara",
+      "acceptedAlt": ["pronunciase"],
+      "explanation": "«Antes de que» rige siempre subjuntivo: el evento subordinado es posterior al principal y, por tanto, no realizado en ese punto del relato.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0023",
+      "type": "cloze-choice",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Después de que el Gobierno {aprobara} el decreto, los sindicatos convocaron una huelga general.",
+      "answer": "aprobara",
+      "distractors": ["apruebe", "haya aprobado"],
+      "explanation": "Con «después de que» referido al pasado, la norma culta peninsular prefiere el imperfecto de subjuntivo en -ra (también sería posible «aprobó»); las formas de presente rompen la concordancia.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0024",
+      "type": "nuance-choice",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Mientras {sigas} negándote a declarar, la instrucción del caso no avanzará ni un milímetro.",
+      "answer": "sigas",
+      "distractors": ["sigues", "seguirás"],
+      "explanation": "«Mientras» con valor condicional (= en tanto que, a condición de que) y referencia prospectiva rige subjuntivo; con indicativo expresaría mera simultaneidad de hechos constatados.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0025",
+      "type": "nuance-choice",
+      "domain": "subjuntivo",
+      "difficulty": 3,
+      "sentence": "Me temo que ya {es} demasiado tarde para inscribirse: el plazo venció anoche.",
+      "answer": "es",
+      "distractors": ["sea", "fuera"],
+      "explanation": "«Temerse» como atenuador de una aserción (= lamento comunicar que) rige indicativo; el subjuntivo solo aparece cuando «temer» expresa miedo genuino ante algo no constatado.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0026",
+      "type": "nuance-choice",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Entiendo que {estés} molesto por lo de ayer; cualquiera en tu lugar lo estaría.",
+      "answer": "estés",
+      "distractors": ["estás", "estarás"],
+      "explanation": "«Entender» con valor de empatía (= me parece comprensible) rige subjuntivo; con indicativo significaría 'deduzco, tengo entendido', lectura que no encaja con la justificación posterior.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0027",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 3,
+      "sentence": "Que {haya dimitido} (dimitir) justo la víspera de la auditoría da bastante que pensar.",
+      "answer": "haya dimitido",
+      "explanation": "La subordinada de sujeto encabezada por «que» y antepuesta se interpreta como información presupuesta que se valora, no como aserción: subjuntivo perfecto por anterioridad.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0028",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Lo hizo no porque le {conviniera} (convenir), sino por pura lealtad a la familia.",
+      "answer": "conviniera",
+      "acceptedAlt": ["conviniese"],
+      "explanation": "Las causales negadas con «no porque» rigen subjuntivo: se descarta esa causa sin afirmarla, y la causa real aparece después con «sino».",
+      "source": "curado"
+    },
+    {
+      "id": "c-0029",
+      "type": "nuance-choice",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Tal vez {sea} mejor dejarlo para mañana y consultarlo con la almohada; no lo veo nada claro.",
+      "answer": "sea",
+      "distractors": ["es", "será"],
+      "explanation": "«Tal vez» admite ambos modos, pero el subjuntivo presenta la opción como mera posibilidad sopesada, en consonancia con «no lo veo nada claro»; el indicativo la afirmaría como probable.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0030",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Me prometió que me avisaría en cuanto {supiera} (saber) algo del resultado de las pruebas.",
+      "answer": "supiera",
+      "acceptedAlt": ["supiese"],
+      "explanation": "Temporal de futuro respecto de un pasado («avisaría»): el imperfecto de subjuntivo es la transposición del presente de subjuntivo al plano del pasado.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0031",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "Quien {quiera} (querer) entender la indirecta, que la entienda; yo no pienso explicarme más.",
+      "answer": "quiera",
+      "explanation": "Relativa libre de antecedente inespecífico con valor genérico: «quien quiera» equivale a 'cualquiera que quiera', lo que exige subjuntivo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0032",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "Esta noche iremos a cenar donde tú {digas} (decir); me fío de tu criterio.",
+      "answer": "digas",
+      "explanation": "Relativa de lugar con antecedente aún no determinado: el sitio depende de una decisión futura, por lo que el verbo va en subjuntivo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0033",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 3,
+      "sentence": "Por mucho que me lo {jures} (jurar) por tus muertos, me va a costar volver a fiarme de ti.",
+      "answer": "jures",
+      "explanation": "«Por mucho que» concesivo con referencia virtual o futura rige subjuntivo: el hablante anula de antemano la eficacia del juramento, sin afirmar que se produzca.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0034",
+      "type": "nuance-choice",
+      "domain": "subjuntivo",
+      "difficulty": 2,
+      "sentence": "Te presto el coche siempre que me lo {devuelvas} con el depósito lleno antes del domingo.",
+      "answer": "devuelvas",
+      "distractors": ["devuelves", "devolverás"],
+      "explanation": "«Siempre que» con valor condicional (= con tal de que) rige subjuntivo; con indicativo significaría 'cada vez que', lectura temporal que aquí no encaja.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0035",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 3,
+      "sentence": "El hecho de que la inflación {haya subido} (subir) tres puntos no justifica un recorte tan drástico.",
+      "answer": "haya subido",
+      "explanation": "La subida se presenta como dato presupuesto que se evalúa («no justifica»), no como información nueva: subjuntivo perfecto, que marca anterioridad respecto del momento del habla.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0036",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 3,
+      "sentence": "¡Ni que {fueras} (ser) millonario! Deja ya de invitar a rondas a todo el bar.",
+      "answer": "fueras",
+      "acceptedAlt": ["fueses"],
+      "explanation": "La exclamativa «¡ni que...!» equivale a «como si» y expresa una comparación contrafactual e irónica, por lo que exige imperfecto de subjuntivo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0037",
+      "type": "cloze-typed",
+      "domain": "subjuntivo",
+      "difficulty": 3,
+      "sentence": "Como no {entregues} (entregar) el informe mañana a primera hora, tendremos un problema muy serio con el cliente.",
+      "answer": "entregues",
+      "explanation": "«Como» con valor condicional de amenaza o advertencia rige presente de subjuntivo; con indicativo tendría valor causal ('puesto que').",
+      "source": "curado"
+    },
+    {
+      "id": "c-0038",
+      "type": "cloze-choice",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "Apenas {amanezca}, levantaremos el campamento y nos pondremos en camino.",
+      "answer": "amanezca",
+      "distractors": ["amanece", "amanecerá"],
+      "explanation": "«Apenas» temporal con referencia al futuro funciona como «en cuanto»: el hecho no realizado se expresa en presente de subjuntivo, nunca en futuro de indicativo.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0039",
+      "type": "cloze-choice",
+      "domain": "subjuntivo",
+      "difficulty": 1,
+      "sentence": "Si lo {hubiera sabido} a tiempo, habría actuado de otro modo, te lo aseguro.",
+      "answer": "hubiera sabido",
+      "distractors": ["habría sabido", "sabría"],
+      "explanation": "En la prótasis de las condicionales irreales de pasado solo cabe el pluscuamperfecto de subjuntivo; el condicional queda reservado a la apódosis.",
+      "source": "curado"
+    },
+    {
+      "id": "c-0040",
+      "type": "cloze-choice",
+      "domain": "subjuntivo",
+      "difficulty": 3,
+      "sentence": "Quienquiera que {fuese} el autor del anónimo, conocía la casa y sus rutinas al dedillo.",
+      "answer": "fuese",
+      "distractors": ["fue", "era"],
+      "explanation": "Los relativos inespecíficos en «-quiera» («quienquiera que») rigen subjuntivo de forma sistemática: la identidad del referente se presenta como desconocida o irrelevante.",
+      "source": "curado"
+    }
+  ]
+}

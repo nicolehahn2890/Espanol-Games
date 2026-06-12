@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "packs": [
+    "cloze-subjuntivo",
+    "cloze-pasados",
+    "cloze-conectores",
+    "cloze-registro",
+    "grammar-topics",
+    "vocab-c1c2",
+    "cloze-falsos-amigos",
+    "modismos",
+    "colocaciones"
+  ]
+}

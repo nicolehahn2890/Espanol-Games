@@ -1,0 +1,399 @@
+{
+  "pack": "colocaciones",
+  "version": 1,
+  "collocations": [
+    {
+      "id": "col-0001",
+      "base": "decisión",
+      "collocates": ["tomar", "adoptar"],
+      "antiCollocates": ["*hacer una decisión", "*encontrar una decisión"],
+      "example": "Tras semanas de dudas, tomó la decisión de vender la casa."
+    },
+    {
+      "id": "col-0002",
+      "base": "atención",
+      "collocates": ["prestar", "llamar"],
+      "antiCollocates": ["*pagar atención", "*regalar atención"],
+      "example": "Presta atención a las señales: el desvío está mal indicado."
+    },
+    {
+      "id": "col-0003",
+      "base": "error",
+      "collocates": ["cometer", "subsanar"],
+      "antiCollocates": ["*hacer un error"],
+      "example": "El contable cometió un error grave en el cierre del ejercicio."
+    },
+    {
+      "id": "col-0004",
+      "base": "silencio",
+      "collocates": ["guardar", "romper"],
+      "antiCollocates": ["*hacer silencio", "*tener silencio"],
+      "example": "Los asistentes guardaron un minuto de silencio por las víctimas."
+    },
+    {
+      "id": "col-0005",
+      "base": "conversación",
+      "collocates": ["entablar", "mantener"],
+      "antiCollocates": ["*conducir una conversación", "*llevar una conversación"],
+      "example": "Entabló conversación con su compañera de asiento antes de despegar."
+    },
+    {
+      "id": "col-0006",
+      "base": "esperanzas",
+      "collocates": ["albergar", "abrigar"],
+      "antiCollocates": ["*hacerse esperanzas"],
+      "example": "Los médicos aún albergan esperanzas de una recuperación completa."
+    },
+    {
+      "id": "col-0007",
+      "base": "sueño",
+      "collocates": ["conciliar"],
+      "antiCollocates": ["*encontrar el sueño", "*atrapar el sueño"],
+      "example": "Con tanto ruido en la calle no logró conciliar el sueño hasta las tres."
+    },
+    {
+      "id": "col-0008",
+      "base": "papel",
+      "collocates": ["desempeñar", "asumir"],
+      "antiCollocates": ["*jugar un papel"],
+      "example": "La prensa local desempeñó un papel decisivo en el destape del caso."
+    },
+    {
+      "id": "col-0009",
+      "base": "riesgo",
+      "collocates": ["correr", "asumir"],
+      "antiCollocates": ["*entrar en un riesgo", "*tomar un riesgo"],
+      "example": "Quien invierte en bolsa corre el riesgo de perderlo todo."
+    },
+    {
+      "id": "col-0010",
+      "base": "pregunta",
+      "collocates": ["hacer", "formular", "plantear"],
+      "antiCollocates": ["*poner una pregunta"],
+      "example": "Al final de la ponencia, el público pudo formular sus preguntas."
+    },
+    {
+      "id": "col-0011",
+      "base": "amistad",
+      "collocates": ["trabar", "entablar"],
+      "antiCollocates": ["*cerrar una amistad"],
+      "example": "Trabaron amistad durante el servicio militar y nunca se perdieron la pista."
+    },
+    {
+      "id": "col-0012",
+      "base": "medidas",
+      "collocates": ["tomar", "adoptar"],
+      "antiCollocates": ["*coger medidas", "*agarrar medidas"],
+      "example": "El Gobierno adoptó medidas urgentes contra la especulación inmobiliaria."
+    },
+    {
+      "id": "col-0013",
+      "base": "récord",
+      "collocates": ["batir", "pulverizar"],
+      "antiCollocates": ["*romper un récord"],
+      "example": "La nadadora batió el récord nacional de los 200 metros espalda."
+    },
+    {
+      "id": "col-0014",
+      "base": "discurso",
+      "collocates": ["pronunciar", "dar"],
+      "antiCollocates": ["*sostener un discurso", "*mantener un discurso"],
+      "example": "La rectora pronunció un discurso memorable en la apertura del curso."
+    },
+    {
+      "id": "col-0015",
+      "base": "promesa",
+      "collocates": ["cumplir", "hacer"],
+      "antiCollocates": ["*sostener una promesa", "*mantener una promesa"],
+      "example": "Cumplió la promesa que le había hecho a su abuela: terminó la carrera."
+    },
+    {
+      "id": "col-0016",
+      "base": "acuerdo",
+      "collocates": ["alcanzar", "llegar a", "cerrar"],
+      "antiCollocates": ["*hacer un acuerdo", "*encontrar un acuerdo"],
+      "example": "Las partes alcanzaron un acuerdo minutos antes de la medianoche."
+    },
+    {
+      "id": "col-0017",
+      "base": "cita",
+      "collocates": ["concertar", "pedir"],
+      "antiCollocates": ["*acordar una cita", "*tomar una cita"],
+      "example": "Llamé a la consulta para concertar una cita con el traumatólogo."
+    },
+    {
+      "id": "col-0018",
+      "base": "examen",
+      "collocates": ["aprobar", "suspender"],
+      "antiCollocates": ["*pasar un examen", "*consistir un examen"],
+      "example": "Aprobó el examen de conducir a la primera."
+    },
+    {
+      "id": "col-0019",
+      "base": "lágrimas",
+      "collocates": ["derramar", "contener"],
+      "antiCollocates": ["*llorar lágrimas"],
+      "example": "No derramó ni una lágrima en todo el funeral, pero se derrumbó al llegar a casa."
+    },
+    {
+      "id": "col-0020",
+      "base": "ejemplo",
+      "collocates": ["poner", "dar"],
+      "antiCollocates": ["*dar un ejemplo (für: ein Beispiel nennen)"],
+      "example": "La profesora puso un ejemplo muy claro para ilustrar la regla."
+    }
+  ],
+  "challenges": [
+    {
+      "id": "c-0320",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Después de consultar a toda la familia, {tomó} la decisión de aceptar el traslado.",
+      "answer": "tomó",
+      "acceptedAlt": ["adoptó"],
+      "distractors": ["hizo", "encontró"],
+      "explanation": "Las decisiones se toman (o se adoptan). «*Hacer una decisión» calca el alemán «machen» y «*encontrar una decisión» calca «eine Entscheidung treffen»: ninguno funciona en español.",
+      "itemRef": "col-0001",
+      "source": "curado"
+    },
+    {
+      "id": "c-0321",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Te lo he explicado dos veces; esta vez {presta} atención.",
+      "answer": "presta",
+      "distractors": ["paga", "regala"],
+      "explanation": "La atención se presta. «*Pagar atención» calca el inglés «pay attention» y «*regalar atención» el alemán «Aufmerksamkeit schenken».",
+      "itemRef": "col-0002",
+      "source": "curado"
+    },
+    {
+      "id": "c-0322",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "El arquitecto {cometió} un error de cálculo que retrasó la obra seis meses.",
+      "answer": "cometió",
+      "distractors": ["hizo", "realizó"],
+      "explanation": "Los errores se cometen. «*Hacer un error» es un calco del alemán «einen Fehler machen»; «realizar un error» tampoco existe.",
+      "itemRef": "col-0003",
+      "source": "curado"
+    },
+    {
+      "id": "c-0323",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Durante el interrogatorio, el detenido prefirió {guardar} silencio.",
+      "answer": "guardar",
+      "distractors": ["hacer", "tener"],
+      "explanation": "El silencio se guarda (y se rompe). «*Hacer silencio» y «*tener silencio» no son las colocaciones del español peninsular culto.",
+      "itemRef": "col-0004",
+      "source": "curado"
+    },
+    {
+      "id": "c-0324",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 3,
+      "sentence": "En la cola del mercado {entabló} conversación con una señora encantadora.",
+      "answer": "entabló",
+      "acceptedAlt": ["trabó"],
+      "distractors": ["condujo", "llevó"],
+      "explanation": "Una conversación se entabla (al iniciarla) o se mantiene. «*Conducir/llevar una conversación» calca el alemán «ein Gespräch führen».",
+      "itemRef": "col-0005",
+      "source": "curado"
+    },
+    {
+      "id": "c-0325",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 3,
+      "sentence": "Pese al silencio del jurado, la escritora aún {alberga} esperanzas de ganar el premio.",
+      "answer": "alberga",
+      "acceptedAlt": ["abriga"],
+      "distractors": ["se hace", "hospeda"],
+      "explanation": "Las esperanzas se albergan o se abrigan. «*Hacerse esperanzas» calca el alemán «sich Hoffnungen machen» (en español, en todo caso, «hacerse ilusiones»).",
+      "itemRef": "col-0006",
+      "source": "curado"
+    },
+    {
+      "id": "c-0326",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Entre el café y los nervios, no logró {conciliar} el sueño en toda la noche.",
+      "answer": "conciliar",
+      "distractors": ["encontrar", "atrapar"],
+      "explanation": "La colocación fija es «conciliar el sueño». «*Encontrar el sueño» calca el alemán «Schlaf finden».",
+      "itemRef": "col-0007",
+      "source": "curado"
+    },
+    {
+      "id": "c-0327",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Las energías renovables {desempeñan} un papel clave en la transición ecológica.",
+      "answer": "desempeñan",
+      "distractors": ["juegan", "actúan"],
+      "explanation": "En el registro cuidado, un papel se desempeña. «*Jugar un papel» calca el alemán «eine Rolle spielen» (y el inglés); aunque se oye, en un texto formal chirría.",
+      "itemRef": "col-0008",
+      "source": "curado"
+    },
+    {
+      "id": "c-0328",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Quien declara contra la mafia {corre} el riesgo de sufrir represalias.",
+      "answer": "corre",
+      "acceptedAlt": ["asume"],
+      "distractors": ["entra en", "toma"],
+      "explanation": "Los riesgos se corren o se asumen. «*Entrar en un riesgo» calca el alemán «ein Risiko eingehen» y «*tomar un riesgo» el inglés «take a risk».",
+      "itemRef": "col-0009",
+      "source": "curado"
+    },
+    {
+      "id": "c-0329",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Si algo no queda claro, no dudéis en {plantear} todas las preguntas que queráis.",
+      "answer": "plantear",
+      "acceptedAlt": ["hacer", "formular"],
+      "distractors": ["poner", "colocar"],
+      "explanation": "Las preguntas se hacen, se formulan o se plantean. «*Poner una pregunta» calca el alemán «eine Frage stellen».",
+      "itemRef": "col-0010",
+      "source": "curado"
+    },
+    {
+      "id": "c-0330",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 3,
+      "sentence": "Durante el rodaje, las dos actrices {trabaron} una amistad que dura hasta hoy.",
+      "answer": "trabaron",
+      "acceptedAlt": ["entablaron"],
+      "distractors": ["cerraron", "fundaron"],
+      "explanation": "La amistad se traba o se entabla. «*Cerrar una amistad» calca el alemán «Freundschaft schließen»; en español solo se cierran tratos, acuerdos o heridas.",
+      "itemRef": "col-0011",
+      "source": "curado"
+    },
+    {
+      "id": "c-0331",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "El ayuntamiento {adoptó} medidas drásticas para frenar el botellón.",
+      "answer": "adoptó",
+      "acceptedAlt": ["tomó"],
+      "distractors": ["cogió", "agarró"],
+      "explanation": "Las medidas se toman o se adoptan. «*Coger/agarrar medidas» traduce literalmente el alemán «Maßnahmen ergreifen», pero en español no se agarran.",
+      "itemRef": "col-0012",
+      "source": "curado"
+    },
+    {
+      "id": "c-0332",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Con 9,72 segundos, el velocista {batió} el récord de Europa.",
+      "answer": "batió",
+      "acceptedAlt": ["pulverizó"],
+      "distractors": ["rompió", "quebró"],
+      "explanation": "Los récords se baten (o, hiperbólicamente, se pulverizan). «*Romper un récord» calca el alemán «einen Rekord brechen» y el inglés «break a record».",
+      "itemRef": "col-0013",
+      "source": "curado"
+    },
+    {
+      "id": "c-0333",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "La premio Nobel {pronunció} un discurso sobrecogedor ante la Academia.",
+      "answer": "pronunció",
+      "acceptedAlt": ["dio"],
+      "distractors": ["sostuvo", "mantuvo"],
+      "explanation": "Un discurso se pronuncia o se da. «*Sostener/mantener un discurso» calca el alemán «eine Rede halten».",
+      "itemRef": "col-0014",
+      "source": "curado"
+    },
+    {
+      "id": "c-0334",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Dijo que vendría a la graduación, y {cumplió} su promesa.",
+      "answer": "cumplió",
+      "distractors": ["sostuvo", "mantuvo"],
+      "explanation": "Las promesas se cumplen (o se rompen). «*Sostener/mantener una promesa» calca el alemán «ein Versprechen halten».",
+      "itemRef": "col-0015",
+      "source": "curado"
+    },
+    {
+      "id": "c-0335",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Tras una noche de negociaciones, los ministros {alcanzaron} un acuerdo sobre las cuotas.",
+      "answer": "alcanzaron",
+      "acceptedAlt": ["cerraron", "lograron"],
+      "distractors": ["hicieron", "encontraron"],
+      "explanation": "Un acuerdo se alcanza, se cierra o se logra; también «se llega a un acuerdo». «*Hacer un acuerdo» y «*encontrar un acuerdo» (eine Einigung finden) son calcos.",
+      "itemRef": "col-0016",
+      "source": "curado"
+    },
+    {
+      "id": "c-0336",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 3,
+      "sentence": "Llamó a primera hora para {concertar} una cita con la dermatóloga.",
+      "answer": "concertar",
+      "acceptedAlt": ["pedir"],
+      "distractors": ["acordar", "tomar"],
+      "explanation": "Una cita médica se concierta o se pide («pedir hora»). «*Acordar una cita» calca el alemán «einen Termin vereinbaren» y «*tomar una cita» el francés «prendre rendez-vous».",
+      "itemRef": "col-0017",
+      "source": "curado"
+    },
+    {
+      "id": "c-0337",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 2,
+      "sentence": "Estudió todo el fin de semana y {aprobó} el examen con nota.",
+      "answer": "aprobó",
+      "distractors": ["pasó", "consistió"],
+      "explanation": "En España, los exámenes se aprueban o se suspenden. «*Pasar un examen» (bestehen, pass) suena a calco, y «*consistir» confunde los dos sentidos del alemán «bestehen».",
+      "itemRef": "col-0018",
+      "source": "curado"
+    },
+    {
+      "id": "c-0338",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 3,
+      "sentence": "Al escuchar el veredicto, la madre {derramó} lágrimas de alivio.",
+      "answer": "derramó",
+      "distractors": ["lloró", "goteó"],
+      "explanation": "Las lágrimas se derraman (o se contienen). «*Llorar lágrimas» calca el alemán «Tränen weinen»: en español «llorar» ya lo dice todo y no lleva ese complemento.",
+      "itemRef": "col-0019",
+      "source": "curado"
+    },
+    {
+      "id": "c-0339",
+      "type": "collocation-match",
+      "domain": "colocaciones",
+      "difficulty": 3,
+      "sentence": "Para que se entienda la regla, voy a {poner} un ejemplo muy sencillo.",
+      "answer": "poner",
+      "distractors": ["dar", "nombrar"],
+      "explanation": "Para ilustrar algo, en español se pone un ejemplo. «Dar ejemplo» (sin artículo) existe, pero significa comportarse de modo ejemplar; «*dar un ejemplo» en este sentido calca «ein Beispiel geben/nennen».",
+      "itemRef": "col-0020",
+      "source": "curado"
+    }
+  ]
+}
