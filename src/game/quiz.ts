@@ -1,12 +1,17 @@
 import type { Challenge, Domain } from '@/content/schema';
 import { srsItemId } from '@/content/schema';
 import type { ContentIndex } from '@/content/loader';
-import { getDueQueue } from '@/srs/fsrs';
+import { db } from '@/db/db';
+import { retrievabilityOf } from '@/srs/fsrs';
+import { generatedChallenges } from './exercises';
 import { shuffle, mulberry32 } from './rng';
 import type { DifficultyChoice } from './difficulty';
 import { difficultyLevels } from './difficulty';
 
 export const QUIZ_LENGTH = 10;
+
+/** Lo visto hace menos de esto no vuelve a salir salvo que no quede otra. */
+const RECENT_MS = 30 * 60 * 1000;
 
 export type QuizCategory = 'mixta' | 'vocabulario' | 'gramatica' | 'falsos-amigos' | 'modismos';
 
@@ -30,9 +35,30 @@ function isChoice(challenge: Challenge): boolean {
   return challenge.type !== 'cloze-typed' && challenge.type !== 'error-spot';
 }
 
+function filterPool(
+  content: ContentIndex,
+  category: QuizCategory,
+  levels: (1 | 2 | 3)[] | null,
+): Challenge[] {
+  const all = [...content.challenges.values(), ...generatedChallenges(content)];
+  const domains = category === 'mixta' ? null : new Set(CATEGORY_DOMAINS[category]);
+  return all.filter(
+    (c) =>
+      isChoice(c) &&
+      (domains === null || domains.has(c.domain)) &&
+      (levels === null || levels.includes(c.difficulty)),
+  );
+}
+
 /**
- * Selecciona los retos de una ronda: filtra por categoría y dificultad y
- * prioriza lo que el planificador FSRS marca como urgente.
+ * Selecciona los retos de una ronda.
+ *
+ * - Agrupa todas las variantes de ejercicio por su ítem FSRS, de modo que
+ *   una misma palabra nunca aparece dos veces en la misma ronda y cada vez
+ *   puede salir con una forma de ejercicio distinta.
+ * - Prioriza: pendiente de repaso → nunca visto → ya dominado; lo visto en
+ *   la última media hora va al final para que repetir una categoría no
+ *   repita las mismas preguntas.
  */
 export async function buildQuizRound(
   content: ContentIndex,
@@ -40,30 +66,57 @@ export async function buildQuizRound(
   difficulty: DifficultyChoice,
   length = QUIZ_LENGTH,
 ): Promise<Challenge[]> {
-  const levels = difficultyLevels(difficulty);
-  let pool = [...content.challenges.values()].filter(
-    (c) => isChoice(c) && levels.includes(c.difficulty),
-  );
-  if (category !== 'mixta') {
-    const domains = new Set(CATEGORY_DOMAINS[category]);
-    pool = pool.filter((c) => domains.has(c.domain));
+  let pool = filterPool(content, category, difficultyLevels(difficulty));
+  if (pool.length < length) pool = filterPool(content, category, null);
+
+  const variants = new Map<string, Challenge[]>();
+  for (const challenge of pool) {
+    const key = srsItemId(challenge);
+    const list = variants.get(key) ?? [];
+    list.push(challenge);
+    variants.set(key, list);
   }
-  // respaldo: si el filtro deja muy poco, relaja la dificultad
-  if (pool.length < length) {
-    pool = [...content.challenges.values()].filter(
-      (c) =>
-        isChoice(c) &&
-        (category === 'mixta' || new Set(CATEGORY_DOMAINS[category]).has(c.domain)),
-    );
-  }
-  const ranking = await getDueQueue(pool.map((c) => srsItemId(c)));
-  const order = new Map(ranking.map((r, i) => [r.itemId, i]));
-  const sorted = [...pool].sort(
-    (a, b) => (order.get(srsItemId(a)) ?? 999) - (order.get(srsItemId(b)) ?? 999),
-  );
-  // un poco de variedad entre lo más urgente
-  const top = sorted.slice(0, Math.min(sorted.length, length * 2));
-  return shuffle(mulberry32(Date.now() >>> 0), top).slice(0, length);
+  const itemIds = [...variants.keys()];
+  const records = await db.srs.bulkGet(itemIds);
+  const now = new Date();
+
+  const due: string[] = [];
+  const fresh: string[] = [];
+  const known: string[] = [];
+  const recent: string[] = [];
+  itemIds.forEach((id, i) => {
+    const record = records[i];
+    if (!record) {
+      fresh.push(id);
+      return;
+    }
+    const lastReview = record.card.last_review ? Date.parse(record.card.last_review) : 0;
+    if (now.getTime() - lastReview < RECENT_MS) {
+      recent.push(id);
+    } else if (retrievabilityOf(record, now) < 0.9) {
+      due.push(id);
+    } else {
+      known.push(id);
+    }
+  });
+
+  const rng = mulberry32(Date.now() >>> 0);
+  const dueShuffled = shuffle(rng, due);
+  const dueFirst = dueShuffled.slice(0, Math.ceil(length * 0.6));
+  const dueRest = dueShuffled.slice(dueFirst.length);
+  const order = [
+    ...dueFirst,
+    ...shuffle(rng, fresh),
+    ...dueRest,
+    ...shuffle(rng, known),
+    ...shuffle(rng, recent),
+  ];
+
+  const round = order.slice(0, length).map((id) => {
+    const options = variants.get(id)!;
+    return options[Math.floor(rng() * options.length)];
+  });
+  return shuffle(rng, round);
 }
 
 /** Estrellas al terminar la ronda (0–3). */

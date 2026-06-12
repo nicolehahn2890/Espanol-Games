@@ -14,7 +14,11 @@ export function nextPuzzle(
   const levels = new Set<number>(difficultyLevels(difficulty));
   const solved = new Set(solvedIds);
   const pool = puzzles.filter((p) => levels.has(p.difficulty));
-  return pool.find((p) => !solved.has(p.id)) ?? pool[0] ?? puzzles[0] ?? null;
+  const unsolved = pool.find((p) => !solved.has(p.id));
+  if (unsolved) return unsolved;
+  // todos resueltos: rota por el conjunto en vez de repetir siempre el primero
+  if (pool.length > 0) return pool[solvedIds.length % pool.length];
+  return puzzles[0] ?? null;
 }
 
 /** Baraja las 16 palabras de forma determinista por rompecabezas. */

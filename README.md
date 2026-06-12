@@ -21,11 +21,19 @@ Estadísticas muestra tu memoria por tema.
 
 ## Contenido (curado a mano, validado con Zod)
 
-- **320 retos**: subjuntivo, pasados, conectores, registro, **falsos amigos alemán–español**,
-  modismos, colocaciones con trampas de interferencia alemana, y dos packs de vocabulario:
-  uno C2/literario y otro de **C1 útil y cotidiano** (aprovechar, plantear, imprescindible…)
+- **320 retos curados**: subjuntivo, pasados, conectores, registro, **falsos amigos
+  alemán–español**, modismos, colocaciones con trampas de interferencia alemana, y dos packs de
+  vocabulario: uno C2/literario y otro de **C1 útil y cotidiano**
+- **+530 ejercicios generados automáticamente** a partir del vocabulario y los modismos
+  (definición→palabra, español↔alemán, hueco en frase de ejemplo, modismo→significado), lo que
+  da ~850 formas de pregunta en el quiz
 - **300 palabras** de 5 letras con definición y glosa alemana para La Palabra
 - **45 rompecabezas** de Grupos con explicaciones
+
+El quiz agrupa todas las variantes por palabra: un mismo ítem nunca sale dos veces en una ronda
+y cada vez puede aparecer con una forma de ejercicio distinta. Lo respondido en la última media
+hora se aparta, así que repetir una categoría no repite las mismas preguntas; Parejas y La
+Palabra evitan igualmente el material de las últimas partidas.
 
 `npm run validate-content` comprueba esquemas, ids únicos, referencias cruzadas, que el hueco
 de cada frase coincida con la respuesta y que la respuesta no se repita entre los distractores.

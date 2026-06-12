@@ -73,14 +73,27 @@ export function dailyWord(words: WordleWord[], dateKey = todayKey()): WordleWord
   return source[index];
 }
 
+/** Palabras de las últimas prácticas, para no repetirlas enseguida. */
+const recentWords = new Set<string>();
+const RECENT_WORD_LIMIT = 25;
+
 /** Palabra aleatoria para práctica libre, filtrada por dificultad. */
 export function randomWord(
   words: WordleWord[],
   levels: (1 | 2 | 3)[],
   seed = Date.now(),
 ): WordleWord {
-  const pool = words.filter((w) => levels.includes(w.difficulty));
   const rng = mulberry32(seed >>> 0);
-  const source = pool.length > 0 ? pool : words;
-  return source[Math.floor(rng() * source.length)];
+  const byLevel = words.filter((w) => levels.includes(w.difficulty));
+  const pool = byLevel.length > 0 ? byLevel : words;
+  const unseen = pool.filter((w) => !recentWords.has(w.id));
+  const source = unseen.length > 0 ? unseen : pool;
+  const chosen = source[Math.floor(rng() * source.length)];
+  recentWords.add(chosen.id);
+  while (recentWords.size > RECENT_WORD_LIMIT) {
+    const oldest = recentWords.values().next().value;
+    if (oldest === undefined) break;
+    recentWords.delete(oldest);
+  }
+  return chosen;
 }
