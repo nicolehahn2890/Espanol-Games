@@ -27,6 +27,19 @@ export function SettingsScreen() {
     }
   }
 
+  /** Borra los cachés de la app (no el progreso) y recarga la última versión. */
+  async function handleForceUpdate() {
+    try {
+      const registrations = await navigator.serviceWorker?.getRegistrations();
+      await Promise.all((registrations ?? []).map((r) => r.unregister()));
+      const keys = await caches.keys();
+      await Promise.all(keys.map((k) => caches.delete(k)));
+    } catch {
+      /* recargamos igualmente */
+    }
+    window.location.reload();
+  }
+
   return (
     <motion.div className="screen" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <div className="screen-header">
@@ -85,10 +98,19 @@ export function SettingsScreen() {
         }}
       />
       {message && (
-        <p className="text-gold" style={{ fontSize: 14, marginTop: 12 }}>
+        <p className="text-gold" style={{ fontSize: 14, marginTop: 12, color: 'var(--orange)' }}>
           {message}
         </p>
       )}
+
+      <h3 style={{ fontSize: 17, margin: '18px 0 10px' }}>Actualización</h3>
+      <p className="text-dim" style={{ fontSize: 13.5 }}>
+        Si la app se queda con un diseño antiguo, este botón descarga la última versión. Tu
+        progreso no se toca.
+      </p>
+      <button className="btn btn-block" onClick={() => void handleForceUpdate()}>
+        🔄 Actualizar la app
+      </button>
     </motion.div>
   );
 }
