@@ -20,7 +20,7 @@ import { DifficultyPicker } from '@/components/ui/DifficultyPicker';
 import { ExplanationCard } from '@/components/ui/ExplanationCard';
 import { sfx } from '@/fx/audio';
 import { burstFromElement } from '@/fx/particles';
-import { screenShake } from '@/fx/shake';
+import { floatPoints, screenShake } from '@/fx/shake';
 import { celebrateSmall, celebrateVictory } from '@/fx/celebrate';
 
 type Phase = 'inicio' | 'jugando' | 'fin';
@@ -76,10 +76,12 @@ export function QuizScreen() {
     const correct = option === challenge.answer;
     setPicked(option);
     setAnswers((a) => [...a, { challengeId: challenge.id, correct }]);
-    void rate(srsItemId(challenge), correct ? Rating.Good : Rating.Again, 'blitz');
+    void rate(srsItemId(challenge), correct ? Rating.Good : Rating.Again, 'quiz');
     if (correct) {
       sfx('correct');
-      burstFromElement(target instanceof Element ? target : null, 'teal');
+      const el = target instanceof Element ? target : null;
+      burstFromElement(el, 'teal');
+      floatPoints(el, '+8 XP', '#58cc02');
       meta.unlock('primer-golpe');
     } else {
       sfx('wrong');
@@ -114,6 +116,7 @@ export function QuizScreen() {
     });
     if (stars >= 2) celebrateVictory();
     else if (stars >= 1) celebrateSmall();
+    for (let i = 0; i < stars; i++) setTimeout(() => sfx('star'), 350 + i * 220);
   }
 
   const header = (

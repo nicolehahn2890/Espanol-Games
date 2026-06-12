@@ -1,0 +1,1930 @@
+{
+  "pack": "vocab-util",
+  "version": 1,
+  "vocab": [
+    {
+      "id": "v-0101",
+      "lemma": "aprovechar",
+      "pos": "verbo",
+      "definitionEs": "Emplear bien algo, sacarle el máximo provecho o utilidad.",
+      "glossDe": "nutzen, ausnutzen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Aprovechamos el buen tiempo para comer en la terraza.",
+        "Aprovecha ahora que está de buen humor para pedírselo."
+      ]
+    },
+    {
+      "id": "v-0102",
+      "lemma": "esforzarse",
+      "pos": "verbo",
+      "definitionEs": "Emplear mucha energía o voluntad para conseguir algo.",
+      "glossDe": "sich anstrengen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Se esforzó muchísimo para aprobar el examen de C1."
+      ]
+    },
+    {
+      "id": "v-0103",
+      "lemma": "sospechar",
+      "pos": "verbo",
+      "definitionEs": "Creer o imaginar algo a partir de indicios, sin tener pruebas.",
+      "glossDe": "vermuten, verdächtigen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Sospecho que nos ocultan algo importante."
+      ]
+    },
+    {
+      "id": "v-0104",
+      "lemma": "comprometerse",
+      "pos": "verbo",
+      "definitionEs": "Asumir formalmente una obligación o promesa.",
+      "glossDe": "sich verpflichten",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "La empresa se comprometió a reducir sus emisiones a la mitad."
+      ]
+    },
+    {
+      "id": "v-0105",
+      "lemma": "desarrollar",
+      "pos": "verbo",
+      "definitionEs": "Hacer que algo crezca o progrese; elaborar una idea o un proyecto.",
+      "glossDe": "entwickeln",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "La empresa desarrolla aplicaciones para móviles."
+      ]
+    },
+    {
+      "id": "v-0106",
+      "lemma": "evitar",
+      "pos": "verbo",
+      "definitionEs": "Impedir que ocurra algo, o apartarse de algo o de alguien.",
+      "glossDe": "vermeiden",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Evita el azúcar desde que se lo recomendó el médico."
+      ]
+    },
+    {
+      "id": "v-0107",
+      "lemma": "amenazar",
+      "pos": "verbo",
+      "definitionEs": "Anunciar a alguien un daño o peligro; dar señales de algo malo.",
+      "glossDe": "drohen, bedrohen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Las nubes negras amenazaban tormenta."
+      ]
+    },
+    {
+      "id": "v-0108",
+      "lemma": "apoyar",
+      "pos": "verbo",
+      "definitionEs": "Sostener algo, o respaldar a una persona o una idea.",
+      "glossDe": "unterstützen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Mis padres siempre han apoyado mis decisiones."
+      ]
+    },
+    {
+      "id": "v-0109",
+      "lemma": "destacar",
+      "pos": "verbo",
+      "definitionEs": "Sobresalir entre otros; subrayar la importancia de algo.",
+      "glossDe": "hervorheben",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El informe destaca la falta de personal sanitario."
+      ]
+    },
+    {
+      "id": "v-0110",
+      "lemma": "fomentar",
+      "pos": "verbo",
+      "definitionEs": "Promover o impulsar el desarrollo de una actividad o un hábito.",
+      "glossDe": "fördern",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El ayuntamiento fomenta el uso de la bicicleta."
+      ]
+    },
+    {
+      "id": "v-0111",
+      "lemma": "lograr",
+      "pos": "verbo",
+      "definitionEs": "Conseguir lo que se intenta o se desea.",
+      "glossDe": "erreichen, schaffen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Por fin logró que le devolvieran el dinero."
+      ]
+    },
+    {
+      "id": "v-0112",
+      "lemma": "plantear",
+      "pos": "verbo",
+      "definitionEs": "Exponer un problema, una duda o una propuesta para que se considere.",
+      "glossDe": "aufwerfen, vorbringen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El estudio plantea preguntas incómodas sobre el modelo educativo."
+      ]
+    },
+    {
+      "id": "v-0113",
+      "lemma": "señalar",
+      "pos": "verbo",
+      "definitionEs": "Indicar algo con el dedo o llamar la atención sobre ello.",
+      "glossDe": "hinweisen auf",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El informe señala un aumento del paro juvenil."
+      ]
+    },
+    {
+      "id": "v-0114",
+      "lemma": "suponer",
+      "pos": "verbo",
+      "definitionEs": "Dar por cierto algo sin pruebas; también implicar o conllevar.",
+      "glossDe": "annehmen; bedeuten",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Supongo que llegarán sobre las ocho.",
+        "El nuevo horario supone madrugar mucho más."
+      ]
+    },
+    {
+      "id": "v-0115",
+      "lemma": "surgir",
+      "pos": "verbo",
+      "definitionEs": "Aparecer o producirse algo de forma más o menos inesperada.",
+      "glossDe": "entstehen, auftauchen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Durante la obra surgieron problemas que nadie había previsto."
+      ]
+    },
+    {
+      "id": "v-0116",
+      "lemma": "aportar",
+      "pos": "verbo",
+      "definitionEs": "Contribuir con algo: dinero, ideas, pruebas, experiencia.",
+      "glossDe": "beitragen, beisteuern",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Cada socio aporta una cantidad fija al mes."
+      ]
+    },
+    {
+      "id": "v-0117",
+      "lemma": "abarcar",
+      "pos": "verbo",
+      "definitionEs": "Comprender o incluir muchas cosas; extenderse a todas ellas.",
+      "glossDe": "umfassen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El curso abarca desde la gramática básica hasta la redacción académica."
+      ]
+    },
+    {
+      "id": "v-0118",
+      "lemma": "afrontar",
+      "pos": "verbo",
+      "definitionEs": "Hacer frente a un problema o a una situación difícil.",
+      "glossDe": "bewältigen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Tuvo que afrontar la enfermedad sin ayuda de nadie."
+      ]
+    },
+    {
+      "id": "v-0119",
+      "lemma": "carecer",
+      "pos": "verbo",
+      "definitionEs": "No tener algo, especialmente algo necesario.",
+      "glossDe": "entbehren",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "La zona carece de transporte público."
+      ]
+    },
+    {
+      "id": "v-0120",
+      "lemma": "desempeñar",
+      "pos": "verbo",
+      "definitionEs": "Realizar las funciones propias de un cargo, un papel o una tarea.",
+      "glossDe": "ausüben",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Desempeñó el cargo de directora durante diez años."
+      ]
+    },
+    {
+      "id": "v-0121",
+      "lemma": "dificultar",
+      "pos": "verbo",
+      "definitionEs": "Hacer más difícil algo, ponerle obstáculos.",
+      "glossDe": "erschweren",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "La niebla dificultaba la circulación por la autopista."
+      ]
+    },
+    {
+      "id": "v-0122",
+      "lemma": "exigir",
+      "pos": "verbo",
+      "definitionEs": "Pedir algo de forma imperiosa o como un derecho; requerir.",
+      "glossDe": "verlangen, fordern",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Los vecinos exigen una solución inmediata al problema del ruido."
+      ]
+    },
+    {
+      "id": "v-0123",
+      "lemma": "impulsar",
+      "pos": "verbo",
+      "definitionEs": "Dar empuje a algo para que avance o se desarrolle.",
+      "glossDe": "vorantreiben",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El plan busca impulsar la economía local."
+      ]
+    },
+    {
+      "id": "v-0124",
+      "lemma": "otorgar",
+      "pos": "verbo",
+      "definitionEs": "Conceder o dar algo, especialmente un premio, un derecho o un permiso.",
+      "glossDe": "verleihen, gewähren",
+      "register": "culto",
+      "domain": "vocab-c1",
+      "examples": [
+        "Le otorgaron una beca para estudiar en Salamanca."
+      ]
+    },
+    {
+      "id": "v-0125",
+      "lemma": "percatarse",
+      "pos": "verbo",
+      "definitionEs": "Darse cuenta de algo, advertirlo.",
+      "glossDe": "bemerken",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "No se percató del error hasta que ya era demasiado tarde."
+      ]
+    },
+    {
+      "id": "v-0126",
+      "lemma": "prescindir",
+      "pos": "verbo",
+      "definitionEs": "Pasar sin algo o renunciar a ello.",
+      "glossDe": "verzichten auf",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "No puedo prescindir del café por las mañanas."
+      ]
+    },
+    {
+      "id": "v-0127",
+      "lemma": "rechazar",
+      "pos": "verbo",
+      "definitionEs": "No aceptar algo: una oferta, una propuesta, una idea.",
+      "glossDe": "ablehnen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Rechazó la oferta porque el sueldo era demasiado bajo."
+      ]
+    },
+    {
+      "id": "v-0128",
+      "lemma": "reclamar",
+      "pos": "verbo",
+      "definitionEs": "Pedir algo a lo que se cree tener derecho; protestar formalmente por ello.",
+      "glossDe": "einfordern",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Los trabajadores reclaman mejores condiciones laborales."
+      ]
+    },
+    {
+      "id": "v-0129",
+      "lemma": "respaldar",
+      "pos": "verbo",
+      "definitionEs": "Apoyar o servir de garantía a algo o a alguien.",
+      "glossDe": "unterstützen, stützen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Los datos respaldan la teoría del equipo investigador."
+      ]
+    },
+    {
+      "id": "v-0130",
+      "lemma": "vincular",
+      "pos": "verbo",
+      "definitionEs": "Unir o relacionar una cosa con otra.",
+      "glossDe": "verknüpfen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Varios estudios vinculan el sedentarismo con problemas cardíacos."
+      ]
+    },
+    {
+      "id": "v-0131",
+      "lemma": "desafío",
+      "pos": "sust",
+      "definitionEs": "Reto o dificultad que exige esfuerzo y capacidad para superarse.",
+      "glossDe": "Herausforderung",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Aprender chino fue el mayor desafío de su vida."
+      ]
+    },
+    {
+      "id": "v-0132",
+      "lemma": "herramienta",
+      "pos": "sust",
+      "definitionEs": "Instrumento, físico o no, que sirve para realizar un trabajo.",
+      "glossDe": "Werkzeug",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El diccionario monolingüe es una herramienta imprescindible para traducir."
+      ]
+    },
+    {
+      "id": "v-0133",
+      "lemma": "propuesta",
+      "pos": "sust",
+      "definitionEs": "Idea o plan que se ofrece a alguien para que lo acepte.",
+      "glossDe": "Vorschlag",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Presentaron una propuesta para renovar el parque del barrio."
+      ]
+    },
+    {
+      "id": "v-0134",
+      "lemma": "vínculo",
+      "pos": "sust",
+      "definitionEs": "Unión o relación estrecha entre personas o cosas.",
+      "glossDe": "Bindung, Verbindung",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Mantiene un vínculo muy fuerte con su ciudad natal."
+      ]
+    },
+    {
+      "id": "v-0135",
+      "lemma": "entorno",
+      "pos": "sust",
+      "definitionEs": "Ambiente o conjunto de circunstancias que rodea a alguien o algo.",
+      "glossDe": "Umfeld, Umgebung",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Creció en un entorno rural muy tranquilo."
+      ]
+    },
+    {
+      "id": "v-0136",
+      "lemma": "ámbito",
+      "pos": "sust",
+      "definitionEs": "Espacio o campo en el que se desarrolla una actividad.",
+      "glossDe": "Bereich",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Es muy conocida en el ámbito académico."
+      ]
+    },
+    {
+      "id": "v-0137",
+      "lemma": "recurso",
+      "pos": "sust",
+      "definitionEs": "Medio del que se dispone para conseguir algo o resolver una necesidad.",
+      "glossDe": "Mittel, Ressource",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "La región tiene pocos recursos naturales."
+      ]
+    },
+    {
+      "id": "v-0138",
+      "lemma": "requisito",
+      "pos": "sust",
+      "definitionEs": "Condición necesaria que se exige para algo.",
+      "glossDe": "Voraussetzung",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El visado es un requisito para entrar en el país."
+      ]
+    },
+    {
+      "id": "v-0139",
+      "lemma": "ventaja",
+      "pos": "sust",
+      "definitionEs": "Condición favorable que da superioridad o beneficio.",
+      "glossDe": "Vorteil",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Vivir cerca del trabajo tiene muchas ventajas."
+      ]
+    },
+    {
+      "id": "v-0140",
+      "lemma": "inconveniente",
+      "pos": "sust",
+      "definitionEs": "Desventaja, dificultad u objeción que presenta algo.",
+      "glossDe": "Nachteil, Einwand",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El único inconveniente del piso es el ruido de la calle."
+      ]
+    },
+    {
+      "id": "v-0141",
+      "lemma": "medida",
+      "pos": "sust",
+      "definitionEs": "Disposición o acción que se toma para lograr algo.",
+      "glossDe": "Maßnahme",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El gobierno anunció nuevas medidas contra el fraude fiscal."
+      ]
+    },
+    {
+      "id": "v-0142",
+      "lemma": "plazo",
+      "pos": "sust",
+      "definitionEs": "Tiempo señalado para hacer algo; cada parte de un pago aplazado.",
+      "glossDe": "Frist; Rate",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El plazo para matricularse termina el viernes."
+      ]
+    },
+    {
+      "id": "v-0143",
+      "lemma": "presupuesto",
+      "pos": "sust",
+      "definitionEs": "Cantidad de dinero calculada para un fin; cálculo previo de costes.",
+      "glossDe": "Budget",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Pedimos tres presupuestos antes de reformar la cocina."
+      ]
+    },
+    {
+      "id": "v-0144",
+      "lemma": "rendimiento",
+      "pos": "sust",
+      "definitionEs": "Resultado o provecho que produce una persona, una máquina o una inversión.",
+      "glossDe": "Leistung",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El nuevo motor mejora el rendimiento del coche."
+      ]
+    },
+    {
+      "id": "v-0145",
+      "lemma": "asunto",
+      "pos": "sust",
+      "definitionEs": "Tema o cuestión de que se trata; negocio o materia pendiente.",
+      "glossDe": "Angelegenheit",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "No quiero hablar de ese asunto delante de los niños."
+      ]
+    },
+    {
+      "id": "v-0146",
+      "lemma": "comportamiento",
+      "pos": "sust",
+      "definitionEs": "Manera de actuar de una persona o de funcionar una cosa.",
+      "glossDe": "Verhalten",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El comportamiento de los alumnos mejoró tras la charla."
+      ]
+    },
+    {
+      "id": "v-0147",
+      "lemma": "etapa",
+      "pos": "sust",
+      "definitionEs": "Fase o periodo dentro de un proceso o de la vida.",
+      "glossDe": "Etappe, Phase",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "La adolescencia es una etapa complicada."
+      ]
+    },
+    {
+      "id": "v-0148",
+      "lemma": "fuente",
+      "pos": "sust",
+      "definitionEs": "Origen de algo, especialmente de una información; manantial.",
+      "glossDe": "Quelle",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Según fuentes oficiales, no hay heridos."
+      ]
+    },
+    {
+      "id": "v-0149",
+      "lemma": "meta",
+      "pos": "sust",
+      "definitionEs": "Objetivo que alguien se propone alcanzar; final de una carrera.",
+      "glossDe": "Ziel",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Su meta es terminar la carrera antes de los veinticinco."
+      ]
+    },
+    {
+      "id": "v-0150",
+      "lemma": "riesgo",
+      "pos": "sust",
+      "definitionEs": "Posibilidad de que ocurra un daño o un perjuicio.",
+      "glossDe": "Risiko",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Fumar aumenta el riesgo de infarto."
+      ]
+    },
+    {
+      "id": "v-0151",
+      "lemma": "trámite",
+      "pos": "sust",
+      "definitionEs": "Gestión administrativa necesaria para resolver un asunto.",
+      "glossDe": "Behördengang",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El trámite se puede hacer por internet en diez minutos."
+      ]
+    },
+    {
+      "id": "v-0152",
+      "lemma": "hallazgo",
+      "pos": "sust",
+      "definitionEs": "Descubrimiento; cosa encontrada, sobre todo si es valiosa o sorprendente.",
+      "glossDe": "Fund, Entdeckung",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El hallazgo de la cueva revolucionó la arqueología de la zona."
+      ]
+    },
+    {
+      "id": "v-0153",
+      "lemma": "madrugada",
+      "pos": "sust",
+      "definitionEs": "Horas que van desde la medianoche hasta el amanecer.",
+      "glossDe": "frühe Morgenstunden",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El autobús sale a las tres de la madrugada."
+      ]
+    },
+    {
+      "id": "v-0154",
+      "lemma": "costumbre",
+      "pos": "sust",
+      "definitionEs": "Práctica habitual de una persona o de una comunidad.",
+      "glossDe": "Gewohnheit, Brauch",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Tiene la costumbre de leer un rato antes de dormir."
+      ]
+    },
+    {
+      "id": "v-0155",
+      "lemma": "imprevisto",
+      "pos": "sust",
+      "definitionEs": "Suceso que ocurre sin haberse previsto y altera los planes.",
+      "glossDe": "Zwischenfall",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Surgió un imprevisto y tuve que cancelar la cita."
+      ]
+    },
+    {
+      "id": "v-0156",
+      "lemma": "acogedor",
+      "pos": "adj",
+      "definitionEs": "Que resulta agradable y hace sentirse a gusto, como en casa.",
+      "glossDe": "gemütlich, einladend",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El hostal era pequeño pero muy acogedor."
+      ]
+    },
+    {
+      "id": "v-0157",
+      "lemma": "repentino",
+      "pos": "adj",
+      "definitionEs": "Que ocurre de forma súbita, sin aviso previo.",
+      "glossDe": "plötzlich",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Sintió un dolor repentino en el pecho."
+      ]
+    },
+    {
+      "id": "v-0158",
+      "lemma": "imprescindible",
+      "pos": "adj",
+      "definitionEs": "Tan necesario que no se puede prescindir de ello.",
+      "glossDe": "unverzichtbar",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "La reserva previa es imprescindible en agosto."
+      ]
+    },
+    {
+      "id": "v-0159",
+      "lemma": "exigente",
+      "pos": "adj",
+      "definitionEs": "Que pide mucho o impone un nivel muy alto.",
+      "glossDe": "anspruchsvoll",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Es muy exigente consigo misma y nunca queda satisfecha."
+      ]
+    },
+    {
+      "id": "v-0160",
+      "lemma": "disponible",
+      "pos": "adj",
+      "definitionEs": "Que se puede usar o está libre para algo.",
+      "glossDe": "verfügbar",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "¿Tienen habitaciones disponibles para este fin de semana?"
+      ]
+    },
+    {
+      "id": "v-0161",
+      "lemma": "asequible",
+      "pos": "adj",
+      "definitionEs": "Que se puede conseguir o pagar; también fácil de entender.",
+      "glossDe": "erschwinglich",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Buscan pisos de alquiler a precios asequibles."
+      ]
+    },
+    {
+      "id": "v-0162",
+      "lemma": "dispuesto",
+      "pos": "adj",
+      "definitionEs": "Preparado o con voluntad para hacer algo.",
+      "glossDe": "bereit",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Estoy dispuesta a ayudarte con la mudanza."
+      ]
+    },
+    {
+      "id": "v-0163",
+      "lemma": "escaso",
+      "pos": "adj",
+      "definitionEs": "Poco abundante, insuficiente para lo que se necesita.",
+      "glossDe": "knapp",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El agua es un recurso escaso en la región."
+      ]
+    },
+    {
+      "id": "v-0164",
+      "lemma": "rentable",
+      "pos": "adj",
+      "definitionEs": "Que produce beneficio o compensa el esfuerzo invertido.",
+      "glossDe": "rentabel, lohnend",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El negocio dejó de ser rentable con la subida del alquiler."
+      ]
+    },
+    {
+      "id": "v-0165",
+      "lemma": "cotidiano",
+      "pos": "adj",
+      "definitionEs": "De todos los días; habitual en la vida diaria.",
+      "glossDe": "alltäglich",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El estrés forma parte de la vida cotidiana en las grandes ciudades."
+      ]
+    },
+    {
+      "id": "v-0166",
+      "lemma": "sencillo",
+      "pos": "adj",
+      "definitionEs": "Que no tiene complicación; sin lujo ni pretensiones.",
+      "glossDe": "einfach, schlicht",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "La receta es muy sencilla: solo lleva tres ingredientes."
+      ]
+    },
+    {
+      "id": "v-0167",
+      "lemma": "amplio",
+      "pos": "adj",
+      "definitionEs": "Extenso o espacioso; que abarca mucho.",
+      "glossDe": "breit, geräumig",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El piso tiene un salón muy amplio y luminoso."
+      ]
+    },
+    {
+      "id": "v-0168",
+      "lemma": "capaz",
+      "pos": "adj",
+      "definitionEs": "Que tiene capacidad o aptitud para hacer algo.",
+      "glossDe": "fähig",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Es capaz de aprender un idioma en un año."
+      ]
+    },
+    {
+      "id": "v-0169",
+      "lemma": "fiable",
+      "pos": "adj",
+      "definitionEs": "Digno de confianza; que funciona sin fallos.",
+      "glossDe": "zuverlässig",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Necesitamos datos fiables antes de tomar una decisión."
+      ]
+    },
+    {
+      "id": "v-0170",
+      "lemma": "polémico",
+      "pos": "adj",
+      "definitionEs": "Que provoca discusión o controversia.",
+      "glossDe": "umstritten",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El árbitro tomó una decisión muy polémica en el último minuto."
+      ]
+    },
+    {
+      "id": "v-0171",
+      "lemma": "agotador",
+      "pos": "adj",
+      "definitionEs": "Que cansa muchísimo, que deja sin fuerzas.",
+      "glossDe": "erschöpfend",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Fue un viaje agotador: veinte horas de autobús."
+      ]
+    },
+    {
+      "id": "v-0172",
+      "lemma": "vigente",
+      "pos": "adj",
+      "definitionEs": "Que está en vigor o sigue siendo válido.",
+      "glossDe": "gültig, geltend",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "La oferta sigue vigente hasta fin de mes."
+      ]
+    },
+    {
+      "id": "v-0173",
+      "lemma": "previo",
+      "pos": "adj",
+      "definitionEs": "Que ocurre o se hace antes de otra cosa.",
+      "glossDe": "vorherig",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Se requiere cita previa para hacer el trámite."
+      ]
+    },
+    {
+      "id": "v-0174",
+      "lemma": "apenas",
+      "pos": "adv",
+      "definitionEs": "Casi no; escasamente; también en cuanto, justo cuando.",
+      "glossDe": "kaum",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Apenas nos queda leche en la nevera."
+      ]
+    },
+    {
+      "id": "v-0175",
+      "lemma": "actualmente",
+      "pos": "adv",
+      "definitionEs": "En el momento presente, hoy en día.",
+      "glossDe": "derzeit",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Actualmente trabaja como traductora autónoma."
+      ]
+    },
+    {
+      "id": "v-0176",
+      "lemma": "en cambio",
+      "pos": "expr",
+      "definitionEs": "Por el contrario; en contraste con lo dicho antes.",
+      "glossDe": "hingegen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "A mí me encanta el invierno; mi hermana, en cambio, lo odia."
+      ]
+    },
+    {
+      "id": "v-0177",
+      "lemma": "llevar a cabo",
+      "pos": "expr",
+      "definitionEs": "Realizar o ejecutar algo: un plan, un proyecto, una reforma.",
+      "glossDe": "durchführen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "El estudio se llevó a cabo en tres hospitales públicos."
+      ]
+    },
+    {
+      "id": "v-0178",
+      "lemma": "tener en cuenta",
+      "pos": "expr",
+      "definitionEs": "Considerar algo al juzgar, planear o decidir.",
+      "glossDe": "berücksichtigen",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Hay que tener en cuenta la opinión de los vecinos."
+      ]
+    },
+    {
+      "id": "v-0179",
+      "lemma": "estar a punto de",
+      "pos": "expr",
+      "definitionEs": "Faltar muy poco para que algo ocurra.",
+      "glossDe": "kurz davor sein",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "Estaba a punto de salir cuando sonó el teléfono."
+      ]
+    },
+    {
+      "id": "v-0180",
+      "lemma": "a medida que",
+      "pos": "expr",
+      "definitionEs": "Al mismo tiempo que algo avanza o progresa; conforme.",
+      "glossDe": "in dem Maße wie",
+      "register": "neutro",
+      "domain": "vocab-c1",
+      "examples": [
+        "A medida que pasan los años, valoro más a mis amigos."
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "c-0400",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Como la reunión terminó antes de lo previsto, {aproveché} para hacer unas compras.",
+      "answer": "aproveché",
+      "distractors": ["utilicé", "disfruté"],
+      "explanation": "«Aprovechar» significa sacar partido de una ocasión; «utilizar» exige un objeto concreto y «disfrutar» rige la preposición «de».",
+      "itemRef": "v-0101",
+      "source": "curado"
+    },
+    {
+      "id": "c-0401",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Si quieres mejorar tu pronunciación, tendrás que {esforzarte} más.",
+      "answer": "esforzarte",
+      "distractors": ["intentarte", "procurarte"],
+      "explanation": "«Esforzarse» es el verbo pronominal que expresa emplear energía en una meta; «intentar» no es pronominal y «procurarse» significa conseguir algo para uno mismo.",
+      "itemRef": "v-0102",
+      "source": "curado"
+    },
+    {
+      "id": "c-0402",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "La policía {sospecha} que el incendio fue provocado.",
+      "answer": "sospecha",
+      "distractors": ["adivina", "opina"],
+      "explanation": "«Sospechar» es creer algo a partir de indicios, típico del lenguaje policial; «adivinar» es acertar sin indicios y «opinar» expresa solo un juicio personal.",
+      "itemRef": "v-0103",
+      "source": "curado"
+    },
+    {
+      "id": "c-0403",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "El gobierno se ha {comprometido} a bajar los impuestos el año que viene.",
+      "answer": "comprometido",
+      "distractors": ["empeñado", "propuesto"],
+      "explanation": "«Comprometerse a + infinitivo» expresa una promesa formal; «empeñarse» rige «en» y «proponerse» se construye sin preposición.",
+      "itemRef": "v-0104",
+      "source": "curado"
+    },
+    {
+      "id": "c-0404",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El equipo está {desarrollando} una vacuna contra el nuevo virus.",
+      "answer": "desarrollando",
+      "distractors": ["evolucionando", "creciendo"],
+      "explanation": "«Desarrollar» es transitivo: alguien desarrolla un producto o proyecto; «evolucionar» y «crecer» son intransitivos y no admiten objeto directo.",
+      "itemRef": "v-0105",
+      "source": "curado"
+    },
+    {
+      "id": "c-0405",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Salimos temprano para {evitar} los atascos de la hora punta.",
+      "answer": "evitar",
+      "distractors": ["impedir", "prevenir"],
+      "explanation": "Quien conduce «evita» los atascos, es decir, los esquiva; «impedir» sería hacer que no existan y «prevenir» implica tomar medidas generales, no librarse uno mismo.",
+      "itemRef": "v-0106",
+      "source": "curado"
+    },
+    {
+      "id": "c-0406",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El jefe lo {amenazó} con despedirlo si volvía a llegar tarde.",
+      "answer": "amenazó",
+      "distractors": ["advirtió", "avisó"],
+      "explanation": "«Amenazar con + infinitivo» anuncia un daño; «advertir» y «avisar» se construyen con «de (que)» y no implican intención de dañar.",
+      "itemRef": "v-0107",
+      "source": "curado"
+    },
+    {
+      "id": "c-0407",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Todo el barrio {apoya} la iniciativa de peatonalizar la calle mayor.",
+      "answer": "apoya",
+      "distractors": ["sostiene", "mantiene"],
+      "explanation": "«Apoyar una iniciativa» es la colocación natural para mostrarse a favor; «sostener» y «mantener» significan sobre todo sujetar o conservar algo.",
+      "itemRef": "v-0108",
+      "source": "curado"
+    },
+    {
+      "id": "c-0408",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Entre todos los candidatos, ella {destaca} por su experiencia internacional.",
+      "answer": "destaca",
+      "distractors": ["señala", "insiste"],
+      "explanation": "«Destacar por + cualidad» significa sobresalir gracias a ella; «señalar» es transitivo y «insistir» rige «en».",
+      "itemRef": "v-0109",
+      "source": "curado"
+    },
+    {
+      "id": "c-0409",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Estas becas buscan {fomentar} la lectura entre los jóvenes.",
+      "answer": "fomentar",
+      "distractors": ["animar", "crecer"],
+      "explanation": "«Fomentar» se combina con actividades o hábitos (la lectura, el deporte); «animar» se dirige a personas («animar a alguien a leer») y «crecer» es intransitivo.",
+      "itemRef": "v-0110",
+      "source": "curado"
+    },
+    {
+      "id": "c-0410",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Después de varios intentos, por fin {logramos} abrir la puerta.",
+      "answer": "logramos",
+      "distractors": ["alcanzamos", "ganamos"],
+      "explanation": "«Lograr + infinitivo» significa conseguir hacer algo; «alcanzar» necesitaría «a» («alcanzamos a abrir») y «ganar» no se combina así con infinitivo.",
+      "itemRef": "v-0111",
+      "source": "curado"
+    },
+    {
+      "id": "c-0411",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "En la reunión, María {planteó} la posibilidad de trabajar desde casa dos días por semana.",
+      "answer": "planteó",
+      "distractors": ["puso", "preguntó"],
+      "explanation": "«Plantear» es exponer una cuestión para que se discuta; «poner» no funciona con «posibilidad» y «preguntar» introduce preguntas, no propuestas.",
+      "itemRef": "v-0112",
+      "source": "curado"
+    },
+    {
+      "id": "c-0412",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El médico {señaló} que los síntomas podían tardar semanas en desaparecer.",
+      "answer": "señaló",
+      "distractors": ["miró", "enseñó"],
+      "explanation": "«Señalar que» significa indicar o hacer notar algo; «mirar» no introduce una afirmación y «enseñar» es mostrar o instruir.",
+      "itemRef": "v-0113",
+      "source": "curado"
+    },
+    {
+      "id": "c-0413",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Mudarse a otro país {supone} un gran cambio para toda la familia.",
+      "answer": "supone",
+      "distractors": ["asume", "presume"],
+      "explanation": "Aquí «suponer» significa «implicar, conllevar»; «asumir» exige un sujeto personal que acepte algo y «presumir» es alardear o conjeturar.",
+      "itemRef": "v-0114",
+      "source": "curado"
+    },
+    {
+      "id": "c-0414",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Si {surge} algún imprevisto, llámame al móvil.",
+      "answer": "surge",
+      "distractors": ["sale", "nace"],
+      "explanation": "Los problemas e imprevistos «surgen», es decir, aparecen de pronto; «salir» y «nacer» no forman esta colocación.",
+      "itemRef": "v-0115",
+      "source": "curado"
+    },
+    {
+      "id": "c-0415",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Su experiencia en ventas {aporta} mucho valor al equipo.",
+      "answer": "aporta",
+      "distractors": ["dona", "presta"],
+      "explanation": "«Aportar valor» es la colocación habitual para contribuir con algo; «donar» es regalar bienes y «prestar» implica devolución.",
+      "itemRef": "v-0116",
+      "source": "curado"
+    },
+    {
+      "id": "c-0416",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El informe {abarca} todos los aspectos del proyecto, desde el coste hasta el calendario.",
+      "answer": "abarca",
+      "distractors": ["alcanza", "rodea"],
+      "explanation": "«Abarcar» es incluir o comprender un conjunto de cosas; «alcanzar» es llegar hasta un punto y «rodear» es estar alrededor físicamente.",
+      "itemRef": "v-0117",
+      "source": "curado"
+    },
+    {
+      "id": "c-0417",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "El nuevo gobierno tendrá que {afrontar} una grave crisis económica.",
+      "answer": "afrontar",
+      "distractors": ["padecer", "confrontar"],
+      "explanation": "«Afrontar» es hacer frente activamente a una dificultad; «padecer» es solo sufrirla y «confrontar» se usa sobre todo para carear personas, ideas o datos.",
+      "itemRef": "v-0118",
+      "source": "curado"
+    },
+    {
+      "id": "c-0418",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Muchas viviendas antiguas {carecen} de ascensor.",
+      "answer": "carecen",
+      "distractors": ["faltan", "necesitan"],
+      "explanation": "«Carecer de» significa no tener algo; con «faltar» la estructura sería inversa («les falta ascensor») y «necesitar» no lleva «de».",
+      "itemRef": "v-0119",
+      "source": "curado"
+    },
+    {
+      "id": "c-0419",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "La ONU {desempeña} un papel clave en la mediación del conflicto.",
+      "answer": "desempeña",
+      "distractors": ["realiza", "actúa"],
+      "explanation": "«Desempeñar un papel» es una colocación fija; «realizar un papel» no es idiomático y «actuar» es intransitivo.",
+      "itemRef": "v-0120",
+      "source": "curado"
+    },
+    {
+      "id": "c-0420",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "La falta de fondos {dificulta} la investigación científica en el país.",
+      "answer": "dificulta",
+      "distractors": ["impide", "molesta"],
+      "explanation": "«Dificultar» es hacer algo más difícil sin impedirlo del todo; «impedir» lo bloquearía por completo y «molestar» se aplica a personas.",
+      "itemRef": "v-0121",
+      "source": "curado"
+    },
+    {
+      "id": "c-0421",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Este puesto {exige} un nivel alto de inglés y disponibilidad para viajar.",
+      "answer": "exige",
+      "distractors": ["ruega", "ordena"],
+      "explanation": "«Exigir» es requerir algo como condición indispensable; «rogar» es pedir humildemente y «ordenar» necesita un destinatario personal.",
+      "itemRef": "v-0122",
+      "source": "curado"
+    },
+    {
+      "id": "c-0422",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Las nuevas ayudas {impulsarán} la creación de empleo en las zonas rurales.",
+      "answer": "impulsarán",
+      "distractors": ["empujarán", "lanzarán"],
+      "explanation": "«Impulsar» es dar empuje figurado a un proceso o sector; «empujar» es físico y «lanzar» se usa para productos o campañas, no para «la creación de empleo».",
+      "itemRef": "v-0123",
+      "source": "curado"
+    },
+    {
+      "id": "c-0423",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El jurado {otorgó} el primer premio a una novela histórica.",
+      "answer": "otorgó",
+      "distractors": ["regaló", "prestó"],
+      "explanation": "Los premios, becas y permisos se «otorgan» o conceden; «regalar» es dar por afecto y «prestar» implica devolución.",
+      "itemRef": "v-0124",
+      "source": "curado"
+    },
+    {
+      "id": "c-0424",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Tardé un rato en {percatarme} de que faltaba una página.",
+      "answer": "percatarme",
+      "distractors": ["fijarme", "darme"],
+      "explanation": "«Percatarse de» equivale a «darse cuenta de»; «fijarse» rige «en» y «darse» necesita «cuenta» para tener este sentido.",
+      "itemRef": "v-0125",
+      "source": "curado"
+    },
+    {
+      "id": "c-0425",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Para ahorrar, decidieron {prescindir} del coche y moverse en bici.",
+      "answer": "prescindir",
+      "distractors": ["renunciar", "privar"],
+      "explanation": "«Prescindir de algo» es pasar sin ello; «renunciar» rige «a» y «privar» necesitaría el pronombre («privarse de»).",
+      "itemRef": "v-0126",
+      "source": "curado"
+    },
+    {
+      "id": "c-0426",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El comité {rechazó} la propuesta por falta de presupuesto.",
+      "answer": "rechazó",
+      "distractors": ["negó", "despidió"],
+      "explanation": "Las propuestas y ofertas se «rechazan»; «negar» es decir que algo no es cierto y «despedir» se aplica a personas.",
+      "itemRef": "v-0127",
+      "source": "curado"
+    },
+    {
+      "id": "c-0427",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Si el vuelo se retrasa más de tres horas, puedes {reclamar} una indemnización.",
+      "answer": "reclamar",
+      "distractors": ["protestar", "quejarte"],
+      "explanation": "«Reclamar» es exigir algo a lo que se tiene derecho y admite objeto directo; «protestar» y «quejarse» expresan malestar pero no piden nada concreto.",
+      "itemRef": "v-0128",
+      "source": "curado"
+    },
+    {
+      "id": "c-0428",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Varios estudios independientes {respaldan} la eficacia de este tratamiento.",
+      "answer": "respaldan",
+      "distractors": ["aprueban", "animan"],
+      "explanation": "«Respaldar» es dar apoyo o fundamento a una afirmación; «aprobar» es dar un visto bueno formal y «animar» se dirige a personas.",
+      "itemRef": "v-0129",
+      "source": "curado"
+    },
+    {
+      "id": "c-0429",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "La investigación {vincula} el consumo de tabaco con varios tipos de cáncer.",
+      "answer": "vincula",
+      "distractors": ["junta", "pega"],
+      "explanation": "«Vincular A con B» es establecer una relación entre dos cosas; «juntar» y «pegar» expresan unión física, no relación causal.",
+      "itemRef": "v-0130",
+      "source": "curado"
+    },
+    {
+      "id": "c-0430",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El cambio climático es el gran {desafío} de nuestra época.",
+      "answer": "desafío",
+      "distractors": ["duelo", "combate"],
+      "explanation": "«Desafío» es un reto que exige esfuerzo; «duelo» es un enfrentamiento entre dos (o el luto) y «combate» es una lucha física.",
+      "itemRef": "v-0131",
+      "source": "curado"
+    },
+    {
+      "id": "c-0431",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Internet es una {herramienta} muy útil para aprender idiomas.",
+      "answer": "herramienta",
+      "distractors": ["máquina", "obra"],
+      "explanation": "«Herramienta» se usa también en sentido figurado para cualquier medio de trabajo; «máquina» es un aparato concreto y «obra» es un resultado, no un medio.",
+      "itemRef": "v-0132",
+      "source": "curado"
+    },
+    {
+      "id": "c-0432",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "La empresa me hizo una {propuesta} que no pude rechazar.",
+      "answer": "propuesta",
+      "distractors": ["opinión", "petición"],
+      "explanation": "«Hacer una propuesta» es ofrecer un plan para que se acepte; una «petición» pide algo al otro y una «opinión» no se acepta ni se rechaza así.",
+      "itemRef": "v-0133",
+      "source": "curado"
+    },
+    {
+      "id": "c-0433",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Entre los dos hermanos existe un {vínculo} muy especial.",
+      "answer": "vínculo",
+      "distractors": ["nudo", "enlace"],
+      "explanation": "«Vínculo» designa una relación afectiva o estrecha; «enlace» es una conexión técnica (o una boda) y «nudo» es una atadura literal.",
+      "itemRef": "v-0134",
+      "source": "curado"
+    },
+    {
+      "id": "c-0434",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Los niños necesitan crecer en un {entorno} estable y seguro.",
+      "answer": "entorno",
+      "distractors": ["alrededor", "escenario"],
+      "explanation": "«Entorno» es el ambiente que rodea a alguien; «alrededor» es adverbio, no sustantivo contable así, y «escenario» evoca teatro o una situación hipotética.",
+      "itemRef": "v-0135",
+      "source": "curado"
+    },
+    {
+      "id": "c-0435",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "En el {ámbito} laboral, el español le ha abierto muchas puertas.",
+      "answer": "ámbito",
+      "distractors": ["círculo", "margen"],
+      "explanation": "«Ámbito laboral/académico» es la colocación fija para un campo de actividad; «círculo» se refiere a un grupo de personas y «margen» a un límite.",
+      "itemRef": "v-0136",
+      "source": "curado"
+    },
+    {
+      "id": "c-0436",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "La biblioteca ofrece muchos {recursos} para preparar el examen.",
+      "answer": "recursos",
+      "distractors": ["remedios", "ingresos"],
+      "explanation": "«Recursos» son los medios disponibles para un fin; «remedios» curan males y «ingresos» son el dinero que se recibe.",
+      "itemRef": "v-0137",
+      "source": "curado"
+    },
+    {
+      "id": "c-0437",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Tener carné de conducir es un {requisito} imprescindible para el puesto.",
+      "answer": "requisito",
+      "distractors": ["pedido", "trámite"],
+      "explanation": "«Requisito» es la condición que se exige; «trámite» es una gestión administrativa y «pedido» es un encargo comercial.",
+      "itemRef": "v-0138",
+      "source": "curado"
+    },
+    {
+      "id": "c-0438",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Hablar varios idiomas es una gran {ventaja} en el mercado laboral.",
+      "answer": "ventaja",
+      "distractors": ["ganancia", "mejora"],
+      "explanation": "«Ventaja» es la condición favorable frente a otros; «ganancia» es un beneficio económico y «mejora» es un progreso respecto a un estado anterior.",
+      "itemRef": "v-0139",
+      "source": "curado"
+    },
+    {
+      "id": "c-0439",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "No tengo ningún {inconveniente} en cambiar la reunión a la tarde.",
+      "answer": "inconveniente",
+      "distractors": ["desacuerdo", "disgusto"],
+      "explanation": "«No tener inconveniente en + infinitivo» es la fórmula fija para decir que uno no se opone; «desacuerdo» y «disgusto» no forman esta expresión.",
+      "itemRef": "v-0140",
+      "source": "curado"
+    },
+    {
+      "id": "c-0440",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Habrá que tomar {medidas} urgentes para frenar la contaminación.",
+      "answer": "medidas",
+      "distractors": ["pasos", "reglas"],
+      "explanation": "«Tomar medidas» es la colocación fija para actuar contra un problema; «tomar pasos» es un calco del inglés y «tomar reglas» no existe.",
+      "itemRef": "v-0141",
+      "source": "curado"
+    },
+    {
+      "id": "c-0441",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El {plazo} para presentar la solicitud vence el 30 de junio.",
+      "answer": "plazo",
+      "distractors": ["horario", "calendario"],
+      "explanation": "Un «plazo» es el tiempo límite para hacer algo y es lo que «vence»; «horario» y «calendario» organizan el tiempo pero no vencen.",
+      "itemRef": "v-0142",
+      "source": "curado"
+    },
+    {
+      "id": "c-0442",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El proyecto se canceló porque superaba el {presupuesto} previsto.",
+      "answer": "presupuesto",
+      "distractors": ["sueldo", "ahorro"],
+      "explanation": "«Presupuesto» es el dinero calculado para un fin, lo que un proyecto puede «superar»; «sueldo» y «ahorro» son conceptos personales.",
+      "itemRef": "v-0143",
+      "source": "curado"
+    },
+    {
+      "id": "c-0443",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "La falta de sueño afecta al {rendimiento} académico de los estudiantes.",
+      "answer": "rendimiento",
+      "distractors": ["resultado", "esfuerzo"],
+      "explanation": "«Rendimiento académico» es la colocación fija para el nivel de resultados sostenido; «resultado» es puntual y «esfuerzo» es lo que se invierte, no lo que se produce.",
+      "itemRef": "v-0144",
+      "source": "curado"
+    },
+    {
+      "id": "c-0444",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Esto es un {asunto} privado que no te incumbe.",
+      "answer": "asunto",
+      "distractors": ["sujeto", "argumento"],
+      "explanation": "«Asunto» es el tema o la cuestión; «sujeto» es un falso amigo (persona o sujeto gramatical) y «argumento» es la trama de una obra o un razonamiento.",
+      "itemRef": "v-0145",
+      "source": "curado"
+    },
+    {
+      "id": "c-0445",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El profesor está preocupado por el {comportamiento} agresivo del alumno.",
+      "answer": "comportamiento",
+      "distractors": ["carácter", "costumbre"],
+      "explanation": "«Comportamiento» es la manera observable de actuar; «carácter» es el modo de ser interno y «costumbre» es un hábito repetido, no una conducta puntual.",
+      "itemRef": "v-0146",
+      "source": "curado"
+    },
+    {
+      "id": "c-0446",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Con este trabajo empieza una nueva {etapa} en su vida.",
+      "answer": "etapa",
+      "distractors": ["temporada", "edad"],
+      "explanation": "«Etapa» designa una fase dentro de un proceso vital; «temporada» es un periodo del año (deportivo, turístico) y «edad» se refiere a los años cumplidos.",
+      "itemRef": "v-0147",
+      "source": "curado"
+    },
+    {
+      "id": "c-0447",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Las redes sociales no siempre son una {fuente} fiable de información.",
+      "answer": "fuente",
+      "distractors": ["raíz", "base"],
+      "explanation": "«Fuente de información» es la colocación habitual para el origen de los datos; «raíz» evoca causas profundas y «base» un fundamento, no un origen informativo.",
+      "itemRef": "v-0148",
+      "source": "curado"
+    },
+    {
+      "id": "c-0448",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Mi {meta} para este año es leer veinte libros en español.",
+      "answer": "meta",
+      "distractors": ["destino", "llegada"],
+      "explanation": "«Meta» es el objetivo que uno se propone; «destino» es el lugar adonde se viaja (o la suerte) y «llegada» es el acto de llegar.",
+      "itemRef": "v-0149",
+      "source": "curado"
+    },
+    {
+      "id": "c-0449",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "No quiero correr el {riesgo} de perder el tren.",
+      "answer": "riesgo",
+      "distractors": ["azar", "susto"],
+      "explanation": "«Correr el riesgo de» es una colocación fija; ni «azar» ni «susto» se combinan con «correr» en este sentido.",
+      "itemRef": "v-0150",
+      "source": "curado"
+    },
+    {
+      "id": "c-0450",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Renovar el pasaporte es un {trámite} bastante sencillo si pides cita por internet.",
+      "answer": "trámite",
+      "distractors": ["formulario", "encargo"],
+      "explanation": "«Trámite» es la gestión administrativa completa; el «formulario» es solo el papel que se rellena y un «encargo» es una tarea que alguien te pide.",
+      "itemRef": "v-0151",
+      "source": "curado"
+    },
+    {
+      "id": "c-0451",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Los científicos calificaron el {hallazgo} de histórico.",
+      "answer": "hallazgo",
+      "distractors": ["encuentro", "invento"],
+      "explanation": "«Hallazgo» es lo que se descubre o encuentra; «encuentro» es una reunión entre personas e «invento» es algo creado, no encontrado.",
+      "itemRef": "v-0152",
+      "source": "curado"
+    },
+    {
+      "id": "c-0452",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "El terremoto se produjo de {madrugada}, cuando casi todos dormían.",
+      "answer": "madrugada",
+      "distractors": ["amanecer", "alba"],
+      "explanation": "«De madrugada» es la expresión fija para las horas entre la medianoche y el amanecer; con «amanecer» y «alba» se dice «al amanecer», «al alba».",
+      "itemRef": "v-0153",
+      "source": "curado"
+    },
+    {
+      "id": "c-0453",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "En España existe la {costumbre} de cenar bastante tarde.",
+      "answer": "costumbre",
+      "distractors": ["rutina", "manera"],
+      "explanation": "«Costumbre» es la práctica compartida por una comunidad; «rutina» es la secuencia personal de cada día y «manera» es el modo de hacer algo.",
+      "itemRef": "v-0154",
+      "source": "curado"
+    },
+    {
+      "id": "c-0454",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Guarda algo de dinero por si surge algún {imprevisto}.",
+      "answer": "imprevisto",
+      "distractors": ["accidente", "azar"],
+      "explanation": "Un «imprevisto» es cualquier suceso no planeado, no necesariamente grave; «accidente» implica daño y «azar» es la casualidad en abstracto.",
+      "itemRef": "v-0155",
+      "source": "curado"
+    },
+    {
+      "id": "c-0455",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Han convertido el sótano en un salón cálido y {acogedor}.",
+      "answer": "acogedor",
+      "distractors": ["hospitalario", "abrigado"],
+      "explanation": "«Acogedor» describe espacios donde uno se siente a gusto; «hospitalario» se dice de personas o lugares que reciben bien a la gente y «abrigado» significa protegido del frío.",
+      "itemRef": "v-0156",
+      "source": "curado"
+    },
+    {
+      "id": "c-0456",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Su muerte {repentina} dejó a todos en estado de shock.",
+      "answer": "repentina",
+      "distractors": ["rápida", "urgente"],
+      "explanation": "«Repentino» subraya que algo ocurre sin aviso; «rápido» habla solo de velocidad y «urgente» de algo que exige atención inmediata.",
+      "itemRef": "v-0157",
+      "source": "curado"
+    },
+    {
+      "id": "c-0457",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Es {imprescindible} presentar el pasaporte para facturar en vuelos internacionales.",
+      "answer": "imprescindible",
+      "distractors": ["forzoso", "inevitable"],
+      "explanation": "«Imprescindible» significa absolutamente necesario; «inevitable» es lo que no se puede evitar que ocurra y «forzoso» suena a obligación impuesta, no a requisito.",
+      "itemRef": "v-0158",
+      "source": "curado"
+    },
+    {
+      "id": "c-0458",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Los clientes de este restaurante son muy {exigentes} con la calidad.",
+      "answer": "exigentes",
+      "distractors": ["pedigüeños", "insistentes"],
+      "explanation": "«Exigente con algo» es quien pide un nivel alto; «pedigüeño» es quien pide cosas constantemente (coloquial) e «insistente» quien repite una petición.",
+      "itemRef": "v-0159",
+      "source": "curado"
+    },
+    {
+      "id": "c-0459",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El profesor está {disponible} los martes por la tarde para tutorías.",
+      "answer": "disponible",
+      "distractors": ["dispuesto", "vacante"],
+      "explanation": "«Disponible» significa libre o localizable en ese momento; «dispuesto» expresa voluntad y rige «a», y «vacante» se dice de puestos sin ocupar.",
+      "itemRef": "v-0160",
+      "source": "curado"
+    },
+    {
+      "id": "c-0460",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Es un restaurante bueno y con precios {asequibles}.",
+      "answer": "asequibles",
+      "distractors": ["alcanzables", "rentables"],
+      "explanation": "«Asequible» es lo que se puede pagar; «rentable» es lo que da beneficio a quien lo vende y «alcanzable» se usa para metas, no para precios.",
+      "itemRef": "v-0161",
+      "source": "curado"
+    },
+    {
+      "id": "c-0461",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "¿Estarías {dispuesto} a trabajar los fines de semana?",
+      "answer": "dispuesto",
+      "distractors": ["disponible", "listo"],
+      "explanation": "«Estar dispuesto a + infinitivo» expresa voluntad; «listo» rige «para» y «disponible» no se combina con infinitivo.",
+      "itemRef": "v-0162",
+      "source": "curado"
+    },
+    {
+      "id": "c-0462",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "En verano, las plazas de aparcamiento son {escasas} en el centro.",
+      "answer": "escasas",
+      "distractors": ["raras", "cortas"],
+      "explanation": "«Escaso» indica cantidad insuficiente; «raro» significa poco común o extraño y «corto» se refiere a la longitud o duración.",
+      "itemRef": "v-0163",
+      "source": "curado"
+    },
+    {
+      "id": "c-0463",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Invertir en placas solares resulta {rentable} a largo plazo.",
+      "answer": "rentable",
+      "distractors": ["asequible", "costoso"],
+      "explanation": "«Rentable» es lo que produce más beneficio que coste; «asequible» habla solo del precio inicial y «costoso» diría justo lo contrario.",
+      "itemRef": "v-0164",
+      "source": "curado"
+    },
+    {
+      "id": "c-0464",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "La novela retrata la vida {cotidiana} de un pueblo andaluz en los años cincuenta.",
+      "answer": "cotidiana",
+      "distractors": ["casera", "periódica"],
+      "explanation": "«Vida cotidiana» es la colocación fija para lo de todos los días; «casero» se refiere a la casa y «periódico» a lo que se repite a intervalos.",
+      "itemRef": "v-0165",
+      "source": "curado"
+    },
+    {
+      "id": "c-0465",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "A pesar de su fama, sigue siendo una persona {sencilla} y cercana.",
+      "answer": "sencilla",
+      "distractors": ["simple", "fácil"],
+      "explanation": "Aplicado a personas, «sencillo» significa sin pretensiones; «simple» sugiere poca inteligencia y «fácil» tiene otras connotaciones.",
+      "itemRef": "v-0166",
+      "source": "curado"
+    },
+    {
+      "id": "c-0466",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "La tienda ofrece una {amplia} variedad de quesos artesanos.",
+      "answer": "amplia",
+      "distractors": ["ancha", "larga"],
+      "explanation": "«Amplia variedad/gama» es la colocación correcta para la abundancia de opciones; «ancho» y «largo» describen dimensiones físicas.",
+      "itemRef": "v-0167",
+      "source": "curado"
+    },
+    {
+      "id": "c-0467",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "No fui {capaz} de decirle la verdad a la cara.",
+      "answer": "capaz",
+      "distractors": ["hábil", "apto"],
+      "explanation": "«Ser capaz de + infinitivo» es la estructura fija; «hábil» y «apto» no se combinan con «de + infinitivo» («apto para», «hábil en»).",
+      "itemRef": "v-0168",
+      "source": "curado"
+    },
+    {
+      "id": "c-0468",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Es un coche viejo pero muy {fiable}: nunca me ha dejado tirado.",
+      "answer": "fiable",
+      "distractors": ["confiado", "creíble"],
+      "explanation": "«Fiable» se dice de cosas o datos de fiar; «confiado» es quien confía demasiado y «creíble» se aplica a historias o testimonios.",
+      "itemRef": "v-0169",
+      "source": "curado"
+    },
+    {
+      "id": "c-0469",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "La nueva ley es muy {polémica} y ha dividido a la opinión pública.",
+      "answer": "polémica",
+      "distractors": ["discutidora", "peleona"],
+      "explanation": "«Polémico» se aplica a temas o decisiones que generan controversia; «discutidor» y «peleón» describen a personas a las que les gusta discutir.",
+      "itemRef": "v-0170",
+      "source": "curado"
+    },
+    {
+      "id": "c-0470",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Cuidar de tres niños pequeños es {agotador}.",
+      "answer": "agotador",
+      "distractors": ["agotado", "cansado"],
+      "explanation": "«Agotador» es lo que agota (sentido activo); «agotado» y «cansado» describen a quien sufre el cansancio, no a la actividad.",
+      "itemRef": "v-0171",
+      "source": "curado"
+    },
+    {
+      "id": "c-0471",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Según la normativa {vigente}, está prohibido fumar en las terrazas cubiertas.",
+      "answer": "vigente",
+      "distractors": ["válida", "actualizada"],
+      "explanation": "«Vigente» es el adjetivo técnico para leyes y normas en vigor; «válido» es más general y «actualizado» significa puesto al día.",
+      "itemRef": "v-0172",
+      "source": "curado"
+    },
+    {
+      "id": "c-0472",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "No se puede entrar al recinto sin reserva {previa}.",
+      "answer": "previa",
+      "distractors": ["antigua", "temprana"],
+      "explanation": "«Reserva/cita previa» es la colocación administrativa fija para lo hecho con antelación; «antiguo» significa viejo y «temprano» se refiere a la hora.",
+      "itemRef": "v-0173",
+      "source": "curado"
+    },
+    {
+      "id": "c-0473",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Habla tan bajo que {apenas} se le oye.",
+      "answer": "apenas",
+      "distractors": ["casi", "poco"],
+      "explanation": "«Apenas» equivale a «casi no»; «casi se le oye» significaría lo contrario y «poco» necesitaría otra posición en la frase.",
+      "itemRef": "v-0174",
+      "source": "curado"
+    },
+    {
+      "id": "c-0474",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "{Actualmente} vive en Sevilla, pero antes pasó varios años en Berlín.",
+      "answer": "Actualmente",
+      "distractors": ["Eventualmente", "Efectivamente"],
+      "explanation": "«Actualmente» significa hoy en día (ojo al falso amigo con «aktuell»); «eventualmente» es de manera ocasional y «efectivamente» confirma algo dicho.",
+      "itemRef": "v-0175",
+      "source": "curado"
+    },
+    {
+      "id": "c-0475",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "El norte es verde y lluvioso; el sur, {en cambio}, es seco y soleado.",
+      "answer": "en cambio",
+      "distractors": ["al cambio", "de cambio"],
+      "explanation": "«En cambio» es la locución fija para contrastar dos elementos; «al cambio» y «de cambio» tienen sentidos monetarios o no existen como conectores.",
+      "itemRef": "v-0176",
+      "source": "curado"
+    },
+    {
+      "id": "c-0476",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "La reforma del museo se {llevó a cabo} en un tiempo récord.",
+      "answer": "llevó a cabo",
+      "distractors": ["llevó al fin", "puso a cabo"],
+      "explanation": "«Llevar a cabo» es la expresión fija que significa realizar o ejecutar algo; las otras combinaciones no existen en español.",
+      "itemRef": "v-0177",
+      "source": "curado"
+    },
+    {
+      "id": "c-0477",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 2,
+      "sentence": "Al planificar el viaje, hay que {tener en cuenta} la diferencia horaria.",
+      "answer": "tener en cuenta",
+      "distractors": ["tomar en mente", "dar por hecho"],
+      "explanation": "«Tener en cuenta» significa considerar un factor; «tomar en mente» es un calco que no existe y «dar por hecho» significa asumir algo sin comprobarlo.",
+      "itemRef": "v-0178",
+      "source": "curado"
+    },
+    {
+      "id": "c-0478",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "Date prisa, que el tren {está a punto de} salir.",
+      "answer": "está a punto de",
+      "distractors": ["está al punto de", "está en punto de"],
+      "explanation": "«Estar a punto de + infinitivo» es la forma fija para la inminencia; «al punto de» y «en punto de» no son correctas con este sentido.",
+      "itemRef": "v-0179",
+      "source": "curado"
+    },
+    {
+      "id": "c-0479",
+      "type": "cloze-choice",
+      "domain": "vocab-c1",
+      "difficulty": 1,
+      "sentence": "{A medida que} avanza la novela, el ritmo se vuelve más intenso.",
+      "answer": "A medida que",
+      "distractors": ["A manera que", "En medida que"],
+      "explanation": "«A medida que» es la locución fija que expresa progresión paralela (equivale a «conforme»); las otras variantes no existen.",
+      "itemRef": "v-0180",
+      "source": "curado"
+    }
+  ]
+}

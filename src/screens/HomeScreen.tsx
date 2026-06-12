@@ -65,7 +65,7 @@ export function HomeScreen() {
             <Bar value={levelProgress(meta.xp) * 100} max={100} color="gold" />
           </div>
         </div>
-        <div className="streak-flame" title="Racha de días">
+        <div className={`streak-flame ${meta.streak > 0 ? 'lit' : ''}`} title="Racha de días">
           🔥 {meta.streak}
         </div>
       </div>

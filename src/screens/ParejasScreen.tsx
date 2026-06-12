@@ -10,7 +10,7 @@ import { DifficultyPicker } from '@/components/ui/DifficultyPicker';
 import { sfx } from '@/fx/audio';
 import { burstFromElement } from '@/fx/particles';
 import { celebrateVictory } from '@/fx/celebrate';
-import { screenShake } from '@/fx/shake';
+import { floatPoints, screenShake } from '@/fx/shake';
 
 type Phase = 'inicio' | 'jugando' | 'fin';
 
@@ -61,9 +61,11 @@ export function ParejasScreen() {
       setMatched(next);
       setSelected(null);
       sfx('correct');
-      burstFromElement(el instanceof Element ? el : null, 'teal', 12);
+      const target = el instanceof Element ? el : null;
+      burstFromElement(target, 'teal', 12);
+      floatPoints(target, '¡Bien!', '#58cc02');
       if (!missedPairs.current.has(card.pairId)) {
-        void rate(card.itemId, Rating.Good, 'blitz');
+        void rate(card.itemId, Rating.Good, 'parejas');
       }
       if (next.size === PAIRS_PER_BOARD) {
         finish(next.size);
@@ -72,7 +74,7 @@ export function ParejasScreen() {
       setMismatch([selected, card.uid]);
       setMistakes((m) => m + 1);
       missedPairs.current.add(first.pairId).add(card.pairId);
-      void rate(first.itemId, Rating.Again, 'blitz');
+      void rate(first.itemId, Rating.Again, 'parejas');
       sfx('wrong');
       screenShake(5, 0.18);
       setTimeout(() => {

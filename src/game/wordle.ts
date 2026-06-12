@@ -62,10 +62,15 @@ export function keyboardStates(
   return map;
 }
 
-/** Palabra del día, determinista por fecha. */
+/**
+ * Palabra del día, determinista por fecha. Se limita a dificultad 1–2:
+ * las joyas literarias quedan para la práctica en modo difícil.
+ */
 export function dailyWord(words: WordleWord[], dateKey = todayKey()): WordleWord {
-  const index = dailySeed(dateKey, 'palabra') % words.length;
-  return words[index];
+  const pool = words.filter((w) => w.difficulty <= 2);
+  const source = pool.length > 0 ? pool : words;
+  const index = dailySeed(dateKey, 'palabra') % source.length;
+  return source[index];
 }
 
 /** Palabra aleatoria para práctica libre, filtrada por dificultad. */

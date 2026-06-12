@@ -17,7 +17,12 @@ export interface FsrsCardSnapshot {
 export interface SrsRecord {
   itemId: string;
   card: FsrsCardSnapshot;
-  history: { ts: string; rating: 1 | 2 | 3 | 4; mode: 'expedicion' | 'diario' | 'blitz' }[];
+  /** los modos antiguos (expedicion/diario/blitz) se conservan por compatibilidad */
+  history: {
+    ts: string;
+    rating: 1 | 2 | 3 | 4;
+    mode: 'quiz' | 'parejas' | 'expedicion' | 'diario' | 'blitz';
+  }[];
 }
 
 export interface MetaRecord {
@@ -43,13 +48,6 @@ export interface MetaRecord {
   quizRounds?: number;
 }
 
-export interface ActiveRunRecord {
-  id: 'run';
-  /** estado del run serializado (RunState del motor de juego) */
-  state: unknown;
-  savedAt: string;
-}
-
 export interface ScoreRecord {
   id?: number;
   mode: 'quiz' | 'blitz';
@@ -60,10 +58,11 @@ export interface ScoreRecord {
   date: string;
 }
 
+// El nombre interno «la-forja» se mantiene aunque la app se llame distinto:
+// cambiarlo borraría el progreso guardado en IndexedDB.
 export const db = new Dexie('la-forja') as Dexie & {
   srs: EntityTable<SrsRecord, 'itemId'>;
   meta: EntityTable<MetaRecord, 'id'>;
-  activeRun: EntityTable<ActiveRunRecord, 'id'>;
   scores: EntityTable<ScoreRecord, 'id'>;
 };
 
@@ -73,6 +72,9 @@ db.version(1).stores({
   activeRun: 'id',
   scores: '++id, mode, score',
 });
+
+// v2: elimina la tabla del modo expedición retirado
+db.version(2).stores({ activeRun: null });
 
 export const DEFAULT_META: MetaRecord = {
   id: 'meta',

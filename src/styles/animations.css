@@ -8,51 +8,6 @@
   }
 }
 
-@keyframes vignette-pulse {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-#damage-vignette {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 85;
-  opacity: 0;
-  background: radial-gradient(ellipse at center, transparent 60%, rgba(255, 75, 75, 0.28) 100%);
-}
-
-#damage-vignette.active {
-  animation: vignette-pulse 450ms ease-out;
-}
-
-@keyframes letter-pop {
-  0% {
-    opacity: 0;
-    transform: translateY(24px) scale(0.6);
-  }
-  60% {
-    opacity: 1;
-    transform: translateY(-6px) scale(1.12);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-.letter-stagger span {
-  display: inline-block;
-  animation: letter-pop 500ms cubic-bezier(0.22, 1.4, 0.36, 1) both;
-}
-
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

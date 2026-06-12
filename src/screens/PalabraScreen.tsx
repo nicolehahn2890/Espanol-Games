@@ -20,7 +20,7 @@ import { DifficultyPicker } from '@/components/ui/DifficultyPicker';
 import { ExplanationCard } from '@/components/ui/ExplanationCard';
 import { sfx } from '@/fx/audio';
 import { celebrateSmall, celebrateVictory } from '@/fx/celebrate';
-import { screenShake } from '@/fx/shake';
+import { floatPoints, screenShake } from '@/fx/shake';
 
 const KB_ROWS = ['QWERTYUIOP', 'ASDFGHJKLÑ', 'ZXCVBNM'];
 
@@ -89,8 +89,12 @@ export function PalabraScreen() {
       meta.unlock('palabra-1');
       if (won && attempts <= 2) meta.unlock('palabra-genio');
     }
-    meta.addXp(won ? 30 + (MAX_GUESSES - attempts) * 8 : 8);
-    if (won) meta.unlock('primer-golpe');
+    const xp = won ? 30 + (MAX_GUESSES - attempts) * 8 : 8;
+    meta.addXp(xp);
+    if (won) {
+      meta.unlock('primer-golpe');
+      setTimeout(() => floatPoints(document.querySelector('.wordle-grid'), `+${xp} XP`), 650);
+    }
   }
 
   function pressKey(key: string) {
@@ -164,8 +168,10 @@ export function PalabraScreen() {
               ? current.padEnd(WORD_LENGTH).split('')
               : Array(WORD_LENGTH).fill(' ');
           const states = guess ? evaluateGuess(guess, target.word) : null;
+          const isWinner =
+            finished === 'win' && guess !== undefined && normalizeWord(guess) === target.word;
           return (
-            <div className="wordle-row" key={row}>
+            <div className={`wordle-row ${isWinner ? 'winner' : ''}`} key={row}>
               {letters.map((letter, col) => (
                 <div
                   key={col}

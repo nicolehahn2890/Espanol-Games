@@ -16,7 +16,8 @@ import { useMetaStore } from '@/stores/useMetaStore';
 import { DifficultyPicker } from '@/components/ui/DifficultyPicker';
 import { sfx } from '@/fx/audio';
 import { celebrateVictory } from '@/fx/celebrate';
-import { screenShake } from '@/fx/shake';
+import { burstFromElement } from '@/fx/particles';
+import { floatPoints, screenShake } from '@/fx/shake';
 
 type Phase = 'inicio' | 'jugando' | 'fin';
 
@@ -71,6 +72,9 @@ export function GruposScreen() {
       setWords((ws) => ws.filter((w) => !selection.includes(w)));
       setSelection([]);
       sfx('correct');
+      const grid = document.querySelector('.groups-grid');
+      burstFromElement(grid, 'gold', 16);
+      floatPoints(grid, '+8 XP', '#a560f8');
       if (solved.length === 4) {
         finish(true, solved.length, mistakes);
       }

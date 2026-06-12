@@ -18,7 +18,7 @@ export const ACHIEVEMENTS: AchievementDef[] = [
   { id: 'grupos-limpio', name: 'Mente Brillante', description: 'Resuelve un rompecabezas de grupos sin errores.' },
   { id: 'grupos-10', name: 'Tejedora de Ideas', description: 'Resuelve 10 rompecabezas de grupos.' },
   { id: 'nivel-5', name: 'Chispa Tenaz', description: 'Alcanza el nivel 5.' },
-  { id: 'nivel-10', name: 'Forjadora de Palabras', description: 'Alcanza el nivel 10.' },
+  { id: 'nivel-10', name: 'Cazadora de Palabras', description: 'Alcanza el nivel 10.' },
   { id: 'nivel-25', name: 'Artesana del Idioma', description: 'Alcanza el nivel 25.' },
 ];
 

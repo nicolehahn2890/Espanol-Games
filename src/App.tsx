@@ -54,12 +54,15 @@ export function App() {
 
   return (
     <>
+      <div className="bg-blobs" aria-hidden="true">
+        <span className="blob blob-1" />
+        <span className="blob blob-2" />
+        <span className="blob blob-3" />
+      </div>
       <div id="fx-root">
         <Outlet />
       </div>
       <canvas id="particle-canvas" />
-      <div id="screen-flash" />
-      <div id="damage-vignette" />
       <AchievementToast />
     </>
   );

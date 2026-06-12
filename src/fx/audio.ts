@@ -17,6 +17,7 @@ type SfxName =
   | 'bossDown'
   | 'levelUp'
   | 'achievement'
+  | 'star'
   | 'tick';
 
 let ctx: AudioContext | null = null;
@@ -161,6 +162,11 @@ const SFX: Record<SfxName, () => void> = {
       { freq: 880, dur: 0.08, gain: 0.2, type: 'sine' },
       { freq: 1108, at: 0.08, dur: 0.08, gain: 0.2, type: 'sine' },
       { freq: 1318, at: 0.16, dur: 0.24, gain: 0.22, type: 'sine' },
+    ]),
+  star: () =>
+    play([
+      { freq: 1318, dur: 0.07, gain: 0.18, type: 'sine' },
+      { freq: 1760, at: 0.05, dur: 0.18, gain: 0.2, type: 'sine' },
     ]),
   tick: () => play([{ freq: 1200, dur: 0.03, gain: 0.08, type: 'sine' }]),
 };
