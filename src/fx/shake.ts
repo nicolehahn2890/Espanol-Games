@@ -55,7 +55,7 @@ export function floatDamageNumber(from: Element | null, text: string, color = '#
     left: `${rect.left + rect.width / 2}px`,
     top: `${rect.top + rect.height * 0.3}px`,
     transform: 'translate(-50%, -50%)',
-    fontFamily: "'Fraunces Variable', Georgia, serif",
+    fontFamily: "'Baloo 2 Variable', system-ui, sans-serif",
     fontWeight: '700',
     fontSize: '28px',
     color,

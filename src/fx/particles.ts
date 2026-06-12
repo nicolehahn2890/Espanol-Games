@@ -52,7 +52,7 @@ function loop(): void {
     p.y += p.vy;
     p.vy += p.gravity;
     p.vx *= 0.985;
-    const t = 1 - p.life / p.maxLife;
+    const t = Math.max(0, 1 - p.life / p.maxLife);
     ctx.globalAlpha = t;
     ctx.fillStyle = p.color;
     ctx.beginPath();

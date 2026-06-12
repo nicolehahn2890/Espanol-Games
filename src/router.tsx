@@ -1,8 +1,10 @@
 import { createHashRouter } from 'react-router-dom';
 import { App } from './App';
 import { HomeScreen } from './screens/HomeScreen';
-import { BlitzScreen } from './screens/BlitzScreen';
-import { ExpeditionScreen } from './screens/expedition/ExpeditionScreen';
+import { PalabraScreen } from './screens/PalabraScreen';
+import { QuizScreen } from './screens/QuizScreen';
+import { ParejasScreen } from './screens/ParejasScreen';
+import { GruposScreen } from './screens/GruposScreen';
 import { AchievementsScreen } from './screens/AchievementsScreen';
 import { StatsScreen } from './screens/StatsScreen';
 import { SettingsScreen } from './screens/SettingsScreen';
@@ -14,8 +16,10 @@ export const router = createHashRouter([
     element: <App />,
     children: [
       { index: true, element: <HomeScreen /> },
-      { path: 'contrarreloj', element: <BlitzScreen /> },
-      { path: 'expedicion', element: <ExpeditionScreen /> },
+      { path: 'palabra', element: <PalabraScreen /> },
+      { path: 'quiz', element: <QuizScreen /> },
+      { path: 'parejas', element: <ParejasScreen /> },
+      { path: 'grupos', element: <GruposScreen /> },
       { path: 'logros', element: <AchievementsScreen /> },
       { path: 'estadisticas', element: <StatsScreen /> },
       { path: 'ajustes', element: <SettingsScreen /> },

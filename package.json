@@ -1,5 +1,5 @@
 {
-  "name": "la-forja-del-idioma",
+  "name": "juegos-de-espanol",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -15,9 +15,8 @@
     "generate-icons": "node scripts/generate-icons.mjs"
   },
   "dependencies": {
-    "@fontsource-variable/fraunces": "^5.2.5",
-    "@fontsource-variable/inter": "^5.2.5",
-    "@fontsource/jetbrains-mono": "^5.2.5",
+    "@fontsource-variable/baloo-2": "^5.2.7",
+    "@fontsource-variable/nunito": "^5.2.7",
     "canvas-confetti": "^1.9.3",
     "dexie": "^4.0.11",
     "framer-motion": "^12.9.2",

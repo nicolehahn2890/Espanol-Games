@@ -27,6 +27,8 @@ for (const packName of manifest.packs) {
       ...(pack.idioms ?? []).map((i) => i.id),
       ...(pack.collocations ?? []).map((c) => c.id),
       ...(pack.grammarTopics ?? []).map((g) => g.id),
+      ...(pack.wordleWords ?? []).map((w) => w.id),
+      ...(pack.groupPuzzles ?? []).map((p) => p.id),
     ];
     for (const id of ids) {
       const where = seen.get(id);

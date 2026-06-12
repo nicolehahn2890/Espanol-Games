@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { db, DEFAULT_META, loadMeta, type MetaRecord } from '@/db/db';
 import { levelFromXp } from '@/game/xp';
+import { isYesterday, todayKey } from '@/game/daily';
 import { ACHIEVEMENT_MAP } from '@/game/achievements';
 import { sfx } from '@/fx/audio';
 import { celebrateSmall } from '@/fx/celebrate';
@@ -14,9 +15,9 @@ interface MetaStore {
   update: (patch: Partial<MetaRecord>) => void;
   /** suma xp; devuelve true si se subió de nivel */
   addXp: (amount: number) => boolean;
-  addFragmentos: (amount: number) => void;
   unlock: (achievementId: string) => void;
-  discover: (collectionId: string) => void;
+  /** registra la Palabra del día completada y actualiza la racha */
+  markDailyDone: () => void;
   clearAchievementToast: () => void;
 }
 
@@ -51,14 +52,12 @@ export const useMetaStore = create<MetaStore>((set, get) => ({
     if (after > before) {
       sfx('levelUp');
       celebrateSmall();
+      if (after >= 5) get().unlock('nivel-5');
       if (after >= 10) get().unlock('nivel-10');
+      if (after >= 25) get().unlock('nivel-25');
       return true;
     }
     return false;
-  },
-
-  addFragmentos: (amount) => {
-    get().update({ fragmentos: get().meta.fragmentos + amount });
   },
 
   unlock: (achievementId) => {
@@ -70,14 +69,16 @@ export const useMetaStore = create<MetaStore>((set, get) => ({
     celebrateSmall();
   },
 
-  discover: (collectionId) => {
+  markDailyDone: () => {
     const { meta } = get();
-    if (meta.collection.includes(collectionId)) return;
-    const collection = [...meta.collection, collectionId];
-    get().update({ collection });
-    if (collection.filter((c) => c.startsWith('card:')).length >= 10) {
-      get().unlock('coleccionista');
-    }
+    const today = todayKey();
+    if (meta.lastDailyDate === today) return;
+    const streak =
+      meta.lastDailyDate && isYesterday(meta.lastDailyDate, today) ? meta.streak + 1 : 1;
+    get().update({ streak, lastDailyDate: today });
+    if (streak >= 3) get().unlock('racha-3');
+    if (streak >= 7) get().unlock('racha-7');
+    if (streak >= 30) get().unlock('racha-30');
   },
 
   clearAchievementToast: () => set({ lastAchievement: null }),

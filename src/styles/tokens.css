@@ -1,44 +1,49 @@
 :root {
-  /* Tinta profunda */
-  --bg-0: #15131f;
-  --bg-1: #1e1a2e;
-  --surface: #262236;
-  --surface-2: #2e2942;
-  --border: #3d3654;
-  --border-bright: #564c78;
+  /* Fondo claro y cálido */
+  --bg: #fdfbf6;
+  --bg-soft: #f4f1ff;
+  --card: #ffffff;
+  --border: #e8e4f0;
+  --border-strong: #d8d2e8;
 
-  /* Acentos */
-  --gold: #f2b441;
-  --gold-soft: #f8d488;
-  --gold-glow: rgba(242, 180, 65, 0.35);
-  --teal: #3dd6c3;
-  --teal-glow: rgba(61, 214, 195, 0.35);
-  --ember: #e5484d;
-  --ember-glow: rgba(229, 72, 77, 0.4);
+  /* Paleta alegre */
+  --green: #58cc02;
+  --green-dark: #46a302;
+  --green-soft: #d7ffb8;
+  --blue: #1cb0f6;
+  --blue-dark: #1899d6;
+  --blue-soft: #d6f1ff;
+  --purple: #a560f8;
+  --purple-dark: #8a45dd;
+  --purple-soft: #efe1ff;
+  --orange: #ff9600;
+  --orange-dark: #e08600;
+  --orange-soft: #ffe9cc;
+  --red: #ff4b4b;
+  --red-dark: #e03e3e;
+  --red-soft: #ffdfdf;
+  --yellow: #ffc800;
+  --yellow-dark: #e6b400;
+  --yellow-soft: #fff3c4;
+  --pink: #ff86d0;
+  --pink-dark: #e86bb8;
 
   /* Texto */
-  --text: #efeaf7;
-  --text-dim: #a79fc2;
-  --text-faint: #6f6790;
-
-  /* Rarezas */
-  --rarity-comun: #9e97b8;
-  --rarity-rara: #3dd6c3;
-  --rarity-epica: #b07cf0;
-  --rarity-legendaria: #f2b441;
+  --text: #3c3c50;
+  --text-dim: #8e8aa4;
+  --text-faint: #b9b5cc;
+  --text-on-color: #ffffff;
 
   /* Tipografía */
-  --font-display: 'Fraunces Variable', Georgia, serif;
-  --font-ui: 'Inter Variable', system-ui, sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-display: 'Baloo 2 Variable', 'Nunito Variable', system-ui, sans-serif;
+  --font-ui: 'Nunito Variable', system-ui, sans-serif;
 
-  /* Espaciado y forma */
-  --radius-s: 8px;
-  --radius-m: 14px;
-  --radius-l: 22px;
-  --shadow-card: 0 6px 24px rgba(0, 0, 0, 0.45);
-  --glow-gold: 0 0 24px var(--gold-glow);
-  --glow-teal: 0 0 24px var(--teal-glow);
+  /* Forma */
+  --radius-s: 12px;
+  --radius-m: 18px;
+  --radius-l: 26px;
+  --shadow-card: 0 2px 0 var(--border-strong);
+  --shadow-pop: 0 8px 24px rgba(60, 60, 80, 0.12);
 
   /* Zonas seguras (iPhone) */
   --safe-top: env(safe-area-inset-top, 0px);

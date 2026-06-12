@@ -6,8 +6,10 @@ import {
   type ContentPack,
   type Domain,
   type GrammarTopic,
+  type GroupPuzzle,
   type IdiomItem,
   type VocabItem,
+  type WordleWord,
 } from './schema';
 
 export interface ContentIndex {
@@ -16,6 +18,8 @@ export interface ContentIndex {
   idioms: Map<string, IdiomItem>;
   collocations: Map<string, CollocationItem>;
   grammarTopics: GrammarTopic[];
+  wordleWords: WordleWord[];
+  groupPuzzles: GroupPuzzle[];
   byDomain: Map<Domain, Challenge[]>;
 }
 
@@ -29,6 +33,8 @@ function indexPacks(packs: ContentPack[]): ContentIndex {
     idioms: new Map(),
     collocations: new Map(),
     grammarTopics: [],
+    wordleWords: [],
+    groupPuzzles: [],
     byDomain: new Map(),
   };
   for (const pack of packs) {
@@ -36,6 +42,8 @@ function indexPacks(packs: ContentPack[]): ContentIndex {
     for (const i of pack.idioms ?? []) index.idioms.set(i.id, i);
     for (const c of pack.collocations ?? []) index.collocations.set(c.id, c);
     index.grammarTopics.push(...(pack.grammarTopics ?? []));
+    index.wordleWords.push(...(pack.wordleWords ?? []));
+    index.groupPuzzles.push(...(pack.groupPuzzles ?? []));
     for (const ch of pack.challenges ?? []) {
       index.challenges.set(ch.id, ch);
       const list = index.byDomain.get(ch.domain) ?? [];

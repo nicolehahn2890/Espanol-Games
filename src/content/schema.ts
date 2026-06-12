@@ -99,6 +99,38 @@ export const grammarTopicSchema = z.object({
 });
 export type GrammarTopic = z.infer<typeof grammarTopicSchema>;
 
+/** Palabra de 5 letras para el modo Wordle (sin tildes en `word`, Ñ permitida). */
+export const wordleWordSchema = z.object({
+  id: z.string().regex(/^w-\d{4}$/),
+  word: z.string().regex(/^[A-ZÑ]{5}$/),
+  /** forma real con tildes para mostrar al resolver */
+  display: z.string().min(1),
+  definitionEs: z.string().min(1),
+  glossDe: z.string().optional(),
+  difficulty: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+});
+export type WordleWord = z.infer<typeof wordleWordSchema>;
+
+/** Rompecabezas de grupos (estilo Connections): 4 grupos de 4 palabras. */
+export const groupPuzzleSchema = z
+  .object({
+    id: z.string().regex(/^gr-\d{4}$/),
+    difficulty: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+    groups: z
+      .array(
+        z.object({
+          label: z.string().min(1),
+          explanation: z.string().min(1),
+          words: z.array(z.string().min(1)).length(4),
+        }),
+      )
+      .length(4),
+  })
+  .refine((p) => new Set(p.groups.flatMap((g) => g.words.map((w) => w.toLowerCase()))).size === 16, {
+    message: 'las 16 palabras de un rompecabezas deben ser únicas',
+  });
+export type GroupPuzzle = z.infer<typeof groupPuzzleSchema>;
+
 export const packSchema = z.object({
   pack: z.string().min(1),
   version: z.number().int().positive(),
@@ -107,6 +139,8 @@ export const packSchema = z.object({
   idioms: z.array(idiomItemSchema).optional(),
   collocations: z.array(collocationItemSchema).optional(),
   grammarTopics: z.array(grammarTopicSchema).optional(),
+  wordleWords: z.array(wordleWordSchema).optional(),
+  groupPuzzles: z.array(groupPuzzleSchema).optional(),
 });
 export type ContentPack = z.infer<typeof packSchema>;
 

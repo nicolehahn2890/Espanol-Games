@@ -5,16 +5,21 @@ export interface AchievementDef {
 }
 
 export const ACHIEVEMENTS: AchievementDef[] = [
-  { id: 'primer-golpe', name: 'Primer Golpe', description: 'Responde correctamente tu primer reto.' },
-  { id: 'racha-de-fuego', name: 'Racha de Fuego', description: 'Alcanza un combo de 10.' },
-  { id: 'mil-puntos', name: 'Forja Encendida', description: 'Supera 1000 puntos en Contrarreloj.' },
-  { id: 'tres-mil', name: 'Acero Templado', description: 'Supera 3000 puntos en Contrarreloj.' },
-  { id: 'primera-victoria', name: 'La Primera Veta', description: 'Gana tu primera expedición.' },
-  { id: 'sin-macula', name: 'Sin Mácula', description: 'Derrota a un jefe sin fallar ni una vez.' },
-  { id: 'cazatraidores', name: 'Cazatraidores', description: 'Derrota a El Falso Amigo.' },
+  { id: 'primer-golpe', name: 'Primer Paso', description: 'Responde correctamente tu primer reto.' },
+  { id: 'palabra-1', name: 'Adivina Adivinanza', description: 'Resuelve tu primera Palabra del día.' },
+  { id: 'palabra-genio', name: 'A la Primera', description: 'Acierta la Palabra en 2 intentos o menos.' },
+  { id: 'racha-3', name: 'Calentando', description: 'Mantén una racha de 3 días.' },
+  { id: 'racha-7', name: 'Semana de Fuego', description: 'Mantén una racha de 7 días.' },
+  { id: 'racha-30', name: 'Bibliófila', description: 'Mantén una racha de 30 días.' },
+  { id: 'quiz-perfecto', name: 'Matrícula de Honor', description: 'Termina un quiz con 10 de 10.' },
+  { id: 'quiz-10', name: 'Preguntona', description: 'Completa 10 rondas de quiz.' },
+  { id: 'parejas-limpio', name: 'Memoria de Elefante', description: 'Resuelve un tablero de parejas sin fallos.' },
+  { id: 'grupos-1', name: 'Conectada', description: 'Resuelve tu primer rompecabezas de grupos.' },
+  { id: 'grupos-limpio', name: 'Mente Brillante', description: 'Resuelve un rompecabezas de grupos sin errores.' },
+  { id: 'grupos-10', name: 'Tejedora de Ideas', description: 'Resuelve 10 rompecabezas de grupos.' },
+  { id: 'nivel-5', name: 'Chispa Tenaz', description: 'Alcanza el nivel 5.' },
   { id: 'nivel-10', name: 'Forjadora de Palabras', description: 'Alcanza el nivel 10.' },
-  { id: 'coleccionista', name: 'Coleccionista', description: 'Descubre 10 cartas distintas.' },
-  { id: 'perseverante', name: 'Perseverante', description: 'Juega 5 expediciones.' },
+  { id: 'nivel-25', name: 'Artesana del Idioma', description: 'Alcanza el nivel 25.' },
 ];
 
 export const ACHIEVEMENT_MAP = new Map(ACHIEVEMENTS.map((a) => [a.id, a]));

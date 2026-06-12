@@ -1,33 +1,11 @@
-@keyframes pulse-glow {
-  0%,
-  100% {
-    box-shadow: 0 0 12px var(--gold-glow);
-  }
-  50% {
-    box-shadow: 0 0 28px var(--gold-glow);
-  }
-}
-
 @keyframes float-soft {
   0%,
   100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-6px);
+    transform: translateY(-7px);
   }
-}
-
-@keyframes foil-spin {
-  to {
-    --foil-angle: 360deg;
-  }
-}
-
-@property --foil-angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
 }
 
 @keyframes vignette-pulse {
@@ -48,7 +26,7 @@
   pointer-events: none;
   z-index: 85;
   opacity: 0;
-  background: radial-gradient(ellipse at center, transparent 55%, var(--ember-glow) 100%);
+  background: radial-gradient(ellipse at center, transparent 60%, rgba(255, 75, 75, 0.28) 100%);
 }
 
 #damage-vignette.active {

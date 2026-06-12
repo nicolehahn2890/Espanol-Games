@@ -1,0 +1,2406 @@
+{
+  "pack": "palabras",
+  "version": 1,
+  "wordleWords": [
+    {
+      "id": "w-0001",
+      "word": "PERRO",
+      "display": "perro",
+      "definitionEs": "Animal doméstico que ladra y suele acompañar a las personas.",
+      "glossDe": "Hund",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0002",
+      "word": "ARBOL",
+      "display": "árbol",
+      "definitionEs": "Planta grande de tronco leñoso y ramas con hojas.",
+      "glossDe": "Baum",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0003",
+      "word": "LIBRO",
+      "display": "libro",
+      "definitionEs": "Conjunto de hojas impresas y encuadernadas para leer.",
+      "glossDe": "Buch",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0004",
+      "word": "SILLA",
+      "display": "silla",
+      "definitionEs": "Asiento con respaldo para una persona.",
+      "glossDe": "Stuhl",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0005",
+      "word": "PLATO",
+      "display": "plato",
+      "definitionEs": "Recipiente llano donde se sirve la comida.",
+      "glossDe": "Teller",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0006",
+      "word": "COCHE",
+      "display": "coche",
+      "definitionEs": "Vehículo de motor con cuatro ruedas para transportar personas.",
+      "glossDe": "Auto",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0007",
+      "word": "CALLE",
+      "display": "calle",
+      "definitionEs": "Vía pública dentro de una población.",
+      "glossDe": "Straße",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0008",
+      "word": "PLAZA",
+      "display": "plaza",
+      "definitionEs": "Espacio público amplio y abierto en una ciudad o pueblo.",
+      "glossDe": "Platz",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0009",
+      "word": "PLAYA",
+      "display": "playa",
+      "definitionEs": "Orilla del mar cubierta de arena.",
+      "glossDe": "Strand",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0010",
+      "word": "CIELO",
+      "display": "cielo",
+      "definitionEs": "Espacio que vemos sobre la tierra, donde están las nubes y las estrellas.",
+      "glossDe": "Himmel",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0011",
+      "word": "FUEGO",
+      "display": "fuego",
+      "definitionEs": "Calor y luz producidos por algo que arde.",
+      "glossDe": "Feuer",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0012",
+      "word": "NIEVE",
+      "display": "nieve",
+      "definitionEs": "Agua helada que cae del cielo en copos blancos.",
+      "glossDe": "Schnee",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0013",
+      "word": "NOCHE",
+      "display": "noche",
+      "definitionEs": "Parte del día sin luz solar.",
+      "glossDe": "Nacht",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0014",
+      "word": "TARDE",
+      "display": "tarde",
+      "definitionEs": "Parte del día entre el mediodía y la noche.",
+      "glossDe": "Nachmittag",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0015",
+      "word": "MUNDO",
+      "display": "mundo",
+      "definitionEs": "Conjunto de todo lo que existe; el planeta Tierra.",
+      "glossDe": "Welt",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0016",
+      "word": "CAMPO",
+      "display": "campo",
+      "definitionEs": "Terreno fuera de las ciudades, dedicado sobre todo al cultivo.",
+      "glossDe": "Feld, Land",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0017",
+      "word": "MONTE",
+      "display": "monte",
+      "definitionEs": "Elevación natural del terreno, a menudo cubierta de árboles.",
+      "glossDe": "Berg",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0018",
+      "word": "COSTA",
+      "display": "costa",
+      "definitionEs": "Zona de tierra que está junto al mar.",
+      "glossDe": "Küste",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0019",
+      "word": "ARENA",
+      "display": "arena",
+      "definitionEs": "Conjunto de granos muy finos de piedra, típico de playas y desiertos.",
+      "glossDe": "Sand",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0020",
+      "word": "FRUTA",
+      "display": "fruta",
+      "definitionEs": "Fruto comestible y normalmente dulce de ciertas plantas.",
+      "glossDe": "Obst",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0021",
+      "word": "CARNE",
+      "display": "carne",
+      "definitionEs": "Alimento que procede del cuerpo de los animales.",
+      "glossDe": "Fleisch",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0022",
+      "word": "LECHE",
+      "display": "leche",
+      "definitionEs": "Líquido blanco que producen las hembras de los mamíferos.",
+      "glossDe": "Milch",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0023",
+      "word": "QUESO",
+      "display": "queso",
+      "definitionEs": "Alimento sólido elaborado con leche cuajada.",
+      "glossDe": "Käse",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0024",
+      "word": "HUEVO",
+      "display": "huevo",
+      "definitionEs": "Cuerpo redondeado que ponen las aves, muy usado como alimento.",
+      "glossDe": "Ei",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0025",
+      "word": "DULCE",
+      "display": "dulce",
+      "definitionEs": "Que tiene sabor a azúcar o miel.",
+      "glossDe": "süß",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0026",
+      "word": "SALSA",
+      "display": "salsa",
+      "definitionEs": "Mezcla líquida que acompaña y da sabor a la comida.",
+      "glossDe": "Soße",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0027",
+      "word": "ARROZ",
+      "display": "arroz",
+      "definitionEs": "Cereal de granos blancos que es base de muchos platos.",
+      "glossDe": "Reis",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0028",
+      "word": "CALDO",
+      "display": "caldo",
+      "definitionEs": "Líquido que resulta de cocer carne, pescado o verduras.",
+      "glossDe": "Brühe",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0029",
+      "word": "POLLO",
+      "display": "pollo",
+      "definitionEs": "Cría de la gallina; su carne como alimento.",
+      "glossDe": "Hähnchen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0030",
+      "word": "CERDO",
+      "display": "cerdo",
+      "definitionEs": "Animal doméstico del que se obtienen el jamón y otras carnes.",
+      "glossDe": "Schwein",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0031",
+      "word": "OVEJA",
+      "display": "oveja",
+      "definitionEs": "Animal que da lana y vive en rebaños.",
+      "glossDe": "Schaf",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0032",
+      "word": "CABRA",
+      "display": "cabra",
+      "definitionEs": "Animal doméstico que trepa muy bien y da leche.",
+      "glossDe": "Ziege",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0033",
+      "word": "BURRO",
+      "display": "burro",
+      "definitionEs": "Animal parecido al caballo, más pequeño y con orejas largas.",
+      "glossDe": "Esel",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0034",
+      "word": "GALLO",
+      "display": "gallo",
+      "definitionEs": "Macho de la gallina, que canta al amanecer.",
+      "glossDe": "Hahn",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0035",
+      "word": "RATON",
+      "display": "ratón",
+      "definitionEs": "Roedor pequeño de cola larga.",
+      "glossDe": "Maus",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0036",
+      "word": "TIGRE",
+      "display": "tigre",
+      "definitionEs": "Felino grande de piel rayada.",
+      "glossDe": "Tiger",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0037",
+      "word": "ZORRO",
+      "display": "zorro",
+      "definitionEs": "Mamífero salvaje famoso por su astucia.",
+      "glossDe": "Fuchs",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0038",
+      "word": "BRAZO",
+      "display": "brazo",
+      "definitionEs": "Extremidad superior del cuerpo humano.",
+      "glossDe": "Arm",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0039",
+      "word": "LABIO",
+      "display": "labio",
+      "definitionEs": "Cada uno de los bordes carnosos de la boca.",
+      "glossDe": "Lippe",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0040",
+      "word": "PECHO",
+      "display": "pecho",
+      "definitionEs": "Parte delantera del cuerpo entre el cuello y el vientre.",
+      "glossDe": "Brust",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0041",
+      "word": "BARBA",
+      "display": "barba",
+      "definitionEs": "Pelo que crece en la parte baja de la cara.",
+      "glossDe": "Bart",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0042",
+      "word": "NARIZ",
+      "display": "nariz",
+      "definitionEs": "Parte de la cara que sirve para oler y respirar.",
+      "glossDe": "Nase",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0043",
+      "word": "OREJA",
+      "display": "oreja",
+      "definitionEs": "Parte externa del oído.",
+      "glossDe": "Ohr",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0044",
+      "word": "HUESO",
+      "display": "hueso",
+      "definitionEs": "Pieza dura que forma el esqueleto.",
+      "glossDe": "Knochen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0045",
+      "word": "FALDA",
+      "display": "falda",
+      "definitionEs": "Prenda de vestir que cae desde la cintura.",
+      "glossDe": "Rock",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0046",
+      "word": "BLUSA",
+      "display": "blusa",
+      "definitionEs": "Prenda femenina ligera que cubre la parte superior del cuerpo.",
+      "glossDe": "Bluse",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0047",
+      "word": "TRAJE",
+      "display": "traje",
+      "definitionEs": "Conjunto elegante de chaqueta y pantalón o falda.",
+      "glossDe": "Anzug",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0048",
+      "word": "GORRA",
+      "display": "gorra",
+      "definitionEs": "Prenda que cubre la cabeza, normalmente con visera.",
+      "glossDe": "Mütze, Kappe",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0049",
+      "word": "TECHO",
+      "display": "techo",
+      "definitionEs": "Parte superior que cierra una habitación o un edificio.",
+      "glossDe": "Dach, Decke",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0050",
+      "word": "SUELO",
+      "display": "suelo",
+      "definitionEs": "Superficie sobre la que se pisa.",
+      "glossDe": "Boden",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0051",
+      "word": "PARED",
+      "display": "pared",
+      "definitionEs": "Muro que separa o cierra un espacio.",
+      "glossDe": "Wand",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0052",
+      "word": "MANTA",
+      "display": "manta",
+      "definitionEs": "Pieza de tela gruesa que abriga en la cama.",
+      "glossDe": "Wolldecke",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0053",
+      "word": "RELOJ",
+      "display": "reloj",
+      "definitionEs": "Aparato que mide y muestra la hora.",
+      "glossDe": "Uhr",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0054",
+      "word": "LLAVE",
+      "display": "llave",
+      "definitionEs": "Objeto de metal que abre y cierra cerraduras.",
+      "glossDe": "Schlüssel",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0055",
+      "word": "CESTA",
+      "display": "cesta",
+      "definitionEs": "Recipiente trenzado para llevar o guardar cosas.",
+      "glossDe": "Korb",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0056",
+      "word": "BOLSA",
+      "display": "bolsa",
+      "definitionEs": "Objeto flexible que sirve para llevar cosas.",
+      "glossDe": "Tasche, Tüte",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0057",
+      "word": "PAPEL",
+      "display": "papel",
+      "definitionEs": "Lámina fina sobre la que se escribe o imprime.",
+      "glossDe": "Papier",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0058",
+      "word": "LAPIZ",
+      "display": "lápiz",
+      "definitionEs": "Instrumento de madera con mina que sirve para escribir o dibujar.",
+      "glossDe": "Bleistift",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0059",
+      "word": "REGLA",
+      "display": "regla",
+      "definitionEs": "Instrumento para trazar líneas rectas; norma establecida.",
+      "glossDe": "Lineal, Regel",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0060",
+      "word": "CARTA",
+      "display": "carta",
+      "definitionEs": "Escrito que se envía a alguien, normalmente dentro de un sobre.",
+      "glossDe": "Brief",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0061",
+      "word": "SELLO",
+      "display": "sello",
+      "definitionEs": "Pequeño papel que se pega en las cartas para enviarlas por correo.",
+      "glossDe": "Briefmarke",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0062",
+      "word": "FECHA",
+      "display": "fecha",
+      "definitionEs": "Indicación del día, el mes y el año.",
+      "glossDe": "Datum",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0063",
+      "word": "OTOÑO",
+      "display": "otoño",
+      "definitionEs": "Estación del año entre el verano y el invierno.",
+      "glossDe": "Herbst",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0064",
+      "word": "ENERO",
+      "display": "enero",
+      "definitionEs": "Primer mes del año.",
+      "glossDe": "Januar",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0065",
+      "word": "LUNES",
+      "display": "lunes",
+      "definitionEs": "Primer día de la semana laboral.",
+      "glossDe": "Montag",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0066",
+      "word": "BAILE",
+      "display": "baile",
+      "definitionEs": "Movimiento del cuerpo al ritmo de la música.",
+      "glossDe": "Tanz",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0067",
+      "word": "JUEGO",
+      "display": "juego",
+      "definitionEs": "Actividad que se realiza para divertirse.",
+      "glossDe": "Spiel",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0068",
+      "word": "BALON",
+      "display": "balón",
+      "definitionEs": "Pelota grande usada en deportes como el fútbol.",
+      "glossDe": "Ball",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0069",
+      "word": "AVION",
+      "display": "avión",
+      "definitionEs": "Vehículo con alas que vuela y transporta pasajeros.",
+      "glossDe": "Flugzeug",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0070",
+      "word": "BARCO",
+      "display": "barco",
+      "definitionEs": "Vehículo que flota y navega por el agua.",
+      "glossDe": "Schiff",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0071",
+      "word": "RUEDA",
+      "display": "rueda",
+      "definitionEs": "Pieza circular que gira y permite el movimiento de un vehículo.",
+      "glossDe": "Rad",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0072",
+      "word": "FRENO",
+      "display": "freno",
+      "definitionEs": "Mecanismo que sirve para detener un vehículo.",
+      "glossDe": "Bremse",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0073",
+      "word": "VIAJE",
+      "display": "viaje",
+      "definitionEs": "Desplazamiento a un lugar distante.",
+      "glossDe": "Reise",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0074",
+      "word": "HOTEL",
+      "display": "hotel",
+      "definitionEs": "Establecimiento donde los viajeros pagan por alojarse.",
+      "glossDe": "Hotel",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0075",
+      "word": "BANCO",
+      "display": "banco",
+      "definitionEs": "Entidad que guarda y presta dinero; asiento largo para varias personas.",
+      "glossDe": "Bank",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0076",
+      "word": "TAREA",
+      "display": "tarea",
+      "definitionEs": "Trabajo que debe hacerse en un tiempo determinado.",
+      "glossDe": "Aufgabe",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0077",
+      "word": "CLASE",
+      "display": "clase",
+      "definitionEs": "Lección que imparte un profesor; grupo de alumnos.",
+      "glossDe": "Unterricht, Klasse",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0078",
+      "word": "CURSO",
+      "display": "curso",
+      "definitionEs": "Conjunto de clases sobre una materia; año académico.",
+      "glossDe": "Kurs",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0079",
+      "word": "ERROR",
+      "display": "error",
+      "definitionEs": "Equivocación, cosa hecha de forma incorrecta.",
+      "glossDe": "Fehler",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0080",
+      "word": "AMIGO",
+      "display": "amigo",
+      "definitionEs": "Persona con la que se tiene una relación de afecto y confianza.",
+      "glossDe": "Freund",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0081",
+      "word": "NOVIO",
+      "display": "novio",
+      "definitionEs": "Hombre que mantiene una relación amorosa con alguien.",
+      "glossDe": "fester Freund",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0082",
+      "word": "PADRE",
+      "display": "padre",
+      "definitionEs": "Hombre que tiene uno o más hijos.",
+      "glossDe": "Vater",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0083",
+      "word": "MADRE",
+      "display": "madre",
+      "definitionEs": "Mujer que tiene uno o más hijos.",
+      "glossDe": "Mutter",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0084",
+      "word": "PRIMO",
+      "display": "primo",
+      "definitionEs": "Hijo del tío o de la tía.",
+      "glossDe": "Cousin",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0085",
+      "word": "GENTE",
+      "display": "gente",
+      "definitionEs": "Conjunto de personas.",
+      "glossDe": "Leute",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0086",
+      "word": "JOVEN",
+      "display": "joven",
+      "definitionEs": "Que tiene poca edad.",
+      "glossDe": "jung",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0087",
+      "word": "VIEJO",
+      "display": "viejo",
+      "definitionEs": "Que tiene mucha edad o mucho uso.",
+      "glossDe": "alt",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0088",
+      "word": "MUJER",
+      "display": "mujer",
+      "definitionEs": "Persona adulta de sexo femenino.",
+      "glossDe": "Frau",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0089",
+      "word": "SEÑOR",
+      "display": "señor",
+      "definitionEs": "Tratamiento de respeto para un hombre adulto.",
+      "glossDe": "Herr",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0090",
+      "word": "ANDAR",
+      "display": "andar",
+      "definitionEs": "Moverse dando pasos.",
+      "glossDe": "gehen, laufen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0091",
+      "word": "BEBER",
+      "display": "beber",
+      "definitionEs": "Tomar un líquido por la boca.",
+      "glossDe": "trinken",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0092",
+      "word": "COMER",
+      "display": "comer",
+      "definitionEs": "Tomar alimentos.",
+      "glossDe": "essen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0093",
+      "word": "VIVIR",
+      "display": "vivir",
+      "definitionEs": "Tener vida; residir en un lugar.",
+      "glossDe": "leben, wohnen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0094",
+      "word": "SALIR",
+      "display": "salir",
+      "definitionEs": "Pasar de dentro a fuera.",
+      "glossDe": "hinausgehen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0095",
+      "word": "SUBIR",
+      "display": "subir",
+      "definitionEs": "Ir de un lugar a otro más alto.",
+      "glossDe": "hinaufsteigen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0096",
+      "word": "BAJAR",
+      "display": "bajar",
+      "definitionEs": "Ir de un lugar a otro más bajo.",
+      "glossDe": "hinuntergehen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0097",
+      "word": "ABRIR",
+      "display": "abrir",
+      "definitionEs": "Quitar lo que cierra algo para dejar paso o ver el interior.",
+      "glossDe": "öffnen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0098",
+      "word": "LAVAR",
+      "display": "lavar",
+      "definitionEs": "Limpiar algo con agua.",
+      "glossDe": "waschen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0099",
+      "word": "TOMAR",
+      "display": "tomar",
+      "definitionEs": "Coger algo; beber o comer algo.",
+      "glossDe": "nehmen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0100",
+      "word": "DEJAR",
+      "display": "dejar",
+      "definitionEs": "Soltar algo; permitir; abandonar.",
+      "glossDe": "lassen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0101",
+      "word": "TRAER",
+      "display": "traer",
+      "definitionEs": "Llevar algo hacia el lugar donde se está.",
+      "glossDe": "herbringen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0102",
+      "word": "PONER",
+      "display": "poner",
+      "definitionEs": "Colocar algo en un lugar.",
+      "glossDe": "legen, stellen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0103",
+      "word": "SACAR",
+      "display": "sacar",
+      "definitionEs": "Hacer salir algo del lugar donde estaba.",
+      "glossDe": "herausnehmen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0104",
+      "word": "METER",
+      "display": "meter",
+      "definitionEs": "Introducir algo dentro de un lugar.",
+      "glossDe": "hineintun",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0105",
+      "word": "MOVER",
+      "display": "mover",
+      "definitionEs": "Cambiar algo de posición.",
+      "glossDe": "bewegen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0106",
+      "word": "GIRAR",
+      "display": "girar",
+      "definitionEs": "Dar vueltas alrededor de un eje; cambiar de dirección.",
+      "glossDe": "drehen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0107",
+      "word": "PARAR",
+      "display": "parar",
+      "definitionEs": "Detener un movimiento o una actividad.",
+      "glossDe": "anhalten",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0108",
+      "word": "VOLAR",
+      "display": "volar",
+      "definitionEs": "Moverse por el aire.",
+      "glossDe": "fliegen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0109",
+      "word": "NADAR",
+      "display": "nadar",
+      "definitionEs": "Avanzar en el agua moviendo el cuerpo.",
+      "glossDe": "schwimmen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0110",
+      "word": "JUGAR",
+      "display": "jugar",
+      "definitionEs": "Hacer algo para divertirse; participar en un juego.",
+      "glossDe": "spielen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0111",
+      "word": "GANAR",
+      "display": "ganar",
+      "definitionEs": "Obtener una victoria; recibir dinero por un trabajo.",
+      "glossDe": "gewinnen, verdienen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0112",
+      "word": "PAGAR",
+      "display": "pagar",
+      "definitionEs": "Dar dinero a cambio de algo.",
+      "glossDe": "bezahlen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0113",
+      "word": "MIRAR",
+      "display": "mirar",
+      "definitionEs": "Dirigir la vista hacia algo.",
+      "glossDe": "anschauen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0114",
+      "word": "DECIR",
+      "display": "decir",
+      "definitionEs": "Expresar algo con palabras.",
+      "glossDe": "sagen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0115",
+      "word": "CREER",
+      "display": "creer",
+      "definitionEs": "Tener algo por cierto; tener fe.",
+      "glossDe": "glauben",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0116",
+      "word": "SABER",
+      "display": "saber",
+      "definitionEs": "Tener conocimiento de algo.",
+      "glossDe": "wissen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0117",
+      "word": "TOCAR",
+      "display": "tocar",
+      "definitionEs": "Entrar en contacto con algo con la mano; hacer sonar un instrumento.",
+      "glossDe": "berühren, spielen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0118",
+      "word": "NACER",
+      "display": "nacer",
+      "definitionEs": "Salir del vientre de la madre; empezar a existir.",
+      "glossDe": "geboren werden",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0119",
+      "word": "MORIR",
+      "display": "morir",
+      "definitionEs": "Dejar de vivir.",
+      "glossDe": "sterben",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0120",
+      "word": "SOÑAR",
+      "display": "soñar",
+      "definitionEs": "Imaginar cosas mientras se duerme; desear algo intensamente.",
+      "glossDe": "träumen",
+      "difficulty": 1
+    },
+    {
+      "id": "w-0121",
+      "word": "TERCO",
+      "display": "terco",
+      "definitionEs": "Que se mantiene obstinadamente en su opinión.",
+      "glossDe": "stur",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0122",
+      "word": "PUDOR",
+      "display": "pudor",
+      "definitionEs": "Sentimiento de vergüenza ante lo íntimo.",
+      "glossDe": "Schamgefühl",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0123",
+      "word": "NECIO",
+      "display": "necio",
+      "definitionEs": "Que actúa o habla con ignorancia y torpeza.",
+      "glossDe": "töricht",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0124",
+      "word": "AUDAZ",
+      "display": "audaz",
+      "definitionEs": "Que actúa con valentía y atrevimiento.",
+      "glossDe": "kühn",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0125",
+      "word": "SAGAZ",
+      "display": "sagaz",
+      "definitionEs": "Que capta y entiende las cosas con rapidez y astucia.",
+      "glossDe": "scharfsinnig",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0126",
+      "word": "FUGAZ",
+      "display": "fugaz",
+      "definitionEs": "Que dura muy poco tiempo.",
+      "glossDe": "flüchtig",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0127",
+      "word": "TENAZ",
+      "display": "tenaz",
+      "definitionEs": "Que persiste en su empeño sin rendirse.",
+      "glossDe": "hartnäckig",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0128",
+      "word": "VORAZ",
+      "display": "voraz",
+      "definitionEs": "Que come mucho y con ansia; que destruye con rapidez.",
+      "glossDe": "gefräßig",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0129",
+      "word": "FEROZ",
+      "display": "feroz",
+      "definitionEs": "Cruel, violento y agresivo.",
+      "glossDe": "wild, grausam",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0130",
+      "word": "ATROZ",
+      "display": "atroz",
+      "definitionEs": "Terriblemente cruel; enorme y muy desagradable.",
+      "glossDe": "grauenhaft",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0131",
+      "word": "VELOZ",
+      "display": "veloz",
+      "definitionEs": "Que se mueve muy deprisa.",
+      "glossDe": "schnell, flink",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0132",
+      "word": "SOLER",
+      "display": "soler",
+      "definitionEs": "Tener la costumbre de hacer algo.",
+      "glossDe": "pflegen zu",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0133",
+      "word": "ENOJO",
+      "display": "enojo",
+      "definitionEs": "Sentimiento de enfado o irritación.",
+      "glossDe": "Ärger, Zorn",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0134",
+      "word": "DUELO",
+      "display": "duelo",
+      "definitionEs": "Dolor por la muerte de alguien; combate entre dos personas.",
+      "glossDe": "Trauer, Duell",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0135",
+      "word": "DICHA",
+      "display": "dicha",
+      "definitionEs": "Felicidad, suerte favorable.",
+      "glossDe": "Glück",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0136",
+      "word": "ANSIA",
+      "display": "ansia",
+      "definitionEs": "Deseo intenso; inquietud o angustia.",
+      "glossDe": "Sehnsucht, Gier",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0137",
+      "word": "ANIMO",
+      "display": "ánimo",
+      "definitionEs": "Estado emocional; energía o valor para hacer algo.",
+      "glossDe": "Stimmung, Mut",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0138",
+      "word": "GENIO",
+      "display": "genio",
+      "definitionEs": "Persona de inteligencia extraordinaria; carácter de alguien.",
+      "glossDe": "Genie, Naturell",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0139",
+      "word": "RASGO",
+      "display": "rasgo",
+      "definitionEs": "Característica distintiva de algo o alguien.",
+      "glossDe": "Merkmal",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0140",
+      "word": "MATIZ",
+      "display": "matiz",
+      "definitionEs": "Pequeña diferencia o tono que enriquece un significado o un color.",
+      "glossDe": "Nuance",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0141",
+      "word": "LAPSO",
+      "display": "lapso",
+      "definitionEs": "Espacio de tiempo entre dos momentos.",
+      "glossDe": "Zeitspanne",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0142",
+      "word": "PLAZO",
+      "display": "plazo",
+      "definitionEs": "Tiempo señalado para hacer algo.",
+      "glossDe": "Frist",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0143",
+      "word": "TRAMO",
+      "display": "tramo",
+      "definitionEs": "Parte de un camino, una vía o un proceso.",
+      "glossDe": "Abschnitt",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0144",
+      "word": "BORDE",
+      "display": "borde",
+      "definitionEs": "Extremo u orilla de algo.",
+      "glossDe": "Rand",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0145",
+      "word": "CAUCE",
+      "display": "cauce",
+      "definitionEs": "Lecho por donde corre un río; vía o procedimiento para algo.",
+      "glossDe": "Flussbett",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0146",
+      "word": "BRISA",
+      "display": "brisa",
+      "definitionEs": "Viento suave y agradable.",
+      "glossDe": "Brise",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0147",
+      "word": "BRUMA",
+      "display": "bruma",
+      "definitionEs": "Niebla ligera, especialmente la del mar.",
+      "glossDe": "Dunst, Nebel",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0148",
+      "word": "ROCIO",
+      "display": "rocío",
+      "definitionEs": "Gotas de agua que aparecen al amanecer sobre las plantas.",
+      "glossDe": "Tau",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0149",
+      "word": "TIBIO",
+      "display": "tibio",
+      "definitionEs": "Ni frío ni caliente; poco entusiasta.",
+      "glossDe": "lauwarm",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0150",
+      "word": "HONDO",
+      "display": "hondo",
+      "definitionEs": "Que tiene mucha profundidad.",
+      "glossDe": "tief",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0151",
+      "word": "LLANO",
+      "display": "llano",
+      "definitionEs": "Plano, sin desniveles; sencillo y natural en el trato.",
+      "glossDe": "flach, eben",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0152",
+      "word": "AGUDO",
+      "display": "agudo",
+      "definitionEs": "Afilado o puntiagudo; muy perspicaz; de tono alto.",
+      "glossDe": "spitz, scharfsinnig",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0153",
+      "word": "TOSCO",
+      "display": "tosco",
+      "definitionEs": "Hecho sin refinamiento, basto.",
+      "glossDe": "grob, derb",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0154",
+      "word": "SUTIL",
+      "display": "sutil",
+      "definitionEs": "Delicado, fino, difícil de percibir.",
+      "glossDe": "subtil, fein",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0155",
+      "word": "OPACO",
+      "display": "opaco",
+      "definitionEs": "Que no deja pasar la luz; sin brillo.",
+      "glossDe": "undurchsichtig, matt",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0156",
+      "word": "TENUE",
+      "display": "tenue",
+      "definitionEs": "Débil, delgado, de poca intensidad.",
+      "glossDe": "zart, schwach",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0157",
+      "word": "ARIDO",
+      "display": "árido",
+      "definitionEs": "Seco, sin humedad ni vegetación; aburrido y pesado.",
+      "glossDe": "dürr, trocken",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0158",
+      "word": "AGRIO",
+      "display": "agrio",
+      "definitionEs": "De sabor ácido como el limón; áspero en el trato.",
+      "glossDe": "sauer, bitter",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0159",
+      "word": "AMENO",
+      "display": "ameno",
+      "definitionEs": "Agradable y entretenido.",
+      "glossDe": "unterhaltsam",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0160",
+      "word": "GRATO",
+      "display": "grato",
+      "definitionEs": "Que produce agrado o placer.",
+      "glossDe": "angenehm",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0161",
+      "word": "LAICO",
+      "display": "laico",
+      "definitionEs": "Independiente de toda confesión religiosa.",
+      "glossDe": "weltlich, laizistisch",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0162",
+      "word": "ETICA",
+      "display": "ética",
+      "definitionEs": "Disciplina que estudia lo que está bien y lo que está mal.",
+      "glossDe": "Ethik",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0163",
+      "word": "TESIS",
+      "display": "tesis",
+      "definitionEs": "Idea que se defiende con argumentos; trabajo académico de doctorado.",
+      "glossDe": "These, Doktorarbeit",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0164",
+      "word": "DOGMA",
+      "display": "dogma",
+      "definitionEs": "Afirmación que se considera una verdad indiscutible.",
+      "glossDe": "Dogma",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0165",
+      "word": "VERSO",
+      "display": "verso",
+      "definitionEs": "Cada una de las líneas de un poema.",
+      "glossDe": "Vers",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0166",
+      "word": "PROSA",
+      "display": "prosa",
+      "definitionEs": "Forma de escribir que no está sujeta a verso ni rima.",
+      "glossDe": "Prosa",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0167",
+      "word": "TRAMA",
+      "display": "trama",
+      "definitionEs": "Desarrollo de los hechos en una historia; plan oculto.",
+      "glossDe": "Handlung, Komplott",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0168",
+      "word": "HABLA",
+      "display": "habla",
+      "definitionEs": "Manera particular de hablar; facultad de hablar.",
+      "glossDe": "Sprechweise, Rede",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0169",
+      "word": "JERGA",
+      "display": "jerga",
+      "definitionEs": "Lenguaje especial de un grupo o de una profesión.",
+      "glossDe": "Jargon",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0170",
+      "word": "DICHO",
+      "display": "dicho",
+      "definitionEs": "Frase hecha que contiene una enseñanza popular.",
+      "glossDe": "Redensart",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0171",
+      "word": "APODO",
+      "display": "apodo",
+      "definitionEs": "Nombre informal que se da a alguien en lugar del suyo.",
+      "glossDe": "Spitzname",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0172",
+      "word": "SIGLA",
+      "display": "sigla",
+      "definitionEs": "Abreviación formada por las iniciales de varias palabras.",
+      "glossDe": "Kürzel, Sigel",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0173",
+      "word": "CIFRA",
+      "display": "cifra",
+      "definitionEs": "Signo que representa un número; cantidad.",
+      "glossDe": "Ziffer",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0174",
+      "word": "RANGO",
+      "display": "rango",
+      "definitionEs": "Categoría o nivel dentro de una jerarquía.",
+      "glossDe": "Rang",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0175",
+      "word": "CARGO",
+      "display": "cargo",
+      "definitionEs": "Puesto de responsabilidad; acusación contra alguien.",
+      "glossDe": "Amt, Posten",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0176",
+      "word": "JUNTA",
+      "display": "junta",
+      "definitionEs": "Reunión de personas para tratar un asunto; órgano directivo.",
+      "glossDe": "Vorstand, Sitzung",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0177",
+      "word": "PLENO",
+      "display": "pleno",
+      "definitionEs": "Completo, total; reunión de todos los miembros de una corporación.",
+      "glossDe": "voll; Plenum",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0178",
+      "word": "VOCAL",
+      "display": "vocal",
+      "definitionEs": "Sonido o letra que se pronuncia con la voz libre, como la a o la e.",
+      "glossDe": "Vokal",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0179",
+      "word": "SIGNO",
+      "display": "signo",
+      "definitionEs": "Cosa que representa o indica otra.",
+      "glossDe": "Zeichen",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0180",
+      "word": "FALLO",
+      "display": "fallo",
+      "definitionEs": "Decisión de un juez o jurado; error o defecto.",
+      "glossDe": "Urteil, Fehler",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0181",
+      "word": "NORMA",
+      "display": "norma",
+      "definitionEs": "Regla que se debe seguir.",
+      "glossDe": "Norm, Regel",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0182",
+      "word": "MULTA",
+      "display": "multa",
+      "definitionEs": "Sanción que obliga a pagar dinero.",
+      "glossDe": "Bußgeld",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0183",
+      "word": "RENTA",
+      "display": "renta",
+      "definitionEs": "Dinero que produce regularmente un bien o que se paga por un alquiler.",
+      "glossDe": "Miete, Einkommen",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0184",
+      "word": "SALDO",
+      "display": "saldo",
+      "definitionEs": "Cantidad de dinero disponible en una cuenta.",
+      "glossDe": "Kontostand",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0185",
+      "word": "DEUDA",
+      "display": "deuda",
+      "definitionEs": "Obligación de pagar o devolver algo, normalmente dinero.",
+      "glossDe": "Schuld(en)",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0186",
+      "word": "TRATO",
+      "display": "trato",
+      "definitionEs": "Acuerdo entre partes; manera de comportarse con alguien.",
+      "glossDe": "Umgang, Abmachung",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0187",
+      "word": "PACTO",
+      "display": "pacto",
+      "definitionEs": "Acuerdo firme entre personas o grupos.",
+      "glossDe": "Pakt",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0188",
+      "word": "TROPA",
+      "display": "tropa",
+      "definitionEs": "Conjunto de soldados.",
+      "glossDe": "Truppe",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0189",
+      "word": "FLOTA",
+      "display": "flota",
+      "definitionEs": "Conjunto de barcos o vehículos de una organización.",
+      "glossDe": "Flotte",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0190",
+      "word": "BUQUE",
+      "display": "buque",
+      "definitionEs": "Barco grande, especialmente de carga o de guerra.",
+      "glossDe": "Schiff",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0191",
+      "word": "ANCLA",
+      "display": "ancla",
+      "definitionEs": "Pieza pesada de hierro que sujeta el barco al fondo del mar.",
+      "glossDe": "Anker",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0192",
+      "word": "BAHIA",
+      "display": "bahía",
+      "definitionEs": "Entrada amplia del mar en la costa.",
+      "glossDe": "Bucht",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0193",
+      "word": "GOLFO",
+      "display": "golfo",
+      "definitionEs": "Gran entrada del mar en la tierra, mayor que una bahía.",
+      "glossDe": "Meerbusen, Golf",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0194",
+      "word": "MAREA",
+      "display": "marea",
+      "definitionEs": "Subida y bajada periódica del nivel del mar.",
+      "glossDe": "Gezeiten",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0195",
+      "word": "CORAL",
+      "display": "coral",
+      "definitionEs": "Animal marino que forma estructuras duras de colores.",
+      "glossDe": "Koralle",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0196",
+      "word": "FIBRA",
+      "display": "fibra",
+      "definitionEs": "Filamento fino de origen vegetal, animal o artificial.",
+      "glossDe": "Faser",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0197",
+      "word": "FANGO",
+      "display": "fango",
+      "definitionEs": "Barro blando que se forma con agua y tierra.",
+      "glossDe": "Schlamm",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0198",
+      "word": "BALDE",
+      "display": "balde",
+      "definitionEs": "Recipiente con asa para transportar agua.",
+      "glossDe": "Eimer",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0199",
+      "word": "DOCIL",
+      "display": "dócil",
+      "definitionEs": "Que obedece con facilidad.",
+      "glossDe": "fügsam",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0200",
+      "word": "MANSO",
+      "display": "manso",
+      "definitionEs": "Tranquilo, que no es agresivo.",
+      "glossDe": "zahm, sanft",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0201",
+      "word": "BRAVO",
+      "display": "bravo",
+      "definitionEs": "Valiente; dicho de un animal, fiero.",
+      "glossDe": "wild, tapfer",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0202",
+      "word": "ARDUO",
+      "display": "arduo",
+      "definitionEs": "Muy difícil, que exige un gran esfuerzo.",
+      "glossDe": "mühsam",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0203",
+      "word": "MAGRO",
+      "display": "magro",
+      "definitionEs": "Con poca o ninguna grasa; escaso.",
+      "glossDe": "mager",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0204",
+      "word": "OBESO",
+      "display": "obeso",
+      "definitionEs": "Que tiene un exceso notable de peso.",
+      "glossDe": "fettleibig",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0205",
+      "word": "ZURDO",
+      "display": "zurdo",
+      "definitionEs": "Que usa preferentemente la mano izquierda.",
+      "glossDe": "linkshändig",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0206",
+      "word": "TORPE",
+      "display": "torpe",
+      "definitionEs": "Que se mueve o actúa sin habilidad.",
+      "glossDe": "ungeschickt",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0207",
+      "word": "HABIL",
+      "display": "hábil",
+      "definitionEs": "Que hace las cosas con destreza.",
+      "glossDe": "geschickt",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0208",
+      "word": "SABIO",
+      "display": "sabio",
+      "definitionEs": "Que posee grandes conocimientos y buen juicio.",
+      "glossDe": "weise",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0209",
+      "word": "CULTO",
+      "display": "culto",
+      "definitionEs": "Que tiene amplia formación intelectual; ceremonia religiosa.",
+      "glossDe": "gebildet; Kult",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0210",
+      "word": "AVARO",
+      "display": "avaro",
+      "definitionEs": "Que acumula dinero y no quiere gastarlo.",
+      "glossDe": "geizig",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0211",
+      "word": "CUTRE",
+      "display": "cutre",
+      "definitionEs": "Pobre, descuidado y de mala calidad.",
+      "glossDe": "schäbig",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0212",
+      "word": "AROMA",
+      "display": "aroma",
+      "definitionEs": "Olor agradable.",
+      "glossDe": "Duft",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0213",
+      "word": "PESTE",
+      "display": "peste",
+      "definitionEs": "Olor muy desagradable; enfermedad epidémica grave.",
+      "glossDe": "Gestank, Pest",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0214",
+      "word": "TACTO",
+      "display": "tacto",
+      "definitionEs": "Sentido con el que se percibe al tocar; delicadeza al tratar a alguien.",
+      "glossDe": "Tastsinn, Taktgefühl",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0215",
+      "word": "RUMOR",
+      "display": "rumor",
+      "definitionEs": "Noticia no confirmada que circula entre la gente.",
+      "glossDe": "Gerücht",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0216",
+      "word": "MANDO",
+      "display": "mando",
+      "definitionEs": "Autoridad para dirigir; dispositivo para controlar un aparato.",
+      "glossDe": "Kommando, Fernbedienung",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0217",
+      "word": "SECTA",
+      "display": "secta",
+      "definitionEs": "Grupo religioso o ideológico cerrado que sigue a un líder.",
+      "glossDe": "Sekte",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0218",
+      "word": "MONJE",
+      "display": "monje",
+      "definitionEs": "Religioso que vive en un monasterio.",
+      "glossDe": "Mönch",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0219",
+      "word": "ALTAR",
+      "display": "altar",
+      "definitionEs": "Mesa sagrada donde se celebran ritos religiosos.",
+      "glossDe": "Altar",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0220",
+      "word": "HONOR",
+      "display": "honor",
+      "definitionEs": "Cualidad moral que lleva a actuar con dignidad; buena reputación.",
+      "glossDe": "Ehre",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0221",
+      "word": "LOGRO",
+      "display": "logro",
+      "definitionEs": "Éxito alcanzado tras un esfuerzo.",
+      "glossDe": "Errungenschaft",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0222",
+      "word": "RUMBO",
+      "display": "rumbo",
+      "definitionEs": "Dirección que se sigue en un trayecto.",
+      "glossDe": "Kurs, Richtung",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0223",
+      "word": "ASTRO",
+      "display": "astro",
+      "definitionEs": "Cuerpo celeste, como una estrella o un planeta.",
+      "glossDe": "Gestirn",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0224",
+      "word": "SAUCE",
+      "display": "sauce",
+      "definitionEs": "Árbol de ramas flexibles y colgantes que crece junto al agua.",
+      "glossDe": "Weide (Baum)",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0225",
+      "word": "ROBLE",
+      "display": "roble",
+      "definitionEs": "Árbol grande de madera muy dura.",
+      "glossDe": "Eiche",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0226",
+      "word": "OLIVO",
+      "display": "olivo",
+      "definitionEs": "Árbol que da aceitunas.",
+      "glossDe": "Olivenbaum",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0227",
+      "word": "SIDRA",
+      "display": "sidra",
+      "definitionEs": "Bebida alcohólica hecha con jugo de manzana.",
+      "glossDe": "Apfelwein",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0228",
+      "word": "LICOR",
+      "display": "licor",
+      "definitionEs": "Bebida alcohólica dulce y fuerte.",
+      "glossDe": "Likör",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0229",
+      "word": "SORBO",
+      "display": "sorbo",
+      "definitionEs": "Pequeña cantidad de líquido que se bebe de una vez.",
+      "glossDe": "Schluck",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0230",
+      "word": "OSTRA",
+      "display": "ostra",
+      "definitionEs": "Molusco marino de concha que puede producir perlas.",
+      "glossDe": "Auster",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0231",
+      "word": "YEGUA",
+      "display": "yegua",
+      "definitionEs": "Hembra del caballo.",
+      "glossDe": "Stute",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0232",
+      "word": "CISNE",
+      "display": "cisne",
+      "definitionEs": "Ave acuática blanca de cuello largo y elegante.",
+      "glossDe": "Schwan",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0233",
+      "word": "PRADO",
+      "display": "prado",
+      "definitionEs": "Terreno llano cubierto de hierba.",
+      "glossDe": "Wiese",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0234",
+      "word": "AVENA",
+      "display": "avena",
+      "definitionEs": "Cereal que se consume sobre todo en copos.",
+      "glossDe": "Hafer",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0235",
+      "word": "BROTE",
+      "display": "brote",
+      "definitionEs": "Tallo nuevo de una planta; aparición repentina de algo.",
+      "glossDe": "Spross, Ausbruch",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0236",
+      "word": "TALLO",
+      "display": "tallo",
+      "definitionEs": "Parte de la planta que sostiene las hojas y las flores.",
+      "glossDe": "Stängel",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0237",
+      "word": "TORAX",
+      "display": "tórax",
+      "definitionEs": "Parte del cuerpo entre el cuello y el abdomen.",
+      "glossDe": "Brustkorb",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0238",
+      "word": "TALON",
+      "display": "talón",
+      "definitionEs": "Parte posterior del pie.",
+      "glossDe": "Ferse",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0239",
+      "word": "VENDA",
+      "display": "venda",
+      "definitionEs": "Tira de tela para cubrir y proteger heridas.",
+      "glossDe": "Verband, Binde",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0240",
+      "word": "MAREO",
+      "display": "mareo",
+      "definitionEs": "Sensación de pérdida de equilibrio o malestar en el estómago.",
+      "glossDe": "Schwindel",
+      "difficulty": 2
+    },
+    {
+      "id": "w-0241",
+      "word": "UFANO",
+      "display": "ufano",
+      "definitionEs": "Satisfecho de sí mismo, presumido.",
+      "glossDe": "selbstgefällig",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0242",
+      "word": "LERDO",
+      "display": "lerdo",
+      "definitionEs": "Lento y torpe para comprender o actuar.",
+      "glossDe": "schwerfällig",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0243",
+      "word": "ZAFIO",
+      "display": "zafio",
+      "definitionEs": "Grosero, sin educación ni delicadeza.",
+      "glossDe": "ungehobelt",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0244",
+      "word": "HOSCO",
+      "display": "hosco",
+      "definitionEs": "Áspero y poco amable en el trato.",
+      "glossDe": "mürrisch",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0245",
+      "word": "YERMO",
+      "display": "yermo",
+      "definitionEs": "Terreno sin cultivar ni habitar; estéril.",
+      "glossDe": "öde, Brachland",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0246",
+      "word": "BURDO",
+      "display": "burdo",
+      "definitionEs": "Tosco, grosero, hecho sin cuidado.",
+      "glossDe": "plump, grob",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0247",
+      "word": "NIMIO",
+      "display": "nimio",
+      "definitionEs": "Insignificante, sin importancia.",
+      "glossDe": "geringfügig",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0248",
+      "word": "BEATO",
+      "display": "beato",
+      "definitionEs": "Que muestra una devoción religiosa exagerada.",
+      "glossDe": "frömmelnd",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0249",
+      "word": "SACRO",
+      "display": "sacro",
+      "definitionEs": "Sagrado, relacionado con lo divino.",
+      "glossDe": "heilig, sakral",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0250",
+      "word": "ARGOT",
+      "display": "argot",
+      "definitionEs": "Lenguaje informal propio de un grupo social.",
+      "glossDe": "Slang",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0251",
+      "word": "PAUTA",
+      "display": "pauta",
+      "definitionEs": "Modelo o regla que sirve de guía.",
+      "glossDe": "Richtlinie, Muster",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0252",
+      "word": "HURTO",
+      "display": "hurto",
+      "definitionEs": "Robo realizado sin violencia ni intimidación.",
+      "glossDe": "Diebstahl",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0253",
+      "word": "LUCRO",
+      "display": "lucro",
+      "definitionEs": "Ganancia o provecho que se obtiene de algo.",
+      "glossDe": "Gewinn, Profit",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0254",
+      "word": "CERCO",
+      "display": "cerco",
+      "definitionEs": "Asedio a un lugar; lo que rodea algo.",
+      "glossDe": "Belagerung",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0255",
+      "word": "TAPIA",
+      "display": "tapia",
+      "definitionEs": "Muro que rodea un terreno.",
+      "glossDe": "Gartenmauer",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0256",
+      "word": "GRAVA",
+      "display": "grava",
+      "definitionEs": "Conjunto de piedras pequeñas usado en la construcción.",
+      "glossDe": "Kies",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0257",
+      "word": "MUGRE",
+      "display": "mugre",
+      "definitionEs": "Suciedad grasienta acumulada.",
+      "glossDe": "Schmutz, Dreck",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0258",
+      "word": "DEDAL",
+      "display": "dedal",
+      "definitionEs": "Capuchón que protege el dedo al coser.",
+      "glossDe": "Fingerhut",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0259",
+      "word": "ALBOR",
+      "display": "albor",
+      "definitionEs": "Primera luz del día; comienzo de algo.",
+      "glossDe": "Morgenröte",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0260",
+      "word": "OCASO",
+      "display": "ocaso",
+      "definitionEs": "Puesta del sol; decadencia de algo.",
+      "glossDe": "Sonnenuntergang, Niedergang",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0261",
+      "word": "CENIT",
+      "display": "cenit",
+      "definitionEs": "Punto más alto que alcanza algo.",
+      "glossDe": "Zenit, Höhepunkt",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0262",
+      "word": "SOPOR",
+      "display": "sopor",
+      "definitionEs": "Somnolencia profunda, adormecimiento.",
+      "glossDe": "Schläfrigkeit",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0263",
+      "word": "TEDIO",
+      "display": "tedio",
+      "definitionEs": "Aburrimiento profundo.",
+      "glossDe": "Überdruss",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0264",
+      "word": "PASMO",
+      "display": "pasmo",
+      "definitionEs": "Asombro tan grande que deja sin reacción.",
+      "glossDe": "Verblüffung",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0265",
+      "word": "RUBOR",
+      "display": "rubor",
+      "definitionEs": "Color rojo que sube al rostro por vergüenza.",
+      "glossDe": "Erröten",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0266",
+      "word": "GARBO",
+      "display": "garbo",
+      "definitionEs": "Elegancia y gracia al moverse o actuar.",
+      "glossDe": "Anmut, Schwung",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0267",
+      "word": "OSADO",
+      "display": "osado",
+      "definitionEs": "Atrevido, que actúa sin miedo.",
+      "glossDe": "verwegen, kühn",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0268",
+      "word": "PILLO",
+      "display": "pillo",
+      "definitionEs": "Persona astuta y traviesa.",
+      "glossDe": "Schlingel",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0269",
+      "word": "PARIA",
+      "display": "paria",
+      "definitionEs": "Persona excluida o marginada por la sociedad.",
+      "glossDe": "Ausgestoßener",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0270",
+      "word": "PLEBE",
+      "display": "plebe",
+      "definitionEs": "Clase social baja; el pueblo llano.",
+      "glossDe": "Pöbel",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0271",
+      "word": "TURBA",
+      "display": "turba",
+      "definitionEs": "Muchedumbre agitada y desordenada; materia vegetal combustible.",
+      "glossDe": "Menschenmenge; Torf",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0272",
+      "word": "CASTA",
+      "display": "casta",
+      "definitionEs": "Grupo social cerrado; linaje.",
+      "glossDe": "Kaste",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0273",
+      "word": "PROLE",
+      "display": "prole",
+      "definitionEs": "Conjunto de los hijos de alguien.",
+      "glossDe": "Nachkommenschaft",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0274",
+      "word": "GUASA",
+      "display": "guasa",
+      "definitionEs": "Burla o tono de broma.",
+      "glossDe": "Spott, Scherz",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0275",
+      "word": "ARDID",
+      "display": "ardid",
+      "definitionEs": "Truco ingenioso para conseguir algo con engaño.",
+      "glossDe": "List",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0276",
+      "word": "TRETA",
+      "display": "treta",
+      "definitionEs": "Engaño hábil para lograr un fin.",
+      "glossDe": "Trick, Finte",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0277",
+      "word": "BOTIN",
+      "display": "botín",
+      "definitionEs": "Conjunto de cosas robadas o ganadas en un asalto.",
+      "glossDe": "Beute",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0278",
+      "word": "FUERO",
+      "display": "fuero",
+      "definitionEs": "Privilegio o derecho especial reconocido por la ley.",
+      "glossDe": "Sonderrecht",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0279",
+      "word": "BANDO",
+      "display": "bando",
+      "definitionEs": "Cada uno de los grupos enfrentados; aviso oficial de una autoridad.",
+      "glossDe": "Lager, Erlass",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0280",
+      "word": "CLERO",
+      "display": "clero",
+      "definitionEs": "Conjunto de los sacerdotes de una iglesia.",
+      "glossDe": "Klerus",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0281",
+      "word": "CIRIO",
+      "display": "cirio",
+      "definitionEs": "Vela larga y gruesa, usada en ceremonias religiosas.",
+      "glossDe": "Kerze",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0282",
+      "word": "HONRA",
+      "display": "honra",
+      "definitionEs": "Buena fama y dignidad de una persona.",
+      "glossDe": "Ehre, Ansehen",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0283",
+      "word": "GESTA",
+      "display": "gesta",
+      "definitionEs": "Hazaña heroica y memorable.",
+      "glossDe": "Heldentat",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0284",
+      "word": "MAGNO",
+      "display": "magno",
+      "definitionEs": "Grande, importante, solemne.",
+      "glossDe": "groß, bedeutend",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0285",
+      "word": "REGIO",
+      "display": "regio",
+      "definitionEs": "Propio de reyes; magnífico.",
+      "glossDe": "königlich",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0286",
+      "word": "TERSO",
+      "display": "terso",
+      "definitionEs": "Liso, suave y sin arrugas.",
+      "glossDe": "glatt, geschmeidig",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0287",
+      "word": "LACIO",
+      "display": "lacio",
+      "definitionEs": "Dicho del cabello, liso y sin fuerza; marchito.",
+      "glossDe": "glatt, schlaff",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0288",
+      "word": "RAUDO",
+      "display": "raudo",
+      "definitionEs": "Muy rápido, veloz.",
+      "glossDe": "rasch, schnell",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0289",
+      "word": "FIERO",
+      "display": "fiero",
+      "definitionEs": "Salvaje, feroz, de aspecto temible.",
+      "glossDe": "wild, grimmig",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0290",
+      "word": "RECIO",
+      "display": "recio",
+      "definitionEs": "Fuerte, robusto, vigoroso.",
+      "glossDe": "kräftig, robust",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0291",
+      "word": "MANCO",
+      "display": "manco",
+      "definitionEs": "Que ha perdido un brazo o una mano.",
+      "glossDe": "einarmig",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0292",
+      "word": "CABAL",
+      "display": "cabal",
+      "definitionEs": "Honrado y completo; exacto.",
+      "glossDe": "rechtschaffen, genau",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0293",
+      "word": "DOCTO",
+      "display": "docto",
+      "definitionEs": "Muy instruido, erudito.",
+      "glossDe": "gelehrt",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0294",
+      "word": "NOVEL",
+      "display": "novel",
+      "definitionEs": "Que empieza en una actividad, principiante.",
+      "glossDe": "unerfahren, Neuling",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0295",
+      "word": "DUCHO",
+      "display": "ducho",
+      "definitionEs": "Experto y experimentado en algo.",
+      "glossDe": "bewandert, versiert",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0296",
+      "word": "HEDOR",
+      "display": "hedor",
+      "definitionEs": "Olor muy desagradable y penetrante.",
+      "glossDe": "Gestank",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0297",
+      "word": "TRINO",
+      "display": "trino",
+      "definitionEs": "Canto melodioso de los pájaros.",
+      "glossDe": "Triller, Vogelgesang",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0298",
+      "word": "RIADA",
+      "display": "riada",
+      "definitionEs": "Crecida repentina de un río que provoca inundación.",
+      "glossDe": "Hochwasser",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0299",
+      "word": "RISCO",
+      "display": "risco",
+      "definitionEs": "Peñasco alto y escarpado.",
+      "glossDe": "Felsklippe",
+      "difficulty": 3
+    },
+    {
+      "id": "w-0300",
+      "word": "YACER",
+      "display": "yacer",
+      "definitionEs": "Estar tumbado o enterrado en un lugar.",
+      "glossDe": "liegen, ruhen",
+      "difficulty": 3
+    }
+  ]
+}

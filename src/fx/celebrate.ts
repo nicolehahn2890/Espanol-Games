@@ -6,7 +6,7 @@ export function setCelebrateReducedMotion(value: boolean): void {
   reducedMotion = value;
 }
 
-const FORGE_COLORS = ['#f2b441', '#f8d488', '#3dd6c3', '#b07cf0', '#efeaf7'];
+const FORGE_COLORS = ['#58cc02', '#1cb0f6', '#a560f8', '#ff9600', '#ffc800', '#ff86d0'];
 
 /** Celebración pequeña: logro, subida de nivel, récord. */
 export function celebrateSmall(): void {

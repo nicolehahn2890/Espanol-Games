@@ -12,21 +12,16 @@ export function CreditsScreen() {
       </div>
       <div className="panel" style={{ padding: 18, fontSize: 14.5, lineHeight: 1.7 }}>
         <p>
-          <strong>La Forja del Idioma</strong> — un juego personal para forjar español de nivel C,
-          construido con cariño y sin servidores.
+          <strong>Juegos de Español</strong> — minijuegos personales para el español de nivel C,
+          sin servidores y sin prisa.
         </p>
         <p className="text-dim">
-          Contenido lingüístico curado a mano para este proyecto. La estructura de temas
-          gramaticales se inspira en el <em>Plan Curricular del Instituto Cervantes</em> (como
-          referencia).
+          Contenido lingüístico curado a mano para este proyecto. Repetición espaciada con el
+          algoritmo FSRS (<span style={{ fontFamily: 'monospace' }}>ts-fsrs</span>).
         </p>
         <p className="text-dim">
-          Tipografías: Fraunces, Inter y JetBrains Mono (licencia OFL). Repetición espaciada:
-          algoritmo FSRS vía <span className="mono">ts-fsrs</span>. Construido con React, Vite,
-          Framer Motion, GSAP, sonido sintetizado con WebAudio y Dexie.
-        </p>
-        <p className="text-dim" style={{ fontSize: 12.5 }}>
-          El planificador FSRS y las bibliotecas usadas son software libre; gracias a sus autores.
+          Tipografías: Nunito y Baloo 2 (licencia OFL). Construido con React, Vite, Framer Motion y
+          Dexie. Gracias a los autores de todo el software libre utilizado.
         </p>
       </div>
     </motion.div>

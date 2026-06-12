@@ -26,9 +26,9 @@ export interface MetaRecord {
   fragmentos: number;
   /** ids de logros desbloqueados */
   achievements: string[];
-  /** ids de cartas y enemigos vistos (códice) */
+  /** reservado (códice de la versión anterior) */
   collection: string[];
-  /** racha del enigma diario */
+  /** racha de la Palabra del día */
   streak: number;
   streakFreezes: number;
   lastDailyDate?: string;
@@ -37,6 +37,10 @@ export interface MetaRecord {
   bestCombo: number;
   createdAt: string;
   lastBackupAt?: string;
+  /** rompecabezas de grupos resueltos */
+  solvedGroupPuzzles?: string[];
+  /** rondas de quiz completadas */
+  quizRounds?: number;
 }
 
 export interface ActiveRunRecord {
@@ -48,7 +52,7 @@ export interface ActiveRunRecord {
 
 export interface ScoreRecord {
   id?: number;
-  mode: 'blitz';
+  mode: 'quiz' | 'blitz';
   score: number;
   maxCombo: number;
   answered: number;

@@ -1,0 +1,1176 @@
+{
+  "pack": "grupos",
+  "version": 1,
+  "groupPuzzles": [
+    {
+      "id": "gr-0001",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Tipos de calzado",
+          "explanation": "Todos son tipos de calzado. Ojo: «zapatilla» es también un diminutivo lexicalizado.",
+          "words": ["zapatilla", "bota", "sandalia", "mocasín"]
+        },
+        {
+          "label": "Sinónimos de «caminar»",
+          "explanation": "Todos significan desplazarse a pie. «Deambular» implica andar sin rumbo; «transitar» es más formal.",
+          "words": ["andar", "pasear", "deambular", "transitar"]
+        },
+        {
+          "label": "«Dar un/una …»",
+          "explanation": "Completan colocaciones con «dar»: dar un paseo, un abrazo, un susto, una vuelta. «Paseo» y «vuelta» tientan al grupo de caminar.",
+          "words": ["paseo", "abrazo", "susto", "vuelta"]
+        },
+        {
+          "label": "Reírse a carcajadas (coloquial)",
+          "explanation": "Todos significan reírse muchísimo: troncharse y partirse (de risa), desternillarse y carcajearse.",
+          "words": ["carcajearse", "desternillarse", "troncharse", "partirse"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0002",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Fauna ibérica",
+          "explanation": "Animales emblemáticos de la península ibérica. El león NO está aquí: es una trampa del grupo de ciudades.",
+          "words": ["lince", "jabalí", "ciervo", "buitre"]
+        },
+        {
+          "label": "Frutas",
+          "explanation": "Todas son frutas. «Mora» también significa demora (en mora) y «membrillo», persona boba (coloquial).",
+          "words": ["higo", "membrillo", "mora", "chirimoya"]
+        },
+        {
+          "label": "Tonos de color",
+          "explanation": "Colores cultos: granate (rojo oscuro), añil (azul intenso), ocre (amarillo terroso), carmesí (rojo vivo).",
+          "words": ["granate", "añil", "ocre", "carmesí"]
+        },
+        {
+          "label": "Ciudades españolas",
+          "explanation": "Las cuatro son ciudades: Granada (que también es fruta y arma), León (que también es animal), Mérida y Toledo.",
+          "words": ["Granada", "León", "Mérida", "Toledo"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0003",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Herramientas",
+          "explanation": "Herramientas básicas de bricolaje. La «llave inglesa» no abre puertas: aprieta tuercas.",
+          "words": ["martillo", "destornillador", "alicates", "llave inglesa"]
+        },
+        {
+          "label": "Sinónimos de «ayudar»",
+          "explanation": "Todos significan prestar ayuda. «Socorrer» se usa en emergencias; «respaldar», para apoyo moral.",
+          "words": ["auxiliar", "socorrer", "respaldar", "apoyar"]
+        },
+        {
+          "label": "Partes del cuerpo",
+          "explanation": "Partes del cuerpo. «Muñeca» también es el juguete y «talón», el de un cheque.",
+          "words": ["codo", "muñeca", "talón", "ceja"]
+        },
+        {
+          "label": "«Echar …»",
+          "explanation": "Completan modismos con «echar»: una mano (ayudar), de menos (extrañar), a perder (estropear), raíces (establecerse).",
+          "words": ["una mano", "de menos", "a perder", "raíces"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0004",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Postres",
+          "explanation": "Dulces típicos españoles. ¿Buscabas «helado»? Está escondido en el grupo del frío.",
+          "words": ["flan", "natillas", "turrón", "mazapán"]
+        },
+        {
+          "label": "Tipos de lluvia",
+          "explanation": "De menos a más intensidad: llovizna (suave), chubasco y chaparrón (breves e intensos), aguacero (muy fuerte).",
+          "words": ["llovizna", "chubasco", "chaparrón", "aguacero"]
+        },
+        {
+          "label": "«Hacer …»",
+          "explanation": "Colocaciones con «hacer»: hacer caso, hacer falta, hacer hincapié (insistir), hacer ilusión.",
+          "words": ["caso", "falta", "hincapié", "ilusión"]
+        },
+        {
+          "label": "Sinónimos de «frío»",
+          "explanation": "Todos describen el frío. «Helado» tienta a los postres y «fresco» también significa descarado.",
+          "words": ["gélido", "helado", "glacial", "fresco"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0005",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Aves de corral",
+          "explanation": "Aves de granja. La «gallina» falta porque en este rompecabezas es un insulto: está con los modismos.",
+          "words": ["pato", "ganso", "pavo", "codorniz"]
+        },
+        {
+          "label": "Sinónimos de «tacaño»",
+          "explanation": "Todos describen a quien no quiere gastar dinero. «Agarrado» y «roñoso» son coloquiales.",
+          "words": ["agarrado", "roñoso", "avaro", "mezquino"]
+        },
+        {
+          "label": "Sinónimos de «listo»",
+          "explanation": "Todos significan inteligente y despierto. «Avispado» viene de avispa: ¡un animal escondido!",
+          "words": ["astuto", "espabilado", "avispado", "sagaz"]
+        },
+        {
+          "label": "Animales que describen personas",
+          "explanation": "Ser un gallina (cobarde), un burro (bruto), un lince (muy listo) o una rata (tacaño).",
+          "words": ["gallina", "burro", "lince", "rata"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0006",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "En la peluquería",
+          "explanation": "Vocabulario de peluquería. El «pelo» en sí está en otro grupo: alguien te lo está tomando.",
+          "words": ["flequillo", "melena", "tijeras", "peine"]
+        },
+        {
+          "label": "El caballo",
+          "explanation": "Vocabulario equino: la crin (el pelo del cuello), el casco (la pezuña), la yegua (hembra), el potro (cría).",
+          "words": ["crin", "casco", "yegua", "potro"]
+        },
+        {
+          "label": "Sinónimos de «burlarse»",
+          "explanation": "Todos significan burlarse de alguien, en registro coloquial. Equivalen a «tomar el pelo».",
+          "words": ["mofarse", "pitorrearse", "cachondearse", "guasearse"]
+        },
+        {
+          "label": "«Tomar …»",
+          "explanation": "Colocaciones con «tomar»: el pelo (burlarse), nota (apuntar), partido (posicionarse), las riendas (asumir el control).",
+          "words": ["el pelo", "nota", "partido", "las riendas"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0007",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Aves",
+          "explanation": "Cuatro aves. El «loro» también describe a quien habla sin parar: hablar como un loro.",
+          "words": ["loro", "urraca", "cuervo", "gorrión"]
+        },
+        {
+          "label": "Sinónimos de «gritar»",
+          "explanation": "Maneras de hablar a voces. «Bramar» y «aullar» son, en origen, sonidos de animales.",
+          "words": ["vociferar", "chillar", "bramar", "aullar"]
+        },
+        {
+          "label": "Hablar en voz baja",
+          "explanation": "Maneras de hablar bajito: musitar y susurrar (suave), murmurar (a media voz), mascullar (entre dientes).",
+          "words": ["musitar", "susurrar", "murmurar", "mascullar"]
+        },
+        {
+          "label": "Hablar mucho",
+          "explanation": "Hablar por los codos: parlotear y cotorrear (sin sustancia), perorar (con pedantería), enrollarse (extenderse demasiado).",
+          "words": ["parlotear", "cotorrear", "perorar", "enrollarse"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0008",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Sabores",
+          "explanation": "Los sabores básicos. «Rico» no está: con «estar» también significa sabroso, pero aquí juega en otro equipo.",
+          "words": ["dulce", "amargo", "salado", "agrio"]
+        },
+        {
+          "label": "Colores",
+          "explanation": "Tonos de color: malva (violeta claro), celeste (azul cielo), escarlata (rojo intenso), beis (marrón claro).",
+          "words": ["malva", "celeste", "escarlata", "beis"]
+        },
+        {
+          "label": "Sinónimos de «inteligente»",
+          "explanation": "Todos elogian la mente: lúcido, perspicaz, agudo (también «afilado») y brillante (también «que brilla»).",
+          "words": ["lúcido", "perspicaz", "agudo", "brillante"]
+        },
+        {
+          "label": "Cambian con ser/estar",
+          "explanation": "Ser listo (inteligente) / estar listo (preparado); ser verde (ecológico o picante) / estar verde (inmaduro); ser rico / estar rico; ser atento / estar atento.",
+          "words": ["listo", "verde", "rico", "atento"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0009",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "El desayuno",
+          "explanation": "Un desayuno clásico. El pan y la leche faltan: andan metidos en modismos.",
+          "words": ["tostada", "mantequilla", "mermelada", "cereales"]
+        },
+        {
+          "label": "Sinónimos de «tonto»",
+          "explanation": "Insultos suaves para la poca inteligencia: bobo, necio, memo, zoquete. «Melón» también vale, pero es una fruta con doble vida.",
+          "words": ["bobo", "necio", "memo", "zoquete"]
+        },
+        {
+          "label": "Sinónimos de «ladrón»",
+          "explanation": "Palabras para el que roba: caco y ratero (genéricos), carterista (de carteras), mangante (coloquial, de «mangar»).",
+          "words": ["caco", "ratero", "carterista", "mangante"]
+        },
+        {
+          "label": "Alimentos en modismos",
+          "explanation": "Ser pan comido (muy fácil), tener mala leche (mal carácter), ser un melón (tonto), ser un chorizo (ladrón).",
+          "words": ["pan", "leche", "melón", "chorizo"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0010",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Animales andinos",
+          "explanation": "Fauna de los Andes. ¿Y la llama? Esa palabra arde en otro grupo.",
+          "words": ["alpaca", "vicuña", "guanaco", "cóndor"]
+        },
+        {
+          "label": "Sinónimos de «enfadarse»",
+          "explanation": "Grados de enfado: indignarse (formal), cabrearse (coloquial), sulfurarse y encolerizarse (intensos).",
+          "words": ["cabrearse", "indignarse", "sulfurarse", "encolerizarse"]
+        },
+        {
+          "label": "Sinónimos de «calmarse»",
+          "explanation": "Los antónimos del enfado: serenarse, sosegarse, apaciguarse y templarse.",
+          "words": ["serenarse", "sosegarse", "apaciguarse", "templarse"]
+        },
+        {
+          "label": "El fuego",
+          "explanation": "Elementos del fuego: brasa, llama (¡no el animal!), ascua y chispa. «Echar chispas» = estar furioso.",
+          "words": ["brasa", "llama", "ascua", "chispa"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0011",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Comida italiana",
+          "explanation": "Platos italianos. La «pasta» de verdad está en el grupo del dinero: así se llama en coloquial.",
+          "words": ["pizza", "risotto", "lasaña", "ñoquis"]
+        },
+        {
+          "label": "Metales",
+          "explanation": "Metales. Falta la plata, que aquí significa dinero (como en gran parte de América).",
+          "words": ["oro", "cobre", "hierro", "estaño"]
+        },
+        {
+          "label": "Tejidos",
+          "explanation": "Telas y fibras. La lana falta: en México y otros países, «lana» es dinero.",
+          "words": ["seda", "lino", "algodón", "terciopelo"]
+        },
+        {
+          "label": "«Dinero» coloquial",
+          "explanation": "Formas coloquiales de decir dinero: pasta y guita (España), plata y lana (América). Todas tientan a otros grupos.",
+          "words": ["pasta", "guita", "plata", "lana"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0012",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Sonidos de animales",
+          "explanation": "Maullar (gato), relinchar (caballo), mugir (vaca), balar (oveja). «Berrear» (becerro) se ha pasado al llanto.",
+          "words": ["maullar", "relinchar", "mugir", "balar"]
+        },
+        {
+          "label": "Sinónimos de «agotado»",
+          "explanation": "Muy cansado: agotado, exhausto, rendido (también «vencido») y molido (como el café).",
+          "words": ["agotado", "exhausto", "rendido", "molido"]
+        },
+        {
+          "label": "Quedarse dormido",
+          "explanation": "Dormirse a medias: dormitar, cabecear (dar cabezadas), adormilarse, sestear (echar la siesta).",
+          "words": ["dormitar", "cabecear", "adormilarse", "sestear"]
+        },
+        {
+          "label": "Maneras de llorar",
+          "explanation": "Sollozar (con espasmos), gimotear y lloriquear (de forma débil o quejica), berrear (a gritos, como un becerro).",
+          "words": ["sollozar", "gimotear", "lloriquear", "berrear"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0013",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Costura",
+          "explanation": "Utensilios de coser. «Perder el hilo» y «pender de un alfiler»… la costura está llena de modismos.",
+          "words": ["aguja", "dedal", "hilo", "alfiler"]
+        },
+        {
+          "label": "Oficios tradicionales",
+          "explanation": "Artesanos: herrero (hierro), alfarero (barro), carpintero (madera), sastre (trajes).",
+          "words": ["herrero", "alfarero", "carpintero", "sastre"]
+        },
+        {
+          "label": "El mundo taurino",
+          "explanation": "Términos de los toros: torero, capote, faena (que también es cualquier trabajo) y ruedo.",
+          "words": ["torero", "capote", "faena", "ruedo"]
+        },
+        {
+          "label": "Sinónimos de «hábil»",
+          "explanation": "Con buenas manos: diestro (¡también es el torero!), mañoso, ducho y apañado.",
+          "words": ["diestro", "mañoso", "ducho", "apañado"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0014",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Instrumentos musicales",
+          "explanation": "Instrumentos que se tocan… aunque «tocar» da para mucho más, como muestra otro grupo.",
+          "words": ["violín", "flauta", "tambor", "arpa"]
+        },
+        {
+          "label": "Partes de la casa",
+          "explanation": "El tejado (por fuera), el sótano (abajo), el desván (arriba) y el pasillo. El «techo» se quedó en un modismo.",
+          "words": ["tejado", "sótano", "desván", "pasillo"]
+        },
+        {
+          "label": "Árboles",
+          "explanation": "Especies de árbol. «Haya» también es el subjuntivo de «haber»: ojalá lo hayas visto.",
+          "words": ["roble", "pino", "haya", "abeto"]
+        },
+        {
+          "label": "«Tocar …»",
+          "explanation": "Modismos con «tocar»: fondo (llegar a lo peor), madera (contra la mala suerte), techo (llegar al límite), las narices (molestar).",
+          "words": ["fondo", "madera", "techo", "las narices"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0015",
+      "difficulty": 1,
+      "groups": [
+        {
+          "label": "Fútbol",
+          "explanation": "Términos futbolísticos. ¿Echas de menos «rematar»? Aquí remata otra cosa.",
+          "words": ["penalti", "córner", "regate", "saque"]
+        },
+        {
+          "label": "Sinónimos de «pelea»",
+          "explanation": "Conflictos: riña y bronca (discusiones), trifulca y reyerta (peleas con violencia).",
+          "words": ["riña", "trifulca", "reyerta", "bronca"]
+        },
+        {
+          "label": "Sinónimos de «empezar»",
+          "explanation": "Formas cultas de comenzar: iniciar, emprender (un proyecto), acometer (con energía), entablar (una conversación).",
+          "words": ["iniciar", "emprender", "acometer", "entablar"]
+        },
+        {
+          "label": "Sinónimos de «terminar»",
+          "explanation": "Formas de acabar: concluir, finalizar, rematar (dar el toque final… o chutar a puerta) y clausurar (un acto).",
+          "words": ["concluir", "finalizar", "rematar", "clausurar"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0016",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "En la mesa",
+          "explanation": "Para poner la mesa. ¿Y el mantel? Cuidado: es un falso amigo del alemán «Mantel» (abrigo).",
+          "words": ["servilleta", "cubierto", "jarra", "copa"]
+        },
+        {
+          "label": "Embarcaciones",
+          "explanation": "Tipos de barco. El «bote» también es embarcación, pero aquí engaña desde otro grupo.",
+          "words": ["velero", "lancha", "balsa", "yate"]
+        },
+        {
+          "label": "En la oficina",
+          "explanation": "Vida laboral: contrato, nómina (la del sueldo), plantilla (el conjunto de empleados) y despacho.",
+          "words": ["contrato", "nómina", "plantilla", "despacho"]
+        },
+        {
+          "label": "Falsos amigos del alemán",
+          "explanation": "«Mantel» (DE: abrigo / ES: paño de mesa), «Firma» (DE: empresa / ES: rúbrica), «Vase» (DE: jarrón / ES: vaso de beber), «Bote» (DE: mensajero / ES: barca o lata).",
+          "words": ["mantel", "firma", "vaso", "bote"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0017",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Hombres de iglesia",
+          "explanation": "Religiosos: clérigo, párroco, capellán, presbítero. ¿Y «el cura»? Cambió de género y de grupo.",
+          "words": ["clérigo", "párroco", "capellán", "presbítero"]
+        },
+        {
+          "label": "Vocabulario militar",
+          "explanation": "Términos bélicos. «El frente» de batalla y «la orden» de ataque acabaron en el grupo del género.",
+          "words": ["tropa", "batallón", "trinchera", "retaguardia"]
+        },
+        {
+          "label": "Economía",
+          "explanation": "Términos económicos: inversión, divisa, presupuesto, patrimonio. «El capital» también lo es, pero «la capital» es una ciudad.",
+          "words": ["inversión", "divisa", "presupuesto", "patrimonio"]
+        },
+        {
+          "label": "Cambian con el género",
+          "explanation": "El capital (dinero) / la capital (ciudad); el cura (sacerdote) / la cura (curación); el frente (de batalla) / la frente (de la cara); el orden (organización) / la orden (mandato).",
+          "words": ["capital", "cura", "frente", "orden"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0018",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Electrodomésticos",
+          "explanation": "Aparatos del hogar. La «plancha» también es la parrilla del bar: pescado a la plancha.",
+          "words": ["nevera", "lavadora", "batidora", "plancha"]
+        },
+        {
+          "label": "«Niño» coloquial",
+          "explanation": "Formas coloquiales de decir niño: chaval y peque (España), crío, chamaco (México). En los Andes, «guagua» también es un bebé.",
+          "words": ["chaval", "crío", "peque", "chamaco"]
+        },
+        {
+          "label": "Sinónimos de «pequeño»",
+          "explanation": "Tamaños mínimos: diminuto, menudo (¡menudo lío!), minúsculo y chico (que también es un muchacho).",
+          "words": ["diminuto", "menudo", "minúsculo", "chico"]
+        },
+        {
+          "label": "«Autobús» por el mundo",
+          "explanation": "Regionalismos para el autobús: guagua (Canarias y Caribe), colectivo (Argentina), camión (México), micro (Chile).",
+          "words": ["guagua", "colectivo", "camión", "micro"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0019",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Hortalizas",
+          "explanation": "Verduras de la huerta. Las calabazas faltan: alguien las está dando.",
+          "words": ["calabacín", "berenjena", "pepino", "acelga"]
+        },
+        {
+          "label": "Carpintería",
+          "explanation": "Herramientas y piezas del carpintero. ¿Y el clavo? Alguien ha dado en él.",
+          "words": ["serrucho", "taladro", "lija", "tornillo"]
+        },
+        {
+          "label": "Sinónimos de «molestar»",
+          "explanation": "Fastidiar a alguien: incordiar, fastidiar, importunar (formal), jorobar (coloquial). Es lo que hace quien «da la lata».",
+          "words": ["incordiar", "fastidiar", "importunar", "jorobar"]
+        },
+        {
+          "label": "«Dar …»",
+          "explanation": "Modismos con «dar»: la lata (molestar), calabazas (rechazar a un pretendiente), en el clavo (acertar), la talla (estar a la altura).",
+          "words": ["la lata", "calabazas", "en el clavo", "la talla"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0020",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "La pierna",
+          "explanation": "Partes de la pierna: muslo, pantorrilla, espinilla (también un grano de la piel) y gemelo (también un hermano idéntico).",
+          "words": ["muslo", "pantorrilla", "espinilla", "gemelo"]
+        },
+        {
+          "label": "«Morir» en registro culto",
+          "explanation": "Eufemismos y cultismos para morir: fallecer (el más común), perecer, expirar y fenecer (literario).",
+          "words": ["fallecer", "perecer", "expirar", "fenecer"]
+        },
+        {
+          "label": "«Irse» coloquial",
+          "explanation": "Marcharse de golpe, en coloquial: pirarse, largarse, esfumarse y abrirse («me abro» = me voy).",
+          "words": ["pirarse", "largarse", "esfumarse", "abrirse"]
+        },
+        {
+          "label": "«Morir» coloquial",
+          "explanation": "Formas muy coloquiales de morir: palmarla, diñarla, espicharla y estirar la pata. No confundir con los verbos de irse.",
+          "words": ["palmarla", "diñarla", "espicharla", "estirar la pata"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0021",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Fenómenos celestes",
+          "explanation": "Cosas del cielo. «El cometa» es el astro; «la cometa», el juguete de papel que vuela.",
+          "words": ["cometa", "eclipse", "aurora", "meteorito"]
+        },
+        {
+          "label": "Tipos de viento",
+          "explanation": "De menos a más: brisa (suave), ráfaga (golpe breve), vendaval (fuerte), huracán (devastador).",
+          "words": ["brisa", "vendaval", "ráfaga", "huracán"]
+        },
+        {
+          "label": "Agua que corre",
+          "explanation": "Cursos de agua: arroyo y riachuelo (pequeños), torrente (impetuoso), caudal (el volumen de agua… y también la riqueza).",
+          "words": ["arroyo", "torrente", "riachuelo", "caudal"]
+        },
+        {
+          "label": "Sinónimos de «rápido»",
+          "explanation": "Velocidad: veloz, fugaz (como una estrella), raudo (literario) y vertiginoso (que da vértigo).",
+          "words": ["veloz", "fugaz", "raudo", "vertiginoso"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0022",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Asientos y muebles",
+          "explanation": "Muebles para sentarse o guardar. «Cómoda» es mueble como sustantivo y confortable como adjetivo.",
+          "words": ["taburete", "banqueta", "sillón", "cómoda"]
+        },
+        {
+          "label": "Mamíferos marinos",
+          "explanation": "Animales del mar: foca, morsa, delfín y orca. Todos con cola… que aquí significa otra cosa.",
+          "words": ["foca", "morsa", "delfín", "orca"]
+        },
+        {
+          "label": "La montaña",
+          "explanation": "Relieve montañoso: cordillera, cima, ladera y desfiladero. La «sierra» es cadena montañosa… y herramienta.",
+          "words": ["cordillera", "cima", "ladera", "desfiladero"]
+        },
+        {
+          "label": "Tienen doble sentido",
+          "explanation": "Banco (de sentarse / de dinero), sierra (herramienta / montañas), cola (de animal / fila / pegamento), planta (vegetal / del pie / piso).",
+          "words": ["banco", "sierra", "cola", "planta"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0023",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Deportes de invierno",
+          "explanation": "Deportes sobre nieve o hielo. «Patinar» también significa equivocarse: por eso está en otro grupo.",
+          "words": ["esquí", "trineo", "patinaje", "hockey"]
+        },
+        {
+          "label": "Sinónimos de «apresurarse»",
+          "explanation": "Darse prisa: apurarse, aligerar, espabilar y apremiar (meter prisa a otro).",
+          "words": ["apurarse", "aligerar", "espabilar", "apremiar"]
+        },
+        {
+          "label": "Sinónimos de «equivocarse»",
+          "explanation": "Cometer un error: errar (culto), fallar, confundirse y patinar (coloquial, como «meter la pata»).",
+          "words": ["errar", "fallar", "confundirse", "patinar"]
+        },
+        {
+          "label": "«Meter …»",
+          "explanation": "Colocaciones con «meter»: la pata (equivocarse), cizaña (sembrar discordia), prisa (apremiar), un gol (marcar… o colártela).",
+          "words": ["la pata", "cizaña", "prisa", "un gol"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0024",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "En el instituto",
+          "explanation": "Cosas del colegio. Ojo: el «Gymnasium» alemán es un instituto, pero el «gimnasio» español es para hacer deporte.",
+          "words": ["pizarra", "pupitre", "recreo", "asignatura"]
+        },
+        {
+          "label": "Roedores y afines",
+          "explanation": "Animalillos que roen. La «rata» falta: es un falso amigo del alemán «Rat» (consejo).",
+          "words": ["ratón", "ardilla", "hámster", "castor"]
+        },
+        {
+          "label": "Sinónimos de «valiente»",
+          "explanation": "Coraje en escala: osado, audaz, intrépido y temerario (valiente en exceso). «Bravo» significa más bien fiero.",
+          "words": ["osado", "audaz", "intrépido", "temerario"]
+        },
+        {
+          "label": "Falsos amigos del alemán",
+          "explanation": "«Gymnasium» (DE: instituto / ES gimnasio: para entrenar), «Rat» (DE: consejo / ES rata: roedor), «Mappe» (DE: carpeta / ES mapa: plano), «brav» (DE: obediente / ES bravo: fiero o valiente).",
+          "words": ["gimnasio", "rata", "mapa", "bravo"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0025",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Sinónimos de «cariño»",
+          "explanation": "Sentimientos de afecto: afecto, ternura, apego y devoción. El «corazón» se fue a la mano.",
+          "words": ["afecto", "ternura", "apego", "devoción"]
+        },
+        {
+          "label": "Dedos de la mano",
+          "explanation": "Pulgar, anular (donde va el anillo; también el verbo «cancelar»), meñique y corazón (¡el dedo medio!). El índice está en el libro.",
+          "words": ["pulgar", "anular", "meñique", "corazón"]
+        },
+        {
+          "label": "Partes de un libro",
+          "explanation": "Hojear (pasar hojas), prólogo, índice (¡también es un dedo!) y solapa (también la de una chaqueta).",
+          "words": ["hojear", "prólogo", "índice", "solapa"]
+        },
+        {
+          "label": "Maneras de mirar",
+          "explanation": "Ojear (echar un vistazo; no confundir con «hojear»), escudriñar (examinar a fondo), avistar (ver a lo lejos), atisbar (entrever).",
+          "words": ["ojear", "escudriñar", "avistar", "atisbar"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0026",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Frutos secos",
+          "explanation": "Frutos secos. Las castañas faltan: alguien las está sacando del fuego.",
+          "words": ["almendra", "avellana", "nuez", "piñón"]
+        },
+        {
+          "label": "La puerta",
+          "explanation": "Piezas de una puerta: bisagra, pomo, cerrojo y mirilla. El «quicio» es el marco: de ahí «sacar de quicio».",
+          "words": ["bisagra", "pomo", "cerrojo", "mirilla"]
+        },
+        {
+          "label": "Sinónimos de «exasperar»",
+          "explanation": "Sacar de sus casillas: exasperar, desquiciar (¡de «quicio»!), crispar e irritar.",
+          "words": ["exasperar", "desquiciar", "crispar", "irritar"]
+        },
+        {
+          "label": "«Sacar …»",
+          "explanation": "Modismos con «sacar»: provecho (beneficiarse), de quicio (exasperar), a relucir (mencionar), las castañas (del fuego: resolverle el problema a otro).",
+          "words": ["provecho", "de quicio", "a relucir", "las castañas"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0027",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Partes de un pez",
+          "explanation": "Anatomía del pez. Las agallas (branquias) también significan valor: «tener agallas».",
+          "words": ["branquias", "escamas", "aleta", "espina"]
+        },
+        {
+          "label": "Sinónimos de «miedo»",
+          "explanation": "Grados de miedo: pánico, pavor y espanto (intensos), canguelo (coloquial y leve).",
+          "words": ["pavor", "espanto", "pánico", "canguelo"]
+        },
+        {
+          "label": "Sinónimos de «sospecha»",
+          "explanation": "Intuiciones: recelo y desconfianza, corazonada (presentimiento) y barrunto (sospecha vaga). Como cuando algo «da mala espina».",
+          "words": ["recelo", "desconfianza", "corazonada", "barrunto"]
+        },
+        {
+          "label": "Sinónimos de «valentía»",
+          "explanation": "Coraje: arrojo, coraje, agallas (¡como las del pez!) y temple (serenidad ante el peligro).",
+          "words": ["arrojo", "coraje", "agallas", "temple"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0028",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Aves zancudas",
+          "explanation": "Aves de patas largas. ¿Y el flamenco? Está bailando en otro grupo.",
+          "words": ["cigüeña", "garza", "grulla", "pelícano"]
+        },
+        {
+          "label": "Bailes",
+          "explanation": "Bailes: flamenco (¡también el ave rosa y el idioma de Flandes!), tango, sevillanas y chotis (el baile madrileño).",
+          "words": ["flamenco", "tango", "sevillanas", "chotis"]
+        },
+        {
+          "label": "El coche",
+          "explanation": "Partes del coche: volante (también una hoja publicitaria), capó, maletero y guantera.",
+          "words": ["volante", "capó", "maletero", "guantera"]
+        },
+        {
+          "label": "Burocracia",
+          "explanation": "Papeleo: instancia (solicitud), expediente, padrón (registro de vecinos) y ventanilla (donde te atienden… o la del coche).",
+          "words": ["instancia", "expediente", "padrón", "ventanilla"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0029",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Pescados",
+          "explanation": "Pescados de mercado. La merluza y el besugo nadan en otros grupos: describen personas.",
+          "words": ["bacalao", "lenguado", "rape", "atún"]
+        },
+        {
+          "label": "Sinónimos de «atractivo»",
+          "explanation": "Guapura: apuesto (también «yo apuesto», de apostar), agraciado, resultón (coloquial) y atrayente.",
+          "words": ["apuesto", "agraciado", "resultón", "atrayente"]
+        },
+        {
+          "label": "«Borrachera» coloquial",
+          "explanation": "Formas coloquiales de borrachera: cogorza, melopea, curda y tajada. «Agarrar una merluza» también vale.",
+          "words": ["cogorza", "melopea", "curda", "tajada"]
+        },
+        {
+          "label": "Comida que describe personas",
+          "explanation": "Ser un bombón (muy atractivo), un fideo (muy flaco), una merluza (borrachera) o un besugo (tonto).",
+          "words": ["bombón", "fideo", "merluza", "besugo"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0030",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Conectores causales",
+          "explanation": "Introducen la causa: puesto que, dado que, ya que y pues. Cuidado: «pues» también puede ser consecutivo.",
+          "words": ["puesto que", "dado que", "ya que", "pues"]
+        },
+        {
+          "label": "Conectores aditivos",
+          "explanation": "Añaden información: asimismo, además, es más (refuerza) e incluso (añade algo inesperado).",
+          "words": ["asimismo", "además", "es más", "incluso"]
+        },
+        {
+          "label": "Conectores consecutivos",
+          "explanation": "Introducen la consecuencia: por ende (culto), así pues, por tanto y de ahí que (¡con subjuntivo!).",
+          "words": ["por ende", "así pues", "por tanto", "de ahí que"]
+        },
+        {
+          "label": "Conectores concesivos",
+          "explanation": "Expresan una objeción que no impide nada: si bien, aun cuando, pese a y no obstante.",
+          "words": ["si bien", "aun cuando", "pese a", "no obstante"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0031",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Animales lentos",
+          "explanation": "Lentitud animal: tortuga, caracol, babosa y koala. El «perezoso» es el más lento, pero aquí describe personas.",
+          "words": ["tortuga", "caracol", "babosa", "koala"]
+        },
+        {
+          "label": "Sinónimos de «tarea»",
+          "explanation": "El trabajo como sustantivo: tarea, labor, quehacer y encargo.",
+          "words": ["tarea", "labor", "quehacer", "encargo"]
+        },
+        {
+          "label": "Trabajar duro (coloquial)",
+          "explanation": "Trabajar muchísimo: currar (trabajar, sin más), deslomarse y matarse (a trabajar), bregar (luchar con el trabajo).",
+          "words": ["currar", "deslomarse", "matarse", "bregar"]
+        },
+        {
+          "label": "Sinónimos de «vago»",
+          "explanation": "Quien no da palo al agua: holgazán, gandul, haragán y perezoso (que también es el animal más lento del mundo).",
+          "words": ["holgazán", "gandul", "haragán", "perezoso"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0032",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Infusiones",
+          "explanation": "Hierbas para infusión: tila (relajante), poleo, menta y jengibre. La manzanilla se ha ido con los diminutivos.",
+          "words": ["tila", "poleo", "menta", "jengibre"]
+        },
+        {
+          "label": "En el hospital",
+          "explanation": "Material médico: quirófano, vendaje, suero y escayola. La camilla es un diminutivo con vida propia.",
+          "words": ["quirófano", "vendaje", "suero", "escayola"]
+        },
+        {
+          "label": "En el bar de tapas",
+          "explanation": "De tapeo: caña (cerveza pequeña), tapa, ración y barra. El palillo de los pinchos está en otro grupo.",
+          "words": ["caña", "tapa", "ración", "barra"]
+        },
+        {
+          "label": "Diminutivos lexicalizados",
+          "explanation": "Parecen diminutivos pero son palabras propias: bombilla (no una bomba pequeña), manzanilla (infusión), camilla (del hospital), palillo (mondadientes).",
+          "words": ["bombilla", "manzanilla", "camilla", "palillo"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0033",
+      "difficulty": 2,
+      "groups": [
+        {
+          "label": "Sinónimos de «pactar»",
+          "explanation": "Llegar a un acuerdo: pactar, convenir, estipular y consensuar. «Acordar» también, pero con «se» cambia de sentido.",
+          "words": ["pactar", "convenir", "estipular", "consensuar"]
+        },
+        {
+          "label": "Sinónimos de «rechazar»",
+          "explanation": "Decir que no, en registro formal: rehusar, declinar, desestimar y denegar.",
+          "words": ["rehusar", "declinar", "desestimar", "denegar"]
+        },
+        {
+          "label": "Sinónimos de «agarrar»",
+          "explanation": "Sujetar con la mano: asir (culto), aferrar, agarrar y sostener.",
+          "words": ["asir", "aferrar", "agarrar", "sostener"]
+        },
+        {
+          "label": "Cambian de sentido con «se»",
+          "explanation": "Acordar (pactar) / acordarse (recordar); negar (decir que no es cierto) / negarse (rehusar); fijar (sujetar) / fijarse (prestar atención); ocupar (un espacio) / ocuparse (encargarse).",
+          "words": ["acordar", "negar", "fijar", "ocupar"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0034",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Árboles",
+          "explanation": "Especies de árbol: olmo, fresno, sauce y álamo. ¿Buscabas el haya? Ojalá la hayas encontrado… en el subjuntivo.",
+          "words": ["olmo", "fresno", "sauce", "álamo"]
+        },
+        {
+          "label": "En la granja",
+          "explanation": "Instalaciones de granja: valla (que suena igual que «vaya»), establo, pocilga y abrevadero.",
+          "words": ["valla", "establo", "pocilga", "abrevadero"]
+        },
+        {
+          "label": "Interjecciones coloquiales",
+          "explanation": "Se usan como exclamaciones: ¡anda!, ¡venga!, ¡toma! y ¡arrea! Todas parecen formas verbales… porque lo son.",
+          "words": ["anda", "venga", "toma", "arrea"]
+        },
+        {
+          "label": "Subjuntivos irregulares",
+          "explanation": "Presente de subjuntivo: haya (haber, igual que el árbol), vaya (ir, suena como «valla»), sepa (saber), quepa (caber).",
+          "words": ["haya", "vaya", "sepa", "quepa"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0035",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Joyas",
+          "explanation": "Adornos: collar, anillo, pulsera y broche. «El pendiente» también es joya; «la pendiente», una cuesta.",
+          "words": ["collar", "anillo", "pulsera", "broche"]
+        },
+        {
+          "label": "Enfermedades",
+          "explanation": "Enfermedades clásicas. «El cólera» también lo es, pero «la cólera» es la ira; y «el coma» es médico, «la coma» ortográfica.",
+          "words": ["sarampión", "paperas", "varicela", "gripe"]
+        },
+        {
+          "label": "Ortografía",
+          "explanation": "Signos y marcas de escritura: tilde, diéresis (como en «pingüino»), guion y comillas.",
+          "words": ["tilde", "diéresis", "guion", "comillas"]
+        },
+        {
+          "label": "Cambian con el género",
+          "explanation": "El cólera (enfermedad) / la cólera (ira); el coma (estado) / la coma (signo); el pendiente (joya) / la pendiente (cuesta); el editorial (artículo) / la editorial (empresa).",
+          "words": ["cólera", "coma", "pendiente", "editorial"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0036",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Órganos internos",
+          "explanation": "Anatomía interna: bazo, páncreas, pulmón y vesícula. El riñón y los hígados andan metidos en modismos.",
+          "words": ["bazo", "páncreas", "pulmón", "vesícula"]
+        },
+        {
+          "label": "Sinónimos de «carísimo»",
+          "explanation": "Precios altos: costoso, prohibitivo, desorbitado y abusivo. Vamos, que «cuesta un riñón».",
+          "words": ["costoso", "prohibitivo", "desorbitado", "abusivo"]
+        },
+        {
+          "label": "Sinónimos de «descaro»",
+          "explanation": "Falta de vergüenza: jeta (también la cara), descaro, desfachatez y desvergüenza. «Tener morro» significa lo mismo.",
+          "words": ["jeta", "descaro", "desfachatez", "desvergüenza"]
+        },
+        {
+          "label": "Cuerpo en modismos",
+          "explanation": "Hablar por los codos (mucho), tener morro (descaro), tener hígados (valor), costar un riñón (ser carísimo).",
+          "words": ["codo", "morro", "hígados", "riñón"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0037",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Maneras de caer",
+          "explanation": "Caídas: de bruces (de cara), de espaldas, de cabeza (también «meterse de cabeza») y en picado (como un avión… o la economía).",
+          "words": ["de bruces", "de espaldas", "de cabeza", "en picado"]
+        },
+        {
+          "label": "Con secretismo",
+          "explanation": "Hacer algo a escondidas: a hurtadillas, a escondidas, con disimulo y bajo cuerda (de forma encubierta).",
+          "words": ["a hurtadillas", "a escondidas", "con disimulo", "bajo cuerda"]
+        },
+        {
+          "label": "«Aproximadamente»",
+          "explanation": "Cálculos imprecisos: en torno a, a ojo, a bulto y más o menos. «Grosso modo» también, pero es latín puro.",
+          "words": ["en torno a", "a ojo", "a bulto", "más o menos"]
+        },
+        {
+          "label": "Latinismos",
+          "explanation": "Locuciones latinas vivas en español: grosso modo (aproximadamente), ipso facto (inmediatamente), motu proprio (por voluntad propia), a priori (de antemano).",
+          "words": ["grosso modo", "ipso facto", "motu proprio", "a priori"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0038",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Sinónimos de «borracho»",
+          "explanation": "Grados de embriaguez: ebrio y beodo (cultos), achispado y piripi (apenas bebido, coloquiales).",
+          "words": ["ebrio", "beodo", "achispado", "piripi"]
+        },
+        {
+          "label": "Seres fantasmales",
+          "explanation": "Apariciones: espectro, ánima, aparecido y duende (que también es el embrujo del flamenco).",
+          "words": ["espectro", "ánima", "aparecido", "duende"]
+        },
+        {
+          "label": "Andar con dificultad",
+          "explanation": "Caminar mal: cojear, renquear (cojear levemente), tambalearse (como un borracho) y trastabillar (tropezar).",
+          "words": ["cojear", "renquear", "tambalearse", "trastabillar"]
+        },
+        {
+          "label": "Andar sin rumbo",
+          "explanation": "Vagar: vagabundear, callejear, merodear (con intención sospechosa) y rondar (dar vueltas… como un fantasma).",
+          "words": ["vagabundear", "callejear", "merodear", "rondar"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0039",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Tipos de roca",
+          "explanation": "Piedras: mármol, granito, basalto y caliza. Quedarse «de piedra» es otra cosa.",
+          "words": ["mármol", "granito", "basalto", "caliza"]
+        },
+        {
+          "label": "Estampados de tela",
+          "explanation": "Diseños textiles: de lunares, de rayas, de flores o liso. «A cuadros» también… pero uno se queda así de la sorpresa.",
+          "words": ["lunares", "rayas", "flores", "liso"]
+        },
+        {
+          "label": "Técnicas de cocina",
+          "explanation": "Preparaciones: rebozado y empanado (con cobertura), salteado (a fuego vivo) y guisado (cocido lentamente). «Frito» se quedó dormido.",
+          "words": ["rebozado", "empanado", "salteado", "guisado"]
+        },
+        {
+          "label": "«Quedarse …»",
+          "explanation": "Modismos con «quedarse»: en blanco (sin ideas), de piedra (atónito), frito (dormido), a cuadros (perplejo).",
+          "words": ["en blanco", "de piedra", "frito", "a cuadros"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0040",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Naipes",
+          "explanation": "El mundo de las cartas: as, sota (la décima carta española), comodín y baraja. «La carta» se fue con los falsos amigos.",
+          "words": ["as", "sota", "comodín", "baraja"]
+        },
+        {
+          "label": "Utensilios de limpieza",
+          "explanation": "Para limpiar: cubo, fregona, escoba y bayeta. El «balde» también es un cubo… y un falso amigo.",
+          "words": ["cubo", "fregona", "escoba", "bayeta"]
+        },
+        {
+          "label": "Muebles",
+          "explanation": "Mobiliario: estantería (en alemán, «Regal»: ¡ojo al falso amigo!), aparador, mecedora y escritorio.",
+          "words": ["estantería", "aparador", "mecedora", "escritorio"]
+        },
+        {
+          "label": "Falsos amigos del alemán",
+          "explanation": "«alt» (DE: viejo / ES alto: de gran estatura), «Regal» (DE: estantería / ES regalo: presente), «Karte» (DE: tarjeta o mapa / ES carta: misiva o naipe), «bald» (DE: pronto / ES balde: cubo).",
+          "words": ["alto", "regalo", "carta", "balde"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0041",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Sinónimos de «mentira»",
+          "explanation": "Falsedades: embuste, patraña, trola (coloquial) y bulo (la «fake news» de toda la vida).",
+          "words": ["embuste", "patraña", "trola", "bulo"]
+        },
+        {
+          "label": "Sinónimos de «embrollo»",
+          "explanation": "Situaciones enmarañadas: embrollo, maraña, follón y berenjenal («meterse en un berenjenal»: en un buen lío).",
+          "words": ["embrollo", "maraña", "follón", "berenjenal"]
+        },
+        {
+          "label": "Sinónimos de «cotillear»",
+          "explanation": "Hablar de los demás: cotillear, chismear, comadrear y despellejar (criticar sin piedad, «poner verde»).",
+          "words": ["cotillear", "chismear", "comadrear", "despellejar"]
+        },
+        {
+          "label": "Sinónimos de «engañar»",
+          "explanation": "Engaños: timar (estafar), embaucar (seducir con engaño), camelar (engatusar) y enredar (liar a alguien… o enmarañar hilos).",
+          "words": ["timar", "embaucar", "camelar", "enredar"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0042",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Partes del barco",
+          "explanation": "A bordo: proa (delante), estribor (la derecha), mástil y timón. La popa navega dentro de un modismo.",
+          "words": ["proa", "estribor", "mástil", "timón"]
+        },
+        {
+          "label": "Sinónimos de «prosperar»",
+          "explanation": "Ir a mejor: florecer, medrar (culto), despegar y remontar. O sea, ir «viento en popa».",
+          "words": ["florecer", "medrar", "despegar", "remontar"]
+        },
+        {
+          "label": "Sinónimos de «fracasar»",
+          "explanation": "Ir a peor: naufragar y zozobrar (metáforas náuticas), malograrse y frustrarse.",
+          "words": ["naufragar", "malograrse", "frustrarse", "zozobrar"]
+        },
+        {
+          "label": "Expresiones náuticas",
+          "explanation": "Modismos del mar: viento en popa (estupendamente), a la deriva (sin rumbo), hacer aguas (empezar a fallar), ir a pique (hundirse, fracasar).",
+          "words": ["viento en popa", "a la deriva", "hacer aguas", "ir a pique"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0043",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "«Mucho» coloquial",
+          "explanation": "Cantidades enormes, en la calle: un montón, mogollón, a punta pala y la tira («me gusta la tira»).",
+          "words": ["un montón", "mogollón", "a punta pala", "la tira"]
+        },
+        {
+          "label": "«Abundante» culto",
+          "explanation": "Lo mismo, pero con corbata: copioso (una comida), cuantioso (daños), ingente (esfuerzo), profuso (detalles).",
+          "words": ["copioso", "cuantioso", "ingente", "profuso"]
+        },
+        {
+          "label": "«Escaso» culto",
+          "explanation": "Poca cantidad, en registro formal: exiguo, parco (también sobrio al hablar), mermado y contado («en contadas ocasiones»).",
+          "words": ["exiguo", "parco", "mermado", "contado"]
+        },
+        {
+          "label": "«Poquísimo» coloquial",
+          "explanation": "Casi nada, coloquialmente: una pizca, un pelín, una miaja y cuatro gatos (poquísima gente).",
+          "words": ["una pizca", "un pelín", "una miaja", "cuatro gatos"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0044",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Condimentos",
+          "explanation": "Especias: pimienta, comino («me importa un comino»), orégano («no todo el monte es orégano») y azafrán. La sal se fue de verbo.",
+          "words": ["pimienta", "comino", "orégano", "azafrán"]
+        },
+        {
+          "label": "Bebidas alcohólicas",
+          "explanation": "Bebidas: vermut, anís, orujo y sangría (que también es una hemorragia o el margen de un texto). El vino llegó… del verbo venir.",
+          "words": ["vermut", "anís", "orujo", "sangría"]
+        },
+        {
+          "label": "Ropa formal",
+          "explanation": "Vestimenta elegante: esmoquin, corbata, chaleco y americana (la chaqueta, no la nacionalidad). El traje lo trajo otro grupo.",
+          "words": ["esmoquin", "corbata", "chaleco", "americana"]
+        },
+        {
+          "label": "Verbo y sustantivo a la vez",
+          "explanation": "Formas verbales que también son sustantivos: vino (venir / bebida), sal (salir / condimento), traje (traer / vestimenta), pesa (pesar / del gimnasio).",
+          "words": ["vino", "sal", "traje", "pesa"]
+        }
+      ]
+    },
+    {
+      "id": "gr-0045",
+      "difficulty": 3,
+      "groups": [
+        {
+          "label": "Embutidos",
+          "explanation": "Chacinería: morcilla («¡que te den morcilla!»), salchichón, lomo y panceta. Todos vienen del animal de al lado.",
+          "words": ["morcilla", "salchichón", "lomo", "panceta"]
+        },
+        {
+          "label": "Sinónimos de «rechoncho»",
+          "explanation": "Gordura amable: rechoncho, orondo, fondón y regordete.",
+          "words": ["rechoncho", "orondo", "fondón", "regordete"]
+        },
+        {
+          "label": "Sinónimos de «mugriento»",
+          "explanation": "Suciedad: mugriento, cochambroso (¡de «cochambre», pariente del cochino!), desaseado y grasiento.",
+          "words": ["mugriento", "cochambroso", "desaseado", "grasiento"]
+        },
+        {
+          "label": "«Cerdo» por el mundo",
+          "explanation": "Nombres del cerdo: chancho (América del Sur), cochino y marrano (también insultos: «sucio»). Por eso tientan al grupo de la mugre.",
+          "words": ["cerdo", "chancho", "cochino", "marrano"]
+        }
+      ]
+    }
+  ]
+}

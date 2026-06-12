@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { db, type ScoreRecord } from '@/db/db';
+import { db } from '@/db/db';
 import { retrievabilityOf } from '@/srs/fsrs';
 import { loadContent } from '@/content/loader';
 import { srsItemId, type Domain } from '@/content/schema';
@@ -30,18 +30,12 @@ interface DomainMastery {
 
 export function StatsScreen() {
   const meta = useMetaStore((s) => s.meta);
-  const [scores, setScores] = useState<ScoreRecord[]>([]);
   const [mastery, setMastery] = useState<DomainMastery[]>([]);
   const level = levelFromXp(meta.xp);
 
   useEffect(() => {
     void (async () => {
-      const [content, srsRecords, blitz] = await Promise.all([
-        loadContent(),
-        db.srs.toArray(),
-        db.scores.where('mode').equals('blitz').reverse().sortBy('score'),
-      ]);
-      setScores(blitz.slice(0, 5));
+      const [content, srsRecords] = await Promise.all([loadContent(), db.srs.toArray()]);
       const byItem = new Map(srsRecords.map((r) => [r.itemId, r]));
       const acc = new Map<Domain, { sum: number; studied: number; total: number }>();
       for (const ch of content.challenges.values()) {
@@ -73,52 +67,40 @@ export function StatsScreen() {
         <Link className="back-btn" to="/">
           ‹
         </Link>
-        <h2>Estadísticas</h2>
+        <h2>📊 Estadísticas</h2>
       </div>
 
       <div className="panel" style={{ padding: 16, marginBottom: 14 }}>
         <strong>
-          Nivel {level} · <span className="text-gold">{titleForLevel(level)}</span>
+          Nivel {level} · <span style={{ color: 'var(--orange)' }}>{titleForLevel(level)}</span>
         </strong>
         <div className="text-dim" style={{ fontSize: 13.5, marginTop: 4 }}>
-          {meta.xp} XP · ◆ {meta.fragmentos} fragmentos · mejor combo ×{meta.bestCombo}
+          {meta.xp} XP · 🔥 racha de {meta.streak} días
           <br />
-          Expediciones: {meta.runsWon} ganadas de {meta.runsPlayed}
+          {meta.quizRounds ?? 0} rondas de quiz · {(meta.solvedGroupPuzzles ?? []).length} grupos
+          resueltos
         </div>
       </div>
 
-      <h3 style={{ fontSize: 17, margin: '6px 0 10px' }}>Maestría por dominio</h3>
+      <h3 style={{ fontSize: 17, margin: '6px 0 10px' }}>Tu memoria por tema</h3>
+      <p className="text-dim" style={{ fontSize: 13, marginTop: 0 }}>
+        Calculado con el sistema de repetición espaciada: cuanto más llena la barra, mejor lo
+        recuerdas ahora mismo.
+      </p>
       {mastery.map((m) => (
         <div key={m.domain} className="panel" style={{ padding: '10px 14px', marginBottom: 8 }}>
-          <div className="hud-row" style={{ margin: 0 }}>
-            <span style={{ fontSize: 14 }}>{DOMAIN_LABELS[m.domain] ?? m.domain}</span>
+          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
+            <span style={{ fontSize: 14, fontWeight: 700 }}>
+              {DOMAIN_LABELS[m.domain] ?? m.domain}
+            </span>
             <span className="text-dim" style={{ fontSize: 12 }}>
-              {m.studied}/{m.total} estudiados
+              {m.studied}/{m.total} vistos
             </span>
           </div>
           <Bar value={m.mastery * 100} max={100} color={m.mastery > 0.7 ? 'teal' : 'gold'} />
         </div>
       ))}
-      {mastery.length === 0 && <p className="text-dim">Aún no hay datos. ¡A forjar!</p>}
-
-      {scores.length > 0 && (
-        <>
-          <h3 style={{ fontSize: 17, margin: '16px 0 10px' }}>Mejores Contrarreloj</h3>
-          {scores.map((s, i) => (
-            <div key={s.id} className="panel list-row">
-              <span className="text-gold" style={{ fontWeight: 700 }}>
-                #{i + 1}
-              </span>
-              <span className="mono" style={{ flex: 1 }}>
-                {s.score} pts
-              </span>
-              <span className="text-dim" style={{ fontSize: 12.5 }}>
-                ×{s.maxCombo} · {s.correct}/{s.answered} · {s.date.slice(0, 10)}
-              </span>
-            </div>
-          ))}
-        </>
-      )}
+      {mastery.length === 0 && <p className="text-dim">Aún no hay datos. ¡A jugar!</p>}
     </motion.div>
   );
 }

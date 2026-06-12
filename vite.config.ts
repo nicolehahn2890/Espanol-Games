@@ -20,17 +20,17 @@ export default defineConfig({
         navigateFallback: '/Espanol-Games/index.html',
       },
       manifest: {
-        name: 'La Forja del Idioma',
-        short_name: 'La Forja',
+        name: 'Juegos de Español',
+        short_name: 'Español',
         description:
-          'Forja tu dominio del español: gramática y vocabulario de nivel C en un juego de cartas roguelike.',
+          'Minijuegos alegres para el español de nivel C: palabra del día, quiz, parejas y grupos.',
         lang: 'es',
         display: 'standalone',
         orientation: 'portrait',
         start_url: '/Espanol-Games/#/',
         scope: '/Espanol-Games/',
-        background_color: '#15131F',
-        theme_color: '#15131F',
+        background_color: '#fdfbf6',
+        theme_color: '#fdfbf6',
         icons: [
           { src: 'icons/pwa-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icons/pwa-512.png', sizes: '512x512', type: 'image/png' },

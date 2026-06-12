@@ -22,14 +22,14 @@ export function levelProgress(xp: number): number {
 }
 
 const TITLES: [number, string][] = [
-  [1, 'Aprendiz de la Fragua'],
-  [5, 'Chispa Tenaz'],
-  [10, 'Forjadora de Palabras'],
-  [18, 'Temple de Acero'],
+  [1, 'Curiosa'],
+  [5, 'Aprendiz Brillante'],
+  [10, 'Cazadora de Palabras'],
+  [18, 'Estrella del Quiz'],
   [27, 'Artesana del Idioma'],
-  [38, 'Maestra del Yunque'],
-  [50, 'Guardiana de la Forja'],
-  [60, 'Maestra Forjadora'],
+  [38, 'Casi Nativa'],
+  [50, 'Maestra de Palabras'],
+  [60, 'Leyenda del Español'],
 ];
 
 export function titleForLevel(level: number): string {
