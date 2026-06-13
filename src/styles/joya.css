@@ -301,14 +301,23 @@ body {
   color: var(--text-dim);
 }
 
-/* ---------- 12) Sin la raya de brillo en las fichas de vidrio ----------
-   El reflejo superior de glossy.css deja una línea visible a media altura
-   sobre el vidrio oscuro; se quita en estos elementos (los botones de color
-   y las fichas de inicio conservan su brillo). */
+/* ---------- 12) Brillo sin raya en las fichas de vidrio ----------
+   El reflejo rectangular de glossy.css dejaba una línea recta a media altura
+   sobre el vidrio oscuro. Lo sustituimos por un brillo ovalado que se difumina
+   por abajo: se conserva el lustre, desaparece la raya. */
 .pair-card::before,
 .group-word::before,
 .option-btn::before,
 .difficulty-btn::before,
 .kb-key::before {
-  display: none;
+  left: 8%;
+  right: 8%;
+  top: 3px;
+  height: 80%;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    rgba(255, 255, 255, 0.32),
+    rgba(255, 255, 255, 0) 72%
+  );
 }
