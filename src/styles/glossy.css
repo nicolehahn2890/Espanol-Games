@@ -4,25 +4,19 @@
    superpuestos sobre los componentes base sin reescribirlos.
    ============================================================ */
 
-/* ---------- Paneles de cristal ---------- */
+/* ---------- Paneles brillantes (sin blur: no parpadea) ---------- */
 .panel,
 .explanation-card {
   position: relative;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.55)),
-    var(--card);
-  backdrop-filter: blur(10px) saturate(1.3);
-  -webkit-backdrop-filter: blur(10px) saturate(1.3);
-  border: 1.5px solid rgba(255, 255, 255, 0.9);
+  background: linear-gradient(180deg, #ffffff, #fbf9ff);
+  border: 1.5px solid rgba(255, 255, 255, 0.95);
   box-shadow:
-    0 8px 22px rgba(80, 70, 120, 0.12),
-    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    0 8px 22px rgba(80, 70, 120, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
 }
 
 .home-stats {
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.55)),
-    var(--card);
+  background: linear-gradient(180deg, #ffffff, #fbf9ff);
 }
 
 /* ---------- Brillo superior reutilizable ---------- */
@@ -224,11 +218,9 @@
   pointer-events: none;
 }
 
-/* ---------- Toast y orbe ---------- */
+/* ---------- Toast ---------- */
 .toast {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.7));
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: linear-gradient(180deg, #ffffff, #fff8e8);
 }
 
 /* el modo «reducir animaciones» desactiva los destellos móviles */

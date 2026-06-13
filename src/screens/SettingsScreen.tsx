@@ -46,45 +46,49 @@ export function SettingsScreen() {
         <Link className="back-btn" to="/">
           ‹
         </Link>
-        <h2>Ajustes</h2>
+        <h2>⚙️ Ajustes</h2>
       </div>
 
-      <div className="panel list-row">
-        <span>Sonido</span>
-        <button className="btn" onClick={settings.toggleSound}>
-          {settings.sound ? '🔊 Activado' : '🔇 Silencio'}
+      <h3 className="section-title">🎚️ Preferencias</h3>
+      <div className="panel setting-row">
+        <span className="setting-label">🔊 Sonido</span>
+        <button
+          className={`toggle ${settings.sound ? 'on' : ''}`}
+          aria-label="Sonido"
+          onClick={settings.toggleSound}
+        >
+          <span className="knob" />
         </button>
       </div>
-      <div className="panel list-row">
-        <span>
-          Reducir animaciones
+      <div className="panel setting-row">
+        <span className="setting-label">
+          ✨ Reducir animaciones
           <br />
-          <span className="text-dim" style={{ fontSize: 12 }}>
-            Menos sacudidas y partículas
+          <span className="text-dim" style={{ fontSize: 12, fontWeight: 600 }}>
+            Menos destellos y partículas
           </span>
         </span>
-        <button className="btn" onClick={settings.toggleReducedMotion}>
-          {settings.reducedMotion ? 'Sí' : 'No'}
+        <button
+          className={`toggle ${settings.reducedMotion ? 'on' : ''}`}
+          aria-label="Reducir animaciones"
+          onClick={settings.toggleReducedMotion}
+        >
+          <span className="knob" />
         </button>
       </div>
 
-      <h3 style={{ fontSize: 17, margin: '18px 0 10px' }}>Copia de seguridad</h3>
-      <p className="text-dim" style={{ fontSize: 13.5 }}>
+      <h3 className="section-title">💾 Copia de seguridad</h3>
+      <p className="text-dim" style={{ fontSize: 13.5, marginTop: 0 }}>
         Tu progreso vive solo en este dispositivo. Exporta una copia de vez en cuando: iOS puede
         borrar los datos de webs que no visitas durante semanas.
-        {metaStore.meta.lastBackupAt && (
-          <>
-            {' '}
-            Última copia: {metaStore.meta.lastBackupAt.slice(0, 10)}.
-          </>
-        )}
+        {metaStore.meta.lastBackupAt && <> Última copia: {metaStore.meta.lastBackupAt.slice(0, 10)}.</>}
       </p>
-      <button className="btn btn-primary btn-block" onClick={() => void handleExport()}>
-        Exportar copia
+      <button className="btn btn-green btn-block" onClick={() => void handleExport()}>
+        ⬇️ Exportar copia
       </button>
       <div style={{ height: 10 }} />
-      <button className="btn btn-block" onClick={() => fileRef.current?.click()}>
-        Importar copia
+      <button className="btn btn-blue btn-block" onClick={() => fileRef.current?.click()}>
+        ⬆️ Importar copia
       </button>
       <input
         ref={fileRef}
@@ -103,14 +107,22 @@ export function SettingsScreen() {
         </p>
       )}
 
-      <h3 style={{ fontSize: 17, margin: '18px 0 10px' }}>Actualización</h3>
-      <p className="text-dim" style={{ fontSize: 13.5 }}>
+      <h3 className="section-title">🔄 Actualización</h3>
+      <p className="text-dim" style={{ fontSize: 13.5, marginTop: 0 }}>
         Si la app se queda con un diseño antiguo, este botón descarga la última versión. Tu
         progreso no se toca.
       </p>
-      <button className="btn btn-block" onClick={() => void handleForceUpdate()}>
-        🔄 Actualizar la app
+      <button className="btn btn-purple btn-block" onClick={() => void handleForceUpdate()}>
+        Actualizar la app
       </button>
+
+      <Link
+        to="/creditos"
+        className="text-dim"
+        style={{ textAlign: 'center', marginTop: 22, fontSize: 13.5, fontWeight: 700 }}
+      >
+        Créditos
+      </Link>
     </motion.div>
   );
 }
