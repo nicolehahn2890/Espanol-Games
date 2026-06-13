@@ -81,7 +81,9 @@ export function SettingsScreen() {
       <p className="text-dim" style={{ fontSize: 13.5, marginTop: 0 }}>
         Tu progreso vive solo en este dispositivo. Exporta una copia de vez en cuando: iOS puede
         borrar los datos de webs que no visitas durante semanas.
-        {metaStore.meta.lastBackupAt && <> Última copia: {metaStore.meta.lastBackupAt.slice(0, 10)}.</>}
+        {metaStore.meta.lastBackupAt && (
+          <> Última copia: {metaStore.meta.lastBackupAt.slice(0, 10)}.</>
+        )}
       </p>
       <button className="btn btn-green btn-block" onClick={() => void handleExport()}>
         ⬇️ Exportar copia
@@ -109,8 +111,8 @@ export function SettingsScreen() {
 
       <h3 className="section-title">🔄 Actualización</h3>
       <p className="text-dim" style={{ fontSize: 13.5, marginTop: 0 }}>
-        Si la app se queda con un diseño antiguo, este botón descarga la última versión. Tu
-        progreso no se toca.
+        Si la app se queda con un diseño antiguo, este botón descarga la última versión. Tu progreso
+        no se toca.
       </p>
       <button className="btn btn-purple btn-block" onClick={() => void handleForceUpdate()}>
         Actualizar la app

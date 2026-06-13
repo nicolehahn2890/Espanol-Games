@@ -9,11 +9,7 @@ export type CellState = 'exact' | 'present' | 'absent';
 
 /** Normaliza para comparar: mayúsculas, sin tildes, conservando la Ñ. */
 export function normalizeWord(input: string): string {
-  return input
-    .toUpperCase()
-    .normalize('NFD')
-    .replace(/[̀́̂̈]/g, '')
-    .normalize('NFC');
+  return input.toUpperCase().normalize('NFD').replace(/[̀́̂̈]/g, '').normalize('NFC');
 }
 
 /**
@@ -45,10 +41,7 @@ export function evaluateGuess(guess: string, target: string): CellState[] {
 }
 
 /** Mejor estado por letra para colorear el teclado. */
-export function keyboardStates(
-  guesses: string[],
-  target: string,
-): Map<string, CellState> {
+export function keyboardStates(guesses: string[], target: string): Map<string, CellState> {
   const rank: Record<CellState, number> = { absent: 0, present: 1, exact: 2 };
   const map = new Map<string, CellState>();
   for (const guess of guesses) {

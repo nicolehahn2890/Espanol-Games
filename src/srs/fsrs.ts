@@ -68,7 +68,11 @@ export async function getDueQueue(allIds: string[], now: Date = new Date()): Pro
   for (let i = 0; i < allIds.length; i++) {
     const record = records[i];
     if (record) {
-      queue.push({ itemId: allIds[i], retrievability: retrievabilityOf(record, now), isNew: false });
+      queue.push({
+        itemId: allIds[i],
+        retrievability: retrievabilityOf(record, now),
+        isNew: false,
+      });
     } else {
       queue.push({ itemId: allIds[i], retrievability: 0, isNew: true });
     }

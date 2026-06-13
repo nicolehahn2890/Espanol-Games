@@ -106,14 +106,9 @@ function vocabChallenges(vocab: VocabItem[]): Challenge[] {
     }
 
     // 4) hueco en una frase de ejemplo real (si contiene el lema exacto)
-    const example = item.examples.find((e) =>
-      new RegExp(`\\b${item.lemma}\\b`, 'i').test(e),
-    );
+    const example = item.examples.find((e) => new RegExp(`\\b${item.lemma}\\b`, 'i').test(e));
     if (example) {
-      const gapped = example.replace(
-        new RegExp(`\\b${item.lemma}\\b`, 'i'),
-        `{${item.lemma}}`,
-      );
+      const gapped = example.replace(new RegExp(`\\b${item.lemma}\\b`, 'i'), `{${item.lemma}}`);
       out.push({
         id: `gen-ej-${item.id}`,
         type: 'cloze-choice',

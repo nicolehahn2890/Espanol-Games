@@ -5,13 +5,7 @@ import type { Challenge } from '@/content/schema';
 import { srsItemId } from '@/content/schema';
 import { loadContent, type ContentIndex } from '@/content/loader';
 import { rate, Rating } from '@/srs/fsrs';
-import {
-  buildQuizRound,
-  QUIZ_CATEGORIES,
-  quizStars,
-  quizXp,
-  type QuizCategory,
-} from '@/game/quiz';
+import { buildQuizRound, QUIZ_CATEGORIES, quizStars, quizXp, type QuizCategory } from '@/game/quiz';
 import { loadDifficulty, saveDifficulty, type DifficultyChoice } from '@/game/difficulty';
 import { hashString, mulberry32, shuffle } from '@/game/rng';
 import { db } from '@/db/db';
@@ -179,9 +173,16 @@ export function QuizScreen() {
     const correct = answers.filter((a) => a.correct).length;
     const stars = quizStars(correct, round.length);
     return (
-      <motion.div className="screen" initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }}>
+      <motion.div
+        className="screen"
+        initial={{ opacity: 0, scale: 0.96 }}
+        animate={{ opacity: 1, scale: 1 }}
+      >
         {header}
-        <h3 className="victory-title" style={stars === 0 ? { color: 'var(--text-dim)' } : undefined}>
+        <h3
+          className="victory-title"
+          style={stars === 0 ? { color: 'var(--text-dim)' } : undefined}
+        >
           {stars === 3 ? '¡Perfecto!' : stars >= 1 ? '¡Bien hecho!' : 'A seguir practicando'}
         </h3>
         <div className="stars-row">
@@ -226,7 +227,13 @@ export function QuizScreen() {
           <span
             key={i}
             className={`dot ${
-              i < answers.length ? (answers[i].correct ? 'ok' : 'fail') : i === index ? 'current' : ''
+              i < answers.length
+                ? answers[i].correct
+                  ? 'ok'
+                  : 'fail'
+                : i === index
+                  ? 'current'
+                  : ''
             }`}
           />
         ))}

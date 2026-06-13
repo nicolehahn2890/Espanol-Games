@@ -24,7 +24,10 @@ export function nextPuzzle(
 /** Baraja las 16 palabras de forma determinista por rompecabezas. */
 export function shuffledWords(puzzle: GroupPuzzle, salt = 0): string[] {
   const rng = mulberry32((salt + puzzle.id.length * 7 + hash(puzzle.id)) >>> 0);
-  return shuffle(rng, puzzle.groups.flatMap((g) => g.words));
+  return shuffle(
+    rng,
+    puzzle.groups.flatMap((g) => g.words),
+  );
 }
 
 function hash(s: string): number {
@@ -45,9 +48,7 @@ export function matchGroup(puzzle: GroupPuzzle, selection: string[]): number | n
 /** ¿La selección está a una sola palabra de un grupo? («¡Casi!») */
 export function isOneAway(puzzle: GroupPuzzle, selection: string[]): boolean {
   const set = new Set(selection.map((w) => w.toLowerCase()));
-  return puzzle.groups.some(
-    (g) => g.words.filter((w) => set.has(w.toLowerCase())).length === 3,
-  );
+  return puzzle.groups.some((g) => g.words.filter((w) => set.has(w.toLowerCase())).length === 3);
 }
 
 export function groupsXp(solvedGroups: number, mistakes: number, won: boolean): number {

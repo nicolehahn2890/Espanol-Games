@@ -4,13 +4,7 @@ import { useMetaStore } from '@/stores/useMetaStore';
 import { levelFromXp, levelProgress, titleForLevel } from '@/game/xp';
 import { todayKey } from '@/game/daily';
 import { Bar } from '@/components/ui/Bar';
-import {
-  IconGrupos,
-  IconLlama,
-  IconParejas,
-  IconPalabra,
-  IconQuiz,
-} from '@/components/ui/Icon';
+import { IconGrupos, IconLlama, IconParejas, IconPalabra, IconQuiz } from '@/components/ui/Icon';
 import { sfx } from '@/fx/audio';
 
 export function HomeScreen() {

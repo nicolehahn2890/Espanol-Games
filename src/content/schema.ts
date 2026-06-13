@@ -64,8 +64,7 @@ export const challengeSchema = z
     source: z.enum(['tatoeba', 'curado']).optional(),
   })
   .refine(
-    (c) =>
-      c.type === 'cloze-typed' || c.type === 'error-spot' || (c.distractors?.length ?? 0) >= 2,
+    (c) => c.type === 'cloze-typed' || c.type === 'error-spot' || (c.distractors?.length ?? 0) >= 2,
     { message: 'los retos de elección necesitan al menos 2 distractores' },
   );
 export type Challenge = z.infer<typeof challengeSchema>;
@@ -126,9 +125,12 @@ export const groupPuzzleSchema = z
       )
       .length(4),
   })
-  .refine((p) => new Set(p.groups.flatMap((g) => g.words.map((w) => w.toLowerCase()))).size === 16, {
-    message: 'las 16 palabras de un rompecabezas deben ser únicas',
-  });
+  .refine(
+    (p) => new Set(p.groups.flatMap((g) => g.words.map((w) => w.toLowerCase()))).size === 16,
+    {
+      message: 'las 16 palabras de un rompecabezas deben ser únicas',
+    },
+  );
 export type GroupPuzzle = z.infer<typeof groupPuzzleSchema>;
 
 export const packSchema = z.object({

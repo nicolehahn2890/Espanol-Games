@@ -69,10 +69,7 @@ export function IconGrupos({ size = 28, className }: IconProps) {
 export function IconTrofeo({ size = 28, className }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" className={className} fill="none">
-      <path
-        d="M7 4h10v3a5 5 0 0 1-10 0V4Z"
-        fill="currentColor"
-      />
+      <path d="M7 4h10v3a5 5 0 0 1-10 0V4Z" fill="currentColor" />
       <path
         d="M17 5h2.5a.5.5 0 0 1 .5.5C20 8 18.5 9.5 16.5 9.5M7 5H4.5a.5.5 0 0 0-.5.5C4 8 5.5 9.5 7.5 9.5"
         stroke="currentColor"
@@ -127,7 +124,16 @@ export function LogoBubble({ size = 120, className }: IconProps) {
       {/* cola */}
       <path d="M34 86 L26 108 L52 90 Z" fill="#6128c8" />
       {/* cuerpo de la burbuja */}
-      <rect x="10" y="12" width="100" height="82" rx="26" fill="url(#bubbleGrad)" stroke="#4d1ba6" strokeWidth="3" />
+      <rect
+        x="10"
+        y="12"
+        width="100"
+        height="82"
+        rx="26"
+        fill="url(#bubbleGrad)"
+        stroke="#4d1ba6"
+        strokeWidth="3"
+      />
       {/* brillo superior */}
       <ellipse cx="48" cy="32" rx="30" ry="11" fill="#fff" opacity="0.28" />
       {/* la Ñ */}

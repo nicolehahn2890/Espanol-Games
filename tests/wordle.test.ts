@@ -1,11 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import {
-  dailyWord,
-  evaluateGuess,
-  keyboardStates,
-  normalizeWord,
-  randomWord,
-} from '@/game/wordle';
+import { dailyWord, evaluateGuess, keyboardStates, normalizeWord, randomWord } from '@/game/wordle';
 import type { WordleWord } from '@/content/schema';
 
 const WORDS: WordleWord[] = [
@@ -24,13 +18,7 @@ describe('normalizeWord', () => {
 
 describe('evaluateGuess', () => {
   it('marca exactas, presentes y ausentes', () => {
-    expect(evaluateGuess('TERCO', 'TERCO')).toEqual([
-      'exact',
-      'exact',
-      'exact',
-      'exact',
-      'exact',
-    ]);
+    expect(evaluateGuess('TERCO', 'TERCO')).toEqual(['exact', 'exact', 'exact', 'exact', 'exact']);
     expect(evaluateGuess('CORTE', 'TERCO')).toEqual([
       'present',
       'present',
@@ -48,13 +36,7 @@ describe('evaluateGuess', () => {
   });
 
   it('compara ignorando tildes del intento', () => {
-    expect(evaluateGuess('balón', 'BALON')).toEqual([
-      'exact',
-      'exact',
-      'exact',
-      'exact',
-      'exact',
-    ]);
+    expect(evaluateGuess('balón', 'BALON')).toEqual(['exact', 'exact', 'exact', 'exact', 'exact']);
   });
 });
 

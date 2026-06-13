@@ -119,7 +119,10 @@ export function ParejasScreen() {
       <motion.div className="screen" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         {header}
         <div className="panel" style={{ padding: 20, textAlign: 'center' }}>
-          <div className="intro-icon" style={{ background: 'linear-gradient(135deg,#ffb340,var(--orange))' }}>
+          <div
+            className="intro-icon"
+            style={{ background: 'linear-gradient(135deg,#ffb340,var(--orange))' }}
+          >
             <IconParejas size={40} />
           </div>
           <h3 style={{ fontSize: 20, margin: '8px 0' }}>Une las parejas</h3>
@@ -140,7 +143,11 @@ export function ParejasScreen() {
 
   if (phase === 'fin') {
     return (
-      <motion.div className="screen" initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }}>
+      <motion.div
+        className="screen"
+        initial={{ opacity: 0, scale: 0.96 }}
+        animate={{ opacity: 1, scale: 1 }}
+      >
         {header}
         <h3 className="victory-title">¡Completado!</h3>
         <div className="result-grid">

@@ -141,13 +141,17 @@ export function GruposScreen() {
       <motion.div className="screen" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         {header}
         <div className="panel" style={{ padding: 20, textAlign: 'center' }}>
-          <div className="intro-icon" style={{ background: 'linear-gradient(135deg,#bd84ff,var(--purple))' }}>
+          <div
+            className="intro-icon"
+            style={{ background: 'linear-gradient(135deg,#bd84ff,var(--purple))' }}
+          >
             <IconGrupos size={38} />
           </div>
           <h3 style={{ fontSize: 20, margin: '8px 0' }}>Encuentra los 4 grupos</h3>
           <p className="text-dim" style={{ fontSize: 14.5 }}>
-            16 palabras esconden 4 categorías de 4. Selecciona 4 palabras que tengan algo en común
-            y comprueba. Tienes {MAX_MISTAKES} intentos fallidos. {solvedTotal > 0 && (
+            16 palabras esconden 4 categorías de 4. Selecciona 4 palabras que tengan algo en común y
+            comprueba. Tienes {MAX_MISTAKES} intentos fallidos.{' '}
+            {solvedTotal > 0 && (
               <>
                 Llevas <strong>{solvedTotal}</strong> resueltos.
               </>
@@ -217,7 +221,14 @@ export function GruposScreen() {
         ))}
       </div>
       {hint && (
-        <p style={{ textAlign: 'center', color: 'var(--orange)', fontWeight: 800, margin: '0 0 8px' }}>
+        <p
+          style={{
+            textAlign: 'center',
+            color: 'var(--orange)',
+            fontWeight: 800,
+            margin: '0 0 8px',
+          }}
+        >
           {hint}
         </p>
       )}
@@ -233,7 +244,11 @@ export function GruposScreen() {
         >
           Limpiar
         </button>
-        <button className="btn btn-purple btn-block" onClick={check} disabled={selection.length !== 4}>
+        <button
+          className="btn btn-purple btn-block"
+          onClick={check}
+          disabled={selection.length !== 4}
+        >
           Comprobar
         </button>
       </div>

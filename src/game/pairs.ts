@@ -31,7 +31,10 @@ function rememberBoard(pairIds: string[]): void {
 }
 
 function preferUnseen<T extends { id: string }>(items: T[]): T[] {
-  return [...items.filter((i) => !recentPairIds.has(i.id)), ...items.filter((i) => recentPairIds.has(i.id))];
+  return [
+    ...items.filter((i) => !recentPairIds.has(i.id)),
+    ...items.filter((i) => recentPairIds.has(i.id)),
+  ];
 }
 
 /**

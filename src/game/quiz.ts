@@ -25,7 +25,15 @@ export const QUIZ_CATEGORIES: { id: QuizCategory; emoji: string; label: string }
 
 const CATEGORY_DOMAINS: Record<Exclude<QuizCategory, 'mixta'>, Domain[]> = {
   vocabulario: ['vocab-c1', 'vocab-c2', 'sinonimos', 'colocaciones'],
-  gramatica: ['subjuntivo', 'pasados', 'conectores', 'registro', 'ser-estar', 'preposiciones', 'se-construcciones'],
+  gramatica: [
+    'subjuntivo',
+    'pasados',
+    'conectores',
+    'registro',
+    'ser-estar',
+    'preposiciones',
+    'se-construcciones',
+  ],
   'falsos-amigos': ['falsos-amigos'],
   modismos: ['modismos'],
 };

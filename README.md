@@ -5,12 +5,12 @@ Minijuegos alegres y sin prisa para **español avanzado (C1/C2)** — una PWA pe
 
 ## Los cuatro juegos
 
-| Juego | Cómo se juega |
-|---|---|
+| Juego             | Cómo se juega                                                                                                                                                                                                                                                                  |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 🟩 **La Palabra** | Adivina la palabra de 5 letras en 6 intentos (estilo Wordle). Una palabra del día (nivel accesible, nunca rarezas) que alimenta tu racha 🔥 + práctica libre ilimitada. Funciona con el teclado físico en el ordenador. Al resolver: baile de letras, definición y traducción. |
-| ❓ **Quiz** | Rondas de 10 preguntas de elección múltiple por tema (vocabulario, gramática, falsos amigos, modismos). Tras cada respuesta, una explicación grande; estrellas y confeti al final. |
-| 🃏 **Parejas** | Une cada palabra española con su traducción alemana (o, en difícil, con su significado en español). |
-| 🧩 **Grupos** | 16 palabras, 4 categorías ocultas (estilo Connections) — con trampas deliberadas y explicación didáctica al resolver. |
+| ❓ **Quiz**       | Rondas de 10 preguntas de elección múltiple por tema (vocabulario, gramática, falsos amigos, modismos). Tras cada respuesta, una explicación grande; estrellas y confeti al final.                                                                                             |
+| 🃏 **Parejas**    | Une cada palabra española con su traducción alemana (o, en difícil, con su significado en español).                                                                                                                                                                            |
+| 🧩 **Grupos**     | 16 palabras, 4 categorías ocultas (estilo Connections) — con trampas deliberadas y explicación didáctica al resolver.                                                                                                                                                          |
 
 **Sin temporizadores.** Nada mete prisa. La dificultad se elige en cada juego:
 😌 Relajado · 🙂 Normal · 🔥 Difícil — y la elección se recuerda.
@@ -104,7 +104,7 @@ WebAudio sintetizado y Web Animations API.
 ## Despliegue
 
 Cada push a `main` ejecuta lint + tests + validación + build y despliega a GitHub Pages
-(`.github/workflows/deploy.yml`). Pages está configurado con *Source: GitHub Actions*.
+(`.github/workflows/deploy.yml`). Pages está configurado con _Source: GitHub Actions_.
 
 App: `https://nicolehahn2890.github.io/Espanol-Games/` — en el iPhone: Safari → Compartir →
 **Añadir a pantalla de inicio**.

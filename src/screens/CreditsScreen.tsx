@@ -12,16 +12,16 @@ export function CreditsScreen() {
       </div>
       <div className="panel" style={{ padding: 18, fontSize: 14.5, lineHeight: 1.7 }}>
         <p>
-          <strong>Juegos de Español</strong> — minijuegos personales para el español de nivel C,
-          sin servidores y sin prisa.
+          <strong>Juegos de Español</strong> — minijuegos personales para el español de nivel C, sin
+          servidores y sin prisa.
         </p>
         <p className="text-dim">
           Contenido lingüístico curado a mano para este proyecto. Repetición espaciada con el
           algoritmo FSRS (<span style={{ fontFamily: 'monospace' }}>ts-fsrs</span>).
         </p>
         <p className="text-dim">
-          Tipografías: Fredoka y Plus Jakarta Sans (licencia OFL). Construido con React, Vite, Framer Motion y
-          Dexie. Gracias a los autores de todo el software libre utilizado.
+          Tipografías: Fredoka y Plus Jakarta Sans (licencia OFL). Construido con React, Vite,
+          Framer Motion y Dexie. Gracias a los autores de todo el software libre utilizado.
         </p>
       </div>
     </motion.div>

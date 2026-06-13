@@ -21,7 +21,10 @@ export function AchievementsScreen() {
       </div>
 
       <div className="panel hero-card">
-        <div className="hero-icon" style={{ background: 'linear-gradient(180deg,#ffd34d,#ff9600)' }}>
+        <div
+          className="hero-icon"
+          style={{ background: 'linear-gradient(180deg,#ffd34d,#ff9600)' }}
+        >
           <IconTrofeo size={34} />
         </div>
         <div style={{ flex: 1 }}>

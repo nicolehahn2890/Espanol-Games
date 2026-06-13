@@ -147,8 +147,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  filter:
-    drop-shadow(0 2px 0 rgba(255, 255, 255, 0.95))
+  filter: drop-shadow(0 2px 0 rgba(255, 255, 255, 0.95))
     drop-shadow(0 5px 6px rgba(120, 40, 130, 0.28));
   letter-spacing: 0.01em;
 }
@@ -170,7 +169,6 @@
   font-size: 14px;
 }
 
-
 .game-tile {
   position: relative;
   display: flex;
@@ -183,7 +181,9 @@
   color: var(--text-on-color);
   text-align: left;
   border: none;
-  transition: transform 90ms ease, box-shadow 90ms ease;
+  transition:
+    transform 90ms ease,
+    box-shadow 90ms ease;
   overflow: hidden;
 }
 
@@ -305,7 +305,9 @@
   font-weight: 800;
   font-size: 14.5px;
   text-align: center;
-  transition: transform 90ms, box-shadow 90ms;
+  transition:
+    transform 90ms,
+    box-shadow 90ms;
 }
 
 .difficulty-btn .diff-emoji {
@@ -357,12 +359,18 @@
   border-radius: var(--radius-m);
   background: linear-gradient(180deg, #ffffff 0%, #f4f7ff 100%);
   border: 2px solid #d9e2f5;
-  box-shadow: 0 4px 0 #cdd7ef, 0 6px 11px rgba(70, 90, 150, 0.08);
+  box-shadow:
+    0 4px 0 #cdd7ef,
+    0 6px 11px rgba(70, 90, 150, 0.08);
   color: var(--text);
   font-size: 17px;
   font-weight: 700;
   text-align: left;
-  transition: transform 90ms, box-shadow 90ms, background 150ms, border-color 150ms;
+  transition:
+    transform 90ms,
+    box-shadow 90ms,
+    background 150ms,
+    border-color 150ms;
 }
 
 .option-btn:active {
@@ -577,7 +585,9 @@
   font-size: 15px;
   text-transform: uppercase;
   color: var(--text);
-  transition: background 150ms, transform 80ms;
+  transition:
+    background 150ms,
+    transform 80ms;
 }
 
 .kb-key:active {
@@ -623,12 +633,18 @@
   border-radius: var(--radius-l);
   background: linear-gradient(180deg, #ffffff 0%, #fdf2fb 100%);
   border: 2px solid #ecd6ef;
-  box-shadow: 0 4px 0 #e0c4e4, 0 7px 12px rgba(120, 70, 130, 0.1);
+  box-shadow:
+    0 4px 0 #e0c4e4,
+    0 7px 12px rgba(120, 70, 130, 0.1);
   color: var(--text);
   font-weight: 700;
   font-size: 15.5px;
   line-height: 1.25;
-  transition: transform 90ms, box-shadow 90ms, background 150ms, border-color 150ms;
+  transition:
+    transform 90ms,
+    box-shadow 90ms,
+    background 150ms,
+    border-color 150ms;
 }
 
 .pair-card:active {
@@ -639,7 +655,9 @@
 .pair-card.selected {
   border-color: var(--blue);
   background: linear-gradient(180deg, #eaf8ff, #cdeeff);
-  box-shadow: 0 4px 0 var(--blue-dark), 0 7px 14px rgba(28, 176, 246, 0.3);
+  box-shadow:
+    0 4px 0 var(--blue-dark),
+    0 7px 14px rgba(28, 176, 246, 0.3);
   color: var(--blue-dark);
 }
 
@@ -660,7 +678,9 @@
 .pair-card.mismatch {
   border-color: var(--red);
   background: linear-gradient(180deg, #ffe6e6, #ffc9c9);
-  box-shadow: 0 4px 0 var(--red-dark), 0 7px 14px rgba(229, 72, 77, 0.3);
+  box-shadow:
+    0 4px 0 var(--red-dark),
+    0 7px 14px rgba(229, 72, 77, 0.3);
   animation: shake-x 300ms ease;
 }
 
@@ -682,7 +702,9 @@
   border-radius: var(--radius-m);
   background: linear-gradient(180deg, #ffffff 0%, #f6f0ff 100%);
   border: 2px solid #e2d7f3;
-  box-shadow: 0 3px 0 #d3c6ec, 0 5px 9px rgba(110, 80, 150, 0.1);
+  box-shadow:
+    0 3px 0 #d3c6ec,
+    0 5px 9px rgba(110, 80, 150, 0.1);
   color: var(--text);
   font-weight: 800;
   font-size: 12.5px;
@@ -690,7 +712,11 @@
   min-width: 0;
   overflow-wrap: anywhere;
   hyphens: auto;
-  transition: transform 90ms, box-shadow 90ms, background 150ms, border-color 150ms;
+  transition:
+    transform 90ms,
+    box-shadow 90ms,
+    background 150ms,
+    border-color 150ms;
 }
 
 .group-word:active {
@@ -702,7 +728,9 @@
   background: linear-gradient(180deg, #b985ff, var(--purple));
   border-color: var(--purple-dark);
   color: #fff;
-  box-shadow: 0 3px 0 var(--purple-dark), 0 6px 12px rgba(165, 96, 248, 0.4);
+  box-shadow:
+    0 3px 0 var(--purple-dark),
+    0 6px 12px rgba(165, 96, 248, 0.4);
 }
 
 .solved-group {
@@ -904,7 +932,9 @@
   height: 28px;
   border-radius: 50%;
   background: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25), inset 0 2px 0 rgba(255, 255, 255, 0.9);
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.25),
+    inset 0 2px 0 rgba(255, 255, 255, 0.9);
   transition: transform 200ms cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 

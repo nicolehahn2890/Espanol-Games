@@ -14,7 +14,12 @@ import {
   type CellState,
 } from '@/game/wordle';
 import { todayKey } from '@/game/daily';
-import { loadDifficulty, saveDifficulty, difficultyLevels, type DifficultyChoice } from '@/game/difficulty';
+import {
+  loadDifficulty,
+  saveDifficulty,
+  difficultyLevels,
+  type DifficultyChoice,
+} from '@/game/difficulty';
 import { useMetaStore } from '@/stores/useMetaStore';
 import { DifficultyPicker } from '@/components/ui/DifficultyPicker';
 import { ExplanationCard } from '@/components/ui/ExplanationCard';
@@ -141,7 +146,11 @@ export function PalabraScreen() {
         <IconPalabra size={22} />
       </span>
       <h2>La Palabra</h2>
-      {mode === 'diaria' && target && <span className="text-dim" style={{ fontSize: 13, fontWeight: 700 }}>del día</span>}
+      {mode === 'diaria' && target && (
+        <span className="text-dim" style={{ fontSize: 13, fontWeight: 700 }}>
+          del día
+        </span>
+      )}
     </div>
   );
 

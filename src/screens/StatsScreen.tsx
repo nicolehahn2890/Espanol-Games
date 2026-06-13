@@ -86,8 +86,18 @@ export function StatsScreen() {
       </div>
 
       <div className="panel hero-card">
-        <div className="hero-icon" style={{ background: 'linear-gradient(180deg,#bd84ff,#8a45dd)' }}>
-          <span style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 22, color: '#fff' }}>
+        <div
+          className="hero-icon"
+          style={{ background: 'linear-gradient(180deg,#bd84ff,#8a45dd)' }}
+        >
+          <span
+            style={{
+              fontFamily: 'var(--font-display)',
+              fontWeight: 800,
+              fontSize: 22,
+              color: '#fff',
+            }}
+          >
             {level}
           </span>
         </div>

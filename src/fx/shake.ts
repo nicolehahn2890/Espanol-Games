@@ -45,7 +45,11 @@ export function floatPoints(from: Element | null, text: string, color = '#ff9600
   const animation = el.animate(
     [
       { transform: 'translate(-50%, -50%) scale(0.7)', opacity: 0 },
-      { transform: `translate(calc(-50% + ${drift * 0.4}px), -90%) scale(1.2)`, opacity: 1, offset: 0.35 },
+      {
+        transform: `translate(calc(-50% + ${drift * 0.4}px), -90%) scale(1.2)`,
+        opacity: 1,
+        offset: 0.35,
+      },
       { transform: `translate(calc(-50% + ${drift}px), -170%) scale(1)`, opacity: 0 },
     ],
     { duration: 850, easing: 'cubic-bezier(0.22, 1, 0.36, 1)' },
