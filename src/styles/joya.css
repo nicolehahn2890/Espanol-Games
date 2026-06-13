@@ -300,3 +300,15 @@ body {
 .achievement-card .ach-desc {
   color: var(--text-dim);
 }
+
+/* ---------- 12) Sin la raya de brillo en las fichas de vidrio ----------
+   El reflejo superior de glossy.css deja una línea visible a media altura
+   sobre el vidrio oscuro; se quita en estos elementos (los botones de color
+   y las fichas de inicio conservan su brillo). */
+.pair-card::before,
+.group-word::before,
+.option-btn::before,
+.difficulty-btn::before,
+.kb-key::before {
+  display: none;
+}
