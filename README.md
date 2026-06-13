@@ -50,13 +50,23 @@ src/
   db/                  Dexie (IndexedDB) + exportar/importar copia de seguridad
   srs/                 adaptador ts-fsrs (cola de repaso ponderada)
   game/                lógica pura y testeable: wordle, quiz, parejas, grupos,
-                       dificultad, xp, logros, semillas diarias
+                       exercises (generador de variantes), dificultad, xp,
+                       logros, semillas diarias
   fx/                  audio WebAudio sintetizado, partículas, confeti,
                        sacudidas y puntos flotantes (Web Animations API)
   stores/              Zustand (meta/progreso, ajustes)
-  components/ screens/ UI React
+  components/ui/       Bar, DifficultyPicker, ExplanationCard, Icon (SVG
+                       propios), AchievementToast
+  screens/             una pantalla por ruta
 tests/                 vitest (lógica de juego)
 ```
+
+## Diseño
+
+Estética «candy»: tipografías Nunito + Baloo 2, botones y fichas 3D con brillo, paleta viva,
+fondo de manchas de color estáticas (sin animación, para no parpadear). Los iconos son SVG
+propios (`components/ui/Icon.tsx`), no emojis. La capa `styles/glossy.css` añade los reflejos
+sin usar `backdrop-filter` (que parpadeaba en móvil). Todo respeta «reducir animaciones».
 
 Nota de compatibilidad: la base de datos IndexedDB conserva el nombre interno `la-forja`
 (de la primera versión de la app) para no perder el progreso guardado.

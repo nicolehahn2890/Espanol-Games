@@ -14,6 +14,7 @@ import {
 import { loadDifficulty, saveDifficulty, type DifficultyChoice } from '@/game/difficulty';
 import { useMetaStore } from '@/stores/useMetaStore';
 import { DifficultyPicker } from '@/components/ui/DifficultyPicker';
+import { IconGrupos } from '@/components/ui/Icon';
 import { sfx } from '@/fx/audio';
 import { celebrateVictory } from '@/fx/celebrate';
 import { burstFromElement } from '@/fx/particles';
@@ -113,7 +114,10 @@ export function GruposScreen() {
       <Link className="back-btn" to="/">
         ‹
       </Link>
-      <h2>🧩 Grupos</h2>
+      <span className="title-badge purple">
+        <IconGrupos size={22} />
+      </span>
+      <h2>Grupos</h2>
       {puzzle && phase === 'jugando' && (
         <span className="text-dim" style={{ fontSize: 13, fontWeight: 700 }}>
           nº {puzzle.id.slice(3).replace(/^0+/, '')}
@@ -137,7 +141,9 @@ export function GruposScreen() {
       <motion.div className="screen" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         {header}
         <div className="panel" style={{ padding: 20, textAlign: 'center' }}>
-          <div style={{ fontSize: 44 }}>🧩</div>
+          <div className="intro-icon" style={{ background: 'linear-gradient(135deg,#bd84ff,var(--purple))' }}>
+            <IconGrupos size={38} />
+          </div>
           <h3 style={{ fontSize: 20, margin: '8px 0' }}>Encuentra los 4 grupos</h3>
           <p className="text-dim" style={{ fontSize: 14.5 }}>
             16 palabras esconden 4 categorías de 4. Selecciona 4 palabras que tengan algo en común

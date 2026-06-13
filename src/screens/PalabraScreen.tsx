@@ -18,6 +18,7 @@ import { loadDifficulty, saveDifficulty, difficultyLevels, type DifficultyChoice
 import { useMetaStore } from '@/stores/useMetaStore';
 import { DifficultyPicker } from '@/components/ui/DifficultyPicker';
 import { ExplanationCard } from '@/components/ui/ExplanationCard';
+import { IconPalabra } from '@/components/ui/Icon';
 import { sfx } from '@/fx/audio';
 import { celebrateSmall, celebrateVictory } from '@/fx/celebrate';
 import { floatPoints, screenShake } from '@/fx/shake';
@@ -136,7 +137,10 @@ export function PalabraScreen() {
       <Link className="back-btn" to="/">
         ‹
       </Link>
-      <h2>🟩 La Palabra</h2>
+      <span className="title-badge green">
+        <IconPalabra size={22} />
+      </span>
+      <h2>La Palabra</h2>
       {mode === 'diaria' && target && <span className="text-dim" style={{ fontSize: 13, fontWeight: 700 }}>del día</span>}
     </div>
   );

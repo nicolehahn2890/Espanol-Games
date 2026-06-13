@@ -7,6 +7,7 @@ import { buildPairsBoard, pairsXp, PAIRS_PER_BOARD, type PairCard } from '@/game
 import { loadDifficulty, saveDifficulty, type DifficultyChoice } from '@/game/difficulty';
 import { useMetaStore } from '@/stores/useMetaStore';
 import { DifficultyPicker } from '@/components/ui/DifficultyPicker';
+import { IconParejas } from '@/components/ui/Icon';
 import { sfx } from '@/fx/audio';
 import { burstFromElement } from '@/fx/particles';
 import { celebrateVictory } from '@/fx/celebrate';
@@ -97,7 +98,10 @@ export function ParejasScreen() {
       <Link className="back-btn" to="/">
         ‹
       </Link>
-      <h2>🃏 Parejas</h2>
+      <span className="title-badge orange">
+        <IconParejas size={22} />
+      </span>
+      <h2>Parejas</h2>
     </div>
   );
 
@@ -115,7 +119,9 @@ export function ParejasScreen() {
       <motion.div className="screen" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         {header}
         <div className="panel" style={{ padding: 20, textAlign: 'center' }}>
-          <div style={{ fontSize: 44 }}>🃏</div>
+          <div className="intro-icon" style={{ background: 'linear-gradient(135deg,#ffb340,var(--orange))' }}>
+            <IconParejas size={40} />
+          </div>
           <h3 style={{ fontSize: 20, margin: '8px 0' }}>Une las parejas</h3>
           <p className="text-dim" style={{ fontSize: 14.5 }}>
             {difficulty === 'dificil'

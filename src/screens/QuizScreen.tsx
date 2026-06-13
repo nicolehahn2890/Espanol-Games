@@ -18,6 +18,7 @@ import { db } from '@/db/db';
 import { useMetaStore } from '@/stores/useMetaStore';
 import { DifficultyPicker } from '@/components/ui/DifficultyPicker';
 import { ExplanationCard } from '@/components/ui/ExplanationCard';
+import { IconQuiz } from '@/components/ui/Icon';
 import { sfx } from '@/fx/audio';
 import { burstFromElement } from '@/fx/particles';
 import { floatPoints, screenShake } from '@/fx/shake';
@@ -124,7 +125,10 @@ export function QuizScreen() {
       <Link className="back-btn" to="/">
         ‹
       </Link>
-      <h2>❓ Quiz</h2>
+      <span className="title-badge blue">
+        <IconQuiz size={22} />
+      </span>
+      <h2>Quiz</h2>
     </div>
   );
 
