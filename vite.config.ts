@@ -18,6 +18,23 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,png,svg,woff2,json}'],
         navigateFallback: '/Espanol-Games/index.html',
+        cleanupOutdatedCaches: true,
+        clientsClaim: true,
+        skipWaiting: true,
+        // Navegación: red primero. Estando en línea siempre se carga el HTML
+        // más reciente (y con él los JS nuevos); el caché solo es respaldo
+        // sin conexión. Así las actualizaciones llegan sin trucos manuales.
+        runtimeCaching: [
+          {
+            urlPattern: ({ request }: { request: Request }) => request.mode === 'navigate',
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'app-shell',
+              networkTimeoutSeconds: 4,
+              expiration: { maxEntries: 4 },
+            },
+          },
+        ],
       },
       manifest: {
         name: 'Juegos de Español',
