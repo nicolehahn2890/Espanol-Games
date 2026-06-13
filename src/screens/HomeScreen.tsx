@@ -4,6 +4,13 @@ import { useMetaStore } from '@/stores/useMetaStore';
 import { levelFromXp, levelProgress, titleForLevel } from '@/game/xp';
 import { todayKey } from '@/game/daily';
 import { Bar } from '@/components/ui/Bar';
+import {
+  IconGrupos,
+  IconLlama,
+  IconParejas,
+  IconPalabra,
+  IconQuiz,
+} from '@/components/ui/Icon';
 import { sfx } from '@/fx/audio';
 
 export function HomeScreen() {
@@ -14,7 +21,7 @@ export function HomeScreen() {
 
   const tiles = [
     {
-      icon: '🟩',
+      Icon: IconPalabra,
       name: 'La Palabra',
       desc: dailyDone
         ? 'Reto diario completado. ¡Sigue practicando!'
@@ -24,7 +31,7 @@ export function HomeScreen() {
       badge: dailyDone ? '✓ hoy' : '1 al día',
     },
     {
-      icon: '❓',
+      Icon: IconQuiz,
       name: 'Quiz',
       desc: 'Rondas de 10 preguntas con explicación.',
       to: '/quiz',
@@ -32,7 +39,7 @@ export function HomeScreen() {
       badge: null,
     },
     {
-      icon: '🃏',
+      Icon: IconParejas,
       name: 'Parejas',
       desc: 'Une cada palabra con su significado.',
       to: '/parejas',
@@ -40,7 +47,7 @@ export function HomeScreen() {
       badge: null,
     },
     {
-      icon: '🧩',
+      Icon: IconGrupos,
       name: 'Grupos',
       desc: 'Encuentra los 4 grupos de 4 palabras.',
       to: '/grupos',
@@ -65,27 +72,29 @@ export function HomeScreen() {
             <Bar value={levelProgress(meta.xp) * 100} max={100} color="gold" />
           </div>
         </div>
-        <div className={`streak-flame ${meta.streak > 0 ? 'lit' : ''}`} title="Racha de días">
-          🔥 {meta.streak}
+        <div className="streak-pill" title="Racha de días">
+          <IconLlama size={20} />
+          {meta.streak}
         </div>
       </div>
 
       {tiles.map((tile, i) => (
         <motion.button
           key={tile.name}
-          className={`game-tile shine ${tile.cls}`}
-          initial={{ opacity: 0, y: 24 }}
+          className={`game-tile ${tile.cls}`}
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.05 * i, type: 'spring', stiffness: 300, damping: 24 }}
+          transition={{ delay: 0.04 * i, type: 'spring', stiffness: 320, damping: 26 }}
           onClick={() => {
             sfx('tap');
             navigate(tile.to);
           }}
         >
-          <span className="tile-icon">{tile.icon}</span>
-          <span>
+          <span className="tile-icon">
+            <tile.Icon size={30} />
+          </span>
+          <span className="tile-text">
             <span className="tile-name">{tile.name}</span>
-            <br />
             <span className="tile-desc">{tile.desc}</span>
           </span>
           {tile.badge && <span className="tile-badge">{tile.badge}</span>}

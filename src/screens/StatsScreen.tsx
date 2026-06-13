@@ -6,8 +6,9 @@ import { retrievabilityOf } from '@/srs/fsrs';
 import { loadContent } from '@/content/loader';
 import { srsItemId, type Domain } from '@/content/schema';
 import { useMetaStore } from '@/stores/useMetaStore';
-import { levelFromXp, titleForLevel } from '@/game/xp';
+import { levelFromXp, levelProgress, titleForLevel } from '@/game/xp';
 import { Bar } from '@/components/ui/Bar';
+import { IconGrafico, IconLlama, IconQuiz, IconGrupos } from '@/components/ui/Icon';
 
 const DOMAIN_LABELS: Partial<Record<Domain, string>> = {
   subjuntivo: 'Subjuntivo',
@@ -19,6 +20,18 @@ const DOMAIN_LABELS: Partial<Record<Domain, string>> = {
   'vocab-c2': 'Vocabulario C2',
   modismos: 'Modismos',
   colocaciones: 'Colocaciones',
+};
+
+const DOMAIN_EMOJI: Partial<Record<Domain, string>> = {
+  subjuntivo: '🌀',
+  pasados: '⏳',
+  conectores: '🔗',
+  registro: '🎩',
+  'falsos-amigos': '🎭',
+  'vocab-c1': '📗',
+  'vocab-c2': '📕',
+  modismos: '🦜',
+  colocaciones: '🧲',
 };
 
 interface DomainMastery {
@@ -69,37 +82,65 @@ export function StatsScreen() {
         <Link className="back-btn" to="/">
           ‹
         </Link>
-        <h2>📊 Estadísticas</h2>
+        <h2>Estadísticas</h2>
       </div>
 
-      <div className="panel" style={{ padding: 16, marginBottom: 14 }}>
-        <strong>
-          Nivel {level} · <span style={{ color: 'var(--orange)' }}>{titleForLevel(level)}</span>
-        </strong>
-        <div className="text-dim" style={{ fontSize: 13.5, marginTop: 4 }}>
-          {meta.xp} XP · 🔥 racha de {meta.streak} días
-          <br />
-          {meta.quizRounds ?? 0} rondas de quiz · {(meta.solvedGroupPuzzles ?? []).length} grupos
-          resueltos
+      <div className="panel hero-card">
+        <div className="hero-icon" style={{ background: 'linear-gradient(180deg,#bd84ff,#8a45dd)' }}>
+          <span style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 22, color: '#fff' }}>
+            {level}
+          </span>
+        </div>
+        <div style={{ flex: 1 }}>
+          <div style={{ fontWeight: 800, fontSize: 17 }}>{titleForLevel(level)}</div>
+          <div className="text-dim" style={{ fontSize: 12.5, marginBottom: 6 }}>
+            Nivel {level} · {meta.xp} XP
+          </div>
+          <Bar value={levelProgress(meta.xp) * 100} max={100} color="gold" />
         </div>
       </div>
 
-      <h3 style={{ fontSize: 17, margin: '6px 0 10px' }}>Tu memoria por tema</h3>
+      <div className="metric-row">
+        <div className="panel metric-card">
+          <span className="metric-icon" style={{ color: 'var(--orange)' }}>
+            <IconLlama size={24} />
+          </span>
+          <span className="metric-value">{meta.streak}</span>
+          <span className="metric-label">racha (días)</span>
+        </div>
+        <div className="panel metric-card">
+          <span className="metric-icon" style={{ color: 'var(--blue)' }}>
+            <IconQuiz size={24} />
+          </span>
+          <span className="metric-value">{meta.quizRounds ?? 0}</span>
+          <span className="metric-label">rondas quiz</span>
+        </div>
+        <div className="panel metric-card">
+          <span className="metric-icon" style={{ color: 'var(--purple)' }}>
+            <IconGrupos size={22} />
+          </span>
+          <span className="metric-value">{(meta.solvedGroupPuzzles ?? []).length}</span>
+          <span className="metric-label">grupos</span>
+        </div>
+      </div>
+
+      <h3 className="section-title">
+        <IconGrafico size={20} className="section-ico" /> Tu memoria por tema
+      </h3>
       <p className="text-dim" style={{ fontSize: 13, marginTop: 0 }}>
-        La barra muestra cuánto del tema completo recuerdas ahora mismo. Empieza vacía y se llena a
-        medida que juegas y retienes las palabras.
+        Cuánto del tema completo recuerdas ahora mismo. Empieza vacía y se llena a medida que juegas
+        y retienes las palabras.
       </p>
       {mastery.map((m) => (
-        <div key={m.domain} className="panel" style={{ padding: '10px 14px', marginBottom: 8 }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
-            <span style={{ fontSize: 14, fontWeight: 700 }}>
-              {DOMAIN_LABELS[m.domain] ?? m.domain}
-            </span>
-            <span className="text-dim" style={{ fontSize: 12 }}>
-              {Math.round(m.mastery * 100)}% · {m.studied}/{m.total} vistos
-            </span>
+        <div key={m.domain} className="panel topic-row">
+          <span className="topic-emoji">{DOMAIN_EMOJI[m.domain] ?? '•'}</span>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div className="topic-head">
+              <span className="topic-name">{DOMAIN_LABELS[m.domain] ?? m.domain}</span>
+              <span className="topic-pct">{Math.round(m.mastery * 100)}%</span>
+            </div>
+            <Bar value={m.mastery * 100} max={100} color={m.mastery > 0.6 ? 'teal' : 'gold'} />
           </div>
-          <Bar value={m.mastery * 100} max={100} color={m.mastery > 0.6 ? 'teal' : 'gold'} />
         </div>
       ))}
       {mastery.length === 0 && <p className="text-dim">Aún no hay datos. ¡A jugar!</p>}

@@ -112,44 +112,6 @@
   --tile-shadow: var(--orange-dark);
 }
 
-/* destello diagonal que cruza la ficha al aparecer y al pasar el ratón */
-.game-tile::after {
-  content: '';
-  position: absolute;
-  top: -60%;
-  left: -30%;
-  width: 50%;
-  height: 220%;
-  background: linear-gradient(
-    100deg,
-    transparent,
-    rgba(255, 255, 255, 0.45),
-    transparent
-  );
-  transform: rotate(8deg) translateX(-260%);
-  pointer-events: none;
-  z-index: 1;
-}
-
-.game-tile.shine::after {
-  animation: tile-sheen 900ms ease;
-}
-
-@media (hover: hover) {
-  .game-tile:hover::after {
-    animation: tile-sheen 900ms ease;
-  }
-}
-
-@keyframes tile-sheen {
-  from {
-    transform: rotate(8deg) translateX(-260%);
-  }
-  to {
-    transform: rotate(8deg) translateX(560%);
-  }
-}
-
 /* ---------- Barras con brillo y reflejo móvil ---------- */
 .bar {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.02));
@@ -224,10 +186,3 @@
 }
 
 /* el modo «reducir animaciones» desactiva los destellos móviles */
-@media (prefers-reduced-motion: reduce) {
-  .game-tile::after,
-  .game-tile.shine::after {
-    animation: none;
-    display: none;
-  }
-}
