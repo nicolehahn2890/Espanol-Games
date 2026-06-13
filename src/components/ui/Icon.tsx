@@ -113,6 +113,45 @@ export function IconGrafico({ size = 28, className }: IconProps) {
   );
 }
 
+/** Logo: caramelo envuelto brillante (estilo Candy Crush). */
+export function LogoCandy({ size = 110, className }: IconProps) {
+  return (
+    <svg width={size} height={size * 0.72} viewBox="0 0 140 100" className={className} fill="none">
+      <defs>
+        <linearGradient id="candyBody" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="#ff8fcb" />
+          <stop offset="55%" stopColor="#ff45a0" />
+          <stop offset="100%" stopColor="#e01f81" />
+        </linearGradient>
+        <linearGradient id="candyWrap" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="#ffc0e2" />
+          <stop offset="100%" stopColor="#ff74bb" />
+        </linearGradient>
+        <clipPath id="candyClip">
+          <ellipse cx="70" cy="50" rx="38" ry="30" />
+        </clipPath>
+      </defs>
+
+      {/* envoltorios pinzados a los lados */}
+      <path d="M36 50 L8 30 Q3 50 8 70 Z" fill="url(#candyWrap)" stroke="#e01f81" strokeWidth="2" strokeLinejoin="round" />
+      <path d="M104 50 L132 30 Q137 50 132 70 Z" fill="url(#candyWrap)" stroke="#e01f81" strokeWidth="2" strokeLinejoin="round" />
+
+      {/* cuerpo */}
+      <ellipse cx="70" cy="50" rx="38" ry="30" fill="url(#candyBody)" stroke="#c01a6f" strokeWidth="2.5" />
+
+      {/* rayas diagonales */}
+      <g clipPath="url(#candyClip)" opacity="0.85">
+        <rect x="48" y="12" width="9" height="76" rx="4.5" transform="rotate(18 52 50)" fill="#fff" opacity="0.8" />
+        <rect x="68" y="12" width="11" height="76" rx="5.5" transform="rotate(18 73 50)" fill="#fff" opacity="0.8" />
+        <rect x="88" y="12" width="9" height="76" rx="4.5" transform="rotate(18 92 50)" fill="#fff" opacity="0.8" />
+      </g>
+
+      {/* brillo */}
+      <ellipse cx="58" cy="38" rx="16" ry="8" fill="#fff" opacity="0.5" transform="rotate(-18 58 38)" />
+    </svg>
+  );
+}
+
 export function IconLlama({ size = 28, className }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" className={className} fill="none">

@@ -841,9 +841,9 @@
   background: linear-gradient(160deg, #fff8e8, var(--bg-soft));
 }
 
-.splash .splash-emoji {
-  font-size: 72px;
-  animation: float-soft 2.2s ease-in-out infinite;
+.splash .splash-logo {
+  animation: float-soft 2.6s ease-in-out infinite;
+  filter: drop-shadow(0 8px 14px rgba(192, 26, 111, 0.35));
 }
 
 .splash .splash-hint {

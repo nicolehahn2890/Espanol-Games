@@ -6,6 +6,7 @@ import { requestPersistentStorage } from '@/db/db';
 import { loadContent } from '@/content/loader';
 import { unlockAudio, sfx } from '@/fx/audio';
 import { AchievementToast } from '@/components/ui/AchievementToast';
+import { LogoCandy } from '@/components/ui/Icon';
 
 export function App() {
   const metaReady = useMetaStore((s) => s.ready);
@@ -32,12 +33,12 @@ export function App() {
         }}
       >
         <motion.div
-          className="splash-emoji"
-          initial={{ scale: 0, rotate: -20 }}
-          animate={{ scale: 1, rotate: 0 }}
-          transition={{ type: 'spring', stiffness: 260, damping: 16 }}
+          className="splash-logo"
+          initial={{ scale: 0, rotate: -25 }}
+          animate={{ scale: 1, rotate: -8 }}
+          transition={{ type: 'spring', stiffness: 240, damping: 14 }}
         >
-          🎯
+          <LogoCandy size={128} />
         </motion.div>
         <motion.h1
           className="home-title"
