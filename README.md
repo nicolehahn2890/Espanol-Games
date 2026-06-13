@@ -76,6 +76,9 @@ de marca dorado→rosa con resplandor.
 - **Capas de estilo**: `tokens.css` (variables) → `base.css` → `components.css` → `glossy.css`
   (brillo 3D) → **`joya.css`** (re-skin oscuro, importado el último en `main.tsx`). Para volver
   al tema claro basta con quitar esa última importación.
+- **Brillo**: sobre el vidrio oscuro, `joya.css` cambia el reflejo recto de las fichas
+  (`.pair-card`, `.group-word`, `.option-btn`, …) por un brillo ovalado que se difumina, para que
+  no aparezca una raya a media altura. Las tarjetas de Logros usan el mismo vidrio que Estadísticas.
 - **Responsive**: verificado sin solapamientos a 360 y 390 px en los cuatro juegos.
 - Todo respeta la opción «reducir animaciones».
 
