@@ -76,46 +76,35 @@ button {
   pointer-events: none;
 }
 
+/* manchas suaves estáticas: dan color sin animarse (no parpadean) */
 .bg-blobs .blob {
   position: absolute;
   border-radius: 50%;
-  opacity: 0.55;
-  animation: blob-drift 16s ease-in-out infinite alternate;
+  opacity: 0.5;
 }
 
 .blob-1 {
-  width: 320px;
-  height: 320px;
-  left: -110px;
-  top: -90px;
+  width: 340px;
+  height: 340px;
+  left: -120px;
+  top: -100px;
   background: radial-gradient(circle, var(--yellow-soft), transparent 70%);
 }
 
 .blob-2 {
-  width: 380px;
-  height: 380px;
-  right: -140px;
-  top: 30%;
+  width: 400px;
+  height: 400px;
+  right: -150px;
+  top: 28%;
   background: radial-gradient(circle, var(--blue-soft), transparent 70%);
-  animation-delay: -5s;
 }
 
 .blob-3 {
-  width: 300px;
-  height: 300px;
-  left: 10%;
-  bottom: -120px;
+  width: 320px;
+  height: 320px;
+  left: 8%;
+  bottom: -130px;
   background: radial-gradient(circle, var(--purple-soft), transparent 70%);
-  animation-delay: -10s;
-}
-
-@keyframes blob-drift {
-  from {
-    transform: translate(0, 0) scale(1);
-  }
-  to {
-    transform: translate(36px, -28px) scale(1.12);
-  }
 }
 
 .screen {
