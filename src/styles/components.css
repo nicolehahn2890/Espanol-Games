@@ -141,16 +141,16 @@
   margin-top: 4px;
 }
 
-/* título: letras de caramelo con contorno blanco y sombra (estilo Candy Crush) */
+/* título: relleno degradado vivo, legible, con sombra suave (sin contorno) */
 .home-title .brand {
-  background: linear-gradient(180deg, #ff7ac0 0%, #ff3d8b 50%, #e21d6e 100%);
+  background: linear-gradient(180deg, #ff5fa8 0%, #b14df0 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  -webkit-text-stroke: 4px #ffffff;
-  paint-order: stroke fill;
-  filter: drop-shadow(0 3px 2px rgba(120, 20, 70, 0.35));
-  letter-spacing: 0.005em;
+  filter:
+    drop-shadow(0 2px 0 rgba(255, 255, 255, 0.95))
+    drop-shadow(0 5px 6px rgba(120, 40, 130, 0.28));
+  letter-spacing: 0.01em;
 }
 
 .home-subtitle {
@@ -355,9 +355,10 @@
 .option-btn {
   padding: 15px 16px;
   border-radius: var(--radius-m);
-  background: var(--card);
-  border: 2px solid var(--border-strong);
-  box-shadow: 0 4px 0 var(--border-strong);
+  background: linear-gradient(180deg, #ffffff 0%, #f4f7ff 100%);
+  border: 2px solid #d9e2f5;
+  box-shadow: 0 4px 0 #cdd7ef, 0 6px 11px rgba(70, 90, 150, 0.08);
+  color: var(--text);
   font-size: 17px;
   font-weight: 700;
   text-align: left;
@@ -609,41 +610,43 @@
 .pairs-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 12px;
 }
 
 .pair-card {
-  min-height: 76px;
-  padding: 10px;
+  min-height: 82px;
+  padding: 12px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-radius: var(--radius-m);
-  background: var(--card);
-  border: 2px solid var(--border-strong);
-  box-shadow: 0 4px 0 var(--border-strong);
+  border-radius: var(--radius-l);
+  background: linear-gradient(180deg, #ffffff 0%, #fdf2fb 100%);
+  border: 2px solid #ecd6ef;
+  box-shadow: 0 4px 0 #e0c4e4, 0 7px 12px rgba(120, 70, 130, 0.1);
+  color: var(--text);
   font-weight: 700;
   font-size: 15.5px;
-  transition: transform 90ms, opacity 250ms, background 150ms, border-color 150ms;
+  line-height: 1.25;
+  transition: transform 90ms, box-shadow 90ms, background 150ms, border-color 150ms;
 }
 
 .pair-card:active {
-  transform: translateY(3px);
-  box-shadow: 0 1px 0 var(--border-strong);
+  transform: translateY(4px);
+  box-shadow: 0 0 0 transparent;
 }
 
 .pair-card.selected {
   border-color: var(--blue);
-  background: var(--blue-soft);
-  box-shadow: 0 4px 0 var(--blue-dark);
+  background: linear-gradient(180deg, #eaf8ff, #cdeeff);
+  box-shadow: 0 4px 0 var(--blue-dark), 0 7px 14px rgba(28, 176, 246, 0.3);
+  color: var(--blue-dark);
 }
 
 .pair-card.matched {
   border-color: var(--green);
-  background: var(--green-soft);
-  color: var(--green-dark);
-  opacity: 0.55;
+  background: linear-gradient(180deg, #e4ffcf, #c2f59a);
+  color: #2f6b00;
   pointer-events: none;
   animation: match-pop 350ms ease;
 }
@@ -656,7 +659,8 @@
 
 .pair-card.mismatch {
   border-color: var(--red);
-  background: var(--red-soft);
+  background: linear-gradient(180deg, #ffe6e6, #ffc9c9);
+  box-shadow: 0 4px 0 var(--red-dark), 0 7px 14px rgba(229, 72, 77, 0.3);
   animation: shake-x 300ms ease;
 }
 
@@ -675,27 +679,30 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-radius: var(--radius-s);
-  background: var(--card);
-  border: 2px solid var(--border-strong);
-  box-shadow: 0 3px 0 var(--border-strong);
+  border-radius: var(--radius-m);
+  background: linear-gradient(180deg, #ffffff 0%, #f6f0ff 100%);
+  border: 2px solid #e2d7f3;
+  box-shadow: 0 3px 0 #d3c6ec, 0 5px 9px rgba(110, 80, 150, 0.1);
+  color: var(--text);
   font-weight: 800;
-  font-size: 13px;
+  font-size: 12.5px;
   line-height: 1.15;
-  word-break: break-word;
-  transition: transform 90ms, background 150ms, border-color 150ms;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  transition: transform 90ms, box-shadow 90ms, background 150ms, border-color 150ms;
 }
 
 .group-word:active {
   transform: translateY(3px);
-  box-shadow: none;
+  box-shadow: 0 0 0 transparent;
 }
 
 .group-word.selected {
-  background: var(--text);
-  border-color: var(--text);
+  background: linear-gradient(180deg, #b985ff, var(--purple));
+  border-color: var(--purple-dark);
   color: #fff;
-  box-shadow: 0 3px 0 #23232f;
+  box-shadow: 0 3px 0 var(--purple-dark), 0 6px 12px rgba(165, 96, 248, 0.4);
 }
 
 .solved-group {
