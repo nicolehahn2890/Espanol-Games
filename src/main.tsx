@@ -9,6 +9,7 @@ import './styles/base.css';
 import './styles/animations.css';
 import './styles/components.css';
 import './styles/glossy.css';
+import './styles/joya.css';
 import { router } from './router';
 
 // autoUpdate recarga solo cuando llega una versión nueva; además forzamos una

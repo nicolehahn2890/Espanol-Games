@@ -1,0 +1,162 @@
+/* ============================================================
+   TEMA «JOYA» — Juegos de Español (modo Candy Crush oscuro)
+   ------------------------------------------------------------
+   Reskin puramente de CSS sobre las clases reales de la app.
+   Se importa EL ÚLTIMO en src/main.tsx (después de tokens.css,
+   base.css, components.css y glossy.css), así gana sin tocar
+   los demás archivos.
+   ============================================================ */
+
+/* ---------- 1) Tokens en modo oscuro joya ----------
+   Conservamos la paleta de caramelo (green/blue/purple/...) y solo
+   invertimos superficies y texto a un lila profundo + texto claro. */
+:root {
+  --bg: #1d0a3e;
+  --bg-soft: rgba(255, 255, 255, 0.09);
+  --card: rgba(70, 38, 120, 0.55);
+  --border: rgba(255, 255, 255, 0.16);
+  --border-strong: rgba(255, 255, 255, 0.24);
+
+  --text: #f4eeff;
+  --text-dim: #c7b6ee;
+  --text-faint: #9b86cc;
+  --text-on-color: #ffffff;
+}
+
+/* ---------- 2) Tablero «Candy Crush»: lila profundo con focos de luz ---------- */
+body {
+  background:
+    radial-gradient(60% 38% at 50% 0%, rgba(170, 92, 255, 0.55), transparent 70%),
+    radial-gradient(40% 26% at 8% 18%, rgba(28, 176, 246, 0.4), transparent 70%),
+    radial-gradient(42% 28% at 95% 30%, rgba(255, 92, 188, 0.38), transparent 70%),
+    radial-gradient(50% 34% at 90% 92%, rgba(88, 204, 2, 0.3), transparent 72%),
+    radial-gradient(60% 40% at 50% 108%, rgba(255, 200, 0, 0.32), transparent 70%),
+    linear-gradient(176deg, #3a1a70 0%, #29104f 48%, #1d0a3e 100%);
+  background-attachment: fixed;
+}
+
+/* ---------- 3) Paneles de vidrio esmerilado oscuro con glow ---------- */
+.panel,
+.explanation-card,
+.home-stats {
+  background: linear-gradient(180deg, rgba(96, 52, 156, 0.62), rgba(58, 28, 104, 0.58)) !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.18) !important;
+  box-shadow:
+    0 12px 34px rgba(16, 4, 40, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -10px 24px rgba(20, 5, 50, 0.35) !important;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+/* ---------- 4) Título de marca: gema dorada con resplandor (sin contorno blanco) ---------- */
+.home-title .brand {
+  background: linear-gradient(180deg, #fff3a8 0%, #ffd24a 42%, #ff8ad0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 0;
+  filter: drop-shadow(0 0 14px rgba(255, 150, 230, 0.55)) drop-shadow(0 4px 3px rgba(40, 6, 60, 0.6));
+}
+.home-subtitle {
+  color: #d9c8ff;
+}
+
+/* ---------- 5) Botones de joya: saturados, con halo de su propio color ---------- */
+.btn-green  { background: linear-gradient(180deg,#a6f562,#52c814 58%,#3c9c0c); box-shadow: 0 5px 0 #2c7a08, inset 0 2px 0 rgba(255,255,255,.6), inset 0 -4px 9px rgba(0,0,0,.28), 0 8px 22px rgba(99,224,30,.5); }
+.btn-blue   { background: linear-gradient(180deg,#7fdcff,#1cb0f6 58%,#1287cc); box-shadow: 0 5px 0 #0f6fa8, inset 0 2px 0 rgba(255,255,255,.6), inset 0 -4px 9px rgba(0,0,0,.28), 0 8px 22px rgba(28,176,246,.5); }
+.btn-purple { background: linear-gradient(180deg,#d7a6ff,#a560f8 58%,#7d34d6); box-shadow: 0 5px 0 #5f1fb0, inset 0 2px 0 rgba(255,255,255,.6), inset 0 -4px 9px rgba(0,0,0,.28), 0 8px 22px rgba(165,96,248,.55); }
+.btn-orange { background: linear-gradient(180deg,#ffce72,#ff9600 58%,#db7a00); box-shadow: 0 5px 0 #b35f00, inset 0 2px 0 rgba(255,255,255,.6), inset 0 -4px 9px rgba(0,0,0,.28), 0 8px 22px rgba(255,150,0,.5); }
+.btn-red    { background: linear-gradient(180deg,#ff8a8a,#ff4b4b 58%,#db2f2f); box-shadow: 0 5px 0 #b31d1d, inset 0 2px 0 rgba(255,255,255,.6), inset 0 -4px 9px rgba(0,0,0,.28), 0 8px 22px rgba(255,75,75,.5); }
+.btn-yellow { background: linear-gradient(180deg,#ffe57a,#ffc800 58%,#e0a800); color:#6b4d00; box-shadow: 0 5px 0 #b88a00, inset 0 2px 0 rgba(255,255,255,.65), inset 0 -4px 9px rgba(0,0,0,.2), 0 8px 22px rgba(255,200,0,.5); }
+/* Botón neutro (blanco) → vidrio */
+.btn {
+  background: linear-gradient(180deg, rgba(120,72,180,0.5), rgba(80,42,140,0.45));
+  border: 1.5px solid rgba(255,255,255,0.22);
+  box-shadow: 0 5px 0 rgba(30,10,60,0.55), inset 0 1px 0 rgba(255,255,255,0.25);
+  color: #f4eeff;
+}
+.btn-green, .btn-blue, .btn-purple, .btn-orange, .btn-red, .btn-yellow { border: none; }
+.btn-ghost { background: transparent; border: none; box-shadow: none; color: #c7b6ee; }
+
+/* ---------- 6) Fichas de juego: gemas con halo intenso ---------- */
+.game-tile {
+  box-shadow:
+    0 7px 0 var(--tile-shadow, rgba(0,0,0,.3)),
+    inset 0 2px 0 rgba(255,255,255,.6),
+    inset 0 -8px 16px rgba(0,0,0,.22),
+    0 16px 34px rgba(12,3,36,.55),
+    0 0 30px var(--tile-glow, rgba(170,92,255,.35)) !important;
+}
+.tile-green  { --tile-glow: rgba(99,224,30,.45); }
+.tile-blue   { --tile-glow: rgba(28,176,246,.5); }
+.tile-orange { --tile-glow: rgba(255,150,0,.45); }
+.tile-purple { --tile-glow: rgba(165,96,248,.55); }
+.streak-pill { box-shadow: 0 3px 0 var(--orange-dark), inset 0 1px 0 rgba(255,255,255,.5), 0 0 18px rgba(255,150,0,.5); }
+
+/* ---------- 7) Celdas y opciones en reposo: vidrio ---------- */
+.wordle-cell,
+.option-btn,
+.pair-card,
+.group-word,
+.difficulty-btn,
+.kb-key {
+  background: linear-gradient(180deg, rgba(104,58,166,0.5), rgba(64,32,116,0.46));
+  border-color: rgba(255,255,255,0.2);
+  color: #f4eeff;
+  box-shadow: 0 4px 0 rgba(28,8,56,0.5), inset 0 1px 0 rgba(255,255,255,0.22);
+}
+.kb-key { box-shadow: 0 2px 0 rgba(28,8,56,0.5); }
+.wordle-cell.absent,
+.kb-key.absent { background:#3a2d57; border-color:#3a2d57; color:#b6a6d8; box-shadow:none; }
+.group-word.selected { background:#160a32; border-color:#160a32; color:#fff; box-shadow:0 3px 0 #0c0420; }
+.difficulty-btn.selected { background: rgba(28,176,246,.32); border-color: var(--blue); box-shadow: 0 4px 0 #0f6fa8, 0 0 16px rgba(28,176,246,.5); }
+.challenge-gap { color:#7fdcff; border-color:#7fdcff; }
+
+/* Estados acertado/fallado conservan su color de caramelo (verde/amarillo/rojo)
+   porque ya tienen suficiente contraste; no se tocan. */
+
+/* ---------- 8) Explicación: vidrio con tinte de estado ---------- */
+.explanation-card {
+  background: linear-gradient(180deg, rgba(88,204,2,.26), rgba(60,156,2,.2)) !important;
+  border-color: rgba(123,224,58,.7) !important;
+  color:#eafce0;
+}
+.explanation-card.wrong {
+  background: linear-gradient(180deg, rgba(255,75,75,.24), rgba(219,47,47,.2)) !important;
+  border-color: rgba(255,120,120,.7) !important;
+}
+.explanation-card .exp-answer { color:#fff; }
+.explanation-card .exp-text { color:#f0e8ff; }
+
+/* ---------- 9) Resultados, métricas, barras, toast ---------- */
+.victory-title { color:#9bf25a; filter: drop-shadow(0 0 16px rgba(123,224,58,.6)); }
+.result-value { color:#ffd24a; }
+.result-label, .metric-label, .topic-pct { color:#c7b6ee; }
+.quiz-progress .dot { background: rgba(255,255,255,0.16); }
+.bar { background: rgba(0,0,0,0.32); box-shadow: inset 0 2px 5px rgba(0,0,0,0.4); }
+.section-title { color:#f4eeff; }
+.toast {
+  background: linear-gradient(180deg, rgba(96,52,156,0.92), rgba(58,28,104,0.9)) !important;
+  border-color: var(--yellow);
+  color: #f4eeff;
+}
+.toast .toast-desc { color:#d9c8ff; }
+
+/* ---------- 10) Integración: pantalla de inicio (splash) y enlaces ----------
+   El handoff no incluye .splash; la igualamos al tablero oscuro para que el
+   arranque sea coherente con el resto del tema. */
+.splash {
+  background:
+    radial-gradient(60% 40% at 50% 18%, rgba(170, 92, 255, 0.5), transparent 70%),
+    linear-gradient(176deg, #3a1a70 0%, #29104f 48%, #1d0a3e 100%);
+}
+.splash .splash-hint {
+  color: #d9c8ff;
+}
+.home-footer a {
+  color: #b6a6e0;
+}
+.back-btn {
+  color: #d9c8ff;
+}

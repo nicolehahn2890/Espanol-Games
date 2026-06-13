@@ -63,18 +63,24 @@ tests/                 vitest (lógica de juego)
 
 ## Diseño
 
-Estética inspirada en Candy Crush:
+Tema **«Joya»**: Candy Crush en modo oscuro. Tablero de lila profundo con focos de luz,
+paneles de vidrio esmerilado (frosted glass), fichas y botones tipo gema con halo, y logotipo
+de marca dorado→rosa con resplandor.
 
-- **Tipografía**: Fredoka (titulares, redondeada y pop) + Plus Jakarta Sans (texto). Texto en
-  morados profundos, sin grises.
-- **Color**: paleta viva de caramelo; rótulo «Juegos de Español» en degradado rosa→morado;
-  fondo «candy» de manchas de color saturadas y **estáticas** (sin animación, para no parpadear).
+- **Tipografía**: Fredoka (titulares, redondeada y pop) + Plus Jakarta Sans (texto), en claro
+  sobre el fondo oscuro.
+- **Color**: superficies lila oscuro + texto claro; se conserva la paleta de caramelo
+  (verde/azul/morado/naranja/amarillo/rojo) para fichas, botones y estados.
 - **Logo**: burbuja de diálogo con la Ñ (`LogoBubble` en `components/ui/Icon.tsx`); todos los
   iconos son SVG propios, no emojis.
-- **Brillo/3D**: botones y cartas con degradado, borde de color, profundidad y reflejo
-  (`styles/glossy.css`), sin `backdrop-filter` (que parpadeaba en móvil).
+- **Capas de estilo**: `tokens.css` (variables) → `base.css` → `components.css` → `glossy.css`
+  (brillo 3D) → **`joya.css`** (re-skin oscuro, importado el último en `main.tsx`). Para volver
+  al tema claro basta con quitar esa última importación.
 - **Responsive**: verificado sin solapamientos a 360 y 390 px en los cuatro juegos.
 - Todo respeta la opción «reducir animaciones».
+
+La barra de estado de iOS y el color de arranque de la PWA (`index.html`, manifest en
+`vite.config.ts`) usan el lila oscuro `#1d0a3e` para que el tema sea coherente desde el inicio.
 
 Nota de compatibilidad: la base de datos IndexedDB conserva el nombre interno `la-forja`
 (de la primera versión de la app) para no perder el progreso guardado.

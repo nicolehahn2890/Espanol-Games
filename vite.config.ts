@@ -46,8 +46,8 @@ export default defineConfig({
         orientation: 'portrait',
         start_url: '/Espanol-Games/#/',
         scope: '/Espanol-Games/',
-        background_color: '#fdfbf6',
-        theme_color: '#fdfbf6',
+        background_color: '#1d0a3e',
+        theme_color: '#1d0a3e',
         icons: [
           { src: 'icons/pwa-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icons/pwa-512.png', sizes: '512x512', type: 'image/png' },
