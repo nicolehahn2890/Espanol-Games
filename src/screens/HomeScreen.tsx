@@ -73,7 +73,7 @@ export function HomeScreen() {
       {tiles.map((tile, i) => (
         <motion.button
           key={tile.name}
-          className={`game-tile ${tile.cls}`}
+          className={`game-tile shine ${tile.cls}`}
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.05 * i, type: 'spring', stiffness: 300, damping: 24 }}

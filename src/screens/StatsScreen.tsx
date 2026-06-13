@@ -54,9 +54,11 @@ export function StatsScreen() {
             domain,
             studied: e.studied,
             total: e.total,
-            mastery: e.studied > 0 ? e.sum / e.studied : 0,
+            // memoria del tema completo: lo no visto cuenta como 0, así la barra
+            // refleja cuánto del tema dominas de verdad (no solo de lo ya visto)
+            mastery: e.total > 0 ? e.sum / e.total : 0,
           }))
-          .sort((a, b) => b.studied - a.studied),
+          .sort((a, b) => b.mastery - a.mastery),
       );
     })();
   }, []);
@@ -84,8 +86,8 @@ export function StatsScreen() {
 
       <h3 style={{ fontSize: 17, margin: '6px 0 10px' }}>Tu memoria por tema</h3>
       <p className="text-dim" style={{ fontSize: 13, marginTop: 0 }}>
-        Calculado con el sistema de repetición espaciada: cuanto más llena la barra, mejor lo
-        recuerdas ahora mismo.
+        La barra muestra cuánto del tema completo recuerdas ahora mismo. Empieza vacía y se llena a
+        medida que juegas y retienes las palabras.
       </p>
       {mastery.map((m) => (
         <div key={m.domain} className="panel" style={{ padding: '10px 14px', marginBottom: 8 }}>
@@ -94,10 +96,10 @@ export function StatsScreen() {
               {DOMAIN_LABELS[m.domain] ?? m.domain}
             </span>
             <span className="text-dim" style={{ fontSize: 12 }}>
-              {m.studied}/{m.total} vistos
+              {Math.round(m.mastery * 100)}% · {m.studied}/{m.total} vistos
             </span>
           </div>
-          <Bar value={m.mastery * 100} max={100} color={m.mastery > 0.7 ? 'teal' : 'gold'} />
+          <Bar value={m.mastery * 100} max={100} color={m.mastery > 0.6 ? 'teal' : 'gold'} />
         </div>
       ))}
       {mastery.length === 0 && <p className="text-dim">Aún no hay datos. ¡A jugar!</p>}

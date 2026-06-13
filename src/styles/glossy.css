@@ -1,0 +1,241 @@
+/* ============================================================
+   Capa «glossy / glass» estilo Candy Crush.
+   Brillos superiores, cristal esmerilado y reflejos animados,
+   superpuestos sobre los componentes base sin reescribirlos.
+   ============================================================ */
+
+/* ---------- Paneles de cristal ---------- */
+.panel,
+.explanation-card {
+  position: relative;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.55)),
+    var(--card);
+  backdrop-filter: blur(10px) saturate(1.3);
+  -webkit-backdrop-filter: blur(10px) saturate(1.3);
+  border: 1.5px solid rgba(255, 255, 255, 0.9);
+  box-shadow:
+    0 8px 22px rgba(80, 70, 120, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+.home-stats {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.55)),
+    var(--card);
+}
+
+/* ---------- Brillo superior reutilizable ---------- */
+.btn::before,
+.option-btn::before,
+.pair-card::before,
+.difficulty-btn::before,
+.game-tile::before,
+.group-word::before,
+.kb-key::before,
+.energy-orb::before {
+  content: '';
+  position: absolute;
+  left: 6%;
+  right: 6%;
+  top: 5px;
+  height: 38%;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0));
+  pointer-events: none;
+  z-index: 1;
+}
+
+.btn,
+.option-btn,
+.pair-card,
+.difficulty-btn,
+.game-tile,
+.group-word,
+.kb-key {
+  position: relative;
+  overflow: hidden;
+}
+
+/* el contenido (texto, iconos) por encima del brillo */
+.btn > *,
+.option-btn > *,
+.game-tile > *,
+.difficulty-btn > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* botones de color: realce interior brillante */
+.btn-green,
+.btn-blue,
+.btn-purple,
+.btn-orange,
+.btn-red,
+.btn-yellow {
+  box-shadow:
+    0 4px 0 var(--btn-shadow, rgba(0, 0, 0, 0.18)),
+    inset 0 2px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.12);
+}
+.btn-green {
+  --btn-shadow: var(--green-dark);
+}
+.btn-blue {
+  --btn-shadow: var(--blue-dark);
+}
+.btn-purple {
+  --btn-shadow: var(--purple-dark);
+}
+.btn-orange {
+  --btn-shadow: var(--orange-dark);
+}
+.btn-red {
+  --btn-shadow: var(--red-dark);
+}
+.btn-yellow {
+  --btn-shadow: var(--yellow-dark);
+}
+
+/* ---------- Fichas de juego más caramelizadas ---------- */
+.game-tile {
+  box-shadow:
+    0 6px 0 var(--tile-shadow, rgba(0, 0, 0, 0.18)),
+    inset 0 2px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -6px 12px rgba(0, 0, 0, 0.12),
+    0 10px 22px rgba(80, 70, 120, 0.18);
+}
+.tile-green {
+  --tile-shadow: var(--green-dark);
+}
+.tile-blue {
+  --tile-shadow: var(--blue-dark);
+}
+.tile-purple {
+  --tile-shadow: var(--purple-dark);
+}
+.tile-orange {
+  --tile-shadow: var(--orange-dark);
+}
+
+/* destello diagonal que cruza la ficha al aparecer y al pasar el ratón */
+.game-tile::after {
+  content: '';
+  position: absolute;
+  top: -60%;
+  left: -30%;
+  width: 50%;
+  height: 220%;
+  background: linear-gradient(
+    100deg,
+    transparent,
+    rgba(255, 255, 255, 0.45),
+    transparent
+  );
+  transform: rotate(8deg) translateX(-260%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.game-tile.shine::after {
+  animation: tile-sheen 900ms ease;
+}
+
+@media (hover: hover) {
+  .game-tile:hover::after {
+    animation: tile-sheen 900ms ease;
+  }
+}
+
+@keyframes tile-sheen {
+  from {
+    transform: rotate(8deg) translateX(-260%);
+  }
+  to {
+    transform: rotate(8deg) translateX(560%);
+  }
+}
+
+/* ---------- Barras con brillo y reflejo móvil ---------- */
+.bar {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.02));
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.bar-fill {
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.55);
+}
+
+.bar-fill::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.55) 0%,
+    rgba(255, 255, 255, 0.1) 45%,
+    rgba(255, 255, 255, 0) 55%
+  );
+  border-radius: inherit;
+}
+
+.bar-fill.gold {
+  background: linear-gradient(90deg, #ffd34d, var(--yellow));
+}
+.bar-fill.teal {
+  background: linear-gradient(90deg, #7be03a, var(--green));
+}
+.bar-fill.ember {
+  background: linear-gradient(90deg, #ff7a7a, var(--red));
+}
+
+/* ---------- Fichas Wordle / opciones acertadas con caramelo ---------- */
+.wordle-cell.exact,
+.wordle-cell.present,
+.wordle-cell.absent {
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, 0.45),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.option-btn.correct,
+.pair-card.matched,
+.solved-group {
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.1),
+    0 4px 12px rgba(80, 70, 120, 0.12) !important;
+}
+
+.solved-group {
+  position: relative;
+  overflow: hidden;
+}
+.solved-group::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 45%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.35), transparent);
+  pointer-events: none;
+}
+
+/* ---------- Toast y orbe ---------- */
+.toast {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.7));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* el modo «reducir animaciones» desactiva los destellos móviles */
+@media (prefers-reduced-motion: reduce) {
+  .game-tile::after,
+  .game-tile.shine::after {
+    animation: none;
+    display: none;
+  }
+}
