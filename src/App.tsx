@@ -6,7 +6,7 @@ import { requestPersistentStorage } from '@/db/db';
 import { loadContent } from '@/content/loader';
 import { unlockAudio, sfx } from '@/fx/audio';
 import { AchievementToast } from '@/components/ui/AchievementToast';
-import { LogoCandy } from '@/components/ui/Icon';
+import { LogoBubble } from '@/components/ui/Icon';
 
 export function App() {
   const metaReady = useMetaStore((s) => s.ready);
@@ -38,7 +38,7 @@ export function App() {
           animate={{ scale: 1, rotate: -8 }}
           transition={{ type: 'spring', stiffness: 240, damping: 14 }}
         >
-          <LogoCandy size={128} />
+          <LogoBubble size={118} />
         </motion.div>
         <motion.h1
           className="home-title"

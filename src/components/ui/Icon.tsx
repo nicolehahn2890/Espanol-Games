@@ -113,41 +113,35 @@ export function IconGrafico({ size = 28, className }: IconProps) {
   );
 }
 
-/** Logo: caramelo envuelto brillante (estilo Candy Crush). */
-export function LogoCandy({ size = 110, className }: IconProps) {
+/** Logo: burbuja de diálogo brillante con la Ñ (símbolo del español). */
+export function LogoBubble({ size = 120, className }: IconProps) {
   return (
-    <svg width={size} height={size * 0.72} viewBox="0 0 140 100" className={className} fill="none">
+    <svg width={size} height={size} viewBox="0 0 120 120" className={className} fill="none">
       <defs>
-        <linearGradient id="candyBody" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#ff8fcb" />
-          <stop offset="55%" stopColor="#ff45a0" />
-          <stop offset="100%" stopColor="#e01f81" />
+        <linearGradient id="bubbleGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="#8a7bff" />
+          <stop offset="55%" stopColor="#7a3ff0" />
+          <stop offset="100%" stopColor="#6128c8" />
         </linearGradient>
-        <linearGradient id="candyWrap" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#ffc0e2" />
-          <stop offset="100%" stopColor="#ff74bb" />
-        </linearGradient>
-        <clipPath id="candyClip">
-          <ellipse cx="70" cy="50" rx="38" ry="30" />
-        </clipPath>
       </defs>
-
-      {/* envoltorios pinzados a los lados */}
-      <path d="M36 50 L8 30 Q3 50 8 70 Z" fill="url(#candyWrap)" stroke="#e01f81" strokeWidth="2" strokeLinejoin="round" />
-      <path d="M104 50 L132 30 Q137 50 132 70 Z" fill="url(#candyWrap)" stroke="#e01f81" strokeWidth="2" strokeLinejoin="round" />
-
-      {/* cuerpo */}
-      <ellipse cx="70" cy="50" rx="38" ry="30" fill="url(#candyBody)" stroke="#c01a6f" strokeWidth="2.5" />
-
-      {/* rayas diagonales */}
-      <g clipPath="url(#candyClip)" opacity="0.85">
-        <rect x="48" y="12" width="9" height="76" rx="4.5" transform="rotate(18 52 50)" fill="#fff" opacity="0.8" />
-        <rect x="68" y="12" width="11" height="76" rx="5.5" transform="rotate(18 73 50)" fill="#fff" opacity="0.8" />
-        <rect x="88" y="12" width="9" height="76" rx="4.5" transform="rotate(18 92 50)" fill="#fff" opacity="0.8" />
-      </g>
-
-      {/* brillo */}
-      <ellipse cx="58" cy="38" rx="16" ry="8" fill="#fff" opacity="0.5" transform="rotate(-18 58 38)" />
+      {/* cola */}
+      <path d="M34 86 L26 108 L52 90 Z" fill="#6128c8" />
+      {/* cuerpo de la burbuja */}
+      <rect x="10" y="12" width="100" height="82" rx="26" fill="url(#bubbleGrad)" stroke="#4d1ba6" strokeWidth="3" />
+      {/* brillo superior */}
+      <ellipse cx="48" cy="32" rx="30" ry="11" fill="#fff" opacity="0.28" />
+      {/* la Ñ */}
+      <text
+        x="60"
+        y="74"
+        textAnchor="middle"
+        fontFamily="'Fredoka Variable', system-ui, sans-serif"
+        fontSize="62"
+        fontWeight="700"
+        fill="#fff"
+      >
+        ñ
+      </text>
     </svg>
   );
 }
