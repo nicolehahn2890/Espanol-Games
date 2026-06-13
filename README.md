@@ -63,10 +63,18 @@ tests/                 vitest (lógica de juego)
 
 ## Diseño
 
-Estética «candy»: tipografías Fredoka + Plus Jakarta Sans, botones y fichas 3D con brillo, paleta viva,
-fondo de manchas de color estáticas (sin animación, para no parpadear). Los iconos son SVG
-propios (`components/ui/Icon.tsx`), no emojis. La capa `styles/glossy.css` añade los reflejos
-sin usar `backdrop-filter` (que parpadeaba en móvil). Todo respeta «reducir animaciones».
+Estética inspirada en Candy Crush:
+
+- **Tipografía**: Fredoka (titulares, redondeada y pop) + Plus Jakarta Sans (texto). Texto en
+  morados profundos, sin grises.
+- **Color**: paleta viva de caramelo; rótulo «Juegos de Español» en degradado rosa→morado;
+  fondo «candy» de manchas de color saturadas y **estáticas** (sin animación, para no parpadear).
+- **Logo**: burbuja de diálogo con la Ñ (`LogoBubble` en `components/ui/Icon.tsx`); todos los
+  iconos son SVG propios, no emojis.
+- **Brillo/3D**: botones y cartas con degradado, borde de color, profundidad y reflejo
+  (`styles/glossy.css`), sin `backdrop-filter` (que parpadeaba en móvil).
+- **Responsive**: verificado sin solapamientos a 360 y 390 px en los cuatro juegos.
+- Todo respeta la opción «reducir animaciones».
 
 Nota de compatibilidad: la base de datos IndexedDB conserva el nombre interno `la-forja`
 (de la primera versión de la app) para no perder el progreso guardado.
@@ -93,8 +101,13 @@ Cada push a `main` ejecuta lint + tests + validación + build y despliega a GitH
 (`.github/workflows/deploy.yml`). Pages está configurado con *Source: GitHub Actions*.
 
 App: `https://nicolehahn2890.github.io/Espanol-Games/` — en el iPhone: Safari → Compartir →
-**Añadir a pantalla de inicio**. La app comprueba actualizaciones al volver a abrirla; en
-**Ajustes** hay además un botón «Actualizar la app» que fuerza la última versión.
+**Añadir a pantalla de inicio**.
+
+**Actualizaciones**: el service worker usa **NetworkFirst** para la navegación, así que estando
+en línea siempre se carga la última versión (el caché es solo respaldo offline). Además la app
+comprueba actualizaciones al volver a abrirla y hay un botón «Actualizar la app» en **Ajustes**.
+La primera vez tras cambiar este mecanismo puede hacer falta limpiar los datos del sitio una vez
+(o reinstalar el icono en iOS) para soltar el service worker antiguo.
 
 ## Copias de seguridad
 
