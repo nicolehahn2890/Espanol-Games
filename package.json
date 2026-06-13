@@ -15,8 +15,8 @@
     "generate-icons": "node scripts/generate-icons.mjs"
   },
   "dependencies": {
-    "@fontsource-variable/baloo-2": "^5.2.7",
-    "@fontsource-variable/nunito": "^5.2.7",
+    "@fontsource-variable/fredoka": "^5.2.10",
+    "@fontsource-variable/plus-jakarta-sans": "^5.2.8",
     "canvas-confetti": "^1.9.3",
     "dexie": "^4.0.11",
     "framer-motion": "^12.9.2",

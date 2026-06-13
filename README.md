@@ -63,7 +63,7 @@ tests/                 vitest (lógica de juego)
 
 ## Diseño
 
-Estética «candy»: tipografías Nunito + Baloo 2, botones y fichas 3D con brillo, paleta viva,
+Estética «candy»: tipografías Fredoka + Plus Jakarta Sans, botones y fichas 3D con brillo, paleta viva,
 fondo de manchas de color estáticas (sin animación, para no parpadear). Los iconos son SVG
 propios (`components/ui/Icon.tsx`), no emojis. La capa `styles/glossy.css` añade los reflejos
 sin usar `backdrop-filter` (que parpadeaba en móvil). Todo respeta «reducir animaciones».

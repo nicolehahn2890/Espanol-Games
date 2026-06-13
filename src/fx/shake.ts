@@ -31,7 +31,7 @@ export function floatPoints(from: Element | null, text: string, color = '#ff9600
     left: `${rect.left + rect.width / 2}px`,
     top: `${rect.top + rect.height * 0.25}px`,
     transform: 'translate(-50%, -50%)',
-    fontFamily: "'Baloo 2 Variable', system-ui, sans-serif",
+    fontFamily: "'Fredoka Variable', system-ui, sans-serif",
     fontWeight: '700',
     fontSize: '26px',
     color,

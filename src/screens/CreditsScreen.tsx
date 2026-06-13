@@ -20,7 +20,7 @@ export function CreditsScreen() {
           algoritmo FSRS (<span style={{ fontFamily: 'monospace' }}>ts-fsrs</span>).
         </p>
         <p className="text-dim">
-          Tipografías: Nunito y Baloo 2 (licencia OFL). Construido con React, Vite, Framer Motion y
+          Tipografías: Fredoka y Plus Jakarta Sans (licencia OFL). Construido con React, Vite, Framer Motion y
           Dexie. Gracias a los autores de todo el software libre utilizado.
         </p>
       </div>

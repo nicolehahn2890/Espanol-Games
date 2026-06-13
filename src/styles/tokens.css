@@ -28,15 +28,15 @@
   --pink: #ff86d0;
   --pink-dark: #e86bb8;
 
-  /* Texto */
-  --text: #3c3c50;
-  --text-dim: #8e8aa4;
-  --text-faint: #b9b5cc;
+  /* Texto: tonos profundos con matiz violeta (más premium que el gris plano) */
+  --text: #2a2342;
+  --text-dim: #6a6488;
+  --text-faint: #a39ec0;
   --text-on-color: #ffffff;
 
   /* Tipografía */
-  --font-display: 'Baloo 2 Variable', 'Nunito Variable', system-ui, sans-serif;
-  --font-ui: 'Nunito Variable', system-ui, sans-serif;
+  --font-display: 'Fredoka Variable', system-ui, sans-serif;
+  --font-ui: 'Plus Jakarta Sans Variable', system-ui, sans-serif;
 
   /* Forma */
   --radius-s: 12px;
