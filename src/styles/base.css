@@ -12,14 +12,14 @@ body {
 }
 
 body {
-  /* fondo «candy mesh»: varias manchas de color suaves, estáticas */
+  /* fondo «candy»: manchas de caramelo muy saturadas sobre un cielo suave */
   background:
-    radial-gradient(40% 30% at 12% 8%, rgba(255, 200, 0, 0.22), transparent 70%),
-    radial-gradient(45% 32% at 88% 12%, rgba(28, 176, 246, 0.2), transparent 70%),
-    radial-gradient(50% 35% at 85% 78%, rgba(165, 96, 248, 0.2), transparent 70%),
-    radial-gradient(45% 32% at 10% 88%, rgba(88, 204, 2, 0.18), transparent 70%),
-    radial-gradient(55% 40% at 50% 50%, rgba(255, 134, 208, 0.14), transparent 75%),
-    var(--bg);
+    radial-gradient(38% 26% at 10% 6%, rgba(255, 200, 0, 0.5), transparent 70%),
+    radial-gradient(40% 28% at 92% 10%, rgba(28, 176, 246, 0.45), transparent 70%),
+    radial-gradient(46% 32% at 88% 72%, rgba(165, 96, 248, 0.42), transparent 70%),
+    radial-gradient(42% 30% at 8% 82%, rgba(88, 204, 2, 0.4), transparent 70%),
+    radial-gradient(50% 36% at 50% 48%, rgba(255, 134, 208, 0.34), transparent 75%),
+    linear-gradient(170deg, #e4f3ff 0%, #f0e8ff 50%, #ffe7f4 100%);
   background-attachment: fixed;
   color: var(--text);
   font-family: var(--font-ui);

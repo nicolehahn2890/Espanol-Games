@@ -28,10 +28,10 @@
   --pink: #ff86d0;
   --pink-dark: #e86bb8;
 
-  /* Texto: tonos profundos con matiz violeta (más premium que el gris plano) */
-  --text: #2a2342;
-  --text-dim: #6a6488;
-  --text-faint: #a39ec0;
+  /* Texto: morados profundos, nada de gris */
+  --text: #2c1a5e;
+  --text-dim: #5a4a9e;
+  --text-faint: #8a7ec8;
   --text-on-color: #ffffff;
 
   /* Tipografía */

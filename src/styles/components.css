@@ -135,23 +135,30 @@
 
 /* ---------- Inicio ---------- */
 .home-title {
-  font-size: 34px;
+  font-size: 40px;
+  line-height: 1.05;
   text-align: center;
-  color: var(--text);
+  margin-top: 4px;
 }
 
+/* título dorado con contorno grueso estilo Candy Crush */
 .home-title .brand {
-  background: linear-gradient(110deg, var(--orange), var(--pink) 50%, var(--purple));
+  background: linear-gradient(180deg, #fff0b0 0%, #ffd24a 48%, #ff9e2c 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  -webkit-text-stroke: 3px #7a3b0f;
+  paint-order: stroke fill;
+  filter: drop-shadow(0 4px 0 rgba(122, 59, 15, 0.4));
+  letter-spacing: 0.01em;
 }
 
 .home-subtitle {
   text-align: center;
   color: var(--text-dim);
+  font-weight: 600;
   font-size: 14.5px;
-  margin: 2px 0 16px;
+  margin: 6px 0 18px;
 }
 
 .home-stats {
@@ -250,19 +257,19 @@
 }
 
 .tile-green {
-  background: linear-gradient(135deg, #6fdb1d, var(--green));
+  background: linear-gradient(165deg, #9bf055 0%, #58cc02 52%, #3f9c02 100%);
   box-shadow: 0 5px 0 var(--green-dark);
 }
 .tile-blue {
-  background: linear-gradient(135deg, #4cc4ff, var(--blue));
+  background: linear-gradient(165deg, #6fd4ff 0%, #1cb0f6 52%, #1487cc 100%);
   box-shadow: 0 5px 0 var(--blue-dark);
 }
 .tile-purple {
-  background: linear-gradient(135deg, #bd84ff, var(--purple));
+  background: linear-gradient(165deg, #cf9bff 0%, #a560f8 52%, #7e3ad6 100%);
   box-shadow: 0 5px 0 var(--purple-dark);
 }
 .tile-orange {
-  background: linear-gradient(135deg, #ffb340, var(--orange));
+  background: linear-gradient(165deg, #ffc766 0%, #ff9600 52%, #db7e00 100%);
   box-shadow: 0 5px 0 var(--orange-dark);
 }
 
